@@ -1,11 +1,11 @@
 Warhammer 40,000 10th Edition
 ==================
 
-[![Latest release](https://img.shields.io/github/release/BSData/boarding-actions-BSdata-draft.svg?style=flat-square)](https://github.com/BSData/boarding-actions-BSdata-draft/releases/latest)
-[![Commits (since latest release)](https://img.shields.io/github/commits-since/BSData/boarding-actions-BSdata-draft/latest.svg?style=flat-square)](https://github.com/BSData/boarding-actions-BSdata-draft/releases)
-[![Open bugs](https://img.shields.io/github/issues/BSData/boarding-actions-BSdata-draft/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/boarding-actions-BSdata-draft/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Contributors](https://img.shields.io/github/contributors/BSData/boarding-actions-BSdata-draft.svg?style=flat-square)](https://github.com/BSData/boarding-actions-BSdata-draft/graphs/contributors)
-[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/boarding-actions-BSdata-draft.svg?style=flat-square)](https://github.com/BSData/boarding-actions-BSdata-draft/pulse/monthly)
+[![Latest release](https://img.shields.io/github/release/TBarker746/boarding-actions-BSdata-draft.svg?style=flat-square)](https://github.com/TBarker746/boarding-actions-BSdata-draft/releases/latest)
+[![Commits (since latest release)](https://img.shields.io/github/commits-since/TBarker746/boarding-actions-BSdata-draft/latest.svg?style=flat-square)](https://github.com/TBarker746/boarding-actions-BSdata-draft/releases)
+[![Open bugs](https://img.shields.io/github/issues/TBarker746/boarding-actions-BSdata-draft/bug.svg?style=flat-square&label=bugs)](https://github.com/TBarker746/boarding-actions-BSdata-draft/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+[![Contributors](https://img.shields.io/github/contributors/TBarker746/boarding-actions-BSdata-draft.svg?style=flat-square)](https://github.com/TBarker746/boarding-actions-BSdata-draft/graphs/contributors)
+[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/TBarker746/boarding-actions-BSdata-draft.svg?style=flat-square)](https://github.com/TBarker746/boarding-actions-BSdata-draft/pulse/monthly)
 
 [![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://www.bsdata.net/discord)
 
@@ -33,5 +33,6 @@ Great, thank you! Please [Report a bug][bug report] - you can also suggest enhan
 * [BattleScribe app homepage](https://www.battlescribe.net/)
 
 [BSData.net]: https://www.bsdata.net/
-[bug report]: https://github.com/BSData/boarding-actions-BSdata-draft/issues/new/choose
+[bug report]: https://github.com/TBarker746/boarding-actions-BSdata-draft/issues/new/choose
+
 
