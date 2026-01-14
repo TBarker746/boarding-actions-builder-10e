@@ -356,6 +356,11 @@
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="3c9e-2156-254e-66e8" shared="true"/>
                   </conditions>
                 </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="475f-763d-28e9-3b5f" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
               </localConditionGroups>
             </conditionGroup>
           </conditionGroups>
@@ -376,11 +381,41 @@
       <constraints>
         <constraint type="max" value="-1" field="selections" scope="roster" shared="true" id="3d60-e267-2153-0133" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="3d60-e267-2153-0133">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="475f-763d-28e9-3b5f" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </categoryEntry>
     <categoryEntry name="Group D" id="9cb7-4a40-5f36-17e9" hidden="false">
       <constraints>
         <constraint type="max" value="-1" field="selections" scope="roster" shared="true" id="9a29-4051-2b57-c71b" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="9a29-4051-2b57-c71b">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="475f-763d-28e9-3b5f" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </categoryEntry>
     <categoryEntry name="Critical Threats" id="f905-e26f-76a6-7754" hidden="false">
       <constraints>

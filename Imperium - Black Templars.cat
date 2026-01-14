@@ -35,7 +35,6 @@
         <categoryLink targetId="5179-8ede-45e3-49a2" id="b7b9-5df7-3397-13d2" primary="false" name="Tacticus"/>
         <categoryLink targetId="6e7-40c-58d9-e402" id="8e9-f413-eb64-fd8e" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="9249-acae-2882-d95" id="9cab-97d2-c57a-ce3" primary="false" name="Faction: Black Templars"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="0b21-2204-fc3a-08d9" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="29a4-49b0-2631-15f3" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="791f-07a6-8bdf-1461" primary="false" name="Leader"/>
       </categoryLinks>
@@ -217,6 +216,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="High Marshal Helbrecht" hidden="false" id="da8a-de9f-1fe7-2513">
@@ -240,7 +244,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink targetId="9249-acae-2882-d95" id="76cd-1c58-282a-1407" primary="false" name="Faction: Black Templars"/>
         <categoryLink targetId="5bd8-882d-302b-48f3" id="c323-d6bc-f189-e226" primary="false" name="Chapter Master"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="fe89-9d98-84e1-f18d" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="f4c1-6f9d-2085-6926" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="ddce-0e64-dbf4-9c2f" primary="false" name="Leader"/>
       </categoryLinks>
       <constraints>
@@ -348,6 +351,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -714,6 +722,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <profiles>
         <profile name="Righteous Zeal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eb4a-e30-3fd1-5dec">
@@ -731,7 +744,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink targetId="9249-acae-2882-d95" id="9577-a807-c6d9-e52f" primary="false" name="Faction: Black Templars"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="d64a-455f-609a-8b6b" primary="false" name="Tacticus"/>
         <categoryLink name="Crusader Squad" hidden="false" id="a36e-cb1c-38b4-92bc" targetId="9e2c-48af-8c2b-ea68" primary="false"/>
-        <categoryLink targetId="ad84-0588-cd90-db73" id="a965-d5ef-61f5-4ae1" primary="false" name="Boarding Strike Group B"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Templar Vows" hidden="false" type="rule" id="4384-59f0-9cec-b2b1" targetId="f26c-4b28-aaea-40cf"/>
@@ -1127,7 +1139,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink targetId="6e7-40c-58d9-e402" id="efda-92bf-2075-223c" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="1ba5-20a1-4dd6-9a4f" id="c1f2-a6fa-f22d-5a0b" primary="false" name="Emperor&apos;s Champion"/>
         <categoryLink targetId="9249-acae-2882-d95" id="999-a190-698c-c1f4" primary="false" name="Faction: Black Templars"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="2714-f518-0401-340c" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="bfe0-a53a-9f8e-8f64" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <infoLinks>
@@ -1207,6 +1218,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Gladiator Lancer" hidden="false" id="7dec-dc3d-c40a-8ce">
@@ -1217,7 +1233,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink targetId="ec5d-5626-6109-81d5" id="232c-eb3b-d114-18b5" primary="false" name="Gladiator Lancer"/>
         <categoryLink targetId="6e7-40c-58d9-e402" id="3802-ee4f-635c-9ac6" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="9249-acae-2882-d95" id="f2bb-a2aa-a236-a1f6" primary="false" name="Faction: Black Templars"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="fa42-247b-2ec6-4c3d" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <profiles>
         <profile name="Black Templars Gladiator Lancer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="526a-783d-a210-1dbf">
@@ -1355,6 +1370,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Gladiator Reaper" hidden="false" id="bfb6-4320-74cf-bbda">
@@ -1380,7 +1400,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink targetId="6e7-40c-58d9-e402" id="6ff3-8118-f315-bc13" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="7206-48bb-8b09-ab6" id="9bfc-859b-d5b7-7f89" primary="false" name="Gladiator Reaper"/>
         <categoryLink targetId="9249-acae-2882-d95" id="144a-99b5-5fb-ebc2" primary="false" name="Faction: Black Templars"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="1ff1-8200-eed6-ea54" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="160"/>
@@ -1491,6 +1510,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="8caa-833d-44e6-1053" collective="false" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="1">
@@ -1518,7 +1542,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink targetId="b8fa-ddca-2491-5351" id="c097-25e6-a19f-7ba2" primary="false" name="Gladiator Valiant"/>
         <categoryLink targetId="6e7-40c-58d9-e402" id="6831-6d52-4fc9-ed84" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="9249-acae-2882-d95" id="ffc-88c6-ef9b-cf20" primary="false" name="Faction: Black Templars"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="c365-6c68-51d3-1839" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <profiles>
         <profile name="Black Templars Gladiator Valiant" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="f76e-9ea8-22bd-4a67">
@@ -1624,6 +1647,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Impulsor" hidden="false" id="fa27-4bc1-72c9-894f">
@@ -1643,7 +1671,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink targetId="6e7-40c-58d9-e402" id="edf7-adf4-970f-73bc" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="7476-fb8e-bd5a-cfbe" id="3418-77a2-94ee-9fdb" primary="false" name="Impulsor"/>
         <categoryLink targetId="9249-acae-2882-d95" id="72ca-fb7e-dc86-2371" primary="false" name="Faction: Black Templars"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="bdfb-bb4a-7a2c-d03b" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <profiles>
         <profile name="Black Templars Impulsor" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="14d9-b559-444b-245">
@@ -1795,6 +1822,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Repulsor" hidden="false" id="c3e8-3cde-8b39-4b19">
@@ -1814,7 +1846,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink targetId="6e7-40c-58d9-e402" id="642a-6a86-428e-4ee4" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="75e8-57c4-40e3-1817" id="1ee1-98ef-9a61-9be7" primary="false" name="Transport"/>
         <categoryLink targetId="9249-acae-2882-d95" id="36cd-f51c-bdac-a2d7" primary="false" name="Faction: Black Templars"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="8696-3e61-5580-c219" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <profiles>
         <profile name="Repulsor" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b73-610c-92f1-1715">
@@ -1931,6 +1962,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2097,7 +2133,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink targetId="cca9-5590-14a6-19e8" id="e52c-c2c5-9ecc-360c" primary="false" name="Repulsor Executioner"/>
         <categoryLink targetId="6e7-40c-58d9-e402" id="ef48-c8a4-5c3d-c867" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="9249-acae-2882-d95" id="7c1-ee-7f0c-addd" primary="false" name="Faction: Black Templars"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="82ab-9fcc-8793-4ab1" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="7c1b-1e7f-d6f0-f015" collective="false" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="1">
@@ -2110,6 +2145,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2136,7 +2176,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink targetId="9c1a-42ff-a418-11d1" id="5aed-ba30-7aef-239d" primary="false" name="Lieutenant"/>
         <categoryLink targetId="c9ce-476b-65bd-4e81" id="b76b-346f-6b24-cd48" primary="false" name="Castellan"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="0889-d5c6-4a88-0495" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="8ad9-bc05-a553-3518" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="892b-34af-8a94-341c" primary="false" name="Leader"/>
       </categoryLinks>
       <constraints>
@@ -2274,6 +2313,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2419,7 +2463,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink targetId="9249-acae-2882-d95" id="4740-b3e7-a2d-3c7c" primary="false" name="Faction: Black Templars"/>
         <categoryLink targetId="2f85-11ec-263f-b1dc" id="af6-ffb2-1cba-d3d2" primary="false" name="Marshal"/>
         <categoryLink targetId="2d7f-1892-2fd0-e29c" id="30f-2548-af18-c29f" primary="false" name="Captain"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="fecf-956b-5147-65e9" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="3400-c15a-ab30-02b5" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="4416-f1ba-3882-7c13" primary="false" name="Leader"/>
       </categoryLinks>
@@ -2441,6 +2484,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2530,7 +2578,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink targetId="6e7-40c-58d9-e402" id="6e01-bcb8-db6b-fb25" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="9249-acae-2882-d95" id="e467-a61d-1e47-5f67" primary="false" name="Faction: Black Templars"/>
         <categoryLink targetId="746a-82bd-5c0a-634e" id="ec11-1acd-1c25-b4d6" primary="false" name="Execrator"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="9a58-78fc-b090-f5c6" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="cee5-8baf-2776-b25f" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="008b-13f5-a9e0-e1db" primary="false" name="Leader"/>
       </categoryLinks>
@@ -2641,6 +2688,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Crusade Ancient" hidden="false" id="dca2-b12f-d1a9-5822">
@@ -2749,7 +2801,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink targetId="9249-acae-2882-d95" id="e0ee-654c-da9c-34b5" primary="false" name="Faction: Black Templars"/>
         <categoryLink targetId="0a13-c3aa-6dbc-287a" id="4b12-0ad1-fa22-9515" primary="false" name="Crusade Ancient"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="bf7d-8ba1-0b15-7187" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="a3ff-ea68-d85c-a5e1" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="fa25-bc45-3cb4-c725" primary="false" name="Leader"/>
       </categoryLinks>
       <entryLinks>
@@ -2764,6 +2815,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2819,7 +2875,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink name="Grenades" hidden="false" id="6e47-b2c7-a517-3861" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink targetId="9249-acae-2882-d95" id="debc-1678-15f8-bb19" primary="false" name="Faction: Black Templars"/>
         <categoryLink targetId="8c5e-74f4-e3cf-56ed" id="ad9c-0eb0-5b6b-4639" primary="false" name="Land Raider"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="a7a1-953d-0824-8f5c" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="e3a6-0e08-ae07-439a" hidden="false" sortIndex="2">
@@ -2864,6 +2919,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3148,6 +3208,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink name="Infantry" hidden="false" id="5312-81a1-1011-c78b" targetId="cf47-a0d7-7207-29dc" primary="true"/>
@@ -3156,7 +3221,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink name="Tacticus" hidden="false" id="23b7-d6d3-7a0a-5ae0" targetId="5179-8ede-45e3-49a2" primary="false"/>
         <categoryLink name="Sternguard Veteran Squad" hidden="false" id="5fc7-da60-0800-24df" targetId="e05e-b4e4-6db0-5d42" primary="false"/>
         <categoryLink targetId="9249-acae-2882-d95" id="e53d-0926-8082-6756" primary="false" name="Faction: Black Templars"/>
-        <categoryLink targetId="19e5-c610-76c8-b374" id="9757-6896-8235-da46" primary="false" name="Boarding Strike Group C"/>
       </categoryLinks>
       <profiles>
         <profile name="Virtuous Onslaught" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a4e2-cedf-8dfb-5139">
@@ -3190,7 +3254,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink name="Terminator Squad" hidden="false" id="a401-0cb8-7d2e-b0ad" targetId="6179-3533-ba6-9593" primary="false"/>
         <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="ce00-787e-2f16-71f7" targetId="6e7-40c-58d9-e402" primary="false"/>
         <categoryLink targetId="9249-acae-2882-d95" id="f681-44b9-0033-d474" primary="false" name="Faction: Black Templars"/>
-        <categoryLink targetId="3114-b83e-2fe8-ce44" id="34f3-9167-493e-13a9" primary="false" name="Terminator Assault Group B"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Deep Strike" id="9b9e-3fec-59f7-6f65" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
@@ -3429,6 +3492,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="84af-86be-df4d-a5d6" collective="false" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="1">
@@ -3447,7 +3515,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="ad57-8bfa-671f-1a2f" targetId="6e7-40c-58d9-e402" primary="false"/>
         <categoryLink name="Faction: Black Templars" hidden="false" id="ec43-ff0a-6df0-e51" targetId="9249-acae-2882-d95" primary="false"/>
         <categoryLink name="Crusader Squad" hidden="false" id="f4b4-97a0-d373-2d48" targetId="9e2c-48af-8c2b-ea68" primary="false"/>
-        <categoryLink targetId="ad84-0588-cd90-db73" id="b1db-56d7-bd36-5d2a" primary="false" name="Boarding Strike Group B"/>
       </categoryLinks>
       <profiles>
         <profile name="Righteous Zeal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1e7e-4aca-4c83-4e2d">
@@ -4003,6 +4070,11 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
         </modifier>
       </modifiers>
       <entryLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="4029-9237-e8db-af55" name="Imperium - Adeptus Astartes - Ultramarines" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="44" battleScribeVersion="2.03" type="catalogue" authorName="Adapted for the Boarding Actions game mode by PurpleSerpent">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="4029-9237-e8db-af55" name="Imperium - Adeptus Astartes - Ultramarines" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="45" battleScribeVersion="2.03" type="catalogue" authorName="Adapted for the Boarding Actions game mode by PurpleSerpent">
   <entryLinks>
     <entryLink import="true" name="Captain Sicarius" hidden="false" type="selectionEntry" id="7740-af66-ac4f-68b6" targetId="2ae8-40ec-ba34-dfe5"/>
     <entryLink import="true" name="Chaplain Cassius [Legends]" hidden="false" type="selectionEntry" id="e1e-1c6b-bb62-f9c8" targetId="b180-3cac-9124-b818"/>
@@ -42,7 +42,6 @@
         <categoryLink targetId="1a2d-2f00-c054-4dcb" id="283e-3f47-9a32-5c8a" primary="false" name="Faction: Ultramarines"/>
         <categoryLink targetId="8fee-e096-4a53-3790" id="1d78-f882-80d0-34e0" primary="false" name="Sicarius"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="d255-c17a-42f9-ad7f" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="a1ab-cb6d-f719-c96c" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="3f40-0aed-6d64-1436" primary="false" name="Leader"/>
       </categoryLinks>
       <profiles>
@@ -132,6 +131,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Chaplain Cassius [Legends]" hidden="false" id="b180-3cac-9124-b818">
@@ -151,7 +155,6 @@
         <categoryLink targetId="6e7-40c-58d9-e402" id="cf91-b273-bfe3-a455" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="1a2d-2f00-c054-4dcb" id="45f0-7056-48a3-d2c1" primary="false" name="Faction: Ultramarines"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="3ac3-ce32-c90b-d0a6" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="ea51-17ac-3f13-d5db" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="f0a1-09b6-1d42-1ef3" primary="false" name="Leader"/>
       </categoryLinks>
       <profiles>
@@ -248,6 +251,11 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Chief Librarian Tigurius" hidden="false" id="3ef1-1647-cd7b-a40b">
@@ -268,7 +276,6 @@
         <categoryLink targetId="6e7-40c-58d9-e402" id="9257-36a2-e9f2-edaf" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="1a2d-2f00-c054-4dcb" id="af-ed2c-ee3b-7b1c" primary="false" name="Faction: Ultramarines"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="5485-8031-1d9b-b22e" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="12dd-0b70-2d83-3aca" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="cb01-1660-71d2-ef48" primary="false" name="Leader"/>
       </categoryLinks>
       <profiles>
@@ -374,6 +381,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -523,7 +535,6 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="f299-1703-3cc5-66e3" primary="false" name="Imperium"/>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="7252-c269-18e9-9a11" primary="false" name="Infantry"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="7a07-54ff-b9ac-274e" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="08c4-c094-d5f8-d38f" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="448c-4996-11fe-2513" primary="false" name="Leader"/>
       </categoryLinks>
       <constraints>
@@ -542,6 +553,11 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -607,7 +623,6 @@ Supreme Strategist: Once per battle round, you can target one friendly **^^Adept
         <categoryLink targetId="1a2d-2f00-c054-4dcb" id="3c82-4f7c-b4ff-ba08" primary="false" name="Faction: Ultramarines"/>
         <categoryLink targetId="9693-cf84-fe69-37a9" id="2b80-60dc-eae6-7049" primary="false" name="Monster"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="c933-0dfc-3a3a-faf6" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="b81b-1730-b5c2-cc8a" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Hand of Dominion" hidden="false" id="b5b2-5c6-e593-69a7">
@@ -685,6 +700,11 @@ Supreme Strategist: Once per battle round, you can target one friendly **^^Adept
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Sergeant Chronus [Legends]" hidden="false" id="2263-82ee-3db6-8be9">
@@ -741,7 +761,6 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
         <categoryLink targetId="6e7-40c-58d9-e402" id="8a1d-dbd4-6ae-51bf" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="1a2d-2f00-c054-4dcb" id="cd06-5b6a-f6b7-d267" primary="false" name="Faction: Ultramarines"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="8769-7837-4862-9ed7" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="4fbe-b3e0-5141-49bb" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Bolt pistol" hidden="false" type="selectionEntry" id="2646-9c15-cc45-2407" targetId="b273-b85e-4018-a0cd">
@@ -786,6 +805,11 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -873,7 +897,6 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
         <categoryLink targetId="6a7f-3f2d-54bb-35fc" id="d7e3-5c54-7a5a-4365" primary="false" name="Sergeant Telion"/>
         <categoryLink targetId="6e7-40c-58d9-e402" id="bae9-92f8-c18f-dc56" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="1a2d-2f00-c054-4dcb" id="3b04-5f6e-1120-f027" primary="false" name="Faction: Ultramarines"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="09de-3d72-832e-6f34" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="d3e3-d164-158f-b0b8" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <modifiers>
@@ -886,6 +909,11 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -916,7 +944,6 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
         <categoryLink targetId="1a2d-2f00-c054-4dcb" id="61b0-4a25-83ce-f9da" primary="false" name="Faction: Ultramarines"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="5928-65ed-284d-511b" primary="false" name="Tacticus"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="ffdf-fa13-4aeb-c5b1" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="5598-c11d-7eab-2837" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <profiles>
         <profile name="Uriel Ventris" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3672-effe-fc09-22c6">
@@ -998,6 +1025,11 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Lieutenant Titus" hidden="false" id="b07a-c1e9-24e5-09ee">
@@ -1020,7 +1052,6 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
         <categoryLink targetId="1a2d-2f00-c054-4dcb" id="4e75-0b85-5c94-2ea4" primary="false" name="Faction: Ultramarines"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="606a-6cd5-a60e-1821" primary="false" name="Tacticus"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="6c27-9be4-15c9-b699" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="4393-ca91-3868-e589" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="6c9d-824b-8730-01d0" primary="false" name="Leader"/>
       </categoryLinks>
       <profiles>
@@ -1116,6 +1147,11 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Cato Sicarius" hidden="false" id="b014-911d-271a-5b8e">
@@ -1131,7 +1167,6 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
         <categoryLink targetId="6e7-40c-58d9-e402" id="ee96-e343-268e-2a52" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="1a2d-2f00-c054-4dcb" id="21c8-612c-33c5-d03d" primary="false" name="Faction: Ultramarines"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="495d-89af-da3c-7a0a" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="ecd9-aa3d-47d9-b973" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <profiles>
         <profile name="Cato Sicarius" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="faac-4a1c-d55d-e187">
@@ -1239,6 +1274,11 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1369,13 +1409,17 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
         <categoryLink targetId="6e7-40c-58d9-e402" id="1bca-ba42-6a75-8221" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="1a2d-2f00-c054-4dcb" id="f69a-857a-0067-4afe" primary="false" name="Faction: Ultramarines"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="d183-5971-b8fb-eb0c" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="6866-56bb-1a14-6e4e" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="7231-f283-71bb-c31f" primary="false" name="Leader"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1424,6 +1468,11 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -1534,7 +1583,6 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
         <categoryLink targetId="1a2d-2f00-c054-4dcb" id="2e87-5f39-07f7-b950" primary="false" name="Faction: Ultramarines"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="5e6c-6392-cb6e-664d" primary="false" name="Leader"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="5690-e4c1-69dc-5482" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="e47b-2eb5-fb0d-d83c" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>

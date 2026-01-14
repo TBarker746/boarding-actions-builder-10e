@@ -44,7 +44,6 @@
         <categoryLink targetId="5bd8-882d-302b-48f3" id="c70a-eb6d-3262-6788" primary="false" name="Chapter Master"/>
         <categoryLink targetId="e21f-8e64-c5d-7df0" id="f70b-bd8e-2dd4-4762" primary="false" name="Deathwing"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="f284-8237-26ea-9652" primary="false" name="Leader"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="c888-6f0a-0837-9955" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="9d4b-9b3d-5fb6-5221" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <selectionEntries>
@@ -166,6 +165,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Belial" hidden="false" id="bf62-244b-f9db-6cf" page="9">
@@ -216,7 +220,6 @@
         <categoryLink targetId="740a-892c-8958-defa" id="86eb-b083-225b-200e" primary="false" name="Terminator"/>
         <categoryLink targetId="e21f-8e64-c5d-7df0" id="377a-c9e9-a0ca-4486" primary="false" name="Deathwing"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="9a9c-3375-4882-f6b3" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="2b97-2ad6-e0db-a41e" id="5cbe-f818-df0e-2c83" primary="false" name="Terminator Assault Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="1ee7-83d4-63c2-0854" primary="false" name="Leader"/>
       </categoryLinks>
       <selectionEntries>
@@ -282,6 +285,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Ezekiel" hidden="false" id="38c9-66a1-fe60-46af" page="13">
@@ -343,7 +351,6 @@
         <categoryLink targetId="e21f-8e64-c5d-7df0" id="dc1c-5f33-31f0-b726" primary="false" name="Deathwing"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="a380-b3fb-9b35-e745" primary="false" name="Leader"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="dae3-37a2-c0cf-a8db" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="5f2b-dbcb-d85e-9b74" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2040-73da-ec02-6d19" includeChildSelections="true"/>
@@ -445,6 +452,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Asmodai" hidden="false" id="9bf9-1e30-e4b4-939c">
@@ -504,7 +516,6 @@
         <categoryLink targetId="1fb1-3603-a4bd-485" id="962-f46c-2683-3057" primary="false" name="Chaplain"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="27ee-b2cb-ecae-fda2" primary="false" name="Tacticus"/>
         <categoryLink targetId="e21f-8e64-c5d-7df0" id="d6a0-8d42-7d2d-5de4" primary="false" name="Deathwing"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="f6cc-d603-cd55-9b3f" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="d466-f618-9274-6a25" primary="false" name="Leader"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="086d-6dcd-c905-5896" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
@@ -577,6 +588,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Lion El&apos;Jonson" hidden="false" id="15d3-ebc7-d28b-daf4" page="41">
@@ -628,7 +644,6 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         <categoryLink targetId="6474-0ce3-6b5a-120c" id="dc1b-1d3e-6b2a-436a" primary="false" name="Primarch"/>
         <categoryLink targetId="42a0-db93-ff81-d939" id="d249-a5a-dcf0-6cdf" primary="false" name="Lion El&apos;Jonson"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="c328-04f7-1669-f1f8" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="5607-fca6-8b82-e233" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a38-8830-2c5f-3c8f"/>
@@ -722,6 +737,13 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Lazarus" hidden="false" id="4b0d-45ff-fab3-7472" page="19">
       <categoryLinks>
@@ -736,7 +758,6 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         <categoryLink targetId="286f-ba94-2fa3-2606" id="65a2-d1e9-5758-6505" primary="false" name="Lazarus"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="e402-eceb-ef14-8fa1" primary="false" name="Tacticus"/>
         <categoryLink targetId="e21f-8e64-c5d-7df0" id="8a99-7210-2df7-1484" primary="false" name="Deathwing"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="ea6d-558c-a9ec-0e31" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="c5d3-6347-7333-77f4" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="5939-1d97-e3ac-3876" primary="false" name="Leader"/>
       </categoryLinks>
@@ -839,6 +860,11 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Nephilim Jetfighter" hidden="false" id="4f36-6609-efac-baa6" page="39">
@@ -848,7 +874,6 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         <categoryLink targetId="6e7-40c-58d9-e402" id="b555-da16-4aa1-52d" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="aab1-4f05-fabe-5ba5" id="8d32-3664-cf8d-26d3" primary="false" name="Faction: Dark Angels"/>
         <categoryLink targetId="e9c7-1590-1bda-bf7f" id="88cd-bed4-641e-d1e6" primary="false" name="Ravenwing"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="8bd2-9c91-dc67-342a" primary="false" name="Docked Vehicle"/>
         <categoryLink targetId="dbd4-63-af05-998" id="4f43-6fa1-d032-bddf" primary="true" name="Vehicle"/>
       </categoryLinks>
       <profiles>
@@ -1026,6 +1051,11 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Ravenwing Dark Talon" hidden="false" id="9b3d-e812-4248-522" page="37">
@@ -1036,7 +1066,6 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         <categoryLink targetId="6e7-40c-58d9-e402" id="7f24-fd5e-2324-7098" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="aab1-4f05-fabe-5ba5" id="2ffe-87cc-8d2a-8cbf" primary="false" name="Faction: Dark Angels"/>
         <categoryLink targetId="e9c7-1590-1bda-bf7f" id="1b1c-b388-cad9-910" primary="false" name="Ravenwing"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="699a-d66d-ede3-de0b" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <profiles>
         <profile name="Ravenwing Dark Talon" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d259-e373-f7a2-3755" page="37">
@@ -1157,6 +1186,11 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Land Speeder Vengeance" hidden="false" id="b4a0-d2fe-a988-f28b" page="35">
@@ -1174,7 +1208,6 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         <categoryLink targetId="6e7-40c-58d9-e402" id="9a31-18dc-c086-9522" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="aab1-4f05-fabe-5ba5" id="436b-267e-51b2-ffb8" primary="false" name="Faction: Dark Angels"/>
         <categoryLink targetId="e9c7-1590-1bda-bf7f" id="66ae-8c6e-91df-fd0b" primary="false" name="Ravenwing"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="7114-e294-e941-8ae4" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="5450-deb5-f3ee-7c73" targetId="b68a-5ded-65ac-98c">
@@ -1330,6 +1363,11 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="f17a-b6c7-070f-ccdc" type="selectionEntry" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
@@ -1353,7 +1391,6 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         <categoryLink targetId="aab1-4f05-fabe-5ba5" id="2281-1f99-c3e1-792d" primary="false" name="Faction: Dark Angels"/>
         <categoryLink targetId="6e7-40c-58d9-e402" id="4b0a-6438-4d61-a2b3" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="e9c7-1590-1bda-bf7f" id="7e3f-8d29-6130-294" primary="false" name="Ravenwing"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="b26f-1eac-ac00-2ff3" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="6d2d-cc8a-43e5-f515" targetId="b68a-5ded-65ac-98c">
@@ -1477,6 +1514,11 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Deathwing Knights" hidden="false" id="a6cc-9a65-dbf1-71b0" publicationId="8b50-6bb0-b6bb-e187" page="27">
@@ -1502,7 +1544,6 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         <categoryLink targetId="8c-33f-ebc7-f623" id="763e-8029-104d-50d5" primary="false" name="Deathwing Knights"/>
         <categoryLink targetId="740a-892c-8958-defa" id="c70f-603e-11ba-6073" primary="false" name="Terminator"/>
         <categoryLink targetId="e21f-8e64-c5d-7df0" id="e67d-b1a4-290e-56de" primary="false" name="Deathwing"/>
-        <categoryLink targetId="3114-b83e-2fe8-ce44" id="072a-d60f-c842-d469" primary="false" name="Terminator Assault Group B"/>
       </categoryLinks>
       <profiles>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d132-7f85-a199-1620">
@@ -1671,6 +1712,11 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="cc9b-de79-3eba-b418" type="selectionEntry" targetId="caa-f869-3cbd-b48e" page="9" sortIndex="1"/>
@@ -1685,7 +1731,6 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         <categoryLink targetId="6e7-40c-58d9-e402" id="8ec3-7dd8-a3f0-ab03" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="740a-892c-8958-defa" id="3cf8-8e0c-a989-3ca5" primary="false" name="Terminator"/>
         <categoryLink targetId="e21f-8e64-c5d-7df0" id="c847-9194-f523-20d9" primary="false" name="Deathwing"/>
-        <categoryLink targetId="3114-b83e-2fe8-ce44" id="11df-bd71-d8ec-3a16" primary="false" name="Terminator Assault Group B"/>
       </categoryLinks>
       <profiles>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ec7e-6604-2b93-4c95" publicationId="3931-1b04-c00e-afad" page="31">
@@ -1718,6 +1763,11 @@ In addition, each time a model in this unit makes an attack that targets your Oa
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2065,7 +2115,6 @@ In addition, each time a model in this unit makes an attack that targets your Oa
         <categoryLink targetId="3d65-6753-15a5-47ba" id="e9c5-9322-3ef4-3360" primary="false" name="Inner Circle Companions"/>
         <categoryLink targetId="6e7-40c-58d9-e402" id="d013-9a16-d263-e75" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="e21f-8e64-c5d-7df0" id="29b7-f54f-5538-43af" primary="false" name="Deathwing"/>
-        <categoryLink targetId="19e5-c610-76c8-b374" id="9a3f-3fec-695c-12aa" primary="false" name="Boarding Strike Group C"/>
       </categoryLinks>
       <profiles>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8d97-2572-c781-4135">
@@ -2089,6 +2138,11 @@ In addition, each time a model in this unit makes an attack that targets your Oa
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2221,7 +2275,6 @@ In addition, each time a model in this unit makes an attack that targets your Oa
         <categoryLink targetId="6e7-40c-58d9-e402" id="139a-c519-3c8b-e748" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="aab1-4f05-fabe-5ba5" id="a3-4c3c-2f92-6bdc" primary="false" name="Faction: Dark Angels"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="180-c52a-11b0-ef6e" primary="false" name="Imperium"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="9cab-abb1-2d94-bb5a" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -2232,6 +2285,11 @@ In addition, each time a model in this unit makes an attack that targets your Oa
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2266,6 +2324,9 @@ In addition, each time a model in this unit makes an attack that targets your Oa
                 <infoLink name="Twin-linked" id="fd87-c760-85bf-580c" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
                 <infoLink name="Sustained Hits" id="4d5d-6639-354c-d954" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink import="true" name="Weapon Upgrades" hidden="false" id="4a96-9780-5e40-9981" type="selectionEntryGroup" targetId="8cf2-a48c-58d2-cb4e"/>
+              </entryLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="6d45-e72d-e603-54fb">
               <constraints>
@@ -2308,6 +2369,9 @@ In addition, each time a model in this unit makes an attack that targets your Oa
                 <infoLink name="Devastating Wounds" id="9eaa-3c3b-a17d-581e" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
                 <infoLink name="Twin-linked" id="ad98-1002-6af0-a9c7" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink import="true" name="Weapon Upgrades" hidden="false" id="f2f1-6bb1-fa08-dfaf" type="selectionEntryGroup" targetId="8cf2-a48c-58d2-cb4e"/>
+              </entryLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>

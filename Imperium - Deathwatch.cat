@@ -547,7 +547,6 @@
         <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="c0cc-215c-8e3f-7e15" targetId="6e7-40c-58d9-e402" primary="false"/>
         <categoryLink name="Faction: Deathwatch" hidden="false" id="86e0-2861-333a-2b8b" targetId="d39c-9989-db7f-d815" primary="false"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="7936-8485-327f-3881" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="b8e6-9d96-5643-7973" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="c0df-87d2-bcdb-0638" primary="false" name="Leader"/>
       </categoryLinks>
       <profiles>
@@ -660,6 +659,11 @@
             <condition type="lessThan" value="1" field="selections" scope="parent" childId="475f-763d-28e9-3b5f" shared="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Watch Captain Artemis" hidden="false" id="3d7c-2de-31ea-b028">
@@ -677,7 +681,6 @@
         <categoryLink name="Faction: Deathwatch" hidden="false" id="c30d-20b1-04e4-61cb" targetId="d39c-9989-db7f-d815" primary="false"/>
         <categoryLink targetId="2d7f-1892-2fd0-e29c" id="2852-67cc-14eb-7484" primary="false" name="Captain"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="f393-f51f-abff-b8ca" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="08c5-73aa-cf8d-efbf" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="c9a6-5ff9-5adf-a74c" primary="false" name="Leader"/>
       </categoryLinks>
       <infoLinks>
@@ -778,6 +781,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="parent" childId="475f-763d-28e9-3b5f" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -917,7 +925,6 @@
         <categoryLink targetId="b9d0-ad1e-b2c9-c2b9" id="9621-88e3-b9a-29f7" primary="false" name="Corvus Blackstar"/>
         <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="aa61-4f4d-b546-e940" targetId="6e7-40c-58d9-e402" primary="false"/>
         <categoryLink name="Faction: Deathwatch" hidden="false" id="0d0a-eaea-4097-0493" targetId="d39c-9989-db7f-d815" primary="false"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="3243-b244-dda3-c3de" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="a03a-d2e-830-c5bd" targetId="b68a-5ded-65ac-98c">
@@ -1165,6 +1172,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Close combat weapon" hidden="false" id="2078-20a8-181f-a708" collective="true">
@@ -1237,7 +1249,6 @@
         <categoryLink name="Kill Team" hidden="false" id="2887-e3a7-91ca-e3be" targetId="81b0-a893-4fb7-c298" primary="false"/>
         <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="b65d-c264-1c4f-0daf" targetId="6e7-40c-58d9-e402" primary="false"/>
         <categoryLink name="Faction: Deathwatch" hidden="false" id="8f70-b979-b449-66be" targetId="d39c-9989-db7f-d815" primary="false"/>
-        <categoryLink targetId="3114-b83e-2fe8-ce44" id="da2c-1800-b2f0-512d" primary="false" name="Terminator Assault Group B"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Deathwatch Terminators" hidden="false" id="50fb-8de8-f1cf-86b3" publicationId="4115-3627-e608-39f6" page="15" defaultSelectionEntryId="45fa-9a7-8352-362e" sortIndex="2">
@@ -1658,6 +1669,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="f7cd-dc9b-76cc-2a73" includeChildSelections="true"/>
@@ -1703,37 +1719,6 @@
       </profiles>
       <comment>3/3/4/0/1</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Plasma incinerator" hidden="false" id="386c-b933-68ce-5e31" collective="true">
-      <profiles>
-        <profile name="➤ Plasma incinerator - Standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2333-a3fe-e6af-747">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Heavy</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="➤ Plasma incinerator - Supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="7bcf-8a8f-67e6-2dca" publicationId="4115-3627-e608-39f6" page="23">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Hazardous, Heavy</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Assault" hidden="false" id="4f29-496-d22c-baa9" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-        <infoLink name="Heavy" hidden="false" id="9a30-ae1-a95-3765" type="rule" targetId="1202-10a8-78e9-4c67"/>
-        <infoLink name="Hazardous" hidden="false" id="a4f4-f6c3-472f-b225" type="rule" targetId="8367-374c-f87-c627"/>
-      </infoLinks>
-    </selectionEntry>
     <selectionEntry type="unit" import="false" name="Deathwatch Veterans" hidden="false" id="66ab-476a-134e-ec7b">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
@@ -1748,7 +1733,6 @@
         <categoryLink name="Deathwatch Kill Team" hidden="false" id="ad2a-8494-9c57-4d6a" targetId="b917-6755-58fc-bba0" primary="false"/>
         <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="cd75-c4e2-3ae7-c683" targetId="6e7-40c-58d9-e402" primary="false"/>
         <categoryLink name="Faction: Deathwatch" hidden="false" id="f041-8ef7-aabb-6ee8" targetId="d39c-9989-db7f-d815" primary="false"/>
-        <categoryLink targetId="ad84-0588-cd90-db73" id="d420-7b47-60f7-3c9b" primary="false" name="Boarding Strike Group B"/>
       </categoryLinks>
       <profiles>
         <profile name="Death to the Alien" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="079c-c14f-83f1-25a6" publicationId="4115-3627-e608-39f6" page="13">
@@ -2265,6 +2249,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>

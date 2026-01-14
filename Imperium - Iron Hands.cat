@@ -20,7 +20,6 @@
         <categoryLink targetId="b88e-1b0c-b79f-5cdf" id="d4a8-2400-553c-64a2" primary="false" name="Faction: Iron Hands"/>
         <categoryLink targetId="ccae-25d8-84c1-913f" id="ae3-86ad-587d-d402" primary="false" name="Iron Father Ferrios"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="cd21-08ef-37fd-0760" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="2868-4a76-ea6f-76e5" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="8e9d-e92f-0d03-1402" primary="false" name="Leader"/>
       </categoryLinks>
       <infoLinks>
@@ -151,6 +150,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>

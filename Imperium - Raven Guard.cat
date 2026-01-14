@@ -24,9 +24,7 @@
         <categoryLink targetId="5bd8-882d-302b-48f3" id="2933-41fe-e2fa-f739" primary="false" name="Chapter Master"/>
         <categoryLink targetId="a4c3-fdb-4d12-e303" id="70ef-4e91-488-c67f" primary="false" name="Kayvaan Shrike"/>
         <categoryLink targetId="7295-ed65-8ff4-7a5f" id="87fd-51c6-d46e-53c6" primary="false" name="Phobos"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="cbb3-b669-e7c7-0810" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="469f-dd0e-c672-6ade" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="4145-e1b8-d841-5700" id="13e5-9fc9-b4cc-c31e" primary="false" name="Pilum Strike Team Group A (Max 3)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="19ca-f881-77ec-43bc" primary="false" name="Leader"/>
       </categoryLinks>
       <infoLinks>
@@ -157,6 +155,16 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Aethon Shaan" hidden="false" id="cbb9-15e9-16ae-6597">
@@ -237,7 +245,6 @@
         <categoryLink targetId="5bd8-882d-302b-48f3" id="decf-5df1-41d6-f7fd" primary="false" name="Chapter Master"/>
         <categoryLink targetId="137d-c790-9826-095d" id="99b0-46a3-a073-5b8c" primary="false" name="Aethon Shaan"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="6f4d-7170-599f-cc39" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="2643-36c1-76e2-812a" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="110"/>
@@ -253,6 +260,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>

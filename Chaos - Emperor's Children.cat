@@ -71,6 +71,9 @@
           <infoLinks>
             <infoLink name="Precision" id="236b-8cbc-be97-662a" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Weapon Upgrades" hidden="false" id="8553-1f20-45fb-f46a" type="selectionEntryGroup" targetId="6ad0-9fe5-4282-8ad1"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Lash of Torment" hidden="false" id="23e2-6d93-5012-304d" sortIndex="3">
           <constraints>
@@ -93,6 +96,9 @@
           <infoLinks>
             <infoLink name="Sustained Hits" id="74ed-a2e6-fb9f-5b38" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Weapon Upgrades" hidden="false" id="8f29-00db-24dd-3d99" type="selectionEntryGroup" targetId="6ad0-9fe5-4282-8ad1"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -364,13 +370,9 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b90-0613-4e9a-fb5d-min" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b90-0613-4e9a-fb5d-max" includeChildSelections="false"/>
               </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Weapon Upgrades" id="6052-a7a0-a9db-a96c" hidden="false" flatten="true">
-                  <entryLinks>
-                    <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="383e-f1fd-951a-151c" type="selectionEntryGroup" targetId="52ca-0c07-9521-81d4"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Weapon Upgrades" hidden="false" id="474a-c080-b3c6-63d5" type="selectionEntryGroup" targetId="6ad0-9fe5-4282-8ad1"/>
+              </entryLinks>
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
@@ -390,12 +392,12 @@
                       </characteristics>
                     </profile>
                   </profiles>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup name="Weapon Upgrades" id="2d9a-7d55-7177-a252" hidden="false" flatten="true"/>
-                  </selectionEntryGroups>
                   <categoryLinks>
                     <categoryLink name="Melee Weapon" hidden="false" id="43eb-7f7f-eb6e-e93c" targetId="ccdd-3987-11ed-90cd" primary="false"/>
                   </categoryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Weapon Upgrades" hidden="false" id="239d-525e-5323-a29f" type="selectionEntryGroup" targetId="6ad0-9fe5-4282-8ad1"/>
+                  </entryLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Screamer pistol and close combat weapon" hidden="false" id="d3ce-37c9-31af-7513">
                   <selectionEntries>
@@ -417,12 +419,12 @@
                           </characteristics>
                         </profile>
                       </profiles>
-                      <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Upgrades" id="e4e9-ece7-ad5a-38c8" hidden="false" flatten="true"/>
-                      </selectionEntryGroups>
                       <categoryLinks>
                         <categoryLink name="Melee Weapon" hidden="false" id="f918-2540-75a9-9e32" targetId="ccdd-3987-11ed-90cd" primary="false"/>
                       </categoryLinks>
+                      <entryLinks>
+                        <entryLink import="true" name="Weapon Upgrades" hidden="false" id="9323-bb94-8497-1b69" type="selectionEntryGroup" targetId="6ad0-9fe5-4282-8ad1"/>
+                      </entryLinks>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
@@ -431,13 +433,9 @@
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bc6f-a3aa-0d21-e560-min" includeChildSelections="false"/>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc6f-a3aa-0d21-e560-max" includeChildSelections="false"/>
                       </constraints>
-                      <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Upgrades" id="7a24-16ab-3bc9-859a" hidden="false" flatten="true">
-                          <entryLinks>
-                            <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="2cb5-3408-36bf-8a82" type="selectionEntryGroup" targetId="52ca-0c07-9521-81d4"/>
-                          </entryLinks>
-                        </selectionEntryGroup>
-                      </selectionEntryGroups>
+                      <entryLinks>
+                        <entryLink import="true" name="Weapon Upgrades" hidden="false" id="d87a-e52e-5bb8-3cb3" type="selectionEntryGroup" targetId="6ad0-9fe5-4282-8ad1"/>
+                      </entryLinks>
                     </entryLink>
                   </entryLinks>
                 </selectionEntry>
@@ -579,9 +577,9 @@
               </selectionEntryGroups>
             </entryLink>
             <entryLink import="true" name="Infernal cannon" hidden="false" id="b0d7-6f51-f278-85ae" type="selectionEntry" targetId="b464-6a59-916f-c9d9">
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Weapon Upgrades" id="4e53-e4f1-109e-1d59" hidden="false" flatten="true"/>
-              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Weapon Upgrades" hidden="false" id="1fcb-b2cc-6415-0a67" type="selectionEntryGroup" targetId="6ad0-9fe5-4282-8ad1"/>
+              </entryLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -590,6 +588,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="6c46-c88f-346a-1339" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="f905-e26f-76a6-7754" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6c46-c88f-346a-1339" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -723,9 +726,9 @@
               </selectionEntryGroups>
             </entryLink>
             <entryLink import="true" name="Infernal cannon" hidden="false" id="b803-ca37-2e2c-c815" type="selectionEntry" targetId="b464-6a59-916f-c9d9">
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Weapon Upgrades" id="d3ee-98f1-c818-9c17" hidden="false" flatten="true"/>
-              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Weapon Upgrades" hidden="false" id="3485-271f-825f-3570" type="selectionEntryGroup" targetId="6ad0-9fe5-4282-8ad1"/>
+              </entryLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -734,6 +737,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="6c46-c88f-346a-1339" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="f905-e26f-76a6-7754" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6c46-c88f-346a-1339" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1789,6 +1797,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Maulerfiend" hidden="false" id="656c-8b78-8e59-0591" collective="false">
@@ -1964,6 +1977,11 @@
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="6c46-c88f-346a-1339" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Chaos Rhino" hidden="false" id="8ae1-aa47-e1d1-1b31" collective="false">
@@ -2076,6 +2094,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Detachment" hidden="false" id="a6ad-d379-46ee-2c24">
@@ -2155,18 +2178,9 @@
   <entryLinks>
     <entryLink import="true" name="Lucius the Eternal" hidden="false" id="2158-afb6-f9e2-3337" type="selectionEntry" targetId="e390-b58b-db9-816"/>
     <entryLink import="true" name="Show/Hide Options" hidden="false" id="9ab9-323e-29fb-d571" type="selectionEntry" targetId="e8ef-836a-a9d1-901d">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Show Chaos Knights" hidden="false" id="c2b8-bcc8-a73c-fd82">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f5c7-f03c-23c3-d81d"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1117-370b-afd2-38f5"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="0" field="f5c7-f03c-23c3-d81d"/>
-            <modifier type="set" value="Chaos Knights are visible" field="name"/>
-          </modifiers>
-        </selectionEntry>
-      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Show Chaos Knights" hidden="false" id="865c-b23f-517b-b76a" type="selectionEntry" targetId="aeb4-96de-7401-eaa3"/>
+      </entryLinks>
     </entryLink>
     <entryLink import="true" name="Lord Kakophonist" hidden="false" id="3144-df82-3e22-2ab1" type="selectionEntry" targetId="ee50-955a-0a81-41f1"/>
     <entryLink import="true" name="Daemon Prince of Slaanesh" hidden="false" id="a9c7-8fc5-a504-15ba" type="selectionEntry" targetId="ad59-b823-900d-ee2d"/>
@@ -2182,6 +2196,258 @@
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="5e88-96d0-f70f-8fb4" targetId="4ac9-fd30-1e3d-b249" primary="true"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaos Cerastus Knight Acheron" hidden="false" id="b8fb-e9f4-11c3-6259" type="selectionEntry" targetId="ec6e-d1d6-f7c6-d008">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Chaos Cerastus Knight Atrapos" hidden="false" id="5e1b-46a6-b3cd-4e59" type="selectionEntry" targetId="8b1d-9029-f9e1-42d9">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Chaos Cerastus Knight Castigator" hidden="false" id="4705-d310-eea0-c15b" type="selectionEntry" targetId="b6e5-911b-93f-476">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Chaos Cerastus Knight Lancer" hidden="false" id="bc31-fc93-6194-1fc7" type="selectionEntry" targetId="4175-82c6-8e96-bef8">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="War Dog Brigand" hidden="false" id="25bd-1de3-b5ee-dab5" type="selectionEntry" targetId="753d-4e02-eda3-4809">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="War Dog Executioner" hidden="false" id="9b31-f180-67b3-b4dd" type="selectionEntry" targetId="8df0-fc3c-8ced-ffce">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="War Dog Huntsman" hidden="false" id="60b6-5d55-7ce6-586b" type="selectionEntry" targetId="6e6d-7950-ce6d-4cd4">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="War Dog Karnivore" hidden="false" id="c054-a69d-30e4-9f8e" type="selectionEntry" targetId="e96b-ac98-7fd2-a155">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="War Dog Moirax" hidden="false" id="10a5-f00a-2f30-c977" type="selectionEntry" targetId="ae7c-3679-a88-6895">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Knight Abominant" hidden="false" id="ffee-155e-6e13-c959" type="selectionEntry" targetId="a78d-828b-302b-1bec">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Knight Desecrator" hidden="false" id="d68a-76d0-9a0b-1061" type="selectionEntry" targetId="7a51-8f1f-7290-d9d2">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Knight Despoiler" hidden="false" id="c2cb-266a-c587-e9c6" type="selectionEntry" targetId="0119-8c04-435e-c782">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Knight Tyrant" hidden="false" id="7218-65df-50e8-54ed" type="selectionEntry" targetId="87ea-c7bd-6df0-f056">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Knight Ruinator" hidden="false" id="af13-e47a-d909-9822" type="selectionEntry" targetId="c0a2-eb65-6d34-5bc6">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Knight Rampager" hidden="false" id="9fed-cfbe-3887-d6d0" type="selectionEntry" targetId="61e0-e55b-1926-44df">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Chaos Questoris Knight Styrix" hidden="false" id="f1c4-fa1b-7a98-2720" type="selectionEntry" targetId="106c-4bdf-79a4-1c70">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Chaos Questoris Knight Magaera" hidden="false" id="d11d-b6c7-6d39-36dc" type="selectionEntry" targetId="2d0e-5b83-b678-56dc">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="War Dog Stalker" hidden="false" id="9a4c-2838-b55c-a585" type="selectionEntry" targetId="bbc6-c0ed-24e8-86b7">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
   <sharedInfoGroups>
@@ -2548,6 +2814,11 @@
           </modifiers>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Weapon Upgrades" id="6ad0-9fe5-4282-8ad1" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="383e-f1fd-951a-151c" type="selectionEntryGroup" targetId="52ca-0c07-9521-81d4"/>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>

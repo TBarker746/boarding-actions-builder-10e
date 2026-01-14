@@ -19,7 +19,6 @@
         <categoryLink targetId="6e7-40c-58d9-e402" id="fc48-11e2-d56f-d62c" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="97aa-d0e4-71c7-96c3" id="85e-6a9f-3389-7391" primary="false" name="Faction: Imperial Fists"/>
         <categoryLink targetId="f797-f718-df7d-8545" id="b0ae-251b-e86-d514" primary="false" name="Darnath Lysander"/>
-        <categoryLink targetId="2b97-2ad6-e0db-a41e" id="40c1-d6f0-443b-550e" primary="false" name="Terminator Assault Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="f6bb-e82f-2e2d-4030" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <profiles>
@@ -92,9 +91,14 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="5731-527b-3b65-d257" targetId="caa-f869-3cbd-b48e"/>
+        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="5731-527b-3b65-d257" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Tor Garadon" hidden="false" id="5936-83d6-4e30-915c">
@@ -116,7 +120,6 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="de4f-4821-a3be-2040" primary="false" name="Imperium"/>
         <categoryLink targetId="97aa-d0e4-71c7-96c3" id="27e-dc36-f978-9521" primary="false" name="Faction: Imperial Fists"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="a914-6c66-e403-6fbc" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="1bcc-9443-9108-1a1a" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="8d8e-96f3-e35d-6d4d" primary="false" name="Leader"/>
       </categoryLinks>
       <profiles>
@@ -207,9 +210,14 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="3a51-3c8f-f135-4372" targetId="caa-f869-3cbd-b48e"/>
+        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="3a51-3c8f-f135-4372" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Pedro Kantor" hidden="false" id="59e3-5a97-f36d-5b94">
@@ -226,7 +234,6 @@
         <categoryLink targetId="97aa-d0e4-71c7-96c3" id="da8b-37f5-3226-8fb2" primary="false" name="Faction: Imperial Fists"/>
         <categoryLink targetId="7709-796b-3022-31fe" id="f1cf-c7c6-d6fa-adb3" primary="false" name="Pedro Kantor"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="aaba-ec5e-75fb-c2bf" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="7583-9f54-d020-0edf" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="17be-f8f8-58a5-28d5" primary="false" name="Leader"/>
       </categoryLinks>
       <constraints>
@@ -334,9 +341,14 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="42b3-a452-360d-a1d1" targetId="caa-f869-3cbd-b48e"/>
+        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="42b3-a452-360d-a1d1" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
       </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>

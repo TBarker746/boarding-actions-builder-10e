@@ -26,7 +26,6 @@
         <categoryLink targetId="5bd8-882d-302b-48f3" id="79d9-7637-c185-fdb3" primary="false" name="Chapter Master"/>
         <categoryLink targetId="48a0-9386-4930-6a62" id="db0b-b264-daea-6905" primary="false" name="Logan Grimnar"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="7cae-1fae-ee2c-10e0" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="2b97-2ad6-e0db-a41e" id="7520-e630-1d30-0514" primary="false" name="Terminator Assault Group A (Max 2)"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="f3ad-f021-1317-6179" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
@@ -106,6 +105,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Axe Morkai" hidden="false" id="df54-1796-1f2-851e">
@@ -153,7 +157,6 @@
         <categoryLink targetId="23d4-b393-5b92-2445" id="49ed-850a-e2b8-da39" primary="false" name="Njal Stormcaller"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="cfbe-bc20-377c-7569" primary="false" name="Tacticus"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="5e2f-8636-a9ff-ff24" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="2b97-2ad6-e0db-a41e" id="9c51-05ae-0b08-0cfc" primary="false" name="Terminator Assault Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="79c0-fdf2-3f24-ebce" primary="false" name="Leader"/>
       </categoryLinks>
       <profiles>
@@ -265,6 +268,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c542-81ca-a72c-5c68" includeChildSelections="true" includeChildForces="true"/>
@@ -292,8 +300,6 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="7ff6-1abd-a6b3-2920" primary="false" name="Imperium"/>
         <categoryLink targetId="a820-cf8-f29d-7b06" id="e128-329c-c2ca-6f97" primary="false" name="Dreadnought"/>
         <categoryLink targetId="1c1d-1797-2e31-ed34" id="5940-9eba-9722-c750" primary="false" name="Bjorn the Fell-Handed"/>
-        <categoryLink targetId="c27f-50a5-b564-328d" id="3628-2d38-5f46-02e0" primary="false" name="Critical Threat"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="a81e-b711-5091-a167" primary="false" name="Docked Vehicle"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="206c-3e08-f8b6-4842" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <infoLinks>
@@ -462,6 +468,16 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="f905-e26f-76a6-7754" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c0f3-701f-cabc-aa39" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Arjac Rockfist" hidden="false" id="a9c8-1a6-a0e1-7698">
@@ -484,7 +500,6 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="e321-3bca-ce87-b45b" primary="false" name="Imperium"/>
         <categoryLink targetId="740a-892c-8958-defa" id="821c-30e2-1fc4-c01e" primary="false" name="Terminator"/>
         <categoryLink targetId="88ee-e662-b0c6-43cd" id="d85a-feba-1249-defb" primary="false" name="Arjac Rockfist"/>
-        <categoryLink targetId="2b97-2ad6-e0db-a41e" id="2b46-5a06-2d7e-5c52" primary="false" name="Terminator Assault Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="3aa3-f570-1df4-86f8" primary="false" name="Leader"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="173e-514d-9bc6-5464" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
@@ -561,6 +576,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -681,7 +701,6 @@
         <categoryLink targetId="e700-e90e-8379-035f" id="772c-0b32-d24b-b2d9" primary="false" name="Wolf Priest"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="496e-6f4d-4a2c-5924" primary="false" name="Leader"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="7b38-52b8-9a70-d189" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="0cf6-8bef-6bd0-802f" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1186-2dc5-19dd-0e17" includeChildSelections="true" includeChildForces="true"/>
@@ -690,6 +709,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -718,7 +742,6 @@
         <categoryLink targetId="ff0e-8156-6e6b-8e60" id="af35-b35d-972-853" primary="false" name="Ragnar Blackmane"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="6a19-5d37-2120-0430" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="82ef-3fd1-e8f0-b4c9" primary="false" name="Leader"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="0dc8-f302-b498-c94b" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Bolt pistol" hidden="false" type="selectionEntry" id="148b-5408-9dec-dac2" targetId="b273-b85e-4018-a0cd">
@@ -790,6 +813,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -891,6 +919,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1135-78f8-2cf7-90a0" includeChildSelections="true" includeChildForces="true"/>
@@ -936,7 +969,7 @@
         <categoryLink targetId="bb26-d1a5-1336-bde7" id="5a9-485-8665-6b6a" primary="false" name="Wolf Guard Battle Leader in Terminator Armour"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="b1c9-3d16-f397-1fbe" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="b198-5cfe-89eb-2c03" primary="false" name="Leader"/>
-        <categoryLink targetId="2b97-2ad6-e0db-a41e" id="396f-351a-57b2-fd69" primary="false" name="Terminator Assault Group A (Max 2)"/>
+        <categoryLink targetId="1a25-641b-9ff9-de91" id="dbf6-1bd4-1a51-ff14" primary="false" name="Battle Leader"/>
       </categoryLinks>
       <profiles>
         <profile name="Wolf Guard Battle Leader in Terminator Armour" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="cfa2-d925-5f07-c708">
@@ -1159,6 +1192,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Power weapon" hidden="false" id="d4e4-919a-1dd-ab43">
@@ -1340,6 +1378,11 @@
             <condition type="atLeast" value="6" field="selections" scope="498-8bb5-1f55-65c2" childId="model" shared="true" id="8951-5306-ee71-2567" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <profiles>
         <profile name="Berserk Charge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="55f7-b6c3-54a2-5266">
@@ -1365,9 +1408,8 @@
         <categoryLink targetId="e338-111e-d0c6-b687" id="e8c5-5655-5f71-8fab" primary="true" name="Battleline"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="d8a4-6366-8ced-8cbe" primary="false" name="Grenades"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="30b9-a290-8acf-53c6" primary="false" name="Imperium"/>
-        <categoryLink targetId="5624-6cb8-fa73-779e" id="de6b-f7d6-15a1-ef77" primary="false" name="Blood Claws"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="46b6-8fdb-101a-b0db" primary="false" name="Tacticus"/>
-        <categoryLink targetId="ad84-0588-cd90-db73" id="17c4-4e8c-4714-b614" primary="false" name="Boarding Strike Group B"/>
+        <categoryLink targetId="5624-6cb8-fa73-779e" id="c881-b6e2-ac4c-4eee" primary="false" name="Blood Claws"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Blood Claws" hidden="false" id="d6a4-1730-7ecf-3820" defaultSelectionEntryId="43b0-a03-67b2-a92a" sortIndex="2">
@@ -1605,7 +1647,6 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="939c-2f8c-9e3-278f" primary="false" name="Imperium"/>
         <categoryLink targetId="447f-4fc0-7630-a9f7" id="90f3-3c93-eaa5-db9a" primary="false" name="Grey Hunters"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="ee08-ca5b-6b96-9a2b" primary="false" name="Tacticus"/>
-        <categoryLink targetId="ad84-0588-cd90-db73" id="83ff-a79e-6004-6ca2" primary="false" name="Boarding Strike Group B"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="9721-d9e3-e7df-a872" targetId="3b76-4053-ece9-6e7d"/>
@@ -1628,6 +1669,11 @@
         <modifier type="set" value="165" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="atLeast" value="6" field="selections" scope="2e24-116d-87cb-1d8d" childId="model" shared="true" id="ae40-fa14-27e6-c372" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1726,7 +1772,6 @@
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="ebe9-7514-987d-8033" primary="false" name="Grenades"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="425-f8b4-2305-b8d2" primary="false" name="Imperium"/>
         <categoryLink targetId="180b-bab2-a59f-44bc" id="3dcd-9452-8ac8-24ad" primary="false" name="Wolf Guard"/>
-        <categoryLink targetId="19e5-c610-76c8-b374" id="d71f-8a4b-a50e-7f0f" primary="false" name="Boarding Strike Group C"/>
       </categoryLinks>
       <profiles>
         <profile name="Chosen Companions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="782f-6fe4-1d53-90a9">
@@ -1931,6 +1976,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="9f09-7558-a55d-4e25" targetId="3b76-4053-ece9-6e7d"/>
@@ -2033,7 +2083,6 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="8f09-ae65-d194-2fd5" primary="false" name="Imperium"/>
         <categoryLink targetId="3e7d-6254-65cf-fe96" id="ce8a-e967-990b-7213" primary="false" name="Lukas the Trickster"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="e185-93b6-8921-2625" primary="false" name="Leader"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="c046-88bb-2619-dd07" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Leader" hidden="false" type="rule" id="a4a-6e9d-6667-9b26" targetId="b4dd-3e1f-41cb-218f"/>
@@ -2111,6 +2160,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2229,7 +2283,6 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="5a1c-c57a-3f89-22bd" primary="false" name="Imperium"/>
         <categoryLink targetId="7295-ed65-8ff4-7a5f" id="336f-8555-2a0e-605" primary="false" name="Phobos"/>
         <categoryLink targetId="722a-5e29-9d6f-61b1" id="6467-84b6-db2f-648d" primary="false" name="Hounds of Morkai"/>
-        <categoryLink targetId="33a6-3f83-469c-b7ec" id="fdac-648d-68b5-ba09" primary="false" name="Pilum Strike Team Group C (Max 1)"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="160" field="51b2-306e-1021-d207">
@@ -2245,6 +2298,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2369,7 +2427,6 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="cbfe-1c39-212b-3538" primary="false" name="Imperium"/>
         <categoryLink targetId="19ab-c0ae-7b00-dc0c" id="c81c-5d1-6171-ddf0" primary="false" name="Wulfen"/>
         <categoryLink targetId="b8e3-7a90-d63a-e263" id="a004-34bd-cc4d-30fb" primary="false" name="Wulfen"/>
-        <categoryLink targetId="19e5-c610-76c8-b374" id="b758-3fd7-6b93-0380" primary="false" name="Boarding Strike Group C"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="170" field="51b2-306e-1021-d207">
@@ -2380,6 +2437,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2539,8 +2601,6 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="95f6-4ad8-4db0-dc04" primary="false" name="Imperium"/>
         <categoryLink targetId="a820-cf8-f29d-7b06" id="271c-5af-dea2-c8c9" primary="false" name="Dreadnought"/>
         <categoryLink name="Wulfen" hidden="false" id="f5a4-e4d6-b05b-8219" targetId="19ab-c0ae-7b00-dc0c" primary="false"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="acbd-9201-d8f8-4deb" primary="false" name="Docked Vehicle"/>
-        <categoryLink targetId="c27f-50a5-b564-328d" id="7787-6ea7-ae20-aa53" primary="false" name="Critical Threat"/>
       </categoryLinks>
       <profiles>
         <profile name="Wulfen Dreadnought" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="77af-6fe4-d935-e125">
@@ -2681,6 +2741,16 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="f905-e26f-76a6-7754" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c0f3-701f-cabc-aa39" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Murderfang" hidden="false" id="6ef5-6700-d888-df3b">
@@ -2705,8 +2775,6 @@
         <categoryLink targetId="a820-cf8-f29d-7b06" id="9722-7c6d-6844-8dc5" primary="false" name="Dreadnought"/>
         <categoryLink targetId="593f-5be5-1f5c-fa2" id="e5bc-89e0-a4d0-efe7" primary="false" name="Murderfang"/>
         <categoryLink name="Wulfen" hidden="false" id="1fad-988e-d91b-993f" targetId="19ab-c0ae-7b00-dc0c" primary="false"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="d21a-b0e0-ae34-6540" primary="false" name="Docked Vehicle"/>
-        <categoryLink targetId="c27f-50a5-b564-328d" id="9d89-7be4-2d6c-4782" primary="false" name="Critical Threat"/>
       </categoryLinks>
       <profiles>
         <profile name="Murderfang" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="60e4-3f4e-cbb9-c31b">
@@ -2806,6 +2874,16 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="f905-e26f-76a6-7754" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c0f3-701f-cabc-aa39" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3a17-2712-14de-68b7" includeChildSelections="true" includeChildForces="true"/>
@@ -2878,7 +2956,6 @@
         <categoryLink targetId="4c3e-9310-a516-3590" id="d9cf-dd24-8d09-2ad2" primary="true" name="Beast"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="2751-e346-d82a-808c" primary="false" name="Imperium"/>
         <categoryLink targetId="e6ab-86d6-b11f-b2ec" id="e4bf-6ea0-26a5-24bb" primary="false" name="Fenrisian Wolves"/>
-        <categoryLink targetId="ddc5-47d3-ad0b-7dfa" id="9854-0e3a-1660-7633" primary="false" name="Boarding Strike Group E (Max 1)"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="5 Fenrisian Wolves" hidden="false" id="1794-64fa-4c9c-92f2" sortIndex="2">
@@ -2941,6 +3018,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="dcdf-4b32-ee45-485e" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="c1d5-a1f4-d62d-a1ad" targetId="3b76-4053-ece9-6e7d"/>
@@ -2966,7 +3048,6 @@
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="a9eb-a8e5-96ad-1372" primary="false" name="Grenades"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="5bc8-86d3-32e7-4a0c" primary="false" name="Imperium"/>
         <categoryLink targetId="136d-4905-129b-ff78" id="7e9f-43e0-d47f-3cd5" primary="false" name="Skyclaws"/>
-        <categoryLink targetId="ddc5-47d3-ad0b-7dfa" id="8df0-f921-7ec7-7dc7" primary="false" name="Boarding Strike Group E (Max 1)"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="ea2f-4c72-2c17-533a" targetId="3b76-4053-ece9-6e7d"/>
@@ -3206,6 +3287,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ed-cbf4-bfe5-90bf" shared="true" id="3139-6e8e-3b14-9ad7" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="dcdf-4b32-ee45-485e" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="23e1-4a2a-98c3-1607" includeChildSelections="false"/>
@@ -3228,7 +3314,6 @@
         <categoryLink targetId="75e8-57c4-40e3-1817" id="4212-5f7a-2cb2-bde7" primary="false" name="Transport"/>
         <categoryLink targetId="efac-d25e-517-1ea5" id="d02c-8010-a4e4-7f43" primary="false" name="Stormfang Gunship"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="c643-c856-8370-43f9" primary="false" name="Imperium"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="f805-3c15-bba7-4cce" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <profiles>
         <profile name="Stormfang Gunship" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d6d1-fa39-d773-468">
@@ -3382,6 +3467,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="b0ab-1f32-8181-f3d3" type="selectionEntry" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
@@ -3398,7 +3488,6 @@
         <categoryLink targetId="75e8-57c4-40e3-1817" id="5e1e-9bb7-55d7-28de" primary="false" name="Transport"/>
         <categoryLink targetId="a74f-5075-eafd-57c7" id="3916-e9bc-4001-b342" primary="false" name="Stormwolf"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="1d8e-876c-89ea-72b7" primary="false" name="Imperium"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="a45c-667d-1ebc-3cf4" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <profiles>
         <profile name="Into the Foe" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e493-6a08-ade-c36e">
@@ -3537,6 +3626,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="76bc-f464-0751-406f" type="selectionEntry" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
@@ -3556,7 +3650,6 @@
         <categoryLink targetId="439c-19bf-5342-96db" id="2e0a-c5bd-92da-8a03" primary="false" name="Pack Leader"/>
         <categoryLink targetId="38c1-7781-211c-599b" id="abcf-3d7d-a9f2-742f" primary="false" name="Wolf Guard Pack Leader"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="27eb-eeb2-621d-6be0" primary="false" name="Leader"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="3ae2-77f8-57c5-e846" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <profiles>
         <profile name="Wolf Guard Pack Leader" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3b89-96b8-7968-23b3">
@@ -3755,6 +3848,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Wolf Guard Pack Leader with Jump Pack [Legends]" hidden="false" id="a60f-7d3a-d2f8-60cd">
@@ -3772,7 +3870,6 @@
         <categoryLink targetId="439c-19bf-5342-96db" id="9f38-f478-d55-6be2" primary="false" name="Pack Leader"/>
         <categoryLink targetId="4017-5de3-cb4f-1b8b" id="74c8-eb9a-7a98-5a8d" primary="false" name="Wolf Guard Pack Leader with Jump Pack"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="9f17-7f49-1423-d8ea" primary="false" name="Leader"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="495e-29af-8802-cb1e" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <profiles>
         <profile name="Wolf Guard Pack Leader with Jump Pack" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="f764-d596-66e0-98ea">
@@ -3973,6 +4070,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4257,7 +4359,6 @@
         <categoryLink targetId="740a-892c-8958-defa" id="a4e3-24f0-73fa-3b5e" primary="false" name="Terminator"/>
         <categoryLink targetId="439c-19bf-5342-96db" id="1af6-696c-5cb1-5958" primary="false" name="Pack Leader"/>
         <categoryLink targetId="80f7-b02e-c2-1c49" id="221d-6a72-6e8a-8abc" primary="false" name="Wolf Guard Pack Leader in Terminator Armour"/>
-        <categoryLink targetId="2b97-2ad6-e0db-a41e" id="7f6a-a03d-7aaa-2dd8" primary="false" name="Terminator Assault Group A (Max 2)"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="dfae-72b1-4714-8381" includeChildSelections="false"/>
@@ -4274,6 +4375,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4298,7 +4404,6 @@
         <categoryLink targetId="b957-d9cd-ee81-560" id="d401-5cae-f87b-4f92" primary="false" name="Techmarine"/>
         <categoryLink targetId="a604-b7ef-c095-b672" id="338e-1e7b-1549-6208" primary="false" name="Iron Priest"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="bb17-a31c-8e35-28b9" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="c76b-a395-768a-7703" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <profiles>
         <profile name="Iron Priest" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="96ee-e22b-177e-ebb0">
@@ -4417,6 +4522,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Venerable Dreadnought" hidden="false" id="c125-1106-f06d-9682">
@@ -4439,8 +4549,6 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="d681-5eb2-9e2d-f58a" primary="false" name="Imperium"/>
         <categoryLink targetId="c97c-376-e2e0-1dd2" id="a6b7-4374-4d24-d76c" primary="false" name="Dreadnought"/>
         <categoryLink targetId="ffa4-20d5-9d66-2c38" id="3aed-74d8-bdd1-50e1" primary="false" name="Venerable Dreadnought"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="ebcf-4929-98c2-8be5" primary="false" name="Docked Vehicle"/>
-        <categoryLink targetId="c27f-50a5-b564-328d" id="3978-d297-c2cd-5f06" primary="false" name="Critical Threat"/>
       </categoryLinks>
       <profiles>
         <profile name="Space Wolves Venerable Dreadnought" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1db5-bc5d-84c8-f65">
@@ -4610,6 +4718,16 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="f905-e26f-76a6-7754" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c0f3-701f-cabc-aa39" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="5fc8-10f8-9d0a-f278" type="selectionEntry" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
@@ -4696,7 +4814,6 @@
         <categoryLink targetId="6e7-40c-58d9-e402" id="1030-54fc-57a6-8f39" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="7cf0-419e-a712-dd0d" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="d4c8-2304-7cd1-e6a6" primary="false" name="Leader"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="03ad-56a2-10f5-e344" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="55ed-42ec-30ca-ce1a" includeChildSelections="true"/>
@@ -4741,6 +4858,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4919,7 +5041,6 @@
         <categoryLink targetId="a0d9-c115-2a-8330" id="72ae-8431-aa8c-1b5f" primary="false" name="Faction: Space Wolves"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="68ba-b3ce-4cca-96dd" primary="false" name="Leader"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="5a55-72a7-ab86-5d36" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="4139-69f7-652a-64a5" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="65"/>
@@ -4933,6 +5054,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4969,7 +5095,6 @@
         <categoryLink name="Wulfen" hidden="false" id="19fd-a6c5-c93d-b8b3" targetId="19ab-c0ae-7b00-dc0c" primary="false"/>
         <categoryLink targetId="5e41-161b-7d74-8c8e" id="2a4b-8a03-56a5-c48c" primary="false" name="Wulfen with Storm Shields"/>
         <categoryLink targetId="b8e3-7a90-d63a-e263" id="4495-ab32-81c5-2114" primary="false" name="Wulfen"/>
-        <categoryLink targetId="19e5-c610-76c8-b374" id="a824-179a-2288-af6d" primary="false" name="Boarding Strike Group C"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="200" field="51b2-306e-1021-d207">
@@ -4980,6 +5105,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>

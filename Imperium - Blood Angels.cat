@@ -19,7 +19,6 @@
         <categoryLink targetId="6e7-40c-58d9-e402" id="7602-2152-3830-4f1d" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="b2fd-e768-9174-9e5b" primary="false" name="Faction: Blood Angels"/>
         <categoryLink targetId="da64-bc59-71f9-96e8" id="5e2c-d136-51e8-cf0c" primary="false" name="Astorath"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="d011-6ca2-5da1-08bd" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="fd12-1778-acd0-9295" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="1b63-da7b-3ba1-2409" primary="false" name="Leader"/>
         <categoryLink targetId="4f3a-f0f7-6647-348d" id="7fd9-6152-d804-83cd" primary="false" name="Epic Hero"/>
@@ -97,6 +96,11 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="95"/>
@@ -115,7 +119,6 @@
         <categoryLink targetId="6e7-40c-58d9-e402" id="75fe-49f1-f5af-bed6" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="6305-2974-3890-6ba0" id="f8b-78a6-2bdc-6c0d" primary="false" name="Baal Predator"/>
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="306d-bc56-434a-ae0a" primary="false" name="Faction: Blood Angels"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="7fc4-6d5b-1c58-5f46" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
@@ -299,6 +302,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Brother Corbulo [Legends]" hidden="false" id="8d87-ee8a-6af4-3715">
@@ -404,6 +412,11 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Captain Tycho [Legends]" hidden="false" id="ae0a-e23c-2184-7c65">
@@ -417,7 +430,6 @@
         <categoryLink targetId="6e7-40c-58d9-e402" id="ad72-1131-2a46-2ae2" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="6ab8-fadb-f274-a74d" primary="false" name="Faction: Blood Angels"/>
         <categoryLink targetId="8739-4fc4-25e3-5bac" id="ac31-23ae-6380-f4e6" primary="false" name="Tycho"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="8912-56bf-0c83-f408" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
@@ -445,6 +457,11 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
         </modifier>
       </modifiers>
       <profiles>
@@ -575,6 +592,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
@@ -634,7 +656,6 @@
         <categoryLink targetId="4254-134e-b56f-a5bd" id="46b4-861-1dac-4e38" primary="false" name="Tycho the Lost"/>
         <categoryLink targetId="6e7-40c-58d9-e402" id="3027-f9d4-1b79-275a" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="248c-290a-adfd-5577" primary="false" name="Faction: Blood Angels"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="31a5-ed13-85ea-7ab6" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="c896-0950-ea4d-e5f1" primary="false" name="Leader"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="f556-684d-1c80-7e97" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
@@ -658,7 +679,6 @@
         <categoryLink targetId="6e7-40c-58d9-e402" id="440f-cff0-1134-f3d2" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="9a7e-5e89-fe1c-afb9" primary="false" name="Faction: Blood Angels"/>
         <categoryLink targetId="369e-b2c9-4637-8cba" id="1e2c-42d8-5d7c-2a8c" primary="false" name="Chief Librarian Mephiston"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="2e09-83df-5b1a-06aa" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="2e34-76d0-107c-688b" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <constraints>
@@ -768,6 +788,11 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="27f7-9d4c-d894-cc79" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
@@ -795,7 +820,6 @@
         <categoryLink targetId="5179-8ede-45e3-49a2" id="27e3-c191-7a97-b3ca" primary="false" name="Tacticus"/>
         <categoryLink targetId="5bd8-882d-302b-48f3" id="cc1a-ed37-aa1b-1d08" primary="false" name="Chapter Master"/>
         <categoryLink targetId="742d-f2f8-2cec-67b3" id="dc1e-edb6-29a-c9ce" primary="false" name="Commander Dante"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="88dd-9a8e-bf3c-e3c2" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="3dd3-6bf7-28db-b0cd" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="242a-d903-0a62-c269" primary="false" name="Leader"/>
       </categoryLinks>
@@ -902,6 +926,11 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="75b-952d-efa4-257c" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
@@ -917,8 +946,6 @@
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="9cf3-9ed1-de9e-313c" primary="false" name="Faction: Blood Angels"/>
         <categoryLink targetId="a820-cf8-f29d-7b06" id="49f-30c0-d855-3177" primary="false" name="Dreadnought"/>
         <categoryLink targetId="7278-781b-ce6c-d23c" id="fcc9-d068-c5db-0033" primary="false" name="Death Company"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="8303-df62-c44d-e9d4" primary="false" name="Docked Vehicle"/>
-        <categoryLink targetId="c27f-50a5-b564-328d" id="bf0a-c128-8587-78ff" primary="false" name="Critical Threat"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="145"/>
@@ -984,6 +1011,16 @@
           </conditionGroups>
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="f905-e26f-76a6-7754" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c0f3-701f-cabc-aa39" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1075,7 +1112,6 @@
         <categoryLink targetId="5179-8ede-45e3-49a2" id="749f-787e-7471-8b31" primary="false" name="Tacticus"/>
         <categoryLink targetId="dda2-bb0a-215e-ad9c" id="a612-4dc6-19f1-960e" primary="false" name="Jump Pack"/>
         <categoryLink name="Death Company" hidden="false" id="0d4c-f000-e07b-c9d7" targetId="7278-781b-ce6c-d23c" primary="false"/>
-        <categoryLink targetId="ddc5-47d3-ad0b-7dfa" id="41e0-0697-1d82-1911" primary="false" name="Boarding Strike Group E (Max 1)"/>
       </categoryLinks>
       <profiles>
         <profile name="Death Company Marine with Jump Pack" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4d41-5eed-844a-2b1c">
@@ -1400,6 +1436,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" id="ac97-0b03-f144-f2a5" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="dcdf-4b32-ee45-485e" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9b2e-0e52-83e9-d072"/>
@@ -1424,8 +1465,6 @@
         <categoryLink targetId="2ee1-97ca-5a76-906a" id="64c5-754e-923a-89fd" primary="false" name="Furioso Dreadnought"/>
         <categoryLink targetId="a820-cf8-f29d-7b06" id="e53f-bb9a-53b6-937f" primary="false" name="Dreadnought"/>
         <categoryLink targetId="6df-937-16bc-8c1a" id="f960-c714-898c-4e35" primary="false" name="Smoke"/>
-        <categoryLink targetId="c27f-50a5-b564-328d" id="66c2-7fa7-93dc-a696" primary="false" name="Critical Threat"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="b707-7739-d430-db06" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <profiles>
         <profile name="Furioso Dreadnought" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="6c74-5982-d8ce-bcd0">
@@ -1648,6 +1687,16 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="f905-e26f-76a6-7754" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c0f3-701f-cabc-aa39" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="79e8-0386-2930-ca7e"/>
@@ -1723,7 +1772,6 @@
         <categoryLink targetId="9276-a8c8-908a-463d" id="e376-28a1-565f-990d" primary="false" name="Gabriel Seth"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="38e7-ce95-c795-e733" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="7625-b536-ed01-c05e" primary="false" name="Leader"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="ae0c-b706-ae9e-f0dd" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="3b9e-5118-488f-c7d1" targetId="3b76-4053-ece9-6e7d"/>
@@ -1824,6 +1872,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Lemartes" hidden="false" id="cbc2-18c9-45b6-6327">
@@ -1848,7 +1901,6 @@
         <categoryLink targetId="dda2-bb0a-215e-ad9c" id="26c6-9ca3-e011-47b" primary="false" name="Jump Pack"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="60f7-8556-fe3f-d2b1" primary="false" name="Leader"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="8080-b4ac-3a39-c257" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="1bd5-54d5-730f-61dc" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="3553-2c25-6f68-f80d" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
@@ -1953,6 +2005,11 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Librarian Dreadnought [Legends]" hidden="false" id="b6e0-b465-801c-24c8">
@@ -1969,8 +2026,6 @@
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="de92-96dd-4cfe-4ea6" primary="false" name="Faction: Blood Angels"/>
         <categoryLink targetId="6df-937-16bc-8c1a" id="ccd3-ac9f-5e9-4a3d" primary="false" name="Smoke"/>
         <categoryLink targetId="a820-cf8-f29d-7b06" id="1432-2782-ad11-4c3c" primary="false" name="Dreadnought"/>
-        <categoryLink targetId="c27f-50a5-b564-328d" id="6ed0-93f9-368f-f515" primary="false" name="Critical Threat"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="eee9-5884-9196-1463" primary="false" name="Docked Vehicle"/>
       </categoryLinks>
       <profiles>
         <profile name="Librarian Dreadnought" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a67b-5be1-718e-6fc3">
@@ -2134,6 +2189,16 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set-primary" value="f905-e26f-76a6-7754" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c0f3-701f-cabc-aa39" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="bcd7-6a55-e26a-24e7" type="selectionEntry" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
@@ -2158,7 +2223,6 @@
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="3800-e0c6-41c9-55b6" primary="false" name="Faction: Blood Angels"/>
         <categoryLink targetId="d30a-a7c5-389a-e78" id="2dc9-9fcf-347d-8f15" primary="false" name="Sanguinary Guard"/>
         <categoryLink targetId="dda2-bb0a-215e-ad9c" id="f28d-9816-dbcc-1b5b" primary="false" name="Jump Pack"/>
-        <categoryLink targetId="ddc5-47d3-ad0b-7dfa" id="c06d-add5-d30d-72be" primary="false" name="Boarding Strike Group E (Max 1)"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e74-7290-177d-cfc1"/>
@@ -2301,6 +2365,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="dcdf-4b32-ee45-485e" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Sanguinary Banner" hidden="false" id="8352-c4fb-89d7-30d6" sortIndex="2">
@@ -2347,7 +2416,6 @@
         <categoryLink targetId="5179-8ede-45e3-49a2" id="a5ab-e25c-7c42-0f41" primary="false" name="Tacticus"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="6916-dacd-7810-0029" primary="false" name="Leader"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="efab-da58-88d4-58c7" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="fe2c-3a41-50ec-5592" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <profiles>
         <profile name="Sanguinary Priest" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4aba-1b11-e595-e9c9">
@@ -2428,6 +2496,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="The Sanguinor" hidden="false" id="29f1-bb28-6424-6d14">
@@ -2478,7 +2551,6 @@
         <categoryLink targetId="6e7-40c-58d9-e402" id="eac6-850b-d2b2-eb5e" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="e25b-8fb1-48d9-8415" primary="false" name="Faction: Blood Angels"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="5fad-a111-39c7-0254" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="d9ce-4f54-9152-8860" primary="false" name="Boarding Strike Group A (Max 2)"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Encarmine Broadsword" hidden="false" id="b37d-bd5a-db3e-28e7">
@@ -2515,6 +2587,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="c335-71bb-55b2-31a1" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
@@ -2533,7 +2610,6 @@
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="d275-78c5-9120-8ff9" primary="false" name="Faction: Blood Angels"/>
         <categoryLink targetId="dda2-bb0a-215e-ad9c" id="515f-8220-632f-2dc6" primary="false" name="Jump Pack"/>
         <categoryLink name="Sanguinary Priest" hidden="false" id="62eb-17ef-0bb2-1d6c" targetId="561f-8606-9555-b3ba" primary="false"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="b18a-3fc9-339d-325c" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="066f-5de1-6768-27ad" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="bcad-c02c-b757-9c59" primary="false" name="Leader"/>
       </categoryLinks>
@@ -2590,6 +2666,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2775,6 +2856,11 @@
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Death Company Captain" hidden="false" id="4743-6dc9-fda7-0a8c">
@@ -2868,7 +2954,6 @@
         <categoryLink name="Faction: Blood Angels" hidden="false" id="7682-b9ec-a5a1-93c7" targetId="62ac-ef42-27b4-ae7" primary="false"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="4f5e-602e-885d-09ed" primary="false" name="Tacticus"/>
         <categoryLink targetId="7278-781b-ce6c-d23c" id="2504-5575-1540-a7bf" primary="false" name="Death Company"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="8fe6-5a66-7383-1a16" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="ab0b-5ae9-1fa4-f409" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <constraints>
@@ -2892,6 +2977,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3000,7 +3090,6 @@
         <categoryLink targetId="5179-8ede-45e3-49a2" id="e184-d760-e70e-4a2e" primary="false" name="Tacticus"/>
         <categoryLink targetId="7278-781b-ce6c-d23c" id="1954-e02e-774e-2eab" primary="false" name="Death Company"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="e40b-332c-e62c-02a6" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="bda3-fd42-d6f6-860e" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="9d59-beeb-0773-bdee" primary="false" name="Leader"/>
       </categoryLinks>
       <entryLinks>
@@ -3011,6 +3100,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3476,7 +3570,6 @@
         <categoryLink targetId="caed-a62d-2318-dda1" id="56c3-9e1d-6904-04bb" primary="false" name="Death Company Marines"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="c38e-ba92-47a2-8ef8" primary="false" name="Tacticus"/>
         <categoryLink name="Death Company" hidden="false" id="25f2-fecf-dadb-aaa9" targetId="7278-781b-ce6c-d23c" primary="false"/>
-        <categoryLink targetId="19e5-c610-76c8-b374" id="fb73-da86-70b7-760d" primary="false" name="Boarding Strike Group C"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="85"/>
@@ -3500,6 +3593,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" id="3905-49a8-cdec-685b" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3676,8 +3774,6 @@
         <categoryLink targetId="6e7-40c-58d9-e402" id="0e9e-09b4-00bc-1d5c" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="9eea-113b-36de-393a" primary="false" name="Faction: Blood Angels"/>
         <categoryLink targetId="7278-781b-ce6c-d23c" id="617a-2324-ed57-6d21" primary="false" name="Death Company"/>
-        <categoryLink targetId="e499-fc04-fb6b-b4f2" id="c2b0-ccc4-2e8d-67ba" primary="false" name="Docked Vehicle"/>
-        <categoryLink targetId="c27f-50a5-b564-328d" id="cba2-3b4f-9866-0489" primary="false" name="Critical Threat"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="160"/>
@@ -3700,6 +3796,16 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="f905-e26f-76a6-7754" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c0f3-701f-cabc-aa39" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
+          </conditions>
         </modifier>
       </modifiers>
     </selectionEntry>

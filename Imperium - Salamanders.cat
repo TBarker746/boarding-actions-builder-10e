@@ -28,7 +28,6 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="4919-ae01-fd5-1fae" primary="false" name="Imperium"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="ee69-f2f4-6841-4eff" primary="false" name="Tacticus"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="2620-3ca2-b51c-bf24" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="447a-bc57-1c40-fe01" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="3287-85c2-453f-cfac" primary="false" name="Leader"/>
       </categoryLinks>
       <profiles>
@@ -122,6 +121,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -234,7 +238,6 @@
         <categoryLink targetId="6e7-40c-58d9-e402" id="1cb3-b8ed-c64e-bb98" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="65e4-13-4fa8-b36c" id="7eb1-2884-2ae1-1ae2" primary="false" name="Faction: Salamanders"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="457a-1162-5fb5-8856" primary="false" name="Tacticus"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="d973-6bbf-2d7a-f93f" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="4734-6f66-3de4-650f" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <constraints>
@@ -244,6 +247,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>

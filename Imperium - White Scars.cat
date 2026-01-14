@@ -25,7 +25,6 @@
         <categoryLink targetId="ecaf-d9ca-6ab0-8dcb" id="55f6-c289-506d-455f" primary="false" name="Kor&apos;sarro Khan"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="2ef1-b613-5bc9-c6ab" primary="false" name="Tacticus"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="2bfc-f411-09a7-481e" primary="false" name="Warlord Eligible Character"/>
-        <categoryLink targetId="725a-044f-c023-0023" id="7c48-1eb9-6ffc-c466" primary="false" name="Boarding Strike Group A (Max 2)"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="5a72-0333-aa21-b299" primary="false" name="Leader"/>
       </categoryLinks>
       <infoLinks>
@@ -118,6 +117,11 @@
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
