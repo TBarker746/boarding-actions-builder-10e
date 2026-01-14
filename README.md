@@ -23,7 +23,7 @@ Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot](
 
 __I found a bug!__ / *I have another request*
 
-Great, thank you! Please [Report a bug][bug report] - you can also suggest enhancements and raise other issues there. (If your report is related to the data itself, please check out the [notes page](https://github.com/TBarker746/boarding-actions-BSdata-draft/blob/main/BUGNOTES.MD) first.)
+Great, thank you! Please [Report a bug][bug report] - you can also suggest enhancements and raise other issues there. (If your report is related to the data itself, please check out the [notes page](https://github.com/TBarker746/boarding-actions-BSdata-draft/blob/main/BUGNOTES.md) first.)
 
 ## Links ##
 
@@ -34,6 +34,7 @@ Great, thank you! Please [Report a bug][bug report] - you can also suggest enhan
 
 [BSData.net]: https://www.bsdata.net/
 [bug report]: https://github.com/TBarker746/boarding-actions-BSdata-draft/issues/new/choose
+
 
 
 
