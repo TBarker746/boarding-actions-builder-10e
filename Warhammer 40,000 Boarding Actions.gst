@@ -210,6 +210,19 @@
         <constraint type="max" value="-1" field="selections" scope="roster" shared="true" id="8cf6-e19a-6a37-008c" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <modifiers>
+        <modifier type="set" value="1" field="8cf6-e19a-6a37-008c">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="48bd-eeae-171d-a10a" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
         <modifier type="set" value="2" field="8cf6-e19a-6a37-008c">
           <conditionGroups>
             <conditionGroup type="or">
@@ -239,6 +252,11 @@
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="6dd9-f6e6-4064-6579" shared="true"/>
                   </conditions>
                 </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="a7c2-4c17-411f-8330" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
               </localConditionGroups>
             </conditionGroup>
           </conditionGroups>
@@ -250,6 +268,26 @@
         <constraint type="max" value="-1" field="selections" scope="roster" shared="true" id="fb3c-0772-087d-2b6b" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <modifiers>
+        <modifier type="set" value="0" field="fb3c-0772-087d-2b6b">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <localConditionGroups>
+                    <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="927d-4fa6-2a6c-c5ff" shared="true"/>
+                      </conditions>
+                    </localConditionGroup>
+                  </localConditionGroups>
+                  <conditions>
+                    <condition type="greaterThan" value="1" field="selections" scope="roster" childId="1b86-1c85-1ee6-5f91" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
         <modifier type="set" value="1" field="fb3c-0772-087d-2b6b">
           <conditionGroups>
             <conditionGroup type="or">
@@ -269,26 +307,6 @@
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="0" field="fb3c-0772-087d-2b6b">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <localConditionGroups>
-                    <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
-                      <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="927d-4fa6-2a6c-c5ff" shared="true"/>
-                      </conditions>
-                    </localConditionGroup>
-                  </localConditionGroups>
-                  <conditions>
-                    <condition type="greaterThan" value="1" field="selections" scope="roster" childId="1b86-1c85-1ee6-5f91" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
                 </conditionGroup>
               </conditionGroups>
             </conditionGroup>
@@ -326,6 +344,27 @@
         <constraint type="max" value="-1" field="selections" scope="roster" shared="true" id="9a29-4051-2b57-c71b" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <modifiers>
+        <modifier type="set" value="0" field="9a29-4051-2b57-c71b">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <localConditionGroups>
+                    <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="6dd9-f6e6-4064-6579" shared="true"/>
+                      </conditions>
+                    </localConditionGroup>
+                  </localConditionGroups>
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="480b-c278-cfb2-3048" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="2f83-6f12-c6a5-69b1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
         <modifier type="set" value="1" field="9a29-4051-2b57-c71b">
           <conditionGroups>
             <conditionGroup type="or">
@@ -363,27 +402,6 @@
                       </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="0" field="9a29-4051-2b57-c71b">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <localConditionGroups>
-                    <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
-                      <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="6dd9-f6e6-4064-6579" shared="true"/>
-                      </conditions>
-                    </localConditionGroup>
-                  </localConditionGroups>
-                  <conditions>
-                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="480b-c278-cfb2-3048" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="2f83-6f12-c6a5-69b1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
                 </conditionGroup>
               </conditionGroups>
             </conditionGroup>
