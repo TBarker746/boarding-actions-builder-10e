@@ -13599,7 +13599,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Techmarine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40d5-dc4a-5c0a-fe2e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more friendly **^^Adeptus Astartes Vehicle^^** units, this model has the **^^Lone Operative^^** ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more friendly **^^Adeptus Astartes Vehicle^^** units, this model has the Lone Operative ability.</characteristic>
           </characteristics>
         </profile>
         <profile name="Blessing of the Omnissiah" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b4c1-7511-e999-2538">
@@ -14256,7 +14256,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Unbreakable Duty" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="29e1-1525-b058-e9ad">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within range of an objective marker and/or within 6&quot; of the centre of the battlefield, this model has the **^^Feel No Pain 4+^^** ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within range of an objective marker and/or within 6&quot; of the centre of the battlefield, this model has the Feel No Pain 4+ ability.</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d9f5-17f1-fc0c-cb61">
@@ -16963,7 +16963,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Unbreakable Duty" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9cee-b567-8106-880a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within range of an objective marker and/or within 6&quot; of the centre of the battlefield, this model has the **^^Feel No Pain 4+^^** ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within range of an objective marker and/or within 6&quot; of the centre of the battlefield, this model has the Feel No Pain 4+ ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19179,7 +19179,7 @@ bearer can be moved during that move</characteristic>
     </profile>
     <profile name="Psychic Hood" hidden="false" id="116b-b23c-4ea4-30ed" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly unit is affected by a Battlefield Command Stratagem used by this model, models in that unit have the **^^Feel No Pain 4+^^** ability against Psychic Attacks.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly unit is affected by a Battlefield Command Stratagem used by this model, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks.</characteristic>
       </characteristics>
     </profile>
     <profile name="Tactical Precision" hidden="false" id="b07f-3052-e85f-d6d3" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">

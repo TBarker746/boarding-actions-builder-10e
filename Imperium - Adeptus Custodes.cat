@@ -523,7 +523,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="616a-5f61-3ab2-f3fc" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
-        <infoLink id="494b-8b14-611b-6790" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="494b-8b14-611b-6790" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="cb53-fc36-2f3b-4714" name="Invulnerable Save" hidden="false" targetId="0300-84b9-69cf-b64f" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -871,7 +871,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="5418-137a-02c6-30c5" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
-        <infoLink id="883c-970f-6a04-536a" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="883c-970f-6a04-536a" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="eef8-e381-464c-78ef" name="Invulnerable Save" hidden="false" targetId="4042-b2c1-d581-dbe7" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -1007,7 +1007,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="7b07-a545-c54e-3b07" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
-        <infoLink id="7e24-d751-7717-6adb" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="7e24-d751-7717-6adb" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="32b4-2fdf-4cb7-0920" name="Invulnerable Save" hidden="false" targetId="0300-84b9-69cf-b64f" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -1288,7 +1288,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="9cee-efed-3e79-3469" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
-        <infoLink id="c3b2-e38d-3d68-248a" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="c3b2-e38d-3d68-248a" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="d20c-53ed-92b7-2b1d" name="Feel No Pain" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule"/>
         <infoLink id="37a5-e4a1-353c-f02a" name="Invulnerable Save" hidden="false" targetId="0300-84b9-69cf-b64f" type="profile"/>
       </infoLinks>
@@ -1988,7 +1988,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="1465-a79f-d4fa-db80" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
-        <infoLink id="8785-0a8f-50b7-9504" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="8785-0a8f-50b7-9504" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="4fa2-c874-889e-4652" name="Invulnerable Save" hidden="false" targetId="4042-b2c1-d581-dbe7" type="profile"/>
         <infoLink name="Strategic Mastery" id="cf5-1c29-df8a-41b3" hidden="false" type="profile" targetId="5a38-d608-89c4-6377"/>
       </infoLinks>
@@ -2296,7 +2296,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="b975-b02d-f9e8-1713" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
-        <infoLink id="f739-e713-bea7-025d" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="f739-e713-bea7-025d" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="6c41-fdfd-6f76-b9e4" name="Invulnerable Save" hidden="false" targetId="4042-b2c1-d581-dbe7" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -2499,7 +2499,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="285f-d874-f6fb-6d64" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="285f-d874-f6fb-6d64" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="0b89-378c-65fc-2fbf" name="Invulnerable Save" hidden="false" targetId="4042-b2c1-d581-dbe7" type="profile"/>
         <infoLink id="7c0a-3b80-2782-c172" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
         <infoLink id="60f7-f7b1-bc48-4666" name="Feel No Pain" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule">
@@ -2629,7 +2629,7 @@
             <modifier type="append" value="6+" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink id="a514-3fb7-d264-3a82" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="a514-3fb7-d264-3a82" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="e31f-1da6-122f-16b4" name="Invulnerable Save" hidden="false" targetId="4042-b2c1-d581-dbe7" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -2736,7 +2736,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3fb3-ae1d-e614-2cd3" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="3fb3-ae1d-e614-2cd3" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="afb0-1bd0-5f2b-4514" name="Invulnerable Save" hidden="false" targetId="e3cf-4870-44cf-74da" type="profile"/>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="2900-6f2a-26b3-5972" targetId="b68a-5ded-65ac-98c">
           <modifiers>
@@ -2928,7 +2928,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="08dc-2f40-b618-1cd9" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="08dc-2f40-b618-1cd9" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="b037-45da-d349-af6" targetId="b68a-5ded-65ac-98c">
           <modifiers>
             <modifier type="append" value="D6" field="name"/>
@@ -3464,7 +3464,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b646-c0b6-66a2-c7c5" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="b646-c0b6-66a2-c7c5" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="d22a-02f4-9056-89e3" name="Invulnerable Save" hidden="false" targetId="4042-b2c1-d581-dbe7" type="profile"/>
         <infoLink id="9379-1814-cee2-2de1" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
@@ -3589,7 +3589,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="1338-3844-44a1-f469" name="Invulnerable Save" hidden="false" targetId="e3cf-4870-44cf-74da" type="profile"/>
-        <infoLink id="acb3-47c4-2db8-5607" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="acb3-47c4-2db8-5607" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="2caf-ef27-a97d-5646" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" value="1" field="name"/>
@@ -3807,7 +3807,6 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a788-2c49-8cb5-5b58" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
-        <categoryLink id="339e-3392-32ef-2ba6" name="Fly" hidden="false" targetId="c619-2086-bbcf-69c9" primary="false"/>
         <categoryLink id="72d7-f11e-c565-eff3" name="Pallas Grav-attack" hidden="false" targetId="822a-a9aa-c05f-52b3" primary="false"/>
         <categoryLink id="2398-f91f-2e75-eba8" name="Faction: Adeptus Custodes" hidden="false" targetId="eea5-aeaf-bbf0-d5ee" primary="false"/>
         <categoryLink name="Imperium" hidden="false" id="182a-f324-9efb-4b6d" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
@@ -3915,7 +3914,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="9b50-2c3f-47b0-ad6c" name="Invulnerable Save" hidden="false" targetId="e3cf-4870-44cf-74da" type="profile"/>
-        <infoLink id="afaf-6f6f-5626-dc1f" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="afaf-6f6f-5626-dc1f" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="f6fc-4db5-18b6-ef46" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" value="D3" field="name"/>
@@ -4102,7 +4101,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="fdba-a511-f233-4312" name="Invulnerable Save" hidden="false" targetId="4042-b2c1-d581-dbe7" type="profile"/>
-        <infoLink id="4701-dfd7-41a2-fa22" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="4701-dfd7-41a2-fa22" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="169d-f53c-6ace-d764" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" value="D3" field="name"/>
@@ -4375,7 +4374,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="3114-e2d9-7137-bebe" name="Invulnerable Save" hidden="false" targetId="e3cf-4870-44cf-74da" type="profile"/>
-        <infoLink id="074d-7652-084a-bcf7" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="074d-7652-084a-bcf7" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="30bd-917b-b4cb-790c" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" value="D6" field="name"/>
@@ -4519,7 +4518,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="ca6d-66f0-345a-52eb" name="Invulnerable Save" hidden="false" targetId="e3cf-4870-44cf-74da" type="profile"/>
-        <infoLink id="1179-f287-0409-be6f" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="1179-f287-0409-be6f" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="feb9-98d5-9281-ee2a" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" value="D6" field="name"/>
@@ -4678,7 +4677,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="10cc-c9b4-d3c6-b265" name="Invulnerable Save" hidden="false" targetId="e3cf-4870-44cf-74da" type="profile"/>
-        <infoLink id="759d-dcb9-ffc4-b854" name="Martial Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
+        <infoLink id="759d-dcb9-ffc4-b854" name="Focused Ka&apos;tah" hidden="false" targetId="e348-7090-3aff-ee2c" type="rule"/>
         <infoLink id="8c31-5865-edc9-ea0a" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" value="D6" field="name"/>
@@ -4825,14 +4824,14 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6886-c34e-583a-55f8"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Black Ship Guardians" hidden="false" id="927d-4fa6-2a6c-c5ff" sortIndex="">
+            <selectionEntry type="upgrade" import="true" name="Black Ship Guardians" hidden="false" id="927d-4fa6-2a6c-c5ff">
               <rules>
                 <rule name="Priority Quarry" id="0dfe-863d-3d0c-cb4c" hidden="false">
                   <description>At the start of the first battle round, you can select up to two enemy units to be your army&apos;s quarry, one of which must be your opponent&apos;s **^^Warlord^^**. Each time an **^^Anathema Psykana^^** unit from your army makes an attack that targets one of your army&apos;s quarries, re-roll a Hit roll of 1. Each time an **^^Anathema Psykana^^** unit from your army declares a charge, it can include one or more of your army&apos;s quarries as targets of that charge, even if they are not visible to it.</description>
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Voyagers in Darkness" hidden="false" id="6dd9-f6e6-4064-6579" sortIndex="">
+            <selectionEntry type="upgrade" import="true" name="Voyagers in Darkness" hidden="false" id="6dd9-f6e6-4064-6579">
               <rules>
                 <rule name="Overwhelming Magnificence" id="395f-b6bf-4774-b8d9" hidden="false">
                   <description>While an enemy unit is within Engagement Range of one or more **^^ Adeptus Custodes^^** units from your army, subtract 1 from the Objective Control characteristic of models in that enemy unit.</description>
@@ -4922,6 +4921,10 @@
       <entryLinks>
         <entryLink import="true" name="Show Mission-Specific Content" hidden="false" id="9ba8-668b-923b-da01" type="selectionEntryGroup" targetId="a701-4b0b-e448-5452"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ea4d-b744-910f-de9f" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="cfdd-5d72-fc45-b1e8" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -5333,7 +5336,7 @@ Melee weapons equipped by models in this unit have the **[LETHAL HITS]** ability
   <sharedProfiles>
     <profile id="b95d-04e9-97fd-4125" name="Daughter of the Abyss" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has the **^^Feel No Pain 3+^^** ability against Psychic Attacks and mortal wounds.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds.</characteristic>
       </characteristics>
     </profile>
     <profile id="e3cf-4870-44cf-74da" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">

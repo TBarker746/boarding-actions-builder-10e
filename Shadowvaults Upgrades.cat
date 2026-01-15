@@ -134,7 +134,7 @@
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f8a5-ecf2-c51d-a034" includeChildSelections="true"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Wargear" id="8b98-fa8d-21c5-5a1b" hidden="false" sortIndex="1">
+        <selectionEntryGroup name="Wargear" id="8b98-fa8d-21c5-5a1b" hidden="false" sortIndex="2">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Bomb Kit" hidden="false" id="4de5-b771-631d-8880">
               <profiles>
