@@ -76,6 +76,39 @@
         <categoryLink targetId="4ac9-fd30-1e3d-b249" id="1eb1-5835-aeca-d00a" primary="true" name="Configuration"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Breaching Robot" hidden="false" id="7b4b-74d1-8136-b735" type="selectionEntry" targetId="a150-093b-e167-3968">
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="909d-695c-2a71-9a35" type="selectionEntry" targetId="ceab-62d9-31bf-7c61" sortIndex="1"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="e85c-9d14-59a8-ab7e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Searchlight" hidden="false" id="c247-15f2-fb9e-9e9c" type="selectionEntry" targetId="2a9c-3505-6df7-7e9b">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2d67-32a1-f7ae-93fa" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Sentry Gun" hidden="false" id="ac07-da89-4e58-64ec" type="selectionEntry" targetId="1d0d-7cfb-fa12-26c1">
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="d2c2-0251-5c08-9694" type="selectionEntry" targetId="ceab-62d9-31bf-7c61" sortIndex="1"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2d67-32a1-f7ae-93fa" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="13f7-1a3-eff-7393" name="The Swarmlord" hidden="false" collective="false" import="true" type="model">
@@ -3982,6 +4015,7 @@
                   <conditions>
                     <condition type="lessThan" value="1" field="selections" scope="model" childId="92fb-3bac-2c33-7f76" shared="true" includeChildSelections="true"/>
                     <condition type="notInstanceOf" value="1" field="selections" scope="upgrade" childId="eeda-8544-a2f3-3fab" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="upgrade" childId="064a-0470-60eb-e3ef" shared="true" includeChildSelections="true"/>
                   </conditions>
                   <conditionGroups>
                     <conditionGroup type="and">
@@ -4004,4 +4038,7 @@
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Shadowvaults Upgrades" id="41c3-ee50-8855-dab7" targetId="581a-46b9-5b86-44b7"/>
+  </catalogueLinks>
 </catalogue>

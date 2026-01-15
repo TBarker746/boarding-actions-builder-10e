@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="581a-46b9-5b86-44b7" name="Shadowvaults Upgrades" revision="19" battleScribeVersion="2.03" authorName="PurpleSerpent" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="2" type="catalogue">
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Searchlight" hidden="false" id="2a9c-3505-6df7-7e9b">
+      <categoryLinks>
+        <categoryLink targetId="b5ba-f38f-7d3d-7ecf" id="5cee-b636-46ea-6997" primary="true" name="Shadowvaults Upgrades"/>
+        <categoryLink targetId="16a5-7be0-f004-014f" id="ded4-f07a-67b8-4c00" primary="false" name="Searchlight"/>
+        <categoryLink targetId="e1ff-c0fa-2ca7-3466" id="6f64-a4f3-d5a3-4cb3" primary="false" name="Faction: Unaligned Forces"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+      </costs>
+      <profiles>
+        <profile name="Searchlight" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e9ad-82ef-35cf-a5ff">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">-</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">-</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">-</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">-</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Camera Network" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c590-4079-d630-8bd2">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Create the Battlefield and Place Objective Markers step, set this terrain feature up in one of the Searchlight positions (marked D2 on the mission map) that does not already contain a Searchlight.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Wall" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cbae-157f-d549-ee32">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model is a terrain feature and counts as a Wall.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Enemy Spotted" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7c4e-92c2-2bdb-0538">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model from your army makes a ranged attack that targets an enemy unit that is within 9&quot; of and visible to any Searchlights from your army, re-roll a Hit roll of 1 and, of the model making that attack is a **^^Sentry Gun^^**, add 1 to the Wound roll as well.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="b547-b2f1-1fae-9e3c" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Sentry Gun" hidden="false" id="1d0d-7cfb-fa12-26c1">
+      <categoryLinks>
+        <categoryLink name="Faction: Unaligned Forces" hidden="false" id="50dd-7a5e-67d2-0d7a" targetId="e1ff-c0fa-2ca7-3466" primary="false"/>
+        <categoryLink targetId="dbd4-63-af05-998" id="7282-7885-f6a1-a87d" primary="false" name="Vehicle"/>
+        <categoryLink targetId="5212-23b7-32c6-2156" id="691b-1332-6978-32af" primary="false" name="Sentry Gun"/>
+        <categoryLink targetId="b5ba-f38f-7d3d-7ecf" id="a182-53b2-210d-21b2" primary="true" name="Shadowvaults Upgrades"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+      </costs>
+      <profiles>
+        <profile name="Sentry Gun" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="97ef-09f1-d7f6-4a3c">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Defensive Emplacement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2877-0aea-4416-91a3">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Create the Battlefield and Place Objective Markers step, set this model up in one of the Sentry Gun positions (marked D1 on the mission map).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6d0a-6b94-a4e2-3148" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Twin Heavy Bolter" hidden="false" id="82a5-2f9b-4492-3c24">
+          <infoLinks>
+            <infoLink name="Twin-linked" id="21f3-5ed6-e0b0-6d73" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
+            <infoLink name="Sustained Hits" id="95b2-b089-050b-67ba" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+            <infoLink name="Heavy" id="831c-9ecb-daef-74b3" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6bf9-9fbc-b7bd-a1b8"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cd0b-a921-e01c-8a71"/>
+          </constraints>
+          <profiles>
+            <profile name="Twin heavy bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="aecd-8b17-6333-f8fc">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Sustained Hits 1, Twin-linked</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Breaching Robot" hidden="false" id="a150-093b-e167-3968">
+      <categoryLinks>
+        <categoryLink name="Faction: Unaligned Forces" hidden="false" id="05d7-73c6-e85b-0c8d" targetId="e1ff-c0fa-2ca7-3466" primary="false"/>
+        <categoryLink targetId="dbd4-63-af05-998" id="1f3f-710f-9ee2-6663" primary="false" name="Vehicle"/>
+        <categoryLink targetId="b5ba-f38f-7d3d-7ecf" id="25ce-b1e0-e45b-a317" primary="true" name="Shadowvaults Upgrades"/>
+        <categoryLink targetId="b5bf-8f83-db78-7904" id="9f14-9ce4-905f-39d0" primary="false" name="Breaching Robot"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
+      </costs>
+      <profiles>
+        <profile name="Breaching Robot" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8d3b-1a48-daca-c23f">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Assault Robot" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b324-3b5e-2c5c-7ef3">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Deploy Armies step, when setting up a unit from your army within an Entry Zone, you can set this model up alongside that unit as if it was part of it, using the same Entry Zone.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Limited Loadout" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b07c-305e-a36f-2a67">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model cannot attempt to operate Hatchways and cannot perform Tactical Manoeuvres.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f8a5-ecf2-c51d-a034" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Wargear" id="8b98-fa8d-21c5-5a1b" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bomb Kit" hidden="false" id="4de5-b771-631d-8880">
+              <profiles>
+                <profile name="Bomb Kit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bf8e-1e7d-ae73-a800">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When the bearer is destroyed (other than through triggering its bomb, as described below), roll one D6 before removing it from play: on a 6 it explodes, and each other unit within 3&quot; of and visible to the bearer suffers 1 mortal wound.
+
+In your Command phase, the bearer can trigger its bomb. If it does: 
+
+
+* Open each Hatchway that is within 3&quot; of the bearer. Your opponent cannot attempt to prevent those Hatchways from opening, and those Hatchways cannot be closed again.
+* Roll one D6 for each other unit within 3&quot; of and visible to the bearer: on a 2+, that unit suffers 1 mortal wound. The bearer is then destroyed.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cutting Blade and Cutting Gear" hidden="false" id="d267-3b29-61ab-32e8">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Cutting blade" hidden="false" id="a157-af9a-e10d-de42">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="216a-bd1a-87b3-1c10"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="736a-b40c-2863-4a0d"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Cutting blade" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="4aef-86f0-ee91-cc5d">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink name="Melee Weapon" hidden="false" id="8cb8-edf3-b978-19f2" targetId="ccdd-3987-11ed-90cd" primary="false"/>
+                    <categoryLink name="Damage Dx Weapon" hidden="false" id="1a11-58c7-6cc5-8fda" targetId="4986-bf86-beb4-13ac" primary="false"/>
+                  </categoryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <profiles>
+                <profile name="Cutting Gear" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9a39-0cf6-a1fa-1342">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the bearer ends a Normal move, you can open one Hatchway that is within 1&quot; of it. Your opponent cannot attempt to prevent that Hatchway from opening.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6436-3b74-25e4-9a24"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="37c3-c3a9-2a3a-08a5"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Faction: Unaligned Forces" hidden="false" id="e1ff-c0fa-2ca7-3466"/>
+    <categoryEntry name="Searchlight" hidden="false" id="16a5-7be0-f004-014f"/>
+    <categoryEntry name="Sentry Gun" hidden="false" id="5212-23b7-32c6-2156"/>
+    <categoryEntry name="Breaching Robot" hidden="false" id="b5bf-8f83-db78-7904"/>
+  </categoryEntries>
+</catalogue>

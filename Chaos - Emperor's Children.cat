@@ -30,7 +30,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Leader" id="acec-5022-9d1a-5482" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
         <infoLink name="Musk of Torpidity" id="150d-adc2-ec07-6732" hidden="false" type="rule" targetId="1674-23e6-eacf-9624"/>
         <infoLink name="Feel No Pain" id="01a8-58fe-9d82-ae3c" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
           <modifiers>
@@ -2449,6 +2448,39 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Breaching Robot" hidden="false" id="21cc-2e5d-b939-015c" type="selectionEntry" targetId="a150-093b-e167-3968">
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="5adf-2fa7-3b0d-a2a9" type="selectionEntry" targetId="c7a7-3164-12bc-3462" sortIndex="1"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="1bec-5a76-adc7-dd50" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Searchlight" hidden="false" id="e81c-c411-3685-d6a3" type="selectionEntry" targetId="2a9c-3505-6df7-7e9b">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="7769-82fc-a6b6-7b46" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Sentry Gun" hidden="false" id="e8f3-c58b-5e33-5103" type="selectionEntry" targetId="1d0d-7cfb-fa12-26c1">
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="a374-1a14-c4b6-5ced" type="selectionEntry" targetId="c7a7-3164-12bc-3462" sortIndex="1"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="7769-82fc-a6b6-7b46" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <sharedInfoGroups>
     <infoGroup name="Plasma pistol" id="0cbe-31f4-e833-9ef4" hidden="false"/>
@@ -2794,6 +2826,7 @@
                   <conditions>
                     <condition type="lessThan" value="1" field="selections" scope="model" childId="80a5-31dc-044a-df10" shared="true" includeChildSelections="true"/>
                     <condition type="notInstanceOf" value="1" field="selections" scope="upgrade" childId="eeda-8544-a2f3-3fab" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="upgrade" childId="064a-0470-60eb-e3ef" shared="true" includeChildSelections="true"/>
                   </conditions>
                   <conditionGroups>
                     <conditionGroup type="and">
@@ -2823,5 +2856,6 @@
   </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Chaos - Chaos Knights Library" id="45e4-cd66-1822-1b60" targetId="8106-aad2-918a-9ac"/>
+    <catalogueLink type="catalogue" name="Shadowvaults Upgrades" id="7617-6d25-b4f6-e20f" targetId="581a-46b9-5b86-44b7"/>
   </catalogueLinks>
 </catalogue>

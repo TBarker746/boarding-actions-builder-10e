@@ -28,7 +28,6 @@
   <sharedSelectionEntries>
     <selectionEntry id="8df0-fc3c-8ced-ffce" name="War Dog Executioner" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b0aa-5b7a-4a18-1c9f" type="max"/>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="aa78-eab0-fd2d-f76d" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="a736-5622-8bf1-4e90" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="231e-0b4d-d8f2-ae92" includeChildSelections="true"/>
@@ -36,7 +35,7 @@
       <profiles>
         <profile id="b861-c239-8fa2-afa5" name="War Dog Executioner" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
@@ -69,6 +68,7 @@
         <categoryLink id="223f-f780-9db0-d39a" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="0a45-b4a0-05b4-8755" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
         <categoryLink id="8c55-b07e-303f-eee8" name="Executioner" hidden="false" targetId="370b-1eb7-eac6-491c" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="b2fb-36ac-74ea-45ef" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="2d04-234d-6303-6fa1" hidden="false" sortIndex="1">
@@ -258,7 +258,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="0537-4690-feb4-f55f" name="Blast" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
-        <infoLink id="ba04-e0e7-7709-75b7" name="Indirect Fire" hidden="false" targetId="4ddd-4e29-acdd-5e6d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -327,7 +326,6 @@
     </selectionEntry>
     <selectionEntry id="bbc6-c0ed-24e8-86b7" name="War Dog Stalker" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ba8-ba3f-1a25-cb99" type="max"/>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="4c18-504d-51e7-64c9" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="8dc0-c0c8-386d-b431" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="d47d-4004-9107-8376" includeChildSelections="true"/>
@@ -335,7 +333,7 @@
       <profiles>
         <profile id="ce7f-d704-a682-dcd6" name="War Dog Stalker" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
@@ -361,11 +359,6 @@
           </modifiers>
         </infoLink>
         <infoLink id="f5f5-6433-ddd6-23aa" name="Damaged: 1-5 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
-        <infoLink name="Scouts" id="81f4-17ee-d873-24d0" hidden="false" type="rule" targetId="ada6-bac1-ffe0-d6f7">
-          <modifiers>
-            <modifier type="append" value="6&quot;" field="name"/>
-          </modifiers>
-        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="474d-a979-0984-a6a5" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
@@ -373,6 +366,7 @@
         <categoryLink id="3b5a-ef5c-24ad-af0d" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="6c1c-4c5a-6711-328d" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
         <categoryLink id="7462-4680-b83d-064d" name="Stalker" hidden="false" targetId="27fa-0f87-9be4-5db1" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="011e-9538-ba43-7cbf" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="19f8-0003-bff0-bca2" hidden="false" sortIndex="1">
@@ -427,7 +421,6 @@
     </selectionEntry>
     <selectionEntry id="e96b-ac98-7fd2-a155" name="War Dog Karnivore" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1df3-61b3-1a11-0900" type="max"/>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="1899-280c-9930-534b" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="ce73-a8d4-2ed3-37eb" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="60aa-add7-7992-85b6" includeChildSelections="true"/>
@@ -435,17 +428,12 @@
       <profiles>
         <profile id="a907-b7f9-b9cf-a620" name="War Dog Karnivore" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">14&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="dec4-f0af-5aee-9e79" name="Karnivore" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can re-roll Advance and Charge rolls made for this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="7616-9c14-acc8-dd08" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -468,6 +456,7 @@
         <categoryLink id="07cf-1000-c46c-1fce" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="6023-5063-8842-2df6" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
         <categoryLink id="c34d-d6f5-8e71-6910" name="Karnivore" hidden="false" targetId="7177-ef6b-50ae-82e2" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="59f3-612c-c496-e0f5" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="184a-3920-781a-3fa8" hidden="false" sortIndex="1">
@@ -551,7 +540,6 @@
     </selectionEntry>
     <selectionEntry id="753d-4e02-eda3-4809" name="War Dog Brigand" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1995-c5fc-e109-31f1" type="max"/>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="6a4b-917b-b0c2-c3e9" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="d335-60b3-63e5-57b4" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="9af8-a865-1f4d-696c" includeChildSelections="true"/>
@@ -559,7 +547,7 @@
       <profiles>
         <profile id="2a67-fd95-e3f9-420e" name="War Dog Brigand" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
@@ -569,7 +557,7 @@
         </profile>
         <profile id="34ad-4a93-4309-03bd" name="Brigand" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged weapons equipped by this model have the [Ignores Cover] ability while targeting enemy units in range of one or more objective markers.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged weapons equipped by this model have the **[IGNORES COVER]** ability while targeting enemy units in range of one or more objective markers.</characteristic>
           </characteristics>
         </profile>
         <profile id="3b7b-2e72-7d21-e0d2" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -592,6 +580,7 @@
         <categoryLink id="b9f3-d53d-9289-c19d" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="80f4-05e3-83ed-248f" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
         <categoryLink id="a129-8249-a19a-67cf" name="Brigand" hidden="false" targetId="8364-7dd6-fadc-a5d2" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="5fb7-7da6-990b-5c81" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="b650-3089-7379-b036" hidden="false" sortIndex="1">
@@ -641,7 +630,6 @@
     </selectionEntry>
     <selectionEntry id="6e6d-7950-ce6d-4cd4" name="War Dog Huntsman" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f1a4-0645-a8de-81bd" type="max"/>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="4dad-11ae-d9ca-1f20" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="1694-4ae6-1ec9-6818" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="7806-d785-e98e-d15e" includeChildSelections="true"/>
@@ -649,17 +637,12 @@
       <profiles>
         <profile id="540b-339c-30a4-fb9d" name="War Dog Huntsman" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="6e59-6cc9-5270-3482" name="Huntsman" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets a ^^**Monster^^** or ^^**Vehicle^^** unit, you can re-roll the Wound roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="ab12-2587-aec2-3a51" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -682,6 +665,7 @@
         <categoryLink id="880b-7c48-3878-9686" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="f05e-6435-e235-905a" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
         <categoryLink id="aa12-7b52-9d70-7307" name="Huntsman" hidden="false" targetId="f8a3-f5fa-4e85-cc47" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="c93e-78ba-9f39-cac0" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="7eb1-464a-daa4-9f30" hidden="false" sortIndex="1">
@@ -730,7 +714,6 @@
     </selectionEntry>
     <selectionEntry id="0119-8c04-435e-c782" name="Knight Despoiler" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0131-278b-cb36-f2c2" type="max"/>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="bcd7-b208-f777-d848" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="ea99-9522-20bd-349c" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="f1ed-02c9-6e23-9e0e" includeChildSelections="true"/>
@@ -738,7 +721,7 @@
       <profiles>
         <profile id="0487-2918-c4e9-735f" name="Knight Despoiler" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
@@ -751,11 +734,6 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save against ranged attacks.</characteristic>
           </characteristics>
         </profile>
-        <profile id="246f-e1c4-6335-20d1" name="Dread Dominion (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly ^^**War Dog^^** model is within 9&quot; of this model, improve that ^^**War Dog^^** model&apos;s Leadership  and Objective Control characteristics by 1.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="8d65-776a-67a4-e925" name="Seething Hatred" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks.</characteristic>
@@ -763,7 +741,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="31a0-b1e6-1ecb-3c7c" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="81ca-78d2-2489-0bee" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="D6"/>
@@ -781,6 +758,7 @@
         <categoryLink id="04d6-1cd5-aac8-dadc" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="27c8-c872-58a5-6890" name="Knight Despoiler" hidden="false" targetId="8eb7-f737-7228-1ba4" primary="false"/>
         <categoryLink name="Knight Character" hidden="false" id="6812-2eb0-1bef-5c68" targetId="4462-be90-ddf7-c404" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="c112-35d6-c719-637c" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="3018-3716-d944-ae36" hidden="false" sortIndex="1">
@@ -1167,7 +1145,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="9af4-6ce5-6328-cf88" name="Blast" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
-        <infoLink id="b123-90c7-bd42-0303" name="Indirect Fire" hidden="false" targetId="4ddd-4e29-acdd-5e6d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -1251,7 +1228,6 @@
     </selectionEntry>
     <selectionEntry id="7a51-8f1f-7290-d9d2" name="Knight Desecrator" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1745-e760-2544-c331" type="max"/>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="497f-a981-7c09-054b" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="7228-ef2d-a1db-0f75" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="35bc-b30b-f619-bf19" includeChildSelections="true"/>
@@ -1259,7 +1235,7 @@
       <profiles>
         <profile id="160e-7198-c314-f89c" name="Knight Desecrator" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
@@ -1272,19 +1248,8 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save against ranged attacks.</characteristic>
           </characteristics>
         </profile>
-        <profile id="fe14-c4c9-0210-2cd0" name="Taskmaster (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly ^^**War Dog^^** model is within 9&quot; of this model, each time that ^^**War Dog^^** model makes a ranged attack, re-roll a Hit roll of 1.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="dd85-4783-c495-ca01" name="Obsessive Ruthlessness" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a ^^**Monster^^** or ^^**Vehicle^^** unit, that attack has the [DEVASTATING WOUNDS] ability.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c023-0954-374a-0af7" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="f9e4-dd11-791b-44eb" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="D6"/>
@@ -1302,6 +1267,7 @@
         <categoryLink id="eaa4-33c9-5baa-b1b8" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="0a41-a5fd-ad5b-3c9d" name="Knight Desecrator" hidden="false" targetId="7e37-1f00-4c53-1379" primary="false"/>
         <categoryLink name="Knight Character" hidden="false" id="9a48-08dd-5816-4a9f" targetId="4462-be90-ddf7-c404" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="14ba-788b-e66b-908e" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="6128-b4e5-e879-21fe" hidden="false" sortIndex="1">
@@ -1406,7 +1372,6 @@
     </selectionEntry>
     <selectionEntry id="61e0-e55b-1926-44df" name="Knight Rampager" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9234-0b3f-c2ea-5caf" type="max"/>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="8404-4c27-ad0e-7cda" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="fcb9-6ce2-b9c5-4f29" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="32cb-735b-574a-d56f" includeChildSelections="true"/>
@@ -1414,7 +1379,7 @@
       <profiles>
         <profile id="bade-b185-e569-edc1" name="Knight Rampager" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
@@ -1427,19 +1392,8 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save against ranged attacks.</characteristic>
           </characteristics>
         </profile>
-        <profile id="0e4f-8cca-c666-dbf8" name="Frenzied Rampage (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly ^^**War Dog^^** model is within 9&quot; of this model, each time that ^^**War Dog^^** model makes a melee attack, re-roll a Hit roll of 1.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="eb59-fb5e-62ca-e829" name="Bloodlust" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [Devastating Wounds] ability.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ca19-5a88-8a4f-9bcc" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="87d7-7ff3-2681-0667" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="D6"/>
@@ -1458,6 +1412,7 @@
         <categoryLink id="fbd7-b64d-fca1-16e3" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="7992-cf5d-613e-3bd1" name="Knight Rampager" hidden="false" targetId="d97b-d8fc-e1ac-0d8c" primary="false"/>
         <categoryLink name="Knight Character" hidden="false" id="1087-1c30-f56c-bc04" targetId="4462-be90-ddf7-c404" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="1fbb-6867-2686-55dd" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="365"/>
@@ -1577,7 +1532,6 @@
     </selectionEntry>
     <selectionEntry id="a78d-828b-302b-1bec" name="Knight Abominant" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6489-39e1-0d94-80ef" type="max"/>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="8fd8-3abe-9e61-1b64" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="03b4-0d6d-7e46-3c01" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="01f8-be1f-bc0e-1124" includeChildSelections="true"/>
@@ -1585,7 +1539,7 @@
       <profiles>
         <profile id="b5fe-c12f-7cfd-152d" name="Knight Abominant" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
@@ -1610,7 +1564,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c560-9d76-7c1c-eb2c" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="3b4a-cc9d-2650-476a" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="D6"/>
@@ -1629,6 +1582,7 @@
         <categoryLink id="1bc7-2b3c-b3ca-db6b" name="Knight Abominant" hidden="false" targetId="9d18-ceff-963a-cc29" primary="false"/>
         <categoryLink id="34ef-49fe-c470-a6d3" name="Psyker" hidden="false" targetId="13bf-2bee-3ae0-b414" primary="false"/>
         <categoryLink name="Knight Character" hidden="false" id="a014-5b7e-cade-4580" targetId="4462-be90-ddf7-c404" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="7092-7bde-e50b-c58c" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="355"/>
@@ -1758,7 +1712,6 @@
     </selectionEntry>
     <selectionEntry id="87ea-c7bd-6df0-f056" name="Knight Tyrant" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7035-62eb-2df3-8c1d" type="max"/>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="bcfa-0a5e-3042-56ef" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="a1e8-0a1e-144a-2d93" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="0bdf-821e-0d47-0b79" includeChildSelections="true"/>
@@ -1766,17 +1719,12 @@
       <profiles>
         <profile id="868c-dc0a-4bc2-55ad" name="Knight Tyrant" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">28</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="87a6-3ff2-cea4-2c34" name="Infernal Aegis (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly ^^**War Dog^^** model is within 6&quot; of this model, that ^^**War Dog^^** model has the Benefit of Cover.</characteristic>
           </characteristics>
         </profile>
         <profile id="fc0a-7d42-111d-44a3" name="Bastion of Corruption" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -1791,7 +1739,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2cba-8848-b0b6-dda9" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="a905-6eac-7efc-779b" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="D6+2"/>
@@ -1808,6 +1755,7 @@
         <categoryLink id="6432-b379-d16c-b402" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="599c-1cd9-9782-a8e6" name="Knight Tyrant" hidden="false" targetId="552f-2667-65a7-f914" primary="false"/>
         <categoryLink name="Knight Character" hidden="false" id="b380-e511-ea41-accb" targetId="4462-be90-ddf7-c404" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="7e80-b34a-d088-34a5" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="575b-3eb5-4179-23d9" hidden="false" sortIndex="1">
@@ -2177,7 +2125,6 @@
     </selectionEntry>
     <selectionEntry id="4175-82c6-8e96-bef8" name="Chaos Cerastus Knight Lancer" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6489-39e1-0d94-80ef" type="max"/>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="8b25-41e0-0956-e10f" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="1b14-dc9b-70f0-e1d2" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="caaf-049d-922e-c111" includeChildSelections="true"/>
@@ -2185,7 +2132,7 @@
       <profiles>
         <profile id="2916-a86d-a98f-b9fb" name="Chaos Cerastus Knight Lancer" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">14&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">28</characteristic>
@@ -2198,16 +2145,6 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5053-d4f1-9f6-a113" name="Shock Charge" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="d211-dc16-2bb6-90f7" name="Dark Fervour (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly ^^**War Dog^^** model is within 6&quot; of this model, ranged weapons equipped by that ^^**War Dog^^** model have the [ASSAULT] ability.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="fddc-6260-698f-40e" name="Damaged: 1-10 wounds remaining" hidden="false" targetId="7400-7387-dae-781f" type="profile"/>
@@ -2216,7 +2153,6 @@
             <modifier type="append" field="name" value="D6+2"/>
           </modifiers>
         </infoLink>
-        <infoLink id="dc7b-e107-b327-4001" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1415-2fca-643d-6f8d" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
@@ -2228,6 +2164,7 @@
         <categoryLink id="7e18-3d57-43dd-e66c" name="Cerastus" hidden="false" targetId="b6d3-1a49-8a2a-b157" primary="false"/>
         <categoryLink id="a84a-dcd6-acf0-b01b" name="Knight Lancer" hidden="false" targetId="4aae-167f-1680-f405" primary="false"/>
         <categoryLink name="Knight Character" hidden="false" id="422d-696e-c6e7-f0b7" targetId="4462-be90-ddf7-c404" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="7aec-4a04-5ccd-d82e" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="385"/>
@@ -2308,7 +2245,6 @@
     </selectionEntry>
     <selectionEntry id="b6e5-911b-93f-476" name="Chaos Cerastus Knight Castigator" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6489-39e1-0d94-80ef" type="max"/>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="14a4-d748-7e3f-07d5" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="0668-7a71-fce8-54e3" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="3439-123d-1322-47d3" includeChildSelections="true"/>
@@ -2316,7 +2252,7 @@
       <profiles>
         <profile id="c85c-2c10-9dab-f10f" name="Chaos Cerastus Knight Castigator" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">28</characteristic>
@@ -2331,12 +2267,7 @@
         </profile>
         <profile id="8ee2-d7a7-c821-24fa" name="Storm of Bolts" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="75f4-754b-632e-ccb7" name="Offerings for the Dark Gods (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly ^^**War Dog^^** model is within 6&quot; of this model, ranged weapons equipped by that ^^**War Dog^^** model have the [SUSTAINED HITS 1] ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one unit hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2346,7 +2277,6 @@
             <modifier type="append" field="name" value="D6+2"/>
           </modifiers>
         </infoLink>
-        <infoLink id="a4a4-248c-a0c1-87d3" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="500-6af5-592-7e7" name="Damaged: 1-10 wounds remaining" hidden="false" targetId="7400-7387-dae-781f" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -2359,6 +2289,7 @@
         <categoryLink id="e084-266f-196-b91b" name="Cerastus" hidden="false" targetId="b6d3-1a49-8a2a-b157" primary="false"/>
         <categoryLink id="4c70-4fb0-d9b1-78a4" name="Knight Castigator" hidden="false" targetId="2a12-3d53-7288-3c2b" primary="false"/>
         <categoryLink name="Knight Character" hidden="false" id="9276-7193-4584-57a2" targetId="4462-be90-ddf7-c404" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="891d-84f9-65a5-376e" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="385"/>
@@ -2453,7 +2384,6 @@
     </selectionEntry>
     <selectionEntry id="ec6e-d1d6-f7c6-d008" name="Chaos Cerastus Knight Acheron" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6489-39e1-0d94-80ef" type="max"/>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="43d2-d1a1-592b-2924" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="00db-fd5f-7bd2-065a" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="5265-11e4-497b-8d13" includeChildSelections="true"/>
@@ -2461,7 +2391,7 @@
       <profiles>
         <profile id="5403-3f13-3ca6-22b6" name="Chaos Cerastus Knight Acheron" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">28</characteristic>
@@ -2492,7 +2422,6 @@
           </modifiers>
         </infoLink>
         <infoLink id="a836-d284-5da1-45f2" name="Damaged: 1-10 wounds remaining" hidden="false" targetId="7400-7387-dae-781f" type="profile"/>
-        <infoLink id="a431-ff8-a3f-a1a5" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cb54-547d-cff9-8b90" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
@@ -2503,6 +2432,7 @@
         <categoryLink id="8d42-b509-2bb3-25fb" name="Cerastus" hidden="false" targetId="b6d3-1a49-8a2a-b157" primary="false"/>
         <categoryLink id="a919-6426-38d8-76bf" name="Knight Acheron" hidden="false" targetId="584e-5840-20b0-1646" primary="false"/>
         <categoryLink name="Knight Character" hidden="false" id="0501-6251-44c9-c28c" targetId="4462-be90-ddf7-c404" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="ec07-d719-c8d1-27ae" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="385"/>
@@ -2631,7 +2561,6 @@
     </selectionEntry>
     <selectionEntry id="8b1d-9029-f9e1-42d9" name="Chaos Cerastus Knight Atrapos" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6489-39e1-0d94-80ef" type="max"/>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="60b2-552b-5136-b9b3" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="9d8c-baf1-7aed-e250" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="e5cf-e854-b748-cc90" includeChildSelections="true"/>
@@ -2644,22 +2573,12 @@
         </profile>
         <profile id="76f5-bb5c-ae0e-950e" name="Chaos Cerastus Knight Atrapos" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">28</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="c0a2-6cfb-3e11-6316" name="Macro-extinction Protocols" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets a ^^**Monster^^** or ^^**Vehicle^^** unit, add 1 to the Hit roll. If that target is ^^**Titanic^^** or ^^**Towering^^**, add 1 to the Wound roll as well.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="c43b-6529-75b4-457a" name="Consumed with Hunger (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly ^^**War Dog^^** model is within 6&quot; of this model, each time that ^^**War Dog^^** model makes an attack that targets a ^^**Titanic^^** or ^^**Towering^^** unit, you can re-roll the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2670,7 +2589,6 @@
             <modifier type="append" field="name" value="D6+2"/>
           </modifiers>
         </infoLink>
-        <infoLink id="8fb2-c7cc-fd8-f9ea" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b134-cb2a-4439-8797" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
@@ -2682,6 +2600,7 @@
         <categoryLink id="9895-7745-b9cd-9ed" name="Cerastus" hidden="false" targetId="b6d3-1a49-8a2a-b157" primary="false"/>
         <categoryLink id="7dee-a882-8d92-b91d" name="Knight Atrapos" hidden="false" targetId="6a6d-8f73-3f79-59c9" primary="false"/>
         <categoryLink name="Knight Character" hidden="false" id="6f4f-19f0-1076-8eda" targetId="4462-be90-ddf7-c404" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="43d4-dbf2-c285-2943" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="395"/>
@@ -2815,7 +2734,6 @@
     </selectionEntry>
     <selectionEntry id="2d0e-5b83-b678-56dc" name="Chaos Questoris Knight Magaera" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6489-39e1-0d94-80ef" type="max"/>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="8c70-a60e-87dd-cf94" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="e2b5-cb34-a730-9cd7" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="83d2-fc03-4047-5103" includeChildSelections="true"/>
@@ -2828,7 +2746,7 @@
         </profile>
         <profile id="a69c-d32c-a409-86bd" name="Chaos Questoris Knight Magaera" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
@@ -2849,8 +2767,6 @@
             <modifier type="append" field="name" value="D6"/>
           </modifiers>
         </infoLink>
-        <infoLink id="c204-d4e2-a47e-ed16" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
-        <infoLink id="e70d-97f1-3540-3e87" name="Huntmaster (Aura)" hidden="false" targetId="73ac-6b3a-8480-d08a" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4814-bfa9-5590-55dd" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
@@ -2862,6 +2778,7 @@
         <categoryLink id="bead-bbaf-bdc9-1001" name="Abhorrent" hidden="false" targetId="f2d9-b5e8-4183-cb0b" primary="false"/>
         <categoryLink id="bf5e-cb43-30c4-8bef" name="Knight Magaera" hidden="false" targetId="bacd-8441-eba2-f27" primary="false"/>
         <categoryLink name="Knight Character" hidden="false" id="4dbf-d74b-a2fa-d062" targetId="4462-be90-ddf7-c404" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="e018-ad9f-e07b-f94a" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="6bcd-fc7d-6947-223b" hidden="false" sortIndex="1">
@@ -3040,7 +2957,6 @@
     </selectionEntry>
     <selectionEntry id="106c-4bdf-79a4-1c70" name="Chaos Questoris Knight Styrix" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6489-39e1-0d94-80ef" type="max"/>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="bb98-547a-e6d0-cbb3" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="dfd3-ec33-541e-d636" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="505e-fd6b-8517-3f9b" includeChildSelections="true"/>
@@ -3058,17 +2974,12 @@
         </profile>
         <profile name="Chaos Questoris Knight Styrix" hidden="false" id="fe0a-7433-490d-b27" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Preysight (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fde0-47bb-5767-5537">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly ^^**War Dog^^** model is within 6&quot; of this model, ranged weapons equipped by that ^^**War Dog^^** model have the [IGNORES COVER] ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3079,7 +2990,6 @@
             <modifier type="append" field="name" value="D6"/>
           </modifiers>
         </infoLink>
-        <infoLink id="5b52-a7e7-e494-ce42" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="503c-4767-a915-b2a7" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
@@ -3091,6 +3001,7 @@
         <categoryLink id="19f2-c6a0-5ff5-e0c0" name="Abhorrent" hidden="false" targetId="f2d9-b5e8-4183-cb0b" primary="false"/>
         <categoryLink id="900e-8c1a-e988-8ada" name="Knight Styrix" hidden="false" targetId="c220-ff0a-f567-33ec" primary="false"/>
         <categoryLink name="Knight Character" hidden="false" id="195f-5e3c-79f1-af45" targetId="4462-be90-ddf7-c404" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="c81e-bd2d-ea9d-cefd" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="4063-8e8e-6869-ec97" hidden="false" sortIndex="1">
@@ -3270,7 +3181,6 @@
     </selectionEntry>
     <selectionEntry id="ae7c-3679-a88-6895" name="War Dog Moirax" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1df3-61b3-1a11-0900" type="max"/>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="31d4-b53d-ec7e-c258" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="68ab-4b8b-16ce-290d" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="7a9b-ee72-a947-56a2" includeChildSelections="true"/>
@@ -3283,17 +3193,12 @@
         </profile>
         <profile id="edf-bf86-2acc-2b21" name="War Dog Moirax" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="5f6b-e13c-2fb2-fdf7" name="Protection Protocols" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3311,6 +3216,7 @@
         <categoryLink id="72c8-b011-37de-bdd3" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="9189-990d-17a7-6b60" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
         <categoryLink id="a51f-4e25-618c-444" name="Moirax" hidden="false" targetId="47a1-f548-3346-b0df" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="a2fe-f38b-8641-da38" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="8429-5740-f1fd-0046" hidden="false" sortIndex="1">
@@ -3514,7 +3420,6 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Knight Ruinator" hidden="false" id="c0a2-eb65-6d34-5bc6" collective="false">
       <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="9cb2-5a1c-a772-7447" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="5e9d-606d-a465-d485" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="0249-e761-e1dc-fd00" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="8095-d426-0ffa-c67d" includeChildSelections="true"/>
@@ -3522,7 +3427,7 @@
       <profiles>
         <profile name="Knight Ruinator" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3bc9-aaff-0392-6cb1">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
@@ -3540,14 +3445,8 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, select one unit from your opponent&apos;s army to be this model&apos;s victim. Each time this model makes an attack that targets its victim, you can re-roll the Wound roll. Each time this model&apos;s victim is destroyed, select one new enemy unit to be this model&apos;s victim.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Close-range Killers (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="31ed-3d34-0d2b-60d2">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly ^^**War Dog^^** model is within 9&quot; of this model, each time that ^^**War Dog^^** model makes an attack that targets the closest enemy unit, improve the Armour Penetration characteristic of that attack by 1.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Super-Heavy Walker" id="d8a4-595d-9e4d-de38" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink name="Deadly Demise" id="0f5f-b0e4-e443-7dc6" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" value="D6" field="name"/>
@@ -3565,6 +3464,7 @@
         <categoryLink name="Chaos" hidden="false" id="6b45-74c1-5db2-ec4c" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink name="Knight Ruinator" hidden="false" id="db87-d461-fa29-98c9" targetId="3667-4d4c-faf1-2446" primary="false"/>
         <categoryLink name="Knight Character" hidden="false" id="3b42-b15b-97d3-a430" targetId="4462-be90-ddf7-c404" primary="false"/>
+        <categoryLink targetId="d932-445b-caa0-7e47" id="8990-4d87-917c-c482" primary="false" name="Faction: Chaos Knights"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="355"/>

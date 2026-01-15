@@ -76,146 +76,14 @@
     <categoryEntry id="5929-ad51-d006-e008" name="Titanic" hidden="false"/>
     <categoryEntry id="4c3e-9310-a516-3590" name="Beast" hidden="false"/>
     <categoryEntry id="4c00-2578-faf5-6918" name="Chaos" hidden="false"/>
-    <categoryEntry id="d1d8-6ae0-1be7-e9e" name="Faction: Tyranids" hidden="false">
-      <constraints>
-        <constraint type="max" value="-1" field="51b2-306e-1021-d207" scope="force" shared="true" id="10a0-a45c-f379-bb06" includeChildSelections="true" includeChildForces="false"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set" value="500" field="10a0-a45c-f379-bb06" id="d345-5a54-3609-7600">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="1000" field="10a0-a45c-f379-bb06" id="8a58-5a9f-9d23-5682">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="1500" field="10a0-a45c-f379-bb06" id="8438-8892-1129-d075">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </categoryEntry>
-    <categoryEntry id="1015-db48-a2fa-c7da" name="Faction: Drukhari" hidden="false">
-      <constraints>
-        <constraint type="max" value="-1" field="51b2-306e-1021-d207" scope="force" shared="true" id="4d8f-6e09-606e-788e" includeChildSelections="true" includeChildForces="false"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set" value="500" field="4d8f-6e09-606e-788e" id="f5a0-b59-1410-a903">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="1000" field="4d8f-6e09-606e-788e" id="2e33-3f3b-a0f6-a6bd">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="1500" field="4d8f-6e09-606e-788e" id="2e5f-b5f2-28bb-573e">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </categoryEntry>
+    <categoryEntry id="d1d8-6ae0-1be7-e9e" name="Faction: Tyranids" hidden="false"/>
+    <categoryEntry id="1015-db48-a2fa-c7da" name="Faction: Drukhari" hidden="false"/>
     <categoryEntry id="4378-1827-4988-be4e" name="Faction: Asuryani" hidden="false"/>
     <categoryEntry id="fa45-57e-930e-602b" name="Faction: Astra Militarum" hidden="false"/>
-    <categoryEntry id="1e42-dfae-cbdd-207d" name="Faction: Heretic Astartes" hidden="false">
-      <constraints>
-        <constraint type="max" value="-1" field="51b2-306e-1021-d207" scope="force" shared="true" id="fbba-7f7e-16a1-370a" includeChildSelections="true"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set" value="500" field="fbba-7f7e-16a1-370a" id="4fa7-457c-8229-7e77">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="1000" field="fbba-7f7e-16a1-370a" id="94e5-8ddd-5373-00cf">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="1500" field="fbba-7f7e-16a1-370a" id="a7d0-0334-fd3e-416b">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </categoryEntry>
+    <categoryEntry id="1e42-dfae-cbdd-207d" name="Faction: Heretic Astartes" hidden="false"/>
     <categoryEntry id="fd71-afa6-b13b-7fda" name="Faction: Adepta Sororitas" hidden="false"/>
     <categoryEntry id="ee0-cf31-4fb5-6b26" name="Faction: Necrons" hidden="false"/>
-    <categoryEntry id="571f-ec3a-a5a2-751a" name="Faction: Legiones Daemonica" hidden="false">
-      <constraints>
-        <constraint type="max" value="-1" field="51b2-306e-1021-d207" scope="force" shared="true" id="f70b-465d-493f-52e3" includeChildSelections="true"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set" value="250" field="f70b-465d-493f-52e3" id="4796-8c50-4a43-66c8">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="500" field="f70b-465d-493f-52e3" id="bc6-87f4-482b-c1cd">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="750" field="f70b-465d-493f-52e3" id="b336-af46-e756-ab15">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </categoryEntry>
+    <categoryEntry id="571f-ec3a-a5a2-751a" name="Faction: Legiones Daemonica" hidden="false"/>
     <categoryEntry id="b2a9-ede5-7a83-4da8" name="Slaanesh" hidden="false"/>
     <categoryEntry id="ed0d-8e2a-225c-2340" name="Nurgle" hidden="false"/>
     <categoryEntry id="4bd-5ee0-f179-2fc5" name="Khorne" hidden="false"/>
@@ -424,6 +292,8 @@
     </categoryEntry>
     <categoryEntry name="Docked Vehicles" id="062e-d109-92e8-909f" hidden="false"/>
     <categoryEntry name="Shadowvaults Upgrades" id="b5ba-f38f-7d3d-7ecf" hidden="false"/>
+    <categoryEntry id="d932-445b-caa0-7e47" name="Faction: Chaos Knights" hidden="false"/>
+    <categoryEntry id="fac1-9900-48d1-f2b6" name="Faction: Imperial Knights" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="bb9d-299a-ed60-2d8a" name="Army Roster" hidden="false">
