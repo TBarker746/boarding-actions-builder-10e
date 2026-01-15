@@ -256,6 +256,7 @@
         <categoryLink targetId="6dda-e157-334d-e93a" id="7d4a-82d6-7ceb-784c" primary="false" name="Walker"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="9790-8b6d-ab36-1c21" primary="false" name="Imperium"/>
         <categoryLink targetId="72cd-6281-73a-e0fc" id="ea09-3a59-cdb1-e928" primary="false" name="Warglaive"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="1016-52e7-38a1-303a" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Deadly Demise" type="rule" id="e2ab-3153-d1a2-1feb" targetId="b68a-5ded-65ac-98c">
@@ -369,6 +370,7 @@
         <categoryLink targetId="6dda-e157-334d-e93a" id="b014-7796-fde5-59fc" primary="false" name="Walker"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="7caf-7ee7-4e4-cbb3" primary="false" name="Imperium"/>
         <categoryLink targetId="df5-4bc-4d9b-dfa5" id="850f-5594-24aa-2621" primary="false" name="Helverin"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="1b6e-acd6-6cc7-8d79" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Deadly Demise" type="rule" id="6edd-84ff-913a-88c9" targetId="b68a-5ded-65ac-98c">
@@ -460,6 +462,7 @@
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="1d1f-b251-9935-e551" primary="true" name="Character"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="ef4a-47d6-1dbb-d449" primary="false" name="Imperium"/>
         <categoryLink targetId="ee56-d74b-4f77-44ee" id="acd3-e9fc-abf6-6743" primary="false" name="Knight Paladin"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="66b1-9309-3dc3-b707" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <profiles>
         <profile name="Knight Paladin" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit" id="c895-8913-fee7-678e">
@@ -566,6 +569,7 @@
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="ef46-62fc-63ae-5136" primary="true" name="Character"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="5dc9-effa-6d1a-a5b5" primary="false" name="Imperium"/>
         <categoryLink targetId="d8e0-2c9e-39b5-dc95" id="63ef-aa78-939c-1d73" primary="false" name="Knight Errant"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="02e6-674c-5276-207f" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <profiles>
         <profile name="Knight Errant" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit" id="9730-cfa8-fbcf-5aa9">
@@ -642,6 +646,7 @@
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="81ac-cd15-7b0-ed0d" primary="true" name="Character"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="2db0-f145-ec22-c769" primary="false" name="Imperium"/>
         <categoryLink targetId="36a1-9a32-7db1-dda7" id="3d91-3a78-e4b3-7bc9" primary="false" name="Knight Gallant"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="5ac2-3f28-a715-c2df" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <profiles>
         <profile name="Knight Gallant" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit" id="cb8f-96dc-a97e-c852">
@@ -787,6 +792,7 @@
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="1818-78dc-62b2-a438" primary="true" name="Character"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="2592-f770-56bd-6615" primary="false" name="Imperium"/>
         <categoryLink targetId="7eb2-636a-be6d-5927" id="79a4-2251-4584-fa84" primary="false" name="Knight Warden"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="a87d-e3ce-f2e9-7ae8" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <profiles>
         <profile name="Knight Warden" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit" id="4770-d5eb-3d0d-6d49">
@@ -873,6 +879,7 @@
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="6b79-b08e-8969-c1ae" primary="true" name="Character"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="f448-2fda-b805-901c" primary="false" name="Imperium"/>
         <categoryLink targetId="11e-ade1-cf6c-f59b" id="15e9-8e11-c785-a315" primary="false" name="Knight Crusader"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="8254-f3b7-121d-3e1e" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <profiles>
         <profile name="Knight Crusader" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit" id="e9ca-1260-3fd4-beb6">
@@ -1006,6 +1013,7 @@
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="6164-98f4-e735-59e6" primary="true" name="Character"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="257-b154-9909-4b0d" primary="false" name="Imperium"/>
         <categoryLink targetId="9de5-3a7e-1b8a-63a8" id="64da-baa4-a35a-55f" primary="false" name="Knight Preceptor"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="832c-46be-8a4e-8845" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <profiles>
         <profile name="Knight Preceptor" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit" id="cea2-2ace-efda-f52d">
@@ -1156,6 +1164,7 @@
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="6213-7939-8f44-6da1" primary="true" name="Character"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="3a21-f63d-8c53-60c7" primary="false" name="Imperium"/>
         <categoryLink targetId="2617-d8a7-87fd-59b2" id="696f-7afc-669e-457c" primary="false" name="Knight Castellan"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="5338-e671-40c1-c31a" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <profiles>
         <profile name="Knight Castellan" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit" id="6715-86ee-6799-89a2">
@@ -1310,6 +1319,7 @@
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="db95-5535-9f14-ccf2" primary="true" name="Character"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="824-6cd0-e52e-184b" primary="false" name="Imperium"/>
         <categoryLink targetId="c738-6273-23f4-51e5" id="1666-41b4-394a-94c1" primary="false" name="Knight Valiant"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="f42d-9848-a5bc-1c47" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <profiles>
         <profile name="Knight Valiant" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit" id="482a-8ce4-8a22-c621">
@@ -1677,6 +1687,7 @@
         <categoryLink targetId="d666-e2c9-b6cc-5716" id="fd66-c992-7b8a-591d" primary="false" name="Towering"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="199-eba5-254a-5e3d" primary="false" name="Imperium"/>
         <categoryLink targetId="9bed-3ae9-81d7-9bb4" id="ba4b-fc69-81d8-fbc6" primary="false" name="Knight Lancer"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="a043-5dde-39a5-ee1c" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <profiles>
         <profile name="Cerastus Knight Lancer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="7c8d-6043-5b0-73e2">
@@ -1792,6 +1803,7 @@
         <categoryLink targetId="d666-e2c9-b6cc-5716" id="5a4f-635d-9efc-4cf6" primary="false" name="Towering"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="92ed-32e4-4557-9a4" primary="false" name="Imperium"/>
         <categoryLink targetId="869c-9d9e-5aa6-93bd" id="eddc-c2b2-df60-678b" primary="false" name="Knight Castigator"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="c54d-3e88-300e-c453" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="4af7-1e97-c7a4-bcb5" targetId="b68a-5ded-65ac-98c">
@@ -1945,6 +1957,7 @@
         <categoryLink targetId="d666-e2c9-b6cc-5716" id="db51-6828-1fdb-2588" primary="false" name="Towering"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="611-809c-9e70-791b" primary="false" name="Imperium"/>
         <categoryLink targetId="3de8-a9ae-d1e2-2e5" id="7ca0-c3c8-8774-b246" primary="false" name="Knight Acheron"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="914a-ca54-02bc-d9ab" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="395"/>
@@ -2135,6 +2148,7 @@
         <categoryLink targetId="d666-e2c9-b6cc-5716" id="57cd-a97b-529c-ac23" primary="false" name="Towering"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="8a80-e115-fab4-668b" primary="false" name="Imperium"/>
         <categoryLink targetId="a4e7-7d02-686a-153f" id="66cd-e180-3fc7-b425" primary="false" name="Knight Atrapos"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="d16d-b0f4-079a-fd5e" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <profiles>
         <profile name="Cerastus Knight Atrapos" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c436-5110-1b57-4c43">
@@ -2331,6 +2345,7 @@
         <categoryLink targetId="d666-e2c9-b6cc-5716" id="e068-cb77-f108-390e" primary="false" name="Towering"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="6c11-b3ea-152c-8faf" primary="false" name="Imperium"/>
         <categoryLink targetId="3222-2af3-6a7e-5258" id="a493-6bf1-4f6f-4fd5" primary="false" name="Knight Magaera"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="718d-4511-339f-e0ba" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="d619-677b-ec45-00c0" hidden="false" sortIndex="1">
@@ -2485,6 +2500,7 @@
         <categoryLink targetId="d666-e2c9-b6cc-5716" id="4428-bba5-d9ef-58d4" primary="false" name="Towering"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="f2-762d-ec09-8b49" primary="false" name="Imperium"/>
         <categoryLink targetId="19ac-e6bb-1dd9-490f" id="c332-a020-45e4-763c" primary="false" name="Knight Styrix"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="46c7-78e4-78da-101a" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="7760-88-4b39-5805" targetId="b68a-5ded-65ac-98c">
@@ -2677,6 +2693,7 @@
         <categoryLink targetId="6dda-e157-334d-e93a" id="f5bb-3575-eeed-b6ae" primary="false" name="Walker"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="96c8-dc2d-8199-7d88" primary="false" name="Imperium"/>
         <categoryLink targetId="f9af-3a72-6e97-1a32" id="687b-25d0-1fc9-830c" primary="false" name="Moirax"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="be1d-78f7-e196-a534" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <profiles>
         <profile name="Armiger Moirax" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3bc2-f11c-17f4-befe">
@@ -2915,6 +2932,7 @@
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="07bf-c807-869a-4773" primary="true" name="Character"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="d11f-e0eb-e85f-7c49" primary="false" name="Imperium"/>
         <categoryLink name="Knight Defender" hidden="false" id="4449-7212-cd99-55c2" targetId="c470-0313-4748-4002" primary="false"/>
+        <categoryLink targetId="fac1-9900-48d1-f2b6" id="299a-dcbb-3886-3633" primary="false" name="Faction: Imperial Knights"/>
       </categoryLinks>
       <profiles>
         <profile name="Knight Defender" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit" id="a3c3-c356-432c-71fe">
@@ -3199,13 +3217,12 @@
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Indirect Fire</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Blast" type="rule" id="f88c-b7db-2ad4-f396" targetId="6c1f-1cf7-ff25-c99e"/>
-            <infoLink name="Indirect Fire" type="rule" id="2775-f328-3259-4f01" targetId="4ddd-4e29-acdd-5e6d"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapon Upgrades" id="aa4b-7b9d-79b9-2d48" hidden="false" flatten="true"/>

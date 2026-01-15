@@ -9186,7 +9186,7 @@ bearer can be moved during that move</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Indirect Fire</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9559,7 +9559,7 @@ bearer can be moved during that move</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Indirect Fire</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -14212,11 +14212,7 @@ bearer can be moved during that move</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="972d-ea0a-a71d-314d"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Weapon Upgrades" hidden="false" id="cd0c-947d-1c5c-7c6a" type="selectionEntryGroup" targetId="8cf2-a48c-58d2-cb4e">
-                  <entryLinks>
-                    <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="6a4b-3cbb-10bd-3908" type="selectionEntryGroup" targetId="505d-1b7a-1b9b-30a0"/>
-                  </entryLinks>
-                </entryLink>
+                <entryLink import="true" name="Weapon Upgrades" hidden="false" id="cd0c-947d-1c5c-7c6a" type="selectionEntryGroup" targetId="8cf2-a48c-58d2-cb4e"/>
               </entryLinks>
             </entryLink>
             <entryLink import="true" name="Close combat weapon" hidden="false" id="c277-f63c-6a70-7172" type="selectionEntry" targetId="db5b-fe94-e50c-4f4b">
@@ -18671,7 +18667,7 @@ bearer can be moved during that move</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">14</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Indirect Fire, One Shot</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">One Shot</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19582,9 +19578,33 @@ bearer can be moved during that move</characteristic>
               </costs>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="eeda-8544-a2f3-3fab" shared="true"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="eeda-8544-a2f3-3fab" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="parent" childId="064a-0470-60eb-e3ef" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="1" field="selections" scope="parent" childId="eeda-8544-a2f3-3fab" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="2" field="selections" scope="parent" childId="064a-0470-60eb-e3ef" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="2" field="selections" scope="parent" childId="eeda-8544-a2f3-3fab" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="3" field="selections" scope="parent" childId="064a-0470-60eb-e3ef" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="3" field="selections" scope="parent" childId="eeda-8544-a2f3-3fab" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
             </selectionEntry>

@@ -2520,9 +2520,6 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdb1-2496-cd1c-a0d3" includeChildSelections="false"/>
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="2fe2-824a-bb3e-3c41" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
-      <modifiers>
-        <modifier type="set" value="-1" field="4856-7562-fc89-349b"/>
-      </modifiers>
       <selectionEntryGroups>
         <selectionEntryGroup name="Sublime Strike Enhancements" id="eab1-4551-d69b-0962" hidden="false">
           <selectionEntries>
@@ -2586,6 +2583,13 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3c9e-2156-254e-66e8" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
         <selectionEntryGroup name="Breaching Operations Enhancements" id="7475-5d89-463f-023a" hidden="false" collective="false" import="true">
           <modifiers>
@@ -2761,9 +2765,33 @@
               </costs>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="eeda-8544-a2f3-3fab" shared="true"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="eeda-8544-a2f3-3fab" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="parent" childId="064a-0470-60eb-e3ef" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="1" field="selections" scope="parent" childId="eeda-8544-a2f3-3fab" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="2" field="selections" scope="parent" childId="064a-0470-60eb-e3ef" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="2" field="selections" scope="parent" childId="eeda-8544-a2f3-3fab" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="3" field="selections" scope="parent" childId="064a-0470-60eb-e3ef" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="3" field="selections" scope="parent" childId="eeda-8544-a2f3-3fab" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
             </selectionEntry>
