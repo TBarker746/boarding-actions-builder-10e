@@ -2084,6 +2084,7 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="190e-cbbc-cb1e-1973" primary="false" name="Imperium"/>
         <categoryLink targetId="740a-892c-8958-defa" id="3163-fa0c-5321-5cd9" primary="false" name="Terminator"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="9f3f-7064-3653-15c5" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="b09b-3b48-f2fd-22e4" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Enhancements" hidden="false" type="selectionEntryGroup" id="770c-2532-7d6-1a45" targetId="9e5d-de4c-c5d1-1d3e" sortIndex="2"/>
@@ -12457,6 +12458,7 @@ bearer can be moved during that move</characteristic>
         <categoryLink targetId="9c1a-42ff-a418-11d1" id="8d57-8e43-10f7-db1d" primary="false" name="Lieutenant"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="b9f8-6d56-3827-b7ff" primary="false" name="Leader"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="a2cb-d633-c9d5-172d" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="0ca5-1a03-503c-587f" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Infiltrators" type="rule" id="a94e-913f-6d5e-80b8" targetId="c05d-f4c3-f091-4938"/>
@@ -12910,6 +12912,7 @@ bearer can be moved during that move</characteristic>
         <categoryLink targetId="6e7-40c-58d9-e402" id="f0ae-f60a-6399-afa6" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="2030-a443-e473-77e0" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="e258-df00-9216-7dd4" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="b27b-01ce-823f-fff4" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Psychic Hood" hidden="false" type="profile" id="25e0-2f68-ee70-dd93" targetId="116b-b23c-4ea4-30ed"/>
@@ -13348,6 +13351,7 @@ bearer can be moved during that move</characteristic>
         <categoryLink targetId="6e7-40c-58d9-e402" id="90cf-aaa2-af58-a47c" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="74d2-c2b2-8e4d-7ba7" primary="false" name="Leader"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="f391-39d4-d724-673b" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="e005-5db6-2f89-0489" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <profiles>
         <profile name="Recitation of Faith" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e92-f61-1c8f-4af6">
@@ -14466,6 +14470,7 @@ bearer can be moved during that move</characteristic>
         <categoryLink targetId="6e7-40c-58d9-e402" id="ea81-5fc5-b091-b9eb" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="a4b6-4ce1-af42-78d7" primary="false" name="Leader"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="c95e-12e7-7fec-2cdc" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="e083-ca57-781f-291d" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="a1e2-8a85-6db5-2f31" targetId="db19-dee7-9530-ef0e"/>
@@ -19194,7 +19199,7 @@ bearer can be moved during that move</characteristic>
     </profile>
     <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="db19-dee7-9530-ef0e">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
       </characteristics>
       <comment>4+</comment>
     </profile>
@@ -19222,6 +19227,12 @@ bearer can be moved during that move</characteristic>
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly unit is affected by a Battlefield Command Stratagem used by this model, add 1 to the Objective Control characteristic of models in that unit.</characteristic>
       </characteristics>
+    </profile>
+    <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="666c-5c58-531e-d906">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this unit have a 4+ invulnerable save.</characteristic>
+      </characteristics>
+      <comment>4+ multi-model unit</comment>
     </profile>
   </sharedProfiles>
   <publications>
@@ -19544,6 +19555,19 @@ bearer can be moved during that move</characteristic>
               <infoLinks>
                 <infoLink name="Deep Strike" id="08eb-c9de-eadd-b579" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
               </infoLinks>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="2aab-2f6e-6875-77b6" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="062e-d109-92e8-909f" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="f905-e26f-76a6-7754" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Superior Boarding Tactics" hidden="false" id="2761-10bd-e526-7bfa" collective="false">
               <constraints>
@@ -19706,13 +19730,13 @@ bearer can be moved during that move</characteristic>
       <description>If your Army Faction is **^^Adeptus Astartes^^**, at the start of the first battle round, select one of the following Vows to be active for **^^Adeptus Astartes^^** units from your army. While a Vow is active for your army, that unit has the associated ability below. 
 
 **Abhor the Witch, Destroy the Witch**
-■ Each time this unit declares a charge, if one or more targets of that charge have the **^^Psyker^^** keyword, you can re-roll the Charge roll. Melee weapons equipped by models in this unit have the **[Precision]** ability while targeting **^^Psyker^^** units. 
+Each time this unit declares a charge, if one or more targets of that charge have the **^^Psyker^^** keyword, you can re-roll the Charge roll. Melee weapons equipped by models in this unit have the **[Precision]** ability while targeting **^^Psyker^^** units. 
 
 **Accept Any Challenge, No Matter the Odds**
-■ Each time a model in this unit makes a melee attack, if the Strength characteristic of that attack is less than or equal to the Toughness characteristic of the target, add 1 to the wound roll
+Each time a model in this unit makes a melee attack, if the Strength characteristic of that attack is less than or equal to the Toughness characteristic of the target, add 1 to the wound roll
 
 **Suffer Not the Unclean to Live**
-■ This unit is eligible to declare a charge in a turn in which it Fell Back, and each time a model in this unit makes a Pile-in or Consolidation move, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the nearest enemy unit. 
+This unit is eligible to declare a charge in a turn in which it Fell Back, and each time a model in this unit makes a Pile-in or Consolidation move, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the nearest enemy unit. 
 
 **Uphold the Honour of the Emperor**
 If this unit has the **^^Infantry^^** keyword:

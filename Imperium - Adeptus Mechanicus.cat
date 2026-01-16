@@ -1355,7 +1355,7 @@
         </profile>
         <profile id="80b6-a242-9b3f-456a" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile id="021a-c246-5697-b311" name="Damaged: 1-4 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -5009,9 +5009,13 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
             </modifier>
           </modifiers>
         </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fb63-2923-0424-b68a">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Invulnerable Save" id="bcc8-9e75-95a5-ccca" hidden="false" targetId="8c24-fbe9-b191-175f" type="profile"/>
         <infoLink name="Close-Quarters Doctrinas" id="49a4-7b44-cfd8-4531" hidden="false" type="rule" targetId="7a21-a958-e47d-5c0d"/>
         <infoLink name="Deadly Demise" id="702e-70c2-7c3a-d812" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
           <modifiers>
@@ -5159,9 +5163,13 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a ranged attack is allocated to a Kastelan this model, on an unmodified saving throw of 6, the attacking unit suffers 1 mortal wound after it has finished making its attacks.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="35a8-bc0a-602f-a74d">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Invulnerable Save" id="d0d5-c78c-70d0-97b9" hidden="false" targetId="8c24-fbe9-b191-175f" type="profile"/>
         <infoLink name="Close-Quarters Doctrinas" id="e08f-165a-bebb-c222" hidden="false" type="rule" targetId="7a21-a958-e47d-5c0d"/>
         <infoLink name="Deadly Demise" id="02f4-833f-d16f-cd77" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
           <modifiers>
@@ -5637,7 +5645,7 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
     <selectionEntryGroup id="65bb-2001-cac8-2761" name="Enhancements" hidden="false" collective="false" import="true" collapsible="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4c6-e5ac-ee78-c50a" type="max"/>
-        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="a0ab-248d-d910-5899" includeChildSelections="true"/>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="a0ab-248d-d910-5899" includeChildSelections="true"/>
       </constraints>
       <selectionEntryGroups>
         <selectionEntryGroup name="Breaching Operations Enhancements" id="10f7-b3be-8b90-fc92" hidden="false" collective="false" import="true">
@@ -5780,6 +5788,19 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
               <infoLinks>
                 <infoLink name="Deep Strike" id="3a5c-b1da-33a3-59a4" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
               </infoLinks>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="2aab-2f6e-6875-77b6" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="062e-d109-92e8-909f" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="f905-e26f-76a6-7754" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Superior Boarding Tactics" hidden="false" id="9109-b2af-ac52-0f14" collective="false">
               <constraints>

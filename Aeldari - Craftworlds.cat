@@ -32,8 +32,8 @@
     <entryLink import="true" name="Troupe" hidden="false" type="selectionEntry" id="a5-22c1-1cfa-4992" targetId="dac1-6a7f-a06a-82cf"/>
     <entryLink import="true" name="Troupe Master" hidden="false" type="selectionEntry" id="7761-8028-1bf8-3dd7" targetId="dada-b81b-37bd-1f3b"/>
     <entryLink import="true" name="Voidweaver" hidden="false" type="selectionEntry" id="564c-f5b6-f456-c7c2" targetId="e011-d99d-f0de-5289"/>
-    <entryLink import="true" name="Vypers" hidden="false" type="selectionEntry" id="860c-99de-5711-8c0" targetId="814d-56c9-78fe-2123"/>
-    <entryLink import="true" name="War Walkers" hidden="false" type="selectionEntry" id="12a5-37d7-300e-2173" targetId="bcec-dc54-9242-4e13"/>
+    <entryLink import="true" name="Vyper" hidden="false" type="selectionEntry" id="860c-99de-5711-8c0" targetId="c22c-2660-ce28-b696"/>
+    <entryLink import="true" name="War Walker" hidden="false" type="selectionEntry" id="12a5-37d7-300e-2173" targetId="fa97-cefb-04d2-f0f2"/>
     <entryLink import="true" name="Warlock" hidden="false" type="selectionEntry" id="a502-4dbe-d0c6-69fd" targetId="291f-2885-4512-f0cd">
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="1710-1344-8452-8a57" primary="false" name="Infantry"/>
@@ -68,6 +68,44 @@
     <entryLink import="true" name="Wasp Assault Walker [Legends]" hidden="false" type="selectionEntry" id="64d4-a8cd-f722-b4ba" targetId="6c50-7486-7c0d-52d0"/>
     <entryLink import="true" name="Show/Hide Options" hidden="false" type="selectionEntry" id="9721-c3a1-948c-5f2d" targetId="e8ef-836a-a9d1-901d"/>
     <entryLink import="true" name="Wraithknight with Ghostglaive" hidden="false" id="e61a-e92c-74ec-5f31" type="selectionEntry" targetId="d756-653a-872b-5c1b"/>
+    <entryLink import="true" name="Show Mission-Specific Content" hidden="false" id="96ac-a24d-b7cd-c794" type="selectionEntry" targetId="1b98-ea98-434c-b0a4">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="f56b-c471-77b3-d83d" targetId="4ac9-fd30-1e3d-b249" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Breaching Robot" hidden="false" id="66fc-32dd-d3c5-e4f4" type="selectionEntry" targetId="a150-093b-e167-3968">
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="b4c2-de4b-a980-1a44" type="selectionEntry" targetId="3f04-19ab-bfb0-6c67" sortIndex="1"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="8f1d-7cee-49ce-439b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Searchlight" hidden="false" id="3d52-6cb2-5059-4891" type="selectionEntry" targetId="2a9c-3505-6df7-7e9b">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="1639-08b5-e13e-fb46" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Sentry Gun" hidden="false" id="0323-d8d1-a1a5-3fd7" type="selectionEntry" targetId="1d0d-7cfb-fa12-26c1">
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="8cde-08cd-0041-3823" type="selectionEntry" targetId="3f04-19ab-bfb0-6c67" sortIndex="1"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="1639-08b5-e13e-fb46" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="184b-23d5-1ac8-cf3c" name="Aeldari - Aeldari Library" targetId="dfcf-1214-b57-2205" type="catalogue" importRootEntries="true"/>

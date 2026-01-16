@@ -725,7 +725,6 @@
             <modifier type="append" field="name" value="1"/>
           </modifiers>
         </infoLink>
-        <infoLink id="dfa0-6d62-958f-b7d0" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1c8c-c534-f1c-7b04" name="Faction: Adeptus Astartes" hidden="false" targetId="6e7-40c-58d9-e402" primary="false"/>

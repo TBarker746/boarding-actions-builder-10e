@@ -43,7 +43,7 @@
         </profile>
         <profile name="Iron Father" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2095-1be1-e5cc-1cee">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more friendly **^^Adeptus Astartes Vehicle^^** units, it has the **^^Lone Operative^^** ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more friendly **^^Adeptus Astartes Vehicle^^** units, it has the Lone Operative ability.</characteristic>
           </characteristics>
         </profile>
         <profile name="Master of the Forge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c393-649d-7810-bcae">

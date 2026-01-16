@@ -6,7 +6,7 @@
   <entryLinks>
     <entryLink import="true" name="Archon" hidden="false" type="selectionEntry" id="f96f-85f3-fda6-40d9" targetId="5c1c-fa4a-3234-c711"/>
     <entryLink import="true" name="Court of the Archon [Legends]" hidden="false" type="selectionEntry" id="1cfc-355a-ccc1-176b" targetId="b221-43a3-8bee-117c"/>
-    <entryLink import="true" name="Cronos" hidden="false" type="selectionEntry" id="6ce9-94b5-94c8-82f" targetId="a5d3-e21b-bf13-a952"/>
+    <entryLink import="true" name="Cronos" hidden="false" type="selectionEntry" id="6ce9-94b5-94c8-82f" targetId="7721-33bf-db6d-9897"/>
     <entryLink import="true" name="Drazhar" hidden="false" type="selectionEntry" id="80eb-f424-6a35-c0c9" targetId="a30b-b966-d264-e935"/>
     <entryLink import="true" name="Grotesques [Legends]" hidden="false" type="selectionEntry" id="c4bf-74c9-87a2-f609" targetId="d729-7e1f-93a9-b1c5"/>
     <entryLink import="true" name="Haemonculus" hidden="false" type="selectionEntry" id="16f-1b8-d251-4b6a" targetId="32ff-aec4-9669-c8a2"/>
@@ -18,7 +18,7 @@
     <entryLink import="true" name="Ravager" hidden="false" type="selectionEntry" id="db8-7a89-3b82-c492" targetId="3376-d337-6a33-4bca"/>
     <entryLink import="true" name="Razorwing Jetfighter" hidden="false" type="selectionEntry" id="1356-8664-65d6-7600" targetId="fbc4-c7d0-db5b-91c"/>
     <entryLink import="true" name="Succubus" hidden="false" type="selectionEntry" id="70b6-9051-a20e-365f" targetId="b5a9-c802-10f0-6768"/>
-    <entryLink import="true" name="Talos" hidden="false" type="selectionEntry" id="eae1-89c6-5754-9ac4" targetId="5c5f-b70b-f6ee-a81e"/>
+    <entryLink import="true" name="Talos" hidden="false" type="selectionEntry" id="eae1-89c6-5754-9ac4" targetId="28c8-7a2c-06d3-2b90"/>
     <entryLink import="true" name="Urien Rakarth [Legends]" hidden="false" type="selectionEntry" id="ea25-2609-22d8-7463" targetId="76c4-e2ba-e247-560e"/>
     <entryLink import="true" name="Venom" hidden="false" type="selectionEntry" id="9ab-3dd9-480d-5435" targetId="ee2c-6ca0-5e29-37a6"/>
     <entryLink import="true" name="Voidraven Bomber" hidden="false" type="selectionEntry" id="673b-c008-9da7-4704" targetId="71e1-7d54-4856-4ce1"/>
@@ -37,5 +37,43 @@
     <entryLink import="true" name="Reaper [Legends]" hidden="false" type="selectionEntry" id="66da-5cd6-ac97-cdb7" targetId="a228-7269-9961-daf4"/>
     <entryLink import="true" name="Raven Strike Fighter [Legends]" hidden="false" type="selectionEntry" id="64cb-bc69-eed-3989" targetId="28c1-2c51-ab58-2d91"/>
     <entryLink import="true" name="Lady Malys" hidden="false" id="1a82-f502-3d69-09da" type="selectionEntry" targetId="a223-234b-7886-fccc"/>
+    <entryLink import="true" name="Show Mission-Specific Content" hidden="false" id="20e9-ad03-d5cb-8f18" type="selectionEntry" targetId="1b98-ea98-434c-b0a4">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="1446-d329-848c-e595" targetId="4ac9-fd30-1e3d-b249" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Breaching Robot" hidden="false" id="bc26-b39e-739f-0dd5" type="selectionEntry" targetId="a150-093b-e167-3968">
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="427d-0ad0-6edb-2abb" type="selectionEntry" targetId="3f04-19ab-bfb0-6c67" sortIndex="1"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="8f1d-7cee-49ce-439b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Searchlight" hidden="false" id="23fe-81d4-c93e-b821" type="selectionEntry" targetId="2a9c-3505-6df7-7e9b">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="1639-08b5-e13e-fb46" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Sentry Gun" hidden="false" id="ae0f-fe5e-2e26-49c1" type="selectionEntry" targetId="1d0d-7cfb-fa12-26c1">
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="fac1-e28c-b7d1-95a4" type="selectionEntry" targetId="3f04-19ab-bfb0-6c67" sortIndex="1"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="1639-08b5-e13e-fb46" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
 </catalogue>

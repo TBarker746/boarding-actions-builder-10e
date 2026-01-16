@@ -181,7 +181,7 @@
         </profile>
         <profile name="Chapter Master of the Raven Guard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f9e2-1180-e33c-e82c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Declare Battle Formations step, if your army includes Aethon Shaan and Kayvaan Shrike, until the end of the battle, your Kayvaan Shrike unit loses its **^^Lone Operative^^** ability and it replaces its **^^Chapter Master^^** keyword with **^^Captain^^**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Declare Battle Formations step, if your army includes Aethon Shaan and Kayvaan Shrike, until the end of the battle, your Kayvaan Shrike unit loses its Lone Operative ability and it replaces its **^^Chapter Master^^** keyword with **^^Captain^^**.</characteristic>
           </characteristics>
         </profile>
         <profile name="Master of Shadows" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5dbe-abfc-6ac6-2061">

@@ -338,7 +338,7 @@
         </profile>
         <profile name="Sanguinary Priest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="997a-75ae-da4b-a534">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly unit is affected by a Battlefield Command Stratagem used by this model, models in that unit have the **^^Feel No Pain 5+^^** ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly unit is affected by a Battlefield Command Stratagem used by this model, models in that unit have the Feel No Pain 5+ ability.</characteristic>
           </characteristics>
         </profile>
         <profile name="The Red Grail" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ba5c-785b-b694-3943">
@@ -1908,7 +1908,6 @@
       <infoLinks>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="8e3d-3cd-cef3-8a9a" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="fc0f-90ee-d8d7-18ec" targetId="3b76-4053-ece9-6e7d"/>
-        <infoLink name="Deep Strike" id="ff09-2842-cdf2-0b23" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Feel No Pain" id="2896-d4b4-a766-d0a9" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
           <modifiers>
             <modifier type="append" value="6+" field="name">
@@ -2047,7 +2046,7 @@
         </profile>
         <profile name="Shield of Sanguinius (Aura, Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="701b-9655-4af1-e452">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly **^^Adeptus Astartes^^** unit is within 6&quot; of this model, models in that unit have the **^^Feel No Pain 5+^^** ability against mortal wounds and Psychic Attacks.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly **^^Adeptus Astartes^^** unit is within 6&quot; of this model, models in that unit have the Feel No Pain 5+ ability against mortal wounds and Psychic Attacks.</characteristic>
           </characteristics>
         </profile>
         <profile name="Wings of Sanguinius (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="78af-53ce-b84c-2b1e">
@@ -2430,7 +2429,7 @@
         </profile>
         <profile name="Sanguinary Priest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bb06-73be-d05e-4541">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly unit is affected by a Battlefield Command Stratagem used by this model, models in that unit have the **^^Feel No Pain 5+^^** ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly unit is affected by a Battlefield Command Stratagem used by this model, models in that unit have the Feel No Pain 5+ ability.</characteristic>
           </characteristics>
         </profile>
         <profile name="Blood Chalice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2271-e1ab-2fb9-93c5">
@@ -2509,7 +2508,6 @@
       </constraints>
       <infoLinks>
         <infoLink name="Lone Operative" hidden="false" type="rule" id="500a-4188-24fe-2fa6" targetId="a8a0-8fe7-898-e0f3"/>
-        <infoLink name="Deep Strike" hidden="false" type="rule" id="e0f3-23fc-e379-144b" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Fights First" hidden="false" type="rule" id="2da8-9c6e-5181-3fbc" targetId="24-c886-e8ba-5a89"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="df39-e8fc-3c61-7a37" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="91ee-a59-f248-6fde" targetId="db19-dee7-9530-ef0e"/>
@@ -2626,7 +2624,7 @@
         </profile>
         <profile name="Sanguinary Priest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a752-2aba-3ea3-4da8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly unit is affected by a Battlefield Command Stratagem used by this model, models in that unit have the **^^Feel No Pain 5+^^** ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly unit is affected by a Battlefield Command Stratagem used by this model, models in that unit have the Feel No Pain 5+ ability.</characteristic>
           </characteristics>
         </profile>
         <profile name="Blood Chalice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4652-4462-711c-484c">

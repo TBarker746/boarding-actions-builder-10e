@@ -117,12 +117,7 @@
         </profile>
         <profile name="The Lion Helm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3bab-46d5-38a4-e70f" page="7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save. In addition, once per battle, in any phase, this model can summon a Watcher in the Dark. When it does, until the end of the phase, this model has the **^^Feel No Pain 4+^^** ability against mortal wounds.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="a1d2-31fe-75da-858c" name="Invulnerable save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" page="7">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save. In addition, once per battle, in any phase, this model can summon a Watcher in the Dark. When it does, until the end of the phase, this model has the Feel No Pain 4+ ability against mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c42f-33c4-62d9-93d9" page="9">
@@ -158,6 +153,7 @@
       </costs>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="f0dd-1efc-d3f-f5f0" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Invulnerable Save" id="d548-b9c1-2e85-d160" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -189,11 +185,6 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly unit is affected by a Battlefield Command Stratagem used by this model, each time a model in that unit makes an attack, if a Critical Hit is scored, that attack has the **[PRECISION]** ability.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ec73-66f5-f92a-addf">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ea5f-a72d-372f-69f" page="9">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following units:
@@ -221,6 +212,7 @@
         <categoryLink targetId="e21f-8e64-c5d-7df0" id="377a-c9e9-a0ca-4486" primary="false" name="Deathwing"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="9a9c-3375-4882-f6b3" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="1ee7-83d4-63c2-0854" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="cd09-4503-ba67-26e6" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Master-crafted storm bolter" hidden="false" id="4333-4e21-ec79-e05d">
@@ -278,6 +270,7 @@
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="5281-f2e5-43cd-c2a4" targetId="3b76-4053-ece9-6e7d"/>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="57eb-5450-2d6e-9db7" targetId="7cb5-dd6b-dd87-ad3b"/>
+        <infoLink name="Invulnerable Save" id="4640-137f-d476-194b" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -302,11 +295,6 @@
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="6fdb-c01c-b297-170f" name="Invulnerable save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" page="7">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+</characteristic>
           </characteristics>
         </profile>
         <profile name="Engulfing Fear [Psychic]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f048-48f8-8dc0-3001" page="13">
@@ -442,6 +430,7 @@
       <infoLinks>
         <infoLink name="Psychic Hood" hidden="false" type="profile" id="cab8-fb88-9e2f-363e" targetId="116b-b23c-4ea4-30ed"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="b624-4c53-c98f-376d" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Invulnerable Save" id="ac36-d0a1-835d-755d" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
@@ -472,11 +461,6 @@
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">5+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="bc71-ac50-79a-7ce8" name="Invulnerable save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" page="7">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+</characteristic>
           </characteristics>
         </profile>
         <profile name="Exemplar of Hate" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cb36-69d9-6027-34d7" page="15">
@@ -581,6 +565,7 @@
       </costs>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="ec15-2b16-6cb4-e9cc" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Invulnerable Save" id="b7e7-601b-9ec4-8904" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -625,12 +610,17 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         </profile>
         <profile name="Dark Angels Bodyguard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="330c-47ba-cddb-1910" page="41">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more friendly ^^**Adeptus Astartes Infantry^^** units, this model has the **^^Lone Operative^^** ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more friendly **^^Adeptus Astartes Infantry^^** units, this model has the Lone Operative ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="e25a-6293-2852-6904" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" page="41">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">3+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 3+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Supreme Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1ebf-2427-c846-5688">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is in your army, it must be your Warlord.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -644,6 +634,7 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         <categoryLink targetId="6474-0ce3-6b5a-120c" id="dc1b-1d3e-6b2a-436a" primary="false" name="Primarch"/>
         <categoryLink targetId="42a0-db93-ff81-d939" id="d249-a5a-dcf0-6cdf" primary="false" name="Lion El&apos;Jonson"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="c328-04f7-1669-f1f8" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="fbaa-3458-bf6f-090f" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a38-8830-2c5f-3c8f"/>
@@ -782,11 +773,6 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="620b-a55b-f7f1-5e58" page="19">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a74d-6e5a-52a3-8a29" page="20">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following units:
@@ -850,6 +836,7 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
       </costs>
       <infoLinks>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="ea1e-e2d4-492c-41a6" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Invulnerable Save" id="e34a-02c3-5a13-b292" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1791-ef95-1820-6805" includeChildSelections="true"/>
@@ -899,7 +886,7 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         </profile>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ad17-d6b0-ea21-926c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">5+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1080,7 +1067,7 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         </profile>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a723-ca6b-c9a1-a4d3" page="37">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">5+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-3 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c8eb-9594-8256-8c40" page="37">
@@ -1230,7 +1217,7 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         </profile>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d5a4-e1a8-3c7d-8301" page="35">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">5+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile name="Storm of Vengeance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="63a-27da-15f5-31d0" page="35">
@@ -1403,7 +1390,7 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
       <profiles>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d3d4-3de9-f046-c527" page="35">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">5+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile name="Icon of Old Caliban (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a79a-fb98-5a0b-66ca" page="33">
@@ -1530,7 +1517,7 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
           <profiles>
             <profile name="Watcher in the Dark" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fdbb-e7fe-2049-9899">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, in any phase, just after a mortal wound is allocated to an **^^Adeptus Astartes^^** model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the **^^Feel No Pain^^** 4+ ability against mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, in any phase, just after a mortal wound is allocated to an **^^Adeptus Astartes^^** model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1546,11 +1533,6 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         <categoryLink targetId="e21f-8e64-c5d-7df0" id="e67d-b1a4-290e-56de" primary="false" name="Deathwing"/>
       </categoryLinks>
       <profiles>
-        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d132-7f85-a199-1620">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2227-baf0-132f-549f">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a **^^Character^^** unit from your army with the Leader ability can use the Battlefield Command Stratagem on a **^^Terminator Squad^^**, it can also use that Stratagem on this unit.</characteristic>
@@ -1560,6 +1542,7 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
       <infoLinks>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="42f3-3cbb-c7b-5fe4" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Oath of Moment" hidden="false" id="a9ed-4479-7769-b018" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Invulnerable Save" id="8ab8-9db2-5b11-d3d0" hidden="false" type="profile" targetId="666c-5c58-531e-d906"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
@@ -1733,11 +1716,6 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
         <categoryLink targetId="e21f-8e64-c5d-7df0" id="c847-9194-f523-20d9" primary="false" name="Deathwing"/>
       </categoryLinks>
       <profiles>
-        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ec7e-6604-2b93-4c95" publicationId="3931-1b04-c00e-afad" page="31">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this unit have a 4+ invulnerable save.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Deathwing" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f2cb-8211-7899-158a">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or to the Hit roll.
@@ -1779,7 +1757,7 @@ In addition, each time a model in this unit makes an attack that targets your Oa
           <profiles>
             <profile name="Watcher in the Dark" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c387-d84-4d0c-5ce0">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, in any phase, just after a mortal wound is allocated to an Adeptus Astartes model in this unit, this unit can summon a **^^Watcher in the Dark^^**. When it does, until the end of the phase, models in this unit have the **^^Feel No Pain 4+^^** ability against mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, in any phase, just after a mortal wound is allocated to an **^^Adeptus Astartes^^** model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2095,6 +2073,7 @@ In addition, each time a model in this unit makes an attack that targets your Oa
       <infoLinks>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="1311-1e14-1106-9502" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Oath of Moment" hidden="false" id="cf1-ee55-1cc3-c04a" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Invulnerable Save" id="bca3-1688-bc1d-c741" hidden="false" type="profile" targetId="666c-5c58-531e-d906"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="85af-8ec8-afe8-473a" includeChildSelections="true"/>
@@ -2251,7 +2230,7 @@ In addition, each time a model in this unit makes an attack that targets your Oa
         </profile>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1431-e0c7-d73-19e5" page="35">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">5+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
       </profiles>

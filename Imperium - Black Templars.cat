@@ -11,7 +11,7 @@
     </entryLink>
     <entryLink import="true" name="High Marshal Helbrecht" hidden="false" type="selectionEntry" id="8692-5bf6-68fc-e426" targetId="da8a-de9f-1fe7-2513"/>
     <entryLink import="true" name="Crusader Squad" hidden="false" type="selectionEntry" id="741b-1e69-dc1f-1691" targetId="8bbe-e7fc-44b7-ed94"/>
-    <entryLink import="true" name="Sword Brethren Squad" hidden="false" type="selectionEntry" id="f993-54e9-8aad-1ef3" targetId="206c-6b4d-4aaa-7e79"/>
+    <entryLink import="true" name="Sword Brethren" hidden="false" type="selectionEntry" id="f993-54e9-8aad-1ef3" targetId="206c-6b4d-4aaa-7e79"/>
     <entryLink import="true" name="Emperor&apos;s Champion" hidden="false" type="selectionEntry" id="ce18-4cb9-c844-c869" targetId="ca2f-f408-c1bd-b87f"/>
     <entryLink import="true" name="Gladiator Lancer" hidden="false" type="selectionEntry" id="c73d-867-173b-8d9a" targetId="7dec-dc3d-c40a-8ce"/>
     <entryLink import="true" name="Gladiator Reaper" hidden="false" type="selectionEntry" id="36d9-1098-3c84-47d0" targetId="bfb6-4320-74cf-bbda"/>
@@ -194,7 +194,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="d5b0-353e-1d58-a47e" targetId="caa-f869-3cbd-b48e"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Invulnerable Save" hidden="false" type="profile" id="c69f-7569-ef6b-f84a" targetId="db19-dee7-9530-ef0e"/>
+        <infoLink name="Invulnerable Save" hidden="false" type="profile" id="c69f-7569-ef6b-f84a" targetId="666c-5c58-531e-d906"/>
         <infoLink name="Feel No Pain" hidden="false" type="rule" id="cbc5-9b0b-a78f-15f7" targetId="9bf4-280f-bbe2-6fbb">
           <modifiers>
             <modifier type="append" value="5+" field="name"/>
@@ -789,7 +789,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
         <categoryLink name="Attacks Dx Weapon" hidden="false" id="df9e-13f8-8e99-7c27" targetId="e993-e086-6de1-12af" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sword Brethren Squad" hidden="false" id="206c-6b4d-4aaa-7e79">
+    <selectionEntry type="unit" import="true" name="Sword Brethren" hidden="false" id="206c-6b4d-4aaa-7e79">
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="f9d2-a24f-a67f-35ea" primary="true" name="Infantry"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="e072-bbdd-1eae-c45d" primary="false" name="Grenades"/>
@@ -3257,7 +3257,7 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
       </categoryLinks>
       <infoLinks>
         <infoLink name="Deep Strike" id="9b9e-3fec-59f7-6f65" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
-        <infoLink name="Invulnerable Save" id="b787-4759-26bf-609b" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
+        <infoLink name="Invulnerable Save" id="b787-4759-26bf-609b" hidden="false" type="profile" targetId="666c-5c58-531e-d906"/>
         <infoLink name="Templar Vows" id="0174-d60b-561f-7380" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
       </infoLinks>
       <profiles>

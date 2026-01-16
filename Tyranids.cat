@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b984-7317-81cc-20f" name="Xenos - Tyranids" revision="114" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Dunamis55 (adapted for the Boarding Actions game mode by PurpleSerpent)">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b984-7317-81cc-20f" name="Xenos - Tyranids" revision="115" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Dunamis55 (adapted for the Boarding Actions game mode by PurpleSerpent)">
   <categoryEntries>
     <categoryEntry id="dc7d-ba0f-e6e-8599" name="The Swarmlord" hidden="false"/>
     <categoryEntry id="f75-65-2121-87b5" name="Broodlord" hidden="false"/>
@@ -2797,7 +2797,6 @@
             <modifier type="append" value="D3" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Deep Strike" id="b12e-7b6d-4af8-4757" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
         <infoLink name="Invulnerable Save (4+)" id="f648-e374-1db3-509c" hidden="false" targetId="a2fa-ebfd-7b32-9a75" type="profile"/>
         <infoLink name="Shadow in the Warp" id="d052-102a-fd71-ef99" hidden="false" type="rule" targetId="395b-a159-b293-27aa"/>
         <infoLink name="Synapse" id="52e5-4e0d-4d0e-572c" hidden="false" type="rule" targetId="86aa-437f-260b-5cad"/>
@@ -3599,7 +3598,7 @@
               <description>■ **^^Hormagaunts^^** units cannot perform the Secure Site Tactical Manoeuvre.</description>
             </rule>
             <rule name="Forming Boarding Squads" id="0f2b-798a-6b61-809b" hidden="false">
-              <description>**^^Hormagaunts^^** units do not split into separate units in the Form Boarding Squads step.</description>
+              <description>■ **Do not split ^^Hormagaunts^^** into separate units in the Form Boarding Squads step.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -3625,23 +3624,23 @@
 ■ **^^Endless Multitude^^** units may not perform the Secure Site Tactical Manoeuvre.</description>
             </rule>
             <rule name="Forming Boarding Squads" id="c6d6-aa9f-bc75-3097" hidden="false">
-              <description>The following units do not split into separate units in the Form Boarding Squads step:
-■ **^^Hormagaunts^^**
-■ **^^Neurogaunts^^**
-■ **^^Termagants^^**</description>
+              <description>■The following units do not split into separate units in the Form Boarding Squads step:
+   □ **^^Hormagaunts^^**
+   □ **^^Neurogaunts^^**
+   □ **^^Termagants^^**</description>
             </rule>
           </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Biotide" hidden="false" id="f472-f62b-9ba8-89ba">
           <rules>
             <rule name="Unstoppable Swarm" id="cc2c-f0de-7eec-709c" hidden="false">
-              <description>Each time a Tyranids unit from your army moves, models in that unit can move through friendly Tyranids units as if they were not there. In addition, each time a Tyranids unit from your army attempts to operate a closed Hatchway, if your opponent tries to prevent it, add 1 to your result of the roll-off.</description>
+              <description>Each time a **^^Tyranids^^** unit from your army moves, models in that unit can move through friendly **^^Tyranids^^** units as if they were not there. In addition, each time a **^^Tyranids^^** unit from your army attempts to operate a closed Hatchway, if your opponent tries to prevent it, add 1 to your result of the roll-off.</description>
             </rule>
             <rule name="Forming Boarding Squads" id="cc40-0b83-44d4-eae7" hidden="false">
-              <description>The following units do not split into separate units in the Form Boarding Squads step:
-■ **^^Hormagaunts^^**
-■ **^^Neurogaunts^^**
-■ **^^Termagants^^**</description>
+              <description>■ The following units do not split into separate units in the Form Boarding Squads step:
+   □ **^^Hormagaunts^^**
+   □ **^^Neurogaunts^^**
+   □ **^^Termagants^^**</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -3930,6 +3929,19 @@
               <infoLinks>
                 <infoLink name="Deep Strike" id="61ec-fdc9-3afc-7dfe" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
               </infoLinks>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="2aab-2f6e-6875-77b6" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="062e-d109-92e8-909f" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="f905-e26f-76a6-7754" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Superior Boarding Tactics" hidden="false" id="8dee-6f7c-b7b7-e1c4" collective="false">
               <constraints>

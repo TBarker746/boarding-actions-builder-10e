@@ -706,7 +706,6 @@
           </modifiers>
         </infoLink>
         <infoLink name="Musk of Torpidity" id="3c13-f5e5-b73b-d7f4" hidden="false" type="rule" targetId="1674-23e6-eacf-9624"/>
-        <infoLink name="Deep Strike" id="7f25-4c6d-39a4-2b3a" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="215"/>
@@ -2731,6 +2730,19 @@
               <infoLinks>
                 <infoLink name="Deep Strike" id="270b-381a-d858-b2ea" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
               </infoLinks>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="2aab-2f6e-6875-77b6" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="062e-d109-92e8-909f" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="f905-e26f-76a6-7754" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Superior Boarding Tactics" hidden="false" id="c58b-47d6-9a47-ea61" collective="false">
               <constraints>

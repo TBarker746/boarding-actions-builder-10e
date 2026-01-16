@@ -882,6 +882,7 @@
         <categoryLink id="76df-7e26-2b9b-3bd2" name="Faction: Adeptus Custodes" hidden="false" targetId="eea5-aeaf-bbf0-d5ee" primary="false"/>
         <categoryLink targetId="01bd-593a-0815-b1fb" id="5ea8-0f09-d732-2f1b" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="a1a6-9c8b-280d-9f17" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="6ca3-35ef-0475-5783" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a233-1cf6-8bf2-aeb8" name="Warlord" hidden="false" collective="false" import="true" targetId="0574-f558-2957-584f" type="selectionEntry" sortIndex="1"/>
@@ -1999,6 +2000,7 @@
         <categoryLink id="3a9c-96df-6f68-59c3" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
         <categoryLink id="3410-c1c7-1a91-1c6c" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="false"/>
         <categoryLink targetId="01bd-593a-0815-b1fb" id="2f33-25c2-643d-b261" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="b45c-15d6-2ab3-0e9a" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d1cc-15d9-2b08-6dfb" name="Wargear" hidden="false" collective="false" import="true" defaultSelectionEntryId="53df-e02f-5f3e-6a1d" sortIndex="3">
@@ -2307,6 +2309,7 @@
         <categoryLink id="ca64-5c27-92df-384e" name="Faction: Adeptus Custodes" hidden="false" targetId="eea5-aeaf-bbf0-d5ee" primary="false"/>
         <categoryLink id="ba4c-7960-1e3a-2f92" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
         <categoryLink targetId="01bd-593a-0815-b1fb" id="b1ee-792a-48e5-f3a4" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="441d-4f93-aa08-df12" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="f91f-9745-9165-ec47" hidden="false" sortIndex="3">
@@ -2517,6 +2520,7 @@
         <categoryLink id="108c-b49d-baa1-5c1c" name="Faction: Adeptus Custodes" hidden="false" targetId="eea5-aeaf-bbf0-d5ee" primary="false"/>
         <categoryLink targetId="01bd-593a-0815-b1fb" id="0478-cae6-2dd8-9728" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="7a20-3b57-940d-2e4c" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="ff60-efd3-3862-be3a" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="24fc-1ed3-5bc6-48d8" name="Warlord" hidden="false" collective="false" import="true" targetId="0574-f558-2957-584f" type="selectionEntry" sortIndex="1">
@@ -5115,6 +5119,19 @@
               <infoLinks>
                 <infoLink name="Deep Strike" id="c7e6-6029-25b7-1b1e" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
               </infoLinks>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="2aab-2f6e-6875-77b6" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="062e-d109-92e8-909f" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="f905-e26f-76a6-7754" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Superior Boarding Tactics" hidden="false" id="052e-96f8-e776-c9dd" collective="false">
               <constraints>
@@ -5216,7 +5233,7 @@
               <profiles>
                 <profile name="Sinister Prescence (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c933-b045-dd5c-2858">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Anathema Psykana^^** model only. While an enemy unit is within 6&quot; of the bearer (when measuring this distance, Walls and closed Hatchways are ignored), that unit cannot Seize objective markers (pg 20) and, in your opponent&apos;s Command phase, that unit must take a Battle-shock test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Anathema Psykana^^** model only. While an enemy unit is within 6&quot; of the bearer (when measuring this distance, Walls and closed Hatchways are ignored), that unit cannot Seize objective markers and, in your opponent&apos;s Command phase, that unit must take a Battle-shock test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5327,9 +5344,10 @@
     <rule id="e348-7090-3aff-ee2c" name="Focused Ka&apos;tah" hidden="false">
       <description>At the start of the Fight phase, you may select one of the Ka&apos;tah stances below. Until the end of the phase, all friendly units with this ability gain the relevant bonus. Each Ka&apos;tah stance may only be selected once per battle.
 
-■ DACATARAI STANCE
+**Dacatari Stance**
 Melee weapons equipped by models in this unit have the **[SUSTAINED HITS 1]** ability.
-■ RENDAX STANCE
+
+**Rendax Stance**
 Melee weapons equipped by models in this unit have the **[LETHAL HITS]** ability.</description>
     </rule>
   </sharedRules>

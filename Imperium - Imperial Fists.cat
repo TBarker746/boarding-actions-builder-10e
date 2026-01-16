@@ -20,6 +20,7 @@
         <categoryLink targetId="97aa-d0e4-71c7-96c3" id="85e-6a9f-3389-7391" primary="false" name="Faction: Imperial Fists"/>
         <categoryLink targetId="f797-f718-df7d-8545" id="b0ae-251b-e86-d514" primary="false" name="Darnath Lysander"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="f6bb-e82f-2e2d-4030" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="ac7b-3372-c5ff-3966" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <profiles>
         <profile name="Darnath Lysander" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="6d34-cff2-ff30-d3cc">
