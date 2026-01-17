@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b00-cd86-4b4c-97ba" name="Imperium - Agents of the Imperium" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="122" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b00-cd86-4b4c-97ba" name="Imperium - Agents of the Imperium" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="122" battleScribeVersion="2.03" type="catalogue" authorName="Adapted for the Boarding Actions game mode by PurpleSerpent">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="bb9a-14e7-b947-793b">
       <constraints>
@@ -4122,8 +4122,7 @@
       <profiles>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7f12-782b-ccb8-c711">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 6 **^^Ordo Hereticus Infantry^^** models.
-</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 6 **^^Ordo Hereticus Infantry^^** models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Purge and Cleanse" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="63f5-e162-abaf-9a62">

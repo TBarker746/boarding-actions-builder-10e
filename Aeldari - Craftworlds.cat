@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="34a5-8c7e-f468-82d1" name="Xenos - Aeldari" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="34a5-8c7e-f468-82d1" name="Xenos - Aeldari" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Adapted for the Boarding Actions game mode by PurpleSerpent">
   <entryLinks>
     <entryLink id="f3ea-ade3-be6-a95" name="Wraithguard" hidden="false" collective="false" import="true" targetId="5aa4-107-d7ee-f0f3" type="selectionEntry"/>
     <entryLink import="true" name="Asurmen" hidden="false" type="selectionEntry" id="b425-6079-7cf8-c3fd" targetId="828d-840a-9a67-9074"/>

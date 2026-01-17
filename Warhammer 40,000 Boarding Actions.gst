@@ -256,6 +256,11 @@
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="e757-835c-4ca9-7787" shared="true"/>
                   </conditions>
                 </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="675f-0816-5f15-02fc" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
               </localConditionGroups>
               <conditionGroups>
                 <conditionGroup type="and">
@@ -447,6 +452,16 @@
                 <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="e757-835c-4ca9-7787" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="675f-0816-5f15-02fc" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="7e47-0162-f2f7-0e84" shared="true"/>
                   </conditions>
                 </localConditionGroup>
               </localConditionGroups>
@@ -760,7 +775,7 @@
     <categoryEntry name="Deep Strike Character" id="2aab-2f6e-6875-77b6" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="bb9d-299a-ed60-2d8a" name="Army Roster" hidden="false">
+    <forceEntry id="bb9d-299a-ed60-2d8a" name="Boarding Patrol" hidden="false">
       <categoryLinks>
         <categoryLink id="d5de-ee57-ad4b-e4b7" name="Configuration" hidden="false" targetId="4ac9-fd30-1e3d-b249" primary="false"/>
         <categoryLink id="16fc-8e39-ee82-cf96" name="Epic Hero" hidden="false" targetId="4f3a-f0f7-6647-348d" primary="false"/>
