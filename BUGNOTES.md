@@ -3,7 +3,7 @@ Warhammer 40,000 10th Edition: Boarding Actions
 
 ## Bug Reporting Notes ##
 
-This army builder is based off of the [original 10th Edition army builder](https://github.com/BSData/wh40k-10e/blob/main/README.md), which puts it in something of a complex space regarding bug reporting, as it may inherit bugs present in that database as well as those that arise during conversion. Before submitting a bug report in this repo, therefore, please check the following:
+This army builder is a non-official project based off of the [original BSData 10th Edition army builder](https://github.com/BSData/wh40k-10e/blob/main/README.md), which puts it in something of a complex space regarding bug reporting, as it may inherit bugs present in that database as well as those that arise during conversion. Before submitting a bug report in this repo, therefore, please check the following:
 
 * Make sure the bug isn't also present in the main 10th Edition builder - if it is, please report it there. This project should be updated to match the main builder within a few days of the bug being fixed there; if it hasn't been fixed within a week of that happening, feel free to make a second report here.
 * If you're reporting a mismatch between the contents of this builder and the official stats of a model, bear in mind that due to rules adaptations between the main game and Boarding Actions, some rules have been deliberately rewritten or omitted entirely, which may account for some of the differences. Check your bug report against the following:
