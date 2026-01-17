@@ -9,6 +9,8 @@ This dataset has been written for the list-building application New Recruit, and
 
 As this repository is an adaptation of another ongoing project, if you want to submit a  [Report a bug][bug report], please check out the [notes page](https://github.com/TBarker746/boarding-actions-BSdata-draft/blob/main/BUGNOTES.md) first, as certain issues should probably be reported on the [original dataset](https://github.com/BSData/wh40k-10e/blob/main/README.md) rather than here.
 
+[bug report]: https://github.com/TBarker746/boarding-actions-builder-10e/issues/new/choose
+
 
 
 
