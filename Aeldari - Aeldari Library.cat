@@ -494,6 +494,7 @@
                   <categoryLinks>
                     <categoryLink name="Ranged Weapon" hidden="false" id="97be-e0a3-edfd-d70f" targetId="eeda-8544-a2f3-3fab" primary="false"/>
                     <categoryLink name="Attacks Dx Weapon" hidden="false" id="7b65-f092-ff51-bd21" targetId="e993-e086-6de1-12af" primary="false"/>
+                    <categoryLink targetId="064a-0470-60eb-e3ef" id="2dce-0446-ef91-cbdf" primary="false" name="Torrent Weapon"/>
                   </categoryLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Dragon Fusion Gun" hidden="false" id="5436-59f0-b6be-d105" collective="false">
@@ -857,6 +858,7 @@
                   <categoryLinks>
                     <categoryLink name="Ranged Weapon" hidden="false" id="236e-fa49-07d4-2709" targetId="eeda-8544-a2f3-3fab" primary="false"/>
                     <categoryLink name="Attacks Dx Weapon" hidden="false" id="8964-a298-22f0-7b3f" targetId="e993-e086-6de1-12af" primary="false"/>
+                    <categoryLink targetId="064a-0470-60eb-e3ef" id="4dcf-f9fa-c2dc-aee3" primary="false" name="Torrent Weapon"/>
                   </categoryLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Dragon Fusion Gun" hidden="false" id="938c-c100-9371-dced" collective="false">
@@ -16022,6 +16024,7 @@ makes an attack, subtract 1 from the Hit roll</characteristic>
       <categoryLinks>
         <categoryLink name="Psychic Weapon" hidden="false" id="45eb-24d0-e2b5-18cd" targetId="4546-4a0c-b3be-e84c" primary="false"/>
         <categoryLink name="Attacks Dx Weapon" hidden="false" id="67be-68e5-fcc8-26e2" targetId="e993-e086-6de1-12af" primary="false"/>
+        <categoryLink targetId="064a-0470-60eb-e3ef" id="b4e6-66c4-8e35-63e5" primary="false" name="Torrent Weapon"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Aspect Shrine Token" hidden="false" id="344f-a1d4-6038-7ee7">

@@ -529,7 +529,15 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb24-5746-efdb-6b18" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Enhancements" hidden="false" id="a0b6-cc9c-8083-ebbb" type="selectionEntryGroup" targetId="bb16-4092-48fa-fe6e" sortIndex="1"/>
+                <entryLink import="true" name="Enhancements" hidden="false" id="a0b6-cc9c-8083-ebbb" type="selectionEntryGroup" targetId="bb16-4092-48fa-fe6e" sortIndex="1">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="roster" childId="9472-ac70-b5af-2ddd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Wargear" id="b441-eb66-481c-7354" hidden="false" defaultSelectionEntryId="99c5-292-af3d-1d28" sortIndex="3">
@@ -751,7 +759,15 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="911c-3740-b7ac-4154" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Enhancements" hidden="false" id="a96e-19bc-2aed-20d8" type="selectionEntryGroup" targetId="bb16-4092-48fa-fe6e" sortIndex="1"/>
+                <entryLink import="true" name="Enhancements" hidden="false" id="a96e-19bc-2aed-20d8" type="selectionEntryGroup" targetId="bb16-4092-48fa-fe6e" sortIndex="1">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="roster" childId="9472-ac70-b5af-2ddd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntry>
           </selectionEntries>
@@ -3598,7 +3614,7 @@
               <description>■ **^^Hormagaunts^^** units cannot perform the Secure Site Tactical Manoeuvre.</description>
             </rule>
             <rule name="Forming Boarding Squads" id="0f2b-798a-6b61-809b" hidden="false">
-              <description>■ **Do not split ^^Hormagaunts^^** into separate units in the Form Boarding Squads step.</description>
+              <description>■ Do not split **^^Hormagaunts^^** into separate units in the Form Boarding Squads step.</description>
             </rule>
           </rules>
         </selectionEntry>

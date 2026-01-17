@@ -161,6 +161,9 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
               </constraints>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Warlord" hidden="false" id="d5b0-353e-1d58-a47e" type="selectionEntry" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Cenobyte Servitor" hidden="false" id="50c1-549e-fb56-414f">
           <constraints>
@@ -190,9 +193,6 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
           </selectionEntries>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="d5b0-353e-1d58-a47e" targetId="caa-f869-3cbd-b48e"/>
-      </entryLinks>
       <infoLinks>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="c69f-7569-ef6b-f84a" targetId="666c-5c58-531e-d906"/>
         <infoLink name="Feel No Pain" hidden="false" type="rule" id="cbc5-9b0b-a78f-15f7" targetId="9bf4-280f-bbe2-6fbb">

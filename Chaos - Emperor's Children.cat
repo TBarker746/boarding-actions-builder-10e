@@ -449,6 +449,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink import="true" name="Enhancements" hidden="false" id="2111-e22e-2d8d-5e7a" type="selectionEntryGroup" targetId="ce10-1f30-82b7-fc7a" sortIndex="2"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="a992-a013-f736-afbe" type="selectionEntry" targetId="c7a7-3164-12bc-3462" sortIndex="1"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink name="Character" hidden="false" id="8769-2543-d10e-77ae" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
@@ -467,16 +468,6 @@
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="8c7a-1d0d-4370-e6a0" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="1916-c333-a717-1bb6" includeChildSelections="true"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="d9a2-f19c-e21c-c1ee" sortIndex="1">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="704e-a6b6-1e59-1d2e" includeChildSelections="false"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink name="Warlord" hidden="false" id="b2cc-a2bb-edc5-9199" targetId="5c0e-4c31-d51b-e470" primary="false"/>
-          </categoryLinks>
-        </selectionEntry>
-      </selectionEntries>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="70"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
