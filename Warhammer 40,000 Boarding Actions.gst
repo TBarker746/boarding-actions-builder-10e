@@ -261,6 +261,16 @@
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="675f-0816-5f15-02fc" shared="true"/>
                   </conditions>
                 </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="9e74-d632-ced3-78c3" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="2d73-784f-f901-31fa" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
               </localConditionGroups>
               <conditionGroups>
                 <conditionGroup type="and">
@@ -333,6 +343,11 @@
                 <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="33a0-403c-9ed9-3b07" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f76d-a0c7-95b9-998b" shared="true"/>
                   </conditions>
                 </localConditionGroup>
               </localConditionGroups>
@@ -462,6 +477,16 @@
                 <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="7e47-0162-f2f7-0e84" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="9e74-d632-ced3-78c3" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="2d73-784f-f901-31fa" shared="true"/>
                   </conditions>
                 </localConditionGroup>
               </localConditionGroups>

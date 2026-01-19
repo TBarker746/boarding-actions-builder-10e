@@ -29,31 +29,11 @@
     <categoryEntry name="Fellblade" hidden="false" id="f7a9-bb57-5e7f-54b6"/>
     <categoryEntry name="Falchion" hidden="false" id="2423-750-51f-b957"/>
     <categoryEntry name="Tarantula Sentry Battery" hidden="false" id="54d-a72c-de79-525d"/>
-    <categoryEntry name="Decimator" hidden="false" id="8de0-cca6-1b8d-5e45">
-      <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2f15-a830-9a9e-a6c4" type="max"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Greater Blight Drone" hidden="false" id="310e-cc22-5fc5-54fe">
-      <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2f15-a830-9a9e-a6c4" type="max"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Dreadclaw Drop Pod" hidden="false" id="a79d-1828-aa82-93a6">
-      <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2f15-a830-9a9e-a6c4" type="max"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Blood Slaughterer" hidden="false" id="1470-3115-2bfe-95f4">
-      <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2f15-a830-9a9e-a6c4" type="max"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Greater Brass Scorpion" hidden="false" id="691c-54b4-bfa5-be5c">
-      <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2f15-a830-9a9e-a6c4" type="max"/>
-      </constraints>
-    </categoryEntry>
+    <categoryEntry name="Decimator" hidden="false" id="8de0-cca6-1b8d-5e45"/>
+    <categoryEntry name="Greater Blight Drone" hidden="false" id="310e-cc22-5fc5-54fe"/>
+    <categoryEntry name="Dreadclaw Drop Pod" hidden="false" id="a79d-1828-aa82-93a6"/>
+    <categoryEntry name="Blood Slaughterer" hidden="false" id="1470-3115-2bfe-95f4"/>
+    <categoryEntry name="Greater Brass Scorpion" hidden="false" id="691c-54b4-bfa5-be5c"/>
     <categoryEntry name="Kytan Ravager" hidden="false" id="aab2-bb8f-e2ce-fe90"/>
     <categoryEntry name="Kharybdis Assault Claw" hidden="false" id="59cb-a2c2-114-4ce6"/>
     <categoryEntry name="Thunderhawk" hidden="false" id="50c4-4cd1-80b8-e85"/>
@@ -3917,7 +3897,7 @@
       <profiles>
         <profile name="Decimator" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e078-359f-58ce-4c03">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
@@ -4145,6 +4125,9 @@
           </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7d2c-8013-620b-86a9" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Greater Blight Drone [Legends]" hidden="false" id="412c-3499-8275-2637">
       <modifiers>
@@ -4159,7 +4142,6 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="dd9-2784-d9cc-6ad0" primary="true" name="Vehicle"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="75da-8817-e00c-b46e" primary="false" name="Fly"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="88a4-d1ab-4b24-e024" primary="false" name="Chaos"/>
         <categoryLink targetId="ed0d-8e2a-225c-2340" id="2a44-1b9b-8ce8-56ea" primary="false" name="Nurgle"/>
         <categoryLink targetId="9c0e-7e25-4580-e439" id="6bc2-307c-ff6a-ed55" primary="false" name="Daemon"/>
@@ -4181,14 +4163,8 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Hovering Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4cc3-1fa5-29c8-5c0b">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model is eligible to shoot and declare a charge in a turn in which it Fell Back.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3856-f816-cda5-3d76" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
         <infoLink id="d78e-c34d-1ebb-a91b" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="1"/>
@@ -4267,6 +4243,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d28a-3556-fd47-d099" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Dreadclaw Drop Pod [Legends]" hidden="false" id="9401-616b-6e9e-10e5">
       <costs>
@@ -4293,12 +4272,11 @@
             <modifier type="append" field="name" value="1"/>
           </modifiers>
         </infoLink>
-        <infoLink id="33ab-b2e0-66e0-e448" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Dreadclaw Drop Pod" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5cb6-3ed0-c647-75ac">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">9</characteristic>
@@ -4308,12 +4286,7 @@
         </profile>
         <profile name="Dreadclaw Drop Pod" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="12e6-1df5-48fa-d6f1">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 HERETIC ASTARTES INFANTRY models. Each JUMP PACK, POSSESSED and TERMINATOR model takes up the space of 2 models. Each OBLITERATOR model takes up the space of 3 models. This model can instead transport 1 HELBRUTE or DREADNOUGHT model.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Dreadclaw Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ed9f-5e9a-29d7-6a5">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9&quot; away from all enemy models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Heretic Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Possessed^^** and **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4342,6 +4315,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2ae1-da8b-b3b1-b4f4" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Blood Slaughterer [Legends]" hidden="false" id="fdad-1104-a934-3812">
       <costs>
@@ -4372,7 +4348,7 @@
       <profiles>
         <profile name="Blood Slaughterer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9348-6035-ebac-f706">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">10</characteristic>
@@ -4383,11 +4359,6 @@
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d732-63b7-352b-e723">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Scuttling Gait" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a85d-54dc-a0a3-5625">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6&quot; to the Move characteristic of models in this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4469,6 +4440,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0d4f-4c0f-313a-5e70" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Greater Brass Scorpion [Legends]" hidden="false" id="f564-7bc-21a6-7796">
       <costs>
@@ -4494,7 +4468,6 @@
             <modifier type="append" value="D6+2" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Super-Heavy Walker" hidden="false" type="rule" id="648d-ae72-696e-ab9f" targetId="5e13-1624-d280-418d"/>
       </infoLinks>
       <profiles>
         <profile name="Runes of the Blood God" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7a21-d7fb-1f83-f292">
@@ -4509,7 +4482,7 @@
         </profile>
         <profile name="Greater Brass Scorpion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="16a0-e4d0-4ec3-e038">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
@@ -4639,6 +4612,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="65de-b243-e555-11d6" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Kytan Ravager [Legends]" hidden="false" id="6c76-b4e-4437-27e2">
       <costs>
@@ -4664,7 +4640,6 @@
             <modifier type="append" value="D6+2" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Super-Heavy Walker" hidden="false" type="rule" id="9e23-56a4-8eb6-1ab7" targetId="5e13-1624-d280-418d"/>
       </infoLinks>
       <profiles>
         <profile name="Damaged: 1-8 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e230-1d28-9fc8-572a">
@@ -4672,14 +4647,9 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-8 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Bloodlust" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e04a-bafe-cc4a-6992">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [SUSTAINED HITS 1] ability. In addition, once per battle, this model is eligible to declare a charge in a turn in which it Advanced.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Kytan Ravager" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="fb5c-ab40-77e6-f564">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">24</characteristic>
@@ -4755,6 +4725,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="95f9-c600-a1e9-372c" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Kharybdis Assault Claw [Legends]" hidden="false" id="5bb7-ac8-4448-a4d8">
       <costs>
@@ -4771,7 +4744,6 @@
         <categoryLink targetId="5929-ad51-d006-e008" id="8cf-a5d2-96ae-57bf" primary="false" name="Titanic"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="9b44-db5c-9-cbf2" primary="false" name="Chaos"/>
         <categoryLink targetId="75e8-57c4-40e3-1817" id="4856-831b-8767-b073" primary="false" name="Transport"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="fa48-ca12-477a-8975" primary="false" name="Fly"/>
         <categoryLink targetId="59cb-a2c2-114-4ce6" id="f517-2ff0-f5f-5602" primary="false" name="Kharybdis Assault Claw"/>
       </categoryLinks>
       <infoLinks>
@@ -4780,17 +4752,11 @@
             <modifier type="append" value="D6+2" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Deep Strike" hidden="false" type="rule" id="7ba8-7bc3-6d6f-5dbe" targetId="7cb5-dd6b-dd87-ad3b"/>
       </infoLinks>
       <profiles>
-        <profile name="Kharybdis Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2d23-1cc3-1a59-96c4">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9&quot; away from all enemy models.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Kharybdis Assault Claw" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="335e-dde2-e256-5053">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">20</characteristic>
@@ -4805,7 +4771,7 @@
         </profile>
         <profile name="Kharybdis Assault Claw" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="a510-9d3d-adf2-4459">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 22 HERETIC ASTARTES INFANTRY models. Each JUMP PACK, POSSESSED and TERMINATOR model takes up the space of 2 models. Each OBLITERATOR model takes up the space of 3 models. This model can instead transport 1 HELBRUTE or DREADNOUGHT model.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 22 **^^Heretic Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Possessed^^** and **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4899,13 +4865,14 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="090f-a69b-faec-74c4" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Chaos Thunderhawk [Legends]" hidden="false" id="6844-986c-b0ea-6dd5">
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="29ec-bbb2-b407-d6d7" primary="true" name="Vehicle"/>
         <categoryLink targetId="5929-ad51-d006-e008" id="63d9-41ca-e929-3dd8" primary="false" name="Titanic"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="f6fd-5d75-6231-a69" primary="false" name="Fly"/>
-        <categoryLink targetId="63f1-e6e8-f6f6-a4f0" id="48b2-332e-26a4-28dd" primary="false" name="Aircraft"/>
         <categoryLink targetId="75e8-57c4-40e3-1817" id="691c-fee8-48b0-e348" primary="false" name="Transport"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="5307-319b-36cc-f6f7" primary="false" name="Chaos"/>
         <categoryLink targetId="50c4-4cd1-80b8-e85" id="7355-ad9d-b2b8-9c4f" primary="false" name="Thunderhawk"/>
@@ -4916,7 +4883,6 @@
             <modifier type="append" field="name" value="D6"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Hover" hidden="false" type="rule" id="d33b-3bf8-cd62-4543" targetId="eec5-5f54-9c03-c305"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -4928,7 +4894,7 @@
       <profiles>
         <profile name="Chaos Thunderhawk" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="89da-823-dec3-4bf8">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">20&quot;+</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">30</characteristic>
@@ -4941,14 +4907,9 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Aerial Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c6bf-fc6c-319e-b88d">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Chaos Thunderhawk" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="71d3-2168-473e-b649">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 30 &lt;FACTION&gt; INFANTRY or &lt;FACTION&gt; MOUNTED models. Each JUMP PACK, POSSESSED and TERMINATOR model takes up the space of 2 models. Each OBLITERATOR model takes up the space of 3 models. Each MOUNTED model takes up the space of 4 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 30 **^^&lt;Faction&gt; Infantry^^** models. Each **^^Jump Pack^^**, **^^Possessed^^** and **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5055,6 +5016,9 @@
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="840"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2b28-27ac-b54b-7fd4" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="ed2f-5baf-1eec-40c5" name="Autocannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5330,6 +5294,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fe66-d043-e6c1-6a2d" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Leviathan Dreadnought [Legends]" hidden="false" id="14d4-8062-f090-6719" collective="false">
       <profiles>
@@ -5613,6 +5580,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="dafc-381a-6148-8d1f" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Relic Contemptor Dreadnought [Legends]" hidden="false" id="783a-1c02-b377-b169" collective="false">
       <profiles>
@@ -5981,6 +5951,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="07c6-5dcd-5386-b8f7" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>

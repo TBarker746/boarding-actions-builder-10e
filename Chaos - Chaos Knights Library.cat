@@ -31,6 +31,7 @@
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="aa78-eab0-fd2d-f76d" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="a736-5622-8bf1-4e90" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="231e-0b4d-d8f2-ae92" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e6e8-330c-4fd1-61b1" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="b861-c239-8fa2-afa5" name="War Dog Executioner" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -329,6 +330,7 @@
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="4c18-504d-51e7-64c9" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="8dc0-c0c8-386d-b431" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="d47d-4004-9107-8376" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2715-6526-82fb-bc69" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="ce7f-d704-a682-dcd6" name="War Dog Stalker" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -424,6 +426,7 @@
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="1899-280c-9930-534b" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="ce73-a8d4-2ed3-37eb" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="60aa-add7-7992-85b6" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="51f1-c23c-06f1-f839" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="a907-b7f9-b9cf-a620" name="War Dog Karnivore" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -543,6 +546,7 @@
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="6a4b-917b-b0c2-c3e9" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="d335-60b3-63e5-57b4" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="9af8-a865-1f4d-696c" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="351d-7e04-8008-1f65" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="2a67-fd95-e3f9-420e" name="War Dog Brigand" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -633,6 +637,7 @@
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="4dad-11ae-d9ca-1f20" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="1694-4ae6-1ec9-6818" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="7806-d785-e98e-d15e" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a8c6-e77a-f20e-9072" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="540b-339c-30a4-fb9d" name="War Dog Huntsman" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -717,6 +722,7 @@
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="bcd7-b208-f777-d848" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="ea99-9522-20bd-349c" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="f1ed-02c9-6e23-9e0e" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8f5e-6ff1-2371-f6be" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="0487-2918-c4e9-735f" name="Knight Despoiler" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -1231,6 +1237,7 @@
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="497f-a981-7c09-054b" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="7228-ef2d-a1db-0f75" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="35bc-b30b-f619-bf19" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4ac1-dc16-818b-7ed5" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="160e-7198-c314-f89c" name="Knight Desecrator" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -1375,6 +1382,7 @@
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="8404-4c27-ad0e-7cda" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="fcb9-6ce2-b9c5-4f29" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="32cb-735b-574a-d56f" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4222-f683-441b-2406" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="bade-b185-e569-edc1" name="Knight Rampager" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -1535,6 +1543,7 @@
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="8fd8-3abe-9e61-1b64" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="03b4-0d6d-7e46-3c01" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="01f8-be1f-bc0e-1124" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="53e0-09c4-5aad-5227" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="b5fe-c12f-7cfd-152d" name="Knight Abominant" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -1715,6 +1724,7 @@
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="bcfa-0a5e-3042-56ef" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="a1e8-0a1e-144a-2d93" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="0bdf-821e-0d47-0b79" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a251-3dcf-691c-a423" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="868c-dc0a-4bc2-55ad" name="Knight Tyrant" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -2128,6 +2138,7 @@
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="8b25-41e0-0956-e10f" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="1b14-dc9b-70f0-e1d2" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="caaf-049d-922e-c111" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f21f-1c89-37ec-ad38" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="2916-a86d-a98f-b9fb" name="Chaos Cerastus Knight Lancer" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -2248,6 +2259,7 @@
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="14a4-d748-7e3f-07d5" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="0668-7a71-fce8-54e3" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="3439-123d-1322-47d3" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fff9-a2e9-ae91-55e0" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="c85c-2c10-9dab-f10f" name="Chaos Cerastus Knight Castigator" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -2387,6 +2399,7 @@
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="43d2-d1a1-592b-2924" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="00db-fd5f-7bd2-065a" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="5265-11e4-497b-8d13" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8605-95a1-8a01-eb02" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="5403-3f13-3ca6-22b6" name="Chaos Cerastus Knight Acheron" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -2564,6 +2577,7 @@
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="60b2-552b-5136-b9b3" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="9d8c-baf1-7aed-e250" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="e5cf-e854-b748-cc90" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fc7d-4b10-f539-8e21" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="f71c-3753-d130-cfe2" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -2737,6 +2751,7 @@
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="8c70-a60e-87dd-cf94" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="e2b5-cb34-a730-9cd7" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="83d2-fc03-4047-5103" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9be2-9eb4-2de0-e187" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="ca52-f026-f24-eed8" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -2960,6 +2975,7 @@
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="bb98-547a-e6d0-cbb3" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="dfd3-ec33-541e-d636" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="505e-fd6b-8517-3f9b" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1fba-26ca-44d9-b404" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="6a34-1ef2-5069-91c7" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -3184,6 +3200,7 @@
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="31d4-b53d-ec7e-c258" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="68ab-4b8b-16ce-290d" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="7a9b-ee72-a947-56a2" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="02a0-210b-ba2d-97ee" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile id="9155-86e3-7298-9c35" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -3423,6 +3440,7 @@
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="5e9d-606d-a465-d485" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="0249-e761-e1dc-fd00" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="8095-d426-0ffa-c67d" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5963-35bb-304d-7c21" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile name="Knight Ruinator" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3bc9-aaff-0392-6cb1">

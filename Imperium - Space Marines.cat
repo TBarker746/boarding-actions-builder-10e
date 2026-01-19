@@ -248,7 +248,6 @@
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="2485-9ec0-7b4d-1321" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="64ee-7ff9-c3c8-3fe9" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="2b77-6652-8281-d774" includeChildSelections="true"/>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3f0b-a41a-29ec-63e7" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="4bb5-2ac8-0d3a-43ab" collective="false" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="1">
@@ -308,7 +307,6 @@
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="c0f1-c53a-0cf6-c29d" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="b79e-6209-fd48-837f" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="7fd8-c222-fa40-3a1f" includeChildSelections="true"/>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="dab8-a2e3-d2a2-4a38" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="0f20-9aac-c834-75dc" collective="false" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="1">
@@ -368,7 +366,6 @@
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="2434-853c-d5b5-dbb0" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="fc80-1993-8ffa-3a64" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="47d0-902f-6bc0-ef16" includeChildSelections="true"/>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0f09-c315-2c34-a01a" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="069d-87fb-af7b-f943" collective="false" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="1">
