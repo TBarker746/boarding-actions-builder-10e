@@ -1217,7 +1217,7 @@
             <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-FLY 2, Twin-linked</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2, Twin-linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2070,7 +2070,7 @@
             <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-6</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-TITANIC 4+, Devastating Wounds</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Titanic 4+, Devastating Wounds</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2883,7 +2883,7 @@
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">2</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 2+, Ignores Cover, Torrent, Twin-linked</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Ignores Cover, Torrent, Twin-linked</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3036,7 +3036,7 @@
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-VEHICLE 2+, Blast</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 2+, Blast</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3108,7 +3108,7 @@
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">2</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 2+, Ignores Cover, Torrent, Twin-linked</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Ignores Cover, Torrent, Twin-linked</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3313,7 +3313,7 @@
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-VEHICLE 2+, Blast</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 2+, Blast</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3374,7 +3374,7 @@
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">2</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 2+, Ignores Cover, Torrent</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Ignores Cover, Torrent</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>

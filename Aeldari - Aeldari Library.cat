@@ -4597,7 +4597,7 @@
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-infantry 2+, Assault, Pistol</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Assault, Pistol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4850,7 +4850,7 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-infantry 2+, Psychic</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 2+, Psychic</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6483,7 +6483,7 @@
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-infantry 2+, Assault, Pistol</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Assault, Pistol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6676,7 +6676,7 @@
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-vehicle 4+, Devastating Wounds</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 4+, Devastating Wounds</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9641,7 +9641,7 @@
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">2</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-infantry 2+, Pistol, Precision</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Pistol, Precision</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -15301,7 +15301,7 @@ makes an attack, subtract 1 from the Hit roll</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-infantry 2+, Assault, Pistol</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Assault, Pistol</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16416,7 +16416,7 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
             <characteristic name="S" typeId="2229-f494-25db-c5d3">2</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-infantry 2+, Pistol</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Pistol</characteristic>
           </characteristics>
         </profile>
       </profiles>

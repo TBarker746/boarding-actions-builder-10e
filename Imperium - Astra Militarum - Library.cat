@@ -724,8 +724,7 @@
 
 
 ■ **^^Cadian Shock Troops^^**
-■ **^^Kasrkin^^**
-</characteristic>
+■ **^^Kasrkin^^**</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3492,7 +3491,7 @@
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-monster 4+</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Monster 4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3506,7 +3505,7 @@
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Invulnerable Save 4+" hidden="false" type="rule" id="557e-8cae-c1f7-a93d" targetId="9658-6ed-d3c0-e755"/>
+        <infoLink name="Invulnerable Save 4+" hidden="false" type="profile" id="557e-8cae-c1f7-a93d" targetId="9658-6ed-d3c0-e755"/>
         <infoLink name="Direct Orders" hidden="false" type="rule" id="ee3-8e41-896f-d396" targetId="53c9-34f6-2443-a95e"/>
       </infoLinks>
       <entryLinks>
@@ -11328,7 +11327,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-MONSTER 4+, Anti-VEHICLE 4+, Blast, Heavy</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Monster 4+, Anti-Vehicle 4+, Blast, Heavy</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -14292,7 +14291,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-fly 2+</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15371,7 +15370,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-fly 2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2</characteristic>
           </characteristics>
         </profile>
       </profiles>

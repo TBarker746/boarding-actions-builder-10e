@@ -271,6 +271,11 @@
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="2d73-784f-f901-31fa" shared="true"/>
                   </conditions>
                 </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="0dca-9bec-71a3-7675" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
               </localConditionGroups>
               <conditionGroups>
                 <conditionGroup type="and">
@@ -348,6 +353,11 @@
                 <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="f76d-a0c7-95b9-998b" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="33e4-2b67-aaa4-4a64" shared="true"/>
                   </conditions>
                 </localConditionGroup>
               </localConditionGroups>
@@ -500,6 +510,11 @@
                 <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="5e7f-34e0-67f5-e2bc" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="0dca-9bec-71a3-7675" shared="true"/>
                   </conditions>
                 </localConditionGroup>
               </localConditionGroups>

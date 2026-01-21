@@ -1089,8 +1089,7 @@
                   <description>For every seven enemy models that have been destroyed, add 2&quot; to the Contagion Range of units from your army. Note that any increase to the Contagion Range of units from your army as a result of this rule does not take place while a unit from your army is attacking. In such an event, the increase will take effect after such a unit has finished making its attacks.</description>
                 </rule>
                 <rule name="Forming Boarding Squads" id="be0f-ff09-76af-4db4" hidden="false">
-                  <description>■ **^^Poxwalkers^^** and **^^Death Guard Cultists^^** units do not split into separate units in the Form Boarding Squads step.
-</description>
+                  <description>■ **^^Poxwalkers^^** and **^^Death Guard Cultists^^** units do not split into separate units in the Form Boarding Squads step.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -1116,8 +1115,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
 ■ If it cannot end that move within Engagement Range of one or more enemy units that are visible to it (and in Unit Coherency), it can still make that Consolidation move, and when doing so can move in any direction.</description>
                 </rule>
                 <rule name="Forming Boarding Squads" id="0aa3-f1f5-6f2f-4063" hidden="false">
-                  <description>■ **^^Poxwalkers^^** units do not split into separate units in the Form Boarding Squads step.
-</description>
+                  <description>■ **^^Poxwalkers^^** units do not split into separate units in the Form Boarding Squads step.</description>
                 </rule>
                 <rule name="Rules Adaptations" id="5016-79b8-9517-695a" hidden="false">
                   <description>■ **^^Death Guard Cultists^^** units may perform the Secure Site Tactical Manoeuvre as if they had the **^^Battleline^^** keyword.</description>
@@ -1530,7 +1528,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
             <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 2+, Ignores Cover, Torrent</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Ignores Cover, Torrent</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1750,7 +1748,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2023,7 +2021,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2278,7 +2276,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 2+, Ignores Cover, Torrent, Twin-linked</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Ignores Cover, Torrent, Twin-linked</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2630,7 +2628,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-VEHICLE 3+</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Vehicle 3+</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2748,7 +2746,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
             <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
             <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-VEHICLE 3+</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Vehicle 3+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3354,7 +3352,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 4+, Ignores Cover, Torrent</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 4+, Ignores Cover, Torrent</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3917,8 +3915,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
         </profile>
         <profile name="Curse of the Walking Pox" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ad92-6478-18b8-6222">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes an attack that destroys an enemy model (excluding ^^**Monster^^** and ^^**Vehicle^^** models), after this unit has resolved its attacks, you can return one destroyed model to this unit.
-</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes an attack that destroys an enemy model (excluding ^^**Monster^^** and ^^**Vehicle^^** models), after this unit has resolved its attacks, you can return one destroyed model to this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3991,8 +3988,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following units:
 
 ■ ^^**Plague Marines^^**
-■ ^^**Poxwalkers^^**
-</characteristic>
+■ ^^**Poxwalkers^^**</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4177,7 +4173,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 2+, Ignores Cover, Torrent</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Ignores Cover, Torrent</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4337,7 +4333,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 2+, Pistol, Precision</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Pistol, Precision</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4824,7 +4820,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
             <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 4+, Ignores Cover, Pistol, Torrent</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 4+, Ignores Cover, Pistol, Torrent</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5966,7 +5962,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 2+, Ignores Cover, Torrent</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Ignores Cover, Torrent</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -6223,7 +6219,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 2+, Ignores Cover, Torrent</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Ignores Cover, Torrent</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -7581,7 +7577,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
             <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7642,7 +7638,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
             <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8582,11 +8578,9 @@ Worsen the Move, Leadership and Objective Control characteristics of models in t
     <categoryEntry name="Death Guard Icon Bearer" hidden="false" id="483a-2919-74ca-338e"/>
     <categoryEntry name="Hellblade" hidden="false" id="522-4473-ea58-fb99"/>
     <categoryEntry name="Hell Talon" hidden="false" id="adb1-f358-3076-41"/>
-    <categoryEntry name="Mutoid Vermin" hidden="false" id="bbc6-9ff7-6edb-2d22"/>
     <categoryEntry name="Blightlord heavy weapon" id="aa7e-4b31-713a-6732" hidden="true"/>
     <categoryEntry name="Lord of Poxes" id="ceb4-54e4-02d8-e84f" hidden="false"/>
     <categoryEntry name="Helbrute melee weapon" id="8ab0-50bc-55c3-f67e" hidden="true"/>
-    <categoryEntry name="Great Unclean One" id="aa2c-31ad-6530-5b24" hidden="false"/>
     <categoryEntry name="Lethal Hits Weapon" id="309e-86d7-e391-e5b9" hidden="true"/>
     <categoryEntry name="Warlord Eligible Character" id="5c1d-4e53-a5e9-6baa" hidden="false"/>
     <categoryEntry name="Cultists and Poxwalkers" id="3ba5-7ab3-26fc-e921" hidden="false">
@@ -8652,8 +8646,7 @@ Worsen the Move, Leadership and Objective Control characteristics of models in t
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following unit:
 
-■ **^^Plague Marines^^**
-</characteristic>
+■ **^^Plague Marines^^**</characteristic>
       </characteristics>
       <comment>Plagues only</comment>
     </profile>
