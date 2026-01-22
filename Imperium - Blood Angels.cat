@@ -710,9 +710,9 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While an enemy unit is within 6&quot; of this model, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Invulnerable Save 5+" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b2e5-6730-a3c2-8011">
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b2e5-6730-a3c2-8011">
           <characteristics>
-            <characteristic name="Description" hidden="false" id="cd6e-3f8f-50e8-6d4f" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
       </profiles>

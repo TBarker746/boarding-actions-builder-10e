@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="03fe-a162-4c02-f07b" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="31" revision="42" authorContact="Mad_Spy (adapted for the Boarding Actions game mode by PurpleSerpent)" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="03fe-a162-4c02-f07b" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="31" revision="43" authorContact="Mad_Spy (adapted for the Boarding Actions game mode by PurpleSerpent)" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Lucius the Eternal" hidden="false" id="e390-b58b-db9-816" collective="false">
       <profiles>
@@ -437,6 +437,9 @@
                       </entryLinks>
                     </entryLink>
                   </entryLinks>
+                  <categoryLinks>
+                    <categoryLink targetId="ccdd-3987-11ed-90cd" id="e794-7dbf-d6b3-fa24" primary="false" name="Melee Weapon"/>
+                  </categoryLinks>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -2589,9 +2592,6 @@
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18c4-6d77-e3c8-5274" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Breaching Charges" hidden="false" id="def4-9c54-e066-e49d" collective="false">
               <constraints>
@@ -2644,9 +2644,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Core Enhancements" id="3398-b77d-a457-554e" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d50-aa13-cf7d-6e57" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Expert Breacher" hidden="false" id="04b6-791b-e93d-512b" collective="false">
               <constraints>

@@ -4120,9 +4120,9 @@
         <entryLink import="true" name="Warlord" hidden="false" id="1082-1f9b-058c-7364" type="selectionEntry" targetId="bb9a-14e7-b947-793b" sortIndex="1"/>
       </entryLinks>
       <profiles>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7f12-782b-ccb8-c711">
+        <profile name="Sisters of Battle Immolator" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="7f12-782b-ccb8-c711">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 6 **^^Ordo Hereticus Infantry^^** models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 **^^Ordo Hereticus Infantry^^** models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Purge and Cleanse" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="63f5-e162-abaf-9a62">
@@ -5195,7 +5195,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="759f-abb8-d1c0-403b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="5c6e-48bd-4a4d-2bd1" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5204,7 +5204,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="759f-abb8-d1c0-403b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="5c6e-48bd-4a4d-2bd1" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5524,9 +5524,6 @@
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29a0-6556-38fa-349b" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Breaching Charges" hidden="false" id="531f-e8d4-6f45-445e" collective="false">
               <constraints>
@@ -5579,9 +5576,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Core Enhancements" id="c18c-2de5-9217-37e5" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8c8-cec6-e3c7-0fee" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Expert Breacher" hidden="false" id="e032-974a-bac1-821c" collective="false">
               <constraints>
@@ -5743,9 +5737,6 @@
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="535e-5460-8ecf-e321" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Manhunter&apos;s Helm" hidden="false" id="ab7e-7904-9765-559a" collective="false">
               <constraints>
@@ -5803,9 +5794,6 @@
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e06b-369a-6cf0-f0f0" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Lathimon&apos;s Flock" hidden="false" id="c129-ddc7-feba-8fdc" collective="false">
               <constraints>

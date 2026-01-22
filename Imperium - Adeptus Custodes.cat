@@ -725,7 +725,7 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, this model regains 1 lost wound.</characteristic>
           </characteristics>
         </profile>
-        <profile id="2fbe-f261-89e5-2de3" name="Transport" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
+        <profile id="2fbe-f261-89e5-2de3" name="Anethema Psykana Rhino" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Anathema Psykana Infantry^^** models.</characteristic>
           </characteristics>
@@ -2925,7 +2925,7 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile id="f402-e37c-947f-10e7" name="Transport" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
+        <profile id="f402-e37c-947f-10e7" name="Venerable Land Raider" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 **^^Adeptus Custodes Infantry^^** models.</characteristic>
           </characteristics>
@@ -4388,7 +4388,6 @@
       <categoryLinks>
         <categoryLink id="6d6b-1e54-21a3-8477" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="95e1-1b44-f036-e5f4" name="Transport" hidden="false" targetId="75e8-57c4-40e3-1817" primary="false"/>
-        <categoryLink id="6e99-9607-72d8-e419" name="Fly" hidden="false" targetId="c619-2086-bbcf-69c9" primary="false"/>
         <categoryLink id="d61a-4eba-b155-8832" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
         <categoryLink id="eb59-a52a-9fbe-8252" name="Coronus Grav-carrier" hidden="false" targetId="a80f-9c76-be35-06cf" primary="false"/>
         <categoryLink id="0552-c22a-e96f-fde0" name="Faction: Adeptus Custodes" hidden="false" targetId="eea5-aeaf-bbf0-d5ee" primary="false"/>
@@ -4514,7 +4513,7 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4415-cc2a-b07b-8a9f" name="Transport" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
+        <profile id="4415-cc2a-b07b-8a9f" name="Orion Assault Dropship" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Adeptus Custodes Infantry^^** models.</characteristic>
           </characteristics>
@@ -4983,13 +4982,10 @@
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="952f-29a9-076a-1e7b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="cb84-46b1-5323-faca" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a733-25cd-717f-a2b9" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Breaching Charges" hidden="false" id="db98-4f2b-a11c-ee9e" collective="false">
               <constraints>
@@ -5042,9 +5038,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Core Enhancements" id="6732-c6df-a260-f22b" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e279-3c94-26ec-9e95" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Expert Breacher" hidden="false" id="5795-6071-b6f1-54e0" collective="false">
               <constraints>
@@ -5321,9 +5314,6 @@
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f8cf-bb54-4a46-a7ac" includeChildSelections="true"/>
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="de72-85db-2d03-6d5c" includeChildSelections="true"/>
       </constraints>
-      <modifiers>
-        <modifier type="set" value="-1" field="de72-85db-2d03-6d5c"/>
-      </modifiers>
     </selectionEntryGroup>
     <selectionEntryGroup name="Show Mission-Specific Content" id="a701-4b0b-e448-5452" hidden="false" collective="false" import="true" defaultSelectionEntryId="none">
       <constraints>

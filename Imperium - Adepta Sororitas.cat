@@ -6312,7 +6312,7 @@ be substituted). The dice that is being substituted is not rolled; instead the 
     <selectionEntryGroup name="Enhancements" id="09e3-bb9d-b978-8202" hidden="false" collapsible="true">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9d03-a6a6-b0f0-94ab" includeChildSelections="true"/>
-        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="e94f-8e7d-7211-fe84" includeChildSelections="true"/>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="e94f-8e7d-7211-fe84" includeChildSelections="true"/>
       </constraints>
       <selectionEntryGroups>
         <selectionEntryGroup name="Penitents and Pilgrims Enhancements" id="7032-998a-2afa-b289" hidden="false">
@@ -6386,9 +6386,6 @@ be substituted). The dice that is being substituted is not rolled; instead the 
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea87-71ec-fc41-5fab" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Breaching Charges" hidden="false" id="8e61-e7bd-7ca3-bda5" collective="false">
               <constraints>
@@ -6441,9 +6438,6 @@ be substituted). The dice that is being substituted is not rolled; instead the 
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Core Enhancements" id="a46b-b81e-8208-1bf0" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2324-3bbb-bd93-4728" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Expert Breacher" hidden="false" id="7563-495f-a86a-81f8" collective="false">
               <constraints>

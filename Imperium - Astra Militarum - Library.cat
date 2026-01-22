@@ -200,9 +200,9 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, just after selecting a target for this model’s tremor cannon, the target unit and every other enemy **^^Infantry^^** unit within 3&quot; of that unit must take a Battle-shock test.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ee3-a15-ade4-596b">
+        <profile name="Banehammer" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="3ee3-a15-ade4-596b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 26 **^^Astra Militarum Infantry models^^**. Each **^^Ogryn^^** model takes up the space of 3 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 26 **^^Astra Militarum Infantry models^^**. Each **^^Ogryn^^** model takes up the space of 3 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -938,7 +938,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Direct Orders" hidden="false" type="rule" id="8199-93f9-224-6c86" targetId="53c9-34f6-2443-a95e"/>
-        <infoLink name="Invulnerable Save 5+" id="9982-3152-0373-0979" hidden="false" type="profile" targetId="3a3d-9e14-64a6-c032"/>
+        <infoLink name="Invulnerable Save" id="9982-3152-0373-0979" hidden="false" type="profile" targetId="3a3d-9e14-64a6-c032"/>
       </infoLinks>
       <modifiers>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
@@ -1615,7 +1615,7 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, one **^^Officer^^** model embarked within this **^^Transport^^** can issue Orders even though it is not on the battlefield. When doing so, measure distances to and from this *^^Transport^^**.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="e075-8562-4ab3-dd66">
+        <profile name="Chimera" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="e075-8562-4ab3-dd66">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models.</characteristic>
           </characteristics>
@@ -1901,7 +1901,7 @@
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Direct Orders" hidden="false" type="rule" id="5f7-4b6e-8a8e-2505" targetId="53c9-34f6-2443-a95e"/>
-        <infoLink name="Invulnerable Save 5+" id="0dc9-c70b-fd9a-f34c" hidden="false" type="profile" targetId="3a3d-9e14-64a6-c032"/>
+        <infoLink name="Invulnerable Save" id="0dc9-c70b-fd9a-f34c" hidden="false" type="profile" targetId="3a3d-9e14-64a6-c032"/>
       </infoLinks>
       <modifiers>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
@@ -2433,7 +2433,7 @@
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">8</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="a90b-1886-701f-b638">
+        <profile name="Doomhammer" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="a90b-1886-701f-b638">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 26 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models.</characteristic>
           </characteristics>
@@ -2576,9 +2576,9 @@
                 <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
               </characteristics>
             </profile>
-            <profile name="Invulnerable Save 5+" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3147-3cc7-728c-2a2e">
+            <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3147-3cc7-728c-2a2e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit&apos;s Ibram Gaunt model has a 5+ invulnerable save.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3505,7 +3505,7 @@
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Invulnerable Save 4+" hidden="false" type="profile" id="557e-8cae-c1f7-a93d" targetId="9658-6ed-d3c0-e755"/>
+        <infoLink name="Invulnerable Save" hidden="false" type="profile" id="557e-8cae-c1f7-a93d" targetId="9658-6ed-d3c0-e755"/>
         <infoLink name="Direct Orders" hidden="false" type="rule" id="ee3-8e41-896f-d396" targetId="53c9-34f6-2443-a95e"/>
       </infoLinks>
       <entryLinks>
@@ -5551,7 +5551,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Invulnerable Save 5+" hidden="false" type="profile" id="b610-7dd0-645d-c629" targetId="3a3d-9e14-64a6-c032"/>
+        <infoLink name="Invulnerable Save" hidden="false" type="profile" id="b610-7dd0-645d-c629" targetId="3a3d-9e14-64a6-c032"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="ddd4-4fa6-5da-fffe" targetId="ea3f-b52b-8dc7-d365" sortIndex="1"/>
@@ -6311,7 +6311,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your opponent’s Movement phase, if there are no models currently embarked within this **^^Transport^^**, you can select one friendly **^^Astra Militarum Infantry^^** unit that is wholly within 6&quot; of this **^^Transport^^**. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this **^^Transport^^**.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="1f8-168b-c1ee-6c4a">
+        <profile name="Stormlord" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="1f8-168b-c1ee-6c4a">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 40 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models.</characteristic>
           </characteristics>
@@ -6974,7 +6974,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="f633-eb7c-c74e-f5e2">
+        <profile name="Taurox" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="f633-eb7c-c74e-f5e2">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models.</characteristic>
           </characteristics>
@@ -7083,7 +7083,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="314-787-6a48-6754">
+        <profile name="Taurox Prime" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="314-787-6a48-6754">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Militarum Tempestus Infantry^^** or **^^Astra Militarum Infantry Character^^** models.</characteristic>
           </characteristics>
@@ -7684,7 +7684,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
         </infoGroup>
       </infoGroups>
       <infoLinks>
-        <infoLink name="Invulnerable Save 5+" hidden="false" type="profile" id="e609-ad26-768d-8e73" targetId="3a3d-9e14-64a6-c032"/>
+        <infoLink name="Invulnerable Save" hidden="false" type="profile" id="e609-ad26-768d-8e73" targetId="3a3d-9e14-64a6-c032"/>
         <infoLink name="Direct Orders" hidden="false" type="rule" id="73f-8bd3-d2c2-8eca" targetId="53c9-34f6-2443-a95e"/>
       </infoLinks>
       <selectionEntries>
@@ -7781,7 +7781,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="4a69-4f26-b577-c22d">
+        <profile name="Valkyrie" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="4a69-4f26-b577-c22d">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models.</characteristic>
           </characteristics>
@@ -12026,8 +12026,6 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
       <categoryLinks>
         <categoryLink targetId="fa45-57e-930e-602b" id="f7a1-7274-1865-7995" primary="false" name="Faction: Astra Militarum"/>
         <categoryLink targetId="dbd4-63-af05-998" id="940b-30b5-f64e-46e9" primary="true" name="Vehicle"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="c2b-799b-5f7f-3285" primary="false" name="Fly"/>
-        <categoryLink targetId="63f1-e6e8-f6f6-a4f0" id="96b4-1df5-f747-ac34" primary="false" name="Aircraft"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="e58-3f47-7839-25e5" primary="false" name="Imperium"/>
         <categoryLink targetId="186-1870-aae2-b084" id="b590-e287-59d0-ea5a" primary="false" name="Vulture Gunship"/>
       </categoryLinks>
@@ -12358,8 +12356,6 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
         <categoryLink targetId="fa45-57e-930e-602b" id="9dd5-9053-4c98-8507" primary="false" name="Faction: Astra Militarum"/>
         <categoryLink targetId="dbd4-63-af05-998" id="6bc4-c6bc-96ba-234e" primary="true" name="Vehicle"/>
         <categoryLink targetId="5929-ad51-d006-e008" id="cdc3-2d17-f2d1-64bf" primary="false" name="Titanic"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="64b6-6b92-bee6-ae0" primary="false" name="Fly"/>
-        <categoryLink targetId="63f1-e6e8-f6f6-a4f0" id="9242-42fd-ba95-a9c4" primary="false" name="Aircraft"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="9f0a-4ed-d362-79fb" primary="false" name="Imperium"/>
         <categoryLink targetId="519c-4235-2fee-9703" id="da5-bd16-64bb-18af" primary="false" name="Marauder Destroyer"/>
       </categoryLinks>
@@ -12835,7 +12831,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="5b94-2ec-4e22-4b8c">
+        <profile name="Aquila Lander" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="5b94-2ec-4e22-4b8c">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models.</characteristic>
           </characteristics>
@@ -13151,7 +13147,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save against ranged attacks.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="4b48-4a9d-515d-536a">
+        <profile name="Gorgon Heavy Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="4b48-4a9d-515d-536a">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 30 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models.</characteristic>
           </characteristics>
@@ -13359,7 +13355,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="84ba-6074-bfc7-b94f">
+        <profile name="Centaur Light Carrier" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="84ba-6074-bfc7-b94f">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 **^^Astra Militarum Infantry^^** models. It cannot transport **^^Ogryn^^** models.</characteristic>
           </characteristics>
@@ -14165,7 +14161,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="2b66-74c7-932e-a2a4">
+        <profile name="Arvus Lighter" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="2b66-74c7-932e-a2a4">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. It cannot transport **^^Ogryn^^** models.</characteristic>
           </characteristics>
@@ -15537,7 +15533,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="bcbe-fbe2-d0d3-31a7">
+        <profile name="Storm Chimera" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="bcbe-fbe2-d0d3-31a7">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models.</characteristic>
           </characteristics>
@@ -16737,7 +16733,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Invulnerable Save 4+" id="bf92-cde9-e618-9f26" hidden="false" type="profile" targetId="9658-6ed-d3c0-e755"/>
+        <infoLink name="Invulnerable Save" id="bf92-cde9-e618-9f26" hidden="false" type="profile" targetId="9658-6ed-d3c0-e755"/>
       </infoLinks>
       <modifiers>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
@@ -17326,12 +17322,12 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
     <categoryEntry name="Warlord Eligible Character" hidden="false" id="9575-f67b-88bc-b60a"/>
   </categoryEntries>
   <sharedProfiles>
-    <profile name="Invulnerable Save 5+" hidden="false" id="3a3d-9e14-64a6-c032" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
+    <profile name="Invulnerable Save" hidden="false" id="3a3d-9e14-64a6-c032" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Invulnerable Save 4+" hidden="false" id="9658-6ed-d3c0-e755" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
+    <profile name="Invulnerable Save" hidden="false" id="9658-6ed-d3c0-e755" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
       </characteristics>
@@ -17525,9 +17521,6 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cc6-32e2-c31c-1ae5" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Breaching Charges" hidden="false" id="8904-2b0c-6370-9b86" collective="false">
               <constraints>
@@ -17580,9 +17573,6 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Core Enhancements" id="205c-fd63-be80-0bee" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="715d-42d2-34f6-1def" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Expert Breacher" hidden="false" id="0c0e-5359-8d56-1153" collective="false">
               <constraints>
@@ -17744,9 +17734,6 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ed6-8740-c0e0-9988" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Rigged Blind Grenades" hidden="false" id="7859-d27c-7ccd-f637" collective="false">
               <constraints>
@@ -17790,9 +17777,6 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b79-4556-8493-3dff" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Covert Breach" hidden="false" id="3c2b-b3f8-56ea-82a8" collective="false">
               <constraints>

@@ -2297,7 +2297,7 @@
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
         <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
@@ -2664,9 +2664,6 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="36a4-3e0a-1291-701d"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd0-71a8-f2eb-adb8"/>
               </constraints>
-              <modifiers>
-                <modifier type="set" value="0" field="36a4-3e0a-1291-701d" id="a72d-5382-6d03-817d"/>
-              </modifiers>
               <profiles>
                 <profile name="Great wolf claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="8981-66cb-3ba2-f470">
                   <characteristics>
@@ -2688,7 +2685,7 @@
                   </constraints>
                   <entryLinks>
                     <entryLink import="true" name="Storm bolter" hidden="false" type="selectionEntry" id="c1e4-de34-1a69-bb60" targetId="2fb0-97d5-262d-b992"/>
-                    <entryLink import="true" name="Heavy Flamer" hidden="false" type="selectionEntry" id="7c9b-1839-48d3-e091" targetId="b3e6-f7a7-8357-2055"/>
+                    <entryLink import="true" name="Heavy flamer" hidden="false" type="selectionEntry" id="7c9b-1839-48d3-e091" targetId="b3e6-f7a7-8357-2055"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2700,11 +2697,11 @@
                 <selectionEntryGroup name="Ranged weapon" id="3a8f-0ef8-3fc9-a7bc" hidden="false" defaultSelectionEntryId="a538-2b9e-731a-e45f">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7683-1dac-0ba0-49b1"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0bc6-6f6f-f647-f289"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a570-2f2a-e70d-0275"/>
                   </constraints>
                   <entryLinks>
                     <entryLink import="true" name="Storm bolter" hidden="false" id="02c1-381f-1695-a20c" type="selectionEntry" targetId="2fb0-97d5-262d-b992"/>
-                    <entryLink import="true" name="Heavy Flamer" hidden="false" id="09e6-4c0d-b345-51a7" type="selectionEntry" targetId="b3e6-f7a7-8357-2055"/>
+                    <entryLink import="true" name="Heavy flamer" hidden="false" id="09e6-4c0d-b345-51a7" type="selectionEntry" targetId="b3e6-f7a7-8357-2055"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -3290,6 +3287,11 @@
         <modifier type="set-primary" value="dcdf-4b32-ee45-485e" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" id="0cf0-70a4-683e-dc66" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5243,178 +5245,35 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
-    <categoryEntry name="Logan Grimnar" hidden="false" id="48a0-9386-4930-6a62">
-      <modifiers>
-        <modifier type="set" value="0" field="9143-436-39f7-3420">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="force" childId="8775-713f-8b6c-f54f" shared="true" id="4502-420c-d6c2-dfed" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9143-436-39f7-3420" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Logan Grimnar on Stormrider" hidden="false" id="8775-713f-8b6c-f54f">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e34e-cec-c810-6913" includeChildSelections="true"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set" value="0" field="e34e-cec-c810-6913" id="21f1-d458-86d6-50da">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="force" childId="48a0-9386-4930-6a62" shared="true" id="cb8a-a9f9-ff97-763b" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </categoryEntry>
-    <categoryEntry name="Njal Stormcaller" hidden="false" id="23d4-b393-5b92-2445">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a42-1fd-66a0-998" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Bjorn the Fell-Handed" hidden="false" id="1c1d-1797-2e31-ed34">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="4fa7-d458-7475-e8e2" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Arjac Rockfist" hidden="false" id="88ee-e662-b0c6-43cd">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Ulrik the Slayer" hidden="false" id="594a-6b8b-3a63-14c5">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Ragnar Blackmane" hidden="false" id="ff0e-8156-6e6b-8e60">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Krom Dragongaze" hidden="false" id="3658-9233-93cb-c8b">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Harald Deathwolf" hidden="false" id="2c46-1db8-f41b-29f2">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Canis Wolfborn" hidden="false" id="267e-fecd-6f5b-a1ea">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Wolf Guard Battle Leader in Terminator Armour" hidden="false" id="bb26-d1a5-1336-bde7">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Wolf Lord on Thunderwolf" hidden="false" id="42f7-7d32-b2eb-7a5">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Wolf Guard Battle Leader on Thunderwolf" hidden="false" id="5f4c-2ff5-3b9d-f61d">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Blood Claws" hidden="false" id="5624-6cb8-fa73-779e">
-      <constraints>
-        <constraint type="max" value="6" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Grey Hunters" hidden="false" id="447f-4fc0-7630-a9f7">
-      <constraints>
-        <constraint type="max" value="6" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Lukas the Trickster" hidden="false" id="3e7d-6254-65cf-fe96">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Hounds of Morkai" hidden="false" id="722a-5e29-9d6f-61b1">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="e54d-8d2-8d82-d5f4" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Murderfang" hidden="false" id="593f-5be5-1f5c-fa2">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Fenrisian Wolves" hidden="false" id="e6ab-86d6-b11f-b2ec">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="e54d-8d2-8d82-d5f4" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Skyclaws" hidden="false" id="136d-4905-129b-ff78">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="e54d-8d2-8d82-d5f4" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Long Fangs" hidden="false" id="200a-c333-3440-f3ca">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="e54d-8d2-8d82-d5f4" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Stormfang Gunship" hidden="false" id="efac-d25e-517-1ea5">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Stormwolf" hidden="false" id="a74f-5075-eafd-57c7">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="a3fa-f659-b61-d66b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Wolf Guard Pack Leader" hidden="false" id="38c1-7781-211c-599b">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="1843-2d87-93cc-24c7" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
+    <categoryEntry name="Logan Grimnar" hidden="false" id="48a0-9386-4930-6a62"/>
+    <categoryEntry name="Njal Stormcaller" hidden="false" id="23d4-b393-5b92-2445"/>
+    <categoryEntry name="Bjorn the Fell-Handed" hidden="false" id="1c1d-1797-2e31-ed34"/>
+    <categoryEntry name="Arjac Rockfist" hidden="false" id="88ee-e662-b0c6-43cd"/>
+    <categoryEntry name="Ulrik the Slayer" hidden="false" id="594a-6b8b-3a63-14c5"/>
+    <categoryEntry name="Ragnar Blackmane" hidden="false" id="ff0e-8156-6e6b-8e60"/>
+    <categoryEntry name="Krom Dragongaze" hidden="false" id="3658-9233-93cb-c8b"/>
+    <categoryEntry name="Wolf Guard Battle Leader in Terminator Armour" hidden="false" id="bb26-d1a5-1336-bde7"/>
+    <categoryEntry name="Wolf Lord on Thunderwolf" hidden="false" id="42f7-7d32-b2eb-7a5"/>
+    <categoryEntry name="Wolf Guard Battle Leader on Thunderwolf" hidden="false" id="5f4c-2ff5-3b9d-f61d"/>
+    <categoryEntry name="Blood Claws" hidden="false" id="5624-6cb8-fa73-779e"/>
+    <categoryEntry name="Grey Hunters" hidden="false" id="447f-4fc0-7630-a9f7"/>
+    <categoryEntry name="Lukas the Trickster" hidden="false" id="3e7d-6254-65cf-fe96"/>
+    <categoryEntry name="Hounds of Morkai" hidden="false" id="722a-5e29-9d6f-61b1"/>
+    <categoryEntry name="Murderfang" hidden="false" id="593f-5be5-1f5c-fa2"/>
+    <categoryEntry name="Fenrisian Wolves" hidden="false" id="e6ab-86d6-b11f-b2ec"/>
+    <categoryEntry name="Skyclaws" hidden="false" id="136d-4905-129b-ff78"/>
+    <categoryEntry name="Long Fangs" hidden="false" id="200a-c333-3440-f3ca"/>
+    <categoryEntry name="Stormfang Gunship" hidden="false" id="efac-d25e-517-1ea5"/>
+    <categoryEntry name="Stormwolf" hidden="false" id="a74f-5075-eafd-57c7"/>
+    <categoryEntry name="Wolf Guard Pack Leader" hidden="false" id="38c1-7781-211c-599b"/>
     <categoryEntry name="Pack Leader" hidden="false" id="439c-19bf-5342-96db"/>
-    <categoryEntry name="Wolf Guard Pack Leader with Jump Pack" hidden="false" id="4017-5de3-cb4f-1b8b">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="1843-2d87-93cc-24c7" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Wolf Guard Pack Leader in Terminator Armour" hidden="false" id="80f7-b02e-c2-1c49">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="1843-2d87-93cc-24c7" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Iron Priest" hidden="false" id="a604-b7ef-c095-b672">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="e54d-8d2-8d82-d5f4" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Cyberwolf" hidden="false" id="3755-99a6-5326-139a">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="e54d-8d2-8d82-d5f4" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Wolf Scouts" hidden="false" id="be72-390b-33b7-d52d">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="e54d-8d2-8d82-d5f4" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Venerable Dreadnought" hidden="false" id="ffa4-20d5-9d66-2c38">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="5030-6f5e-43bf-5bd3" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Hunting Wolves" id="a41f-0ee2-27ea-2e31" hidden="false"/>
+    <categoryEntry name="Wolf Guard Pack Leader with Jump Pack" hidden="false" id="4017-5de3-cb4f-1b8b"/>
+    <categoryEntry name="Wolf Guard Pack Leader in Terminator Armour" hidden="false" id="80f7-b02e-c2-1c49"/>
+    <categoryEntry name="Iron Priest" hidden="false" id="a604-b7ef-c095-b672"/>
+    <categoryEntry name="Wolf Scouts" hidden="false" id="be72-390b-33b7-d52d"/>
+    <categoryEntry name="Venerable Dreadnought" hidden="false" id="ffa4-20d5-9d66-2c38"/>
     <categoryEntry name="Wulfen with Storm Shields" id="5e41-161b-7d74-8c8e" hidden="false"/>
-    <categoryEntry name="Wulfen" id="b8e3-7a90-d63a-e263" hidden="false">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7c4d-4bcc-5699-1d75" includeChildSelections="true" includeChildForces="true"/>
-      </constraints>
-    </categoryEntry>
+    <categoryEntry name="Wulfen" id="b8e3-7a90-d63a-e263" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink import="true" name="Logan Grimnar" hidden="false" type="selectionEntry" id="23f-47a2-1700-86cd" targetId="c65-46c6-3a62-80c"/>

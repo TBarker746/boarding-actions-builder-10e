@@ -4256,7 +4256,6 @@
         <categoryLink targetId="dbd4-63-af05-998" id="497c-d6c0-d5ea-1d7" primary="true" name="Vehicle"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="ad7-7f5e-b63-90fb" primary="false" name="Chaos"/>
         <categoryLink targetId="75e8-57c4-40e3-1817" id="e5d4-9b94-be3d-5394" primary="false" name="Transport"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="633c-deb5-db9a-b0c" primary="false" name="Fly"/>
         <categoryLink targetId="a79d-1828-aa82-93a6" id="3776-3eb7-c17-46f2" primary="false" name="Dreadclaw Drop Pod"/>
       </categoryLinks>
       <modifiers>

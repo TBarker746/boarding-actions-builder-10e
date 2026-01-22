@@ -670,7 +670,7 @@
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
           </characteristics>
         </profile>
-        <profile id="fdbf-0314-ebea-88b2" name="Transport" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
+        <profile id="fdbf-0314-ebea-88b2" name="Archaeopter Transvector" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 11 **^^Skitarii Infantry^^** or **^^Tech-Priest^^** models. It cannot transport **^^Kataphron^^** models.</characteristic>
           </characteristics>
@@ -5656,9 +5656,6 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f91-4783-5d19-f167" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Breaching Charges" hidden="false" id="ddea-36b9-8544-ab7d" collective="false">
               <constraints>
@@ -5711,9 +5708,6 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Core Enhancements" id="f256-d48f-cfdc-c6d5" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a55f-281b-4a74-6dac" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Expert Breacher" hidden="false" id="786f-0114-eeaa-71d8" collective="false">
               <constraints>
@@ -5875,9 +5869,6 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6290-9788-08cb-1ab3" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Harmonic Discordator" hidden="false" id="5b31-4f56-d70d-c079" collective="false">
               <constraints>
@@ -5921,9 +5912,6 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0868-7b3c-5718-f343" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Optimised Cogitators" hidden="false" id="b76b-d1e1-966b-bf3a" collective="false">
               <constraints>
@@ -5967,9 +5955,6 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4115-94ff-3551-5c08" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Multi-Dimensional Auspex" hidden="false" id="f24b-f6db-283b-49f7" collective="false">
               <constraints>

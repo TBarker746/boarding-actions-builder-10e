@@ -2328,7 +2328,7 @@
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="da78-79ae-395d-f521">
+        <profile name="Falcon" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="da78-79ae-395d-f521">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 ^^Aeldari Infantry^^ models. Each ^^Wraith Construct^^ model takes the space of 2 models. It cannot transport ^^Jump Pack^^ models.</characteristic>
           </characteristics>
@@ -14487,7 +14487,7 @@ makes an attack, subtract 1 from the Hit roll</characteristic>
         </modifier>
       </modifiers>
       <profiles>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="aa40-684c-a923-ec5d">
+        <profile name="Firestorm" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="aa40-684c-a923-ec5d">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 **^^Aeldari Infantry^^** models. Each **^^Wraith Construct^^** model takes the space of 2 models. It cannot transport **^^Jump Pack^^** models.</characteristic>
           </characteristics>
@@ -15022,9 +15022,9 @@ makes an attack, subtract 1 from the Hit roll</characteristic>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2310-e728-db9e-ba4">
+        <profile name="Vampire Raider" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="2310-e728-db9e-ba4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 30 ^^Aeldari Infantry^^ models. Each ^^Wraith Construct^^ model takes the space of 2 models. It cannot transport ^^Jump Pack^^ models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 30 ^^Aeldari Infantry^^ models. Each ^^Wraith Construct^^ model takes the space of 2 models. It cannot transport ^^Jump Pack^^ models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Vampire Raider" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b02e-c4d1-8928-915b">
@@ -17632,9 +17632,6 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
     <selectionEntryGroup name="Enhancements" id="4e2c-4ba5-749f-745a" hidden="false" collapsible="true">
       <selectionEntryGroups>
         <selectionEntryGroup name="Core Enhancements" id="99d1-634e-51fe-a5b9" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc87-8cb2-a525-68cf" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Expert Breacher" hidden="false" id="da34-d9c1-b796-9c2e" collective="false">
               <constraints>
@@ -17796,9 +17793,6 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc1d-b40d-0b13-be7e" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Breaching Charges" hidden="false" id="17e4-bf11-450a-c855" collective="false">
               <constraints>
@@ -17858,9 +17852,6 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4eb7-dc40-99bf-dd3a" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Runes of Sanctuary (Psychic)" hidden="false" id="5e36-01aa-5b97-3665" collective="false">
               <constraints>
@@ -17911,9 +17902,6 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8006-46a8-701f-f3b7" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Power and Greed" hidden="false" id="f57a-61c5-4f28-daf6" collective="false">
               <constraints>
@@ -17957,9 +17945,6 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="413d-a423-e6d4-1b2b" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Dark Charisma" hidden="false" id="eb5d-c157-35bd-0743" collective="false">
               <constraints>
@@ -18006,9 +17991,6 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3bc-e396-4c3c-db72" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Blood-Drenched Champion" hidden="false" id="18db-3304-3bed-1eb4" collective="false">
               <constraints>
@@ -18052,9 +18034,6 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d912-5820-88e5-93e3" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Rending Chain-flails" hidden="false" id="4b6d-d37d-4e05-b0e2" collective="false">
               <constraints>
@@ -18098,9 +18077,6 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f09-db3a-7c71-4251" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Prismatic Garb" hidden="false" id="05b0-a186-2afd-59ec" collective="false">
               <constraints>
@@ -18147,9 +18123,6 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="746c-16e1-3a78-9d77" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Grace of Khaine" hidden="false" id="6954-be7d-41cb-d160" collective="false">
               <constraints>
@@ -18193,9 +18166,6 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1a2-d226-4861-8444" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Direct Guidance" hidden="false" id="7ec6-a122-8aa2-e24d" collective="false">
               <constraints>

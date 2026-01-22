@@ -10427,9 +10427,9 @@ bearer can be moved during that move</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="311f-69c4-af58-77c8">
+        <profile name="Land Raider" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="311f-69c4-af58-77c8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10548,9 +10548,9 @@ bearer can be moved during that move</characteristic>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="165c-2cae-ee40-1e97" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <profiles>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d1ad-53ff-33b0-b5bd">
+        <profile name="Land Raider Crusader" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="d1ad-53ff-33b0-b5bd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 16 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 16 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Land Raider Crusader" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="bb59-4663-434b-2613">
@@ -10667,9 +10667,9 @@ bearer can be moved during that move</characteristic>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="51e1-b479-08f7-2c17" includeChildSelections="true"/>
       </constraints>
       <profiles>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f48a-d2c-24e3-b957">
+        <profile name="Land Raider Redeemer" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="f48a-d2c-24e3-b957">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 14 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 14 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Land Raider Redeemer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8cc5-a000-2be1-39f3">
@@ -10814,9 +10814,9 @@ bearer can be moved during that move</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e922-59ba-baa0-655c">
+        <profile name="Repulsor" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="e922-59ba-baa0-655c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 14 **^^Adeptus Astartes Infantry models^^**. **^^Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 14 **^^Adeptus Astartes Infantry models^^**. **^^Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Emergency Combat Embarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="be1c-1cd0-5306-55d7">
@@ -10950,9 +10950,9 @@ bearer can be moved during that move</characteristic>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="f9bb-2100-506e-1a15" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <profiles>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="db95-443f-c0e-83df">
+        <profile name="Repulsor Executioner" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="db95-443f-c0e-83df">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 7 **^^Adeptus Astartes Infantry models^^**. **^^Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 7 **^^Adeptus Astartes Infantry models^^**. **^^Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Repulsor Executioner" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="33ad-c1a4-8f39-6ea4">
@@ -11126,9 +11126,9 @@ bearer can be moved during that move</characteristic>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Command phase, this model regains 1 lost wound.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2972-5c28-2bce-827">
+        <profile name="Rhino" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="2972-5c28-2bce-827">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. It cannot transport **^^Jump Pack^^**, **^^Wulfen^^**, **^^Phobos^^**, **^^Gravis^^**, **^^Terminator^^** or **^^Tacticus^^** models (excluding **^^Tacticus Character^^** models that began the battle attached to a non-**^^Tacticus^^** unit).</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. It cannot transport **^^Jump Pack^^**, **^^Wulfen^^**, **^^Phobos^^**, **^^Gravis^^**, **^^Terminator^^** or **^^Tacticus^^** models (excluding **^^Tacticus Character^^** models that began the battle attached to a non-**^^Tacticus^^** unit).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11223,9 +11223,9 @@ bearer can be moved during that move</characteristic>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this **^^Transport^^** this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="218-97c0-d456-35ed">
+        <profile name="Razorback" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="218-97c0-d456-35ed">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 6 **^^Adeptus Astartes Infantry^^** models.  It cannot transport **^^Jump Pack^^**, **^^Wulfen^^**, **^^Phobos^^**, **^^Gravis^^**, **^^Terminator^^** or **^^Tacticus^^** models (excluding **^^Tacticus Character^^** models that began the battle attached to a non-**^^Tacticus^^** unit).</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 **^^Adeptus Astartes Infantry^^** models. It cannot transport **^^Jump Pack^^**, **^^Wulfen^^**, **^^Phobos^^**, **^^Gravis^^**, **^^Terminator^^** or **^^Tacticus^^** models (excluding **^^Tacticus Character^^** models that began the battle attached to a non-**^^Tacticus^^** unit).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11317,9 +11317,9 @@ bearer can be moved during that move</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="51b9-1985-e818-cc43">
+        <profile name="Impulsor" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="51b9-1985-e818-cc43">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 7 **^^Tacticus^^** or **^^Phobos Infantry^^** models. It cannot transport **^^Jump Pack^^** models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 7 **^^Tacticus^^** or **^^Phobos Infantry^^** models. It cannot transport **^^Jump Pack^^** models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11491,9 +11491,9 @@ bearer can be moved during that move</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a232-6e38-a6ef-b5f4">
+        <profile name="Drop Pod" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="a232-6e38-a6ef-b5f4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. It cannot transport **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. It cannot transport **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Combat Disembarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="07a4-673e-7ec8-2fb5">
@@ -11942,9 +11942,9 @@ bearer can be moved during that move</characteristic>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="50f4-83f2-50d-8a3">
+        <profile name="Stormraven Gunship" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="50f4-83f2-50d-8a3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15165,9 +15165,9 @@ bearer can be moved during that move</characteristic>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a6b6-47dd-72eb-3d3b" includeChildSelections="true"/>
       </constraints>
       <profiles>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a0a-5557-a36a-1a3d">
+        <profile name="Land Raider Helios" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="5a0a-5557-a36a-1a3d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Land Raider Helios [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b6b5-25b2-90ec-e167">
@@ -16228,9 +16228,9 @@ bearer can be moved during that move</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6943-fbd0-f8ec-a693">
+        <profile name="Caestus Assault Ram" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="6943-fbd0-f8ec-a693">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Into the Foe" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="58cc-7fec-e711-e00d">
@@ -16379,9 +16379,9 @@ bearer can be moved during that move</characteristic>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="321a-41f3-eb4e-3842" includeChildSelections="true"/>
       </constraints>
       <profiles>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a364-2ddf-6bdc-49a3">
+        <profile name="Land Raider Prometheus" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="a364-2ddf-6bdc-49a3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Land Raider Prometheus" hidden="false" id="76c8-9d21-9603-c4be" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -16694,9 +16694,9 @@ bearer can be moved during that move</characteristic>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Command phase, this model regains 1 lost wound.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b3e8-3ffa-5e58-9409">
+        <profile name="Rhino Primaris" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="b3e8-3ffa-5e58-9409">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 6 **^^Adeptus Astartes Infantry^^** models. It cannot transport **^^Jump Pack^^**, **^^Wulfen^^**, **^^Phobos^^**, **^^Gravis^^**, **^^Terminator^^** or **^^Tacticus^^** models (excluding **^^Tacticus Character^^** models that began the battle attached to a non-**^^Tacticus^^** unit).</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 **^^Adeptus Astartes Infantry^^** models. It cannot transport **^^Jump Pack^^**, **^^Wulfen^^**, **^^Phobos^^**, **^^Gravis^^**, **^^Terminator^^** or **^^Tacticus^^** models (excluding **^^Tacticus Character^^** models that began the battle attached to a non-**^^Tacticus^^** unit).</characteristic>
           </characteristics>
         </profile>
         <profile name="Rhino Primaris [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2176-7f01-eeb9-ad92">
@@ -16833,9 +16833,9 @@ bearer can be moved during that move</characteristic>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="dd4d-cc06-7e66-3c20" includeChildSelections="true"/>
       </constraints>
       <profiles>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5bb8-2a39-d78f-3f9">
+        <profile name="Land Raider Excelsior" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="5bb8-2a39-d78f-3f9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Land Raider Excelsior [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e73a-ff54-8ae0-6a53">
@@ -17246,9 +17246,9 @@ bearer can be moved during that move</characteristic>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this **^^Transport^^** this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2ce6-800-5168-f130">
+        <profile name="Relic Razorback" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="2ce6-800-5168-f130">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 6 Adeptus Astartes Infantry^^** models. It cannot transport **^^Jump Pack^^**, **^^Wulfen^^**, **^^Tacticus^^**, **^^Phobos^^**, **^^Gravis^^** or **^^Terminator^^** models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 Adeptus Astartes Infantry^^** models. It cannot transport **^^Jump Pack^^**, **^^Wulfen^^**, **^^Tacticus^^**, **^^Phobos^^**, **^^Gravis^^** or **^^Terminator^^** models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17347,9 +17347,9 @@ bearer can be moved during that move</characteristic>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b6ef-f95b-5e81-4cac">
+        <profile name="Thunderhawk Transporter" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="b6ef-f95b-5e81-4cac">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 15 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 15 **^^Adeptus Astartes Infantry^^** models. Each **^^Jump Pack^^**, **^^Wulfen^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19159,12 +19159,7 @@ bearer can be moved during that move</characteristic>
         <categoryLink name="Configuration" hidden="false" id="c596-0004-82d6-ea7e" targetId="4ac9-fd30-1e3d-b249" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Show Mission-Specific Content" hidden="false" id="bb85-d095-39d2-8719" type="selectionEntryGroup" targetId="16e8-cf09-11a2-2c7a">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db6b-fd68-80e5-245f" includeChildSelections="true"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="138a-87af-6038-033d" includeChildSelections="true"/>
-          </constraints>
-        </entryLink>
+        <entryLink import="true" name="Show Mission-Specific Content" hidden="false" id="bb85-d095-39d2-8719" type="selectionEntryGroup" targetId="16e8-cf09-11a2-2c7a"/>
       </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -19282,9 +19277,6 @@ bearer can be moved during that move</characteristic>
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c28d-0f97-af60-be59" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Breaching Charges" hidden="false" id="af0a-7296-e8ab-6d37" collective="false">
               <constraints>
@@ -19344,9 +19336,6 @@ bearer can be moved during that move</characteristic>
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca22-6956-03bd-5c11" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Clavitine Reliquary" hidden="false" id="eef0-41cb-d471-8276" collective="false">
               <constraints>
@@ -19390,9 +19379,6 @@ bearer can be moved during that move</characteristic>
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a1a-9a25-397e-d966" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Void Warrior" hidden="false" id="2c12-9972-269f-d33a" collective="false">
               <constraints>
@@ -19436,9 +19422,6 @@ bearer can be moved during that move</characteristic>
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2932-002d-030f-650c" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Resolute " hidden="false" id="52a4-9823-3ed3-3505" collective="false">
               <constraints>
@@ -19475,9 +19458,6 @@ bearer can be moved during that move</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Core Enhancements" id="d4b5-eea4-bdd3-a7a9" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="02a1-2b18-11b8-ec2e" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Expert Breacher" hidden="false" id="6a5e-4d5f-cfe0-567b" collective="false">
               <constraints>
@@ -19636,9 +19616,6 @@ bearer can be moved during that move</characteristic>
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="aa38-635d-91e5-c589" includeChildSelections="true"/>
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="a7df-64c7-a037-7270" includeChildSelections="true"/>
       </constraints>
-      <modifiers>
-        <modifier type="set" value="-1" field="a7df-64c7-a037-7270"/>
-      </modifiers>
     </selectionEntryGroup>
     <selectionEntryGroup name="Weapon Upgrades" id="8cf2-a48c-58d2-cb4e" hidden="false" flatten="true">
       <entryLinks>
@@ -19714,7 +19691,7 @@ bearer can be moved during that move</characteristic>
     <rule name="Oath of Moment" id="3b76-4053-ece9-6e7d" hidden="false">
       <description>If your Army Faction is **^^Adeptus Astartes^^**, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:
 ■ You can reroll the Hit roll.
-■ If your army does not include one or more units with the **^^Black Templars^^**, **^^Blood Angels^^**, **^^Dark Angels^^**, **^^Deathwatch^^** or **^^Space Wolves^^** keywords, add 1 to the Wound roll as well.</description>
+■ If your army does not include one or more units with the **^^Blood Angels^^**, **^^Dark Angels^^**, **^^Deathwatch^^** or **^^Space Wolves^^** keywords, add 1 to the Wound roll as well.</description>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>

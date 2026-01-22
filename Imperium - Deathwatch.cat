@@ -951,9 +951,9 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4d9c-b69c-4685-27b7" publicationId="4115-3627-e608-39f6" page="20">
+        <profile name="Corvus Blackstar" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="4d9c-b69c-4685-27b7" publicationId="4115-3627-e608-39f6" page="20">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^**. Each **^^Jump Pack^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Adeptus Astartes Infantry^^**. Each **^^Jump Pack^^**, **^^Gravis^^** or **^^Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="5108-f98-63c2-53cb" name="Chaos - Death Guard" revision="102" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="5108-f98-63c2-53cb" name="Chaos - Death Guard" revision="104" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
   <catalogueLinks>
     <catalogueLink id="9fec-b3ad-9626-6706" name="Chaos - Chaos Knights Library" targetId="8106-aad2-918a-9ac" type="catalogue" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Library - Astartes Heresy Legends" id="ff65-1828-b2a0-477" targetId="ac3b-689c-4ad4-70cb" importRootEntries="true"/>
@@ -1097,7 +1097,6 @@
               <rules>
                 <rule name="Inescapable Corruption" id="dfc2-3e2d-9001-8168" hidden="false">
                   <description>Each time an enemy unit is selected to perform a Tactical Manoeuvre, if that unit is within Contagion Range of one or more units from your army, that enemy unit must take a Leadership test. If that test is failed, that Tactical Manoeuvre has no effect (that enemy unit is still eligible to shoot and declare a charge this turn as normal).
-
 
 In addition, in your Command phase, roll one D6 for each objective marker that is within Contagion Range of one or more units from your army and is Secured by your opponent&apos;s army: on a 5+, that objective marker is no longer Secured by your opponent&apos;s army.</description>
                 </rule>
@@ -8136,9 +8135,6 @@ Worsen the Move, Leadership and Objective Control characteristics of models in t
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eaaa-6e04-aaf0-299b" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Breaching Charges" hidden="false" id="03a5-b4ac-0430-2153" collective="false">
               <constraints>
@@ -8191,9 +8187,6 @@ Worsen the Move, Leadership and Objective Control characteristics of models in t
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Core Enhancements" id="d171-2b28-970c-460f" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd9c-1da8-10b4-d12d" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Expert Breacher" hidden="false" id="0a1f-1be0-2f90-966c" collective="false">
               <constraints>
@@ -8355,9 +8348,6 @@ Worsen the Move, Leadership and Objective Control characteristics of models in t
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4447-cdd9-bfad-1324" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Miasmic Odour" hidden="false" id="4cf0-eaf1-f773-5f05" collective="false">
               <constraints>
@@ -8401,9 +8391,6 @@ Worsen the Move, Leadership and Objective Control characteristics of models in t
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1073-85a7-1a2d-2bf1" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Foul Constitution" hidden="false" id="dd86-729f-ff65-b97e" collective="false">
               <constraints>
@@ -8447,9 +8434,6 @@ Worsen the Move, Leadership and Objective Control characteristics of models in t
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0d0-eb04-862b-494a" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Pox-Bearer" hidden="false" id="0ff0-0ccf-8f65-5582" collective="false">
               <constraints>

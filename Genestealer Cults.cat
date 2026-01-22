@@ -82,7 +82,7 @@
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink name="Cult Ambush" hidden="false" type="rule" id="6e36-834f-11b6-2f66" targetId="8f27-1d49-40ef-b041"/>
+        <infoLink name="Insidious Ambushers" hidden="false" type="rule" id="6e36-834f-11b6-2f66" targetId="8f27-1d49-40ef-b041"/>
         <infoLink name="Feel No Pain" id="6ad8-b5f0-a54e-1956" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
           <modifiers>
             <modifier type="append" value="5+" field="name"/>
@@ -199,7 +199,7 @@
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink name="Cult Ambush" hidden="false" type="rule" id="b942-c225-51f8-9008" targetId="8f27-1d49-40ef-b041"/>
+        <infoLink name="Insidious Ambushers" hidden="false" type="rule" id="b942-c225-51f8-9008" targetId="8f27-1d49-40ef-b041"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="4-9 Acolyte Hybrids" hidden="false" id="b63d-82d1-7c64-73fe" defaultSelectionEntryId="dc3b-5f0a-b29a-4932" sortIndex="3">
@@ -620,7 +620,7 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an enemy unit that is within Engagement Range of this model Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="ae9f-1465-7a41-c32c">
+        <profile name="Goliath Rockgrinder" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="ae9f-1465-7a41-c32c">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 **^^Genestealer Cults Infantry^^** models.</characteristic>
           </characteristics>
@@ -800,7 +800,7 @@
         </infoLink>
       </infoLinks>
       <profiles>
-        <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="483a-4cb-6beb-2e2d">
+        <profile name="Goliath Truck" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="483a-4cb-6beb-2e2d">
           <characteristics>
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 **^^Genestealer Cults Infantry^^** models.</characteristic>
           </characteristics>
@@ -1092,7 +1092,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Cult Ambush" hidden="false" type="rule" id="ce6b-4401-70e7-52ac" targetId="8f27-1d49-40ef-b041"/>
+        <infoLink name="Insidious Ambushers" hidden="false" type="rule" id="ce6b-4401-70e7-52ac" targetId="8f27-1d49-40ef-b041"/>
         <infoLink name="Feel No Pain" id="e6a4-85be-2fa9-5e66" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
           <modifiers>
             <modifier type="append" value="5+" field="name"/>
@@ -1961,7 +1961,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Cult Ambush" hidden="false" type="rule" id="297e-b49a-9f8d-36f3" targetId="8f27-1d49-40ef-b041"/>
+        <infoLink name="Insidious Ambushers" hidden="false" type="rule" id="297e-b49a-9f8d-36f3" targetId="8f27-1d49-40ef-b041"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="8802-191a-777b-8d66" type="selectionEntry" targetId="2665-129e-3c44-1270" sortIndex="1"/>
@@ -2296,7 +2296,7 @@
             <condition type="greaterThan" value="5" field="selections" scope="965b-496a-3a1b-22a8" childId="model" shared="true" includeChildSelections="true" includeChildForces="false"/>
           </conditions>
         </modifier>
-        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="5a3d-3f8f-93c0-bcfe" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
@@ -3182,7 +3182,7 @@
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink name="Cult Ambush" id="b49e-8907-a840-57e6" hidden="false" type="rule" targetId="8f27-1d49-40ef-b041"/>
+        <infoLink name="Insidious Ambushers" id="b49e-8907-a840-57e6" hidden="false" type="rule" targetId="8f27-1d49-40ef-b041"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="4-9 Acolyte Hybrids" id="bb7b-ebb5-a64c-3f34" hidden="false" defaultSelectionEntryId="20b2-d42e-cd67-2e1b" sortIndex="3">
@@ -3957,9 +3957,6 @@
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bad0-f86a-d465-ffbc" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Breaching Charges" hidden="false" id="661b-fce7-500a-7729" collective="false">
               <constraints>
@@ -4019,9 +4016,6 @@
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b46c-c835-a28f-ed1b" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Stalking Menace" hidden="false" id="eeb0-778e-918f-88e3" collective="false">
               <constraints>
@@ -4061,9 +4055,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Core Enhancements" id="61eb-5ec7-ba93-4958" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5346-71e1-7cb0-1491" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Expert Breacher" hidden="false" id="2adf-69ae-5952-b04c" collective="false">
               <constraints>
@@ -4225,9 +4216,6 @@
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e89a-306d-6d5c-b173" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Primary Detonator" hidden="false" id="0b06-acc8-5d3f-51ba" collective="false">
               <constraints>
@@ -4271,9 +4259,6 @@
               </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85a8-7158-d1fd-984f" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Miasmic Fumes" hidden="false" id="672b-e009-8c94-7d1f" collective="false">
               <constraints>
