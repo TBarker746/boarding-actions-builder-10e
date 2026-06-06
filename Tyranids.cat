@@ -2597,7 +2597,7 @@
         <categoryLink name="Raveners" hidden="false" id="251-3fa1-5b44-9377" targetId="1785-c8af-b343-a1a6" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -2607,12 +2607,12 @@
         <constraint type="max" value="2" field="selections" scope="force" shared="true" id="6da2-caf8-12c9-798c" includeChildSelections="true"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup name="5 Raveners" id="c653-731f-d1b1-1ddc" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="3 Raveners" id="c653-731f-d1b1-1ddc" hidden="false" sortIndex="2">
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Ravener" hidden="false" id="79c8-bd29-5655-57c7">
               <constraints>
-                <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="a61c-39d8-f2ab-9363"/>
-                <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="ac7-c370-206c-2b6" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a61c-39d8-f2ab-9363"/>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="ac7-c370-206c-2b6" includeChildSelections="false"/>
               </constraints>
               <profiles>
                 <profile name="Raveners" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5103-b9e6-37f-80a9">

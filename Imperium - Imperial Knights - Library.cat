@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="1b6d-dc06-5db9-c7d1" name="Imperium - Imperial Knights - Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="77" battleScribeVersion="2.03" authorName="BSData Developers" type="catalogue" authorContact="Dunamis55 &amp; AbonShell (adapted for the Boarding Actions game mode by PurpleSerpent)">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="1b6d-dc06-5db9-c7d1" name="Imperium - Imperial Knights - Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="86" battleScribeVersion="2.03" authorName="BSData Developers" type="catalogue" authorContact="Dunamis55 &amp; AbonShell (adapted for the Boarding Actions game mode by PurpleSerpent)">
   <categoryEntries>
     <categoryEntry name="Canis Rex" id="534d-ffcf-fc01-7eac"/>
     <categoryEntry name="Warglaive" id="72cd-6281-73a-e0fc"/>
@@ -50,7 +50,7 @@
                 <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
                 <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
                 <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">5+</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
                 <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
               </characteristics>
             </profile>
@@ -73,7 +73,7 @@
             </infoLink>
             <infoLink name="Sustained Hits" type="rule" id="8e8c-e222-7487-f2ef" targetId="1897-c22c-9597-12b1"/>
             <infoLink name="Blast" type="rule" id="8625-74c7-654e-63de" targetId="6c1f-1cf7-ff25-c99e"/>
-            <infoLink name="Invulnerable Save (5+*)" type="profile" id="fa0-a9c6-528c-da6" targetId="8552-862d-6a49-4879"/>
+            <infoLink name="Invulnerable Save" type="profile" id="fa0-a9c6-528c-da6" targetId="8552-862d-6a49-4879"/>
             <infoLink name="Damaged: 1-9 Wounds Remaining" type="profile" id="4330-2af8-48af-48ae" targetId="a274-b647-186a-54ee"/>
           </infoLinks>
           <constraints>
@@ -265,7 +265,7 @@
           </modifiers>
         </infoLink>
         <infoLink name="Damaged: 1-5 Wounds Remaining" type="profile" id="4dc9-e8c6-c7a5-9671" targetId="b9a3-9db8-fd2f-7e43"/>
-        <infoLink name="Invulnerable Save (5+*)" type="profile" id="2d9c-e813-d896-42df" targetId="8552-862d-6a49-4879"/>
+        <infoLink name="Invulnerable Save" type="profile" id="2d9c-e813-d896-42df" targetId="8552-862d-6a49-4879"/>
       </infoLinks>
       <profiles>
         <profile name="Armiger Warglaive" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit" id="1459-b06d-639b-e171">
@@ -379,7 +379,7 @@
           </modifiers>
         </infoLink>
         <infoLink name="Damaged: 1-5 Wounds Remaining" type="profile" id="e7e-e3dc-536f-7d36" targetId="b9a3-9db8-fd2f-7e43"/>
-        <infoLink name="Invulnerable Save (5+*)" type="profile" id="f95f-a884-efdd-f147" targetId="8552-862d-6a49-4879"/>
+        <infoLink name="Invulnerable Save" type="profile" id="f95f-a884-efdd-f147" targetId="8552-862d-6a49-4879"/>
       </infoLinks>
       <profiles>
         <profile name="Armiger Helverin" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit" id="a7e1-39bc-7da4-5e7c">
@@ -405,7 +405,7 @@
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3f12-d9ce-f75c-aac0" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="135"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -493,7 +493,7 @@
             <modifier type="append" value="D6" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Invulnerable Save (5+*)" type="profile" id="8782-1a08-1fe8-acad" targetId="8552-862d-6a49-4879"/>
+        <infoLink name="Invulnerable Save" type="profile" id="8782-1a08-1fe8-acad" targetId="8552-862d-6a49-4879"/>
         <infoLink name="Damaged: 1-9 Wounds Remaining" type="profile" id="7ed5-2c53-e820-c201" targetId="a274-b647-186a-54ee"/>
       </infoLinks>
       <costs>
@@ -600,11 +600,11 @@
             <modifier type="append" value="D6" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Invulnerable Save (5+*)" type="profile" id="6507-912f-8a53-24b2" targetId="8552-862d-6a49-4879"/>
+        <infoLink name="Invulnerable Save" type="profile" id="6507-912f-8a53-24b2" targetId="8552-862d-6a49-4879"/>
         <infoLink name="Damaged: 1-9 Wounds Remaining" type="profile" id="85bb-3659-6dae-2c0a" targetId="a274-b647-186a-54ee"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="365"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="355"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -672,11 +672,11 @@
             <modifier type="append" value="D6" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Invulnerable Save (5+*)" type="profile" id="5934-ecf2-f980-e506" targetId="8552-862d-6a49-4879"/>
+        <infoLink name="Invulnerable Save" type="profile" id="5934-ecf2-f980-e506" targetId="8552-862d-6a49-4879"/>
         <infoLink name="Damaged: 1-9 Wounds Remaining" type="profile" id="4954-cc62-a646-8f2b" targetId="a274-b647-186a-54ee"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="365"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="355"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -823,7 +823,7 @@
             <modifier type="append" value="D6" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Invulnerable Save (5+*)" type="profile" id="31d9-5aeb-d57d-c662" targetId="8552-862d-6a49-4879"/>
+        <infoLink name="Invulnerable Save" type="profile" id="31d9-5aeb-d57d-c662" targetId="8552-862d-6a49-4879"/>
         <infoLink name="Damaged: 1-9 Wounds Remaining" type="profile" id="baef-114b-1ab4-a49b" targetId="a274-b647-186a-54ee"/>
         <infoLink name="Devastating Wounds" id="fedd-26da-c24d-107d" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
       </infoLinks>
@@ -910,7 +910,7 @@
             <modifier type="append" value="D6" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Invulnerable Save (5+*)" type="profile" id="322-42a1-6346-c907" targetId="8552-862d-6a49-4879"/>
+        <infoLink name="Invulnerable Save" type="profile" id="322-42a1-6346-c907" targetId="8552-862d-6a49-4879"/>
         <infoLink name="Damaged: 1-9 Wounds Remaining" type="profile" id="3cc4-331d-9703-33c0" targetId="a274-b647-186a-54ee"/>
         <infoLink name="Sustained Hits" id="367b-610-daae-ceef" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
       </infoLinks>
@@ -1044,7 +1044,7 @@
             <modifier type="append" value="D6" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Invulnerable Save (5+*)" type="profile" id="98f3-699d-3577-a805" targetId="8552-862d-6a49-4879"/>
+        <infoLink name="Invulnerable Save" type="profile" id="98f3-699d-3577-a805" targetId="8552-862d-6a49-4879"/>
         <infoLink name="Damaged: 1-9 Wounds Remaining" type="profile" id="250f-51fe-b002-2662" targetId="a274-b647-186a-54ee"/>
       </infoLinks>
       <selectionEntryGroups>
@@ -1190,7 +1190,7 @@
             <modifier type="append" value="D6+2" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Invulnerable Save (5+*)" type="profile" id="208e-37cd-517b-80e1" targetId="8552-862d-6a49-4879"/>
+        <infoLink name="Invulnerable Save" type="profile" id="208e-37cd-517b-80e1" targetId="8552-862d-6a49-4879"/>
         <infoLink name="Damaged: 1-10 Wounds Remaining" type="profile" id="3a46-4765-60ee-4a29" targetId="1934-9c67-78e2-4fd9"/>
       </infoLinks>
       <costs>
@@ -1350,7 +1350,7 @@
             <modifier type="append" value="D6+2" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Invulnerable Save (5+*)" type="profile" id="efea-ee0c-d65c-b49" targetId="8552-862d-6a49-4879"/>
+        <infoLink name="Invulnerable Save" type="profile" id="efea-ee0c-d65c-b49" targetId="8552-862d-6a49-4879"/>
         <infoLink name="Damaged: 1-10 Wounds Remaining" type="profile" id="a880-3073-f96d-57c0" targetId="1934-9c67-78e2-4fd9"/>
       </infoLinks>
       <costs>
@@ -1812,7 +1812,7 @@
           </modifiers>
         </infoLink>
         <infoLink name="Damaged: 1-10 Wounds Remaining" hidden="false" type="profile" id="4911-4304-3926-743b" targetId="1934-9c67-78e2-4fd9"/>
-        <infoLink name="Invulnerable Save (5+*)" hidden="false" type="profile" id="e789-67bd-40c6-6a97" targetId="8552-862d-6a49-4879"/>
+        <infoLink name="Invulnerable Save" hidden="false" type="profile" id="e789-67bd-40c6-6a97" targetId="8552-862d-6a49-4879"/>
       </infoLinks>
       <profiles>
         <profile name="Cerastus Knight Castigator" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="139a-660e-cadf-471c">
@@ -1947,7 +1947,7 @@
             <modifier type="append" value="D6+2" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Invulnerable Save (5+*)" id="36a6-d320-1478-457f" hidden="false" type="profile" targetId="8552-862d-6a49-4879"/>
+        <infoLink name="Invulnerable Save" id="36a6-d320-1478-457f" hidden="false" type="profile" targetId="8552-862d-6a49-4879"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="af18-9f43-9e1c-b75a" primary="true" name="Character"/>
@@ -2314,7 +2314,7 @@
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">26</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">+6</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
           </characteristics>
         </profile>
@@ -2708,7 +2708,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Invulnerable Save (5+*)" hidden="false" type="profile" id="5527-5c2e-23b3-de58" targetId="8552-862d-6a49-4879"/>
+        <infoLink name="Invulnerable Save" hidden="false" type="profile" id="5527-5c2e-23b3-de58" targetId="8552-862d-6a49-4879"/>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="9b64-59f4-40b6-7a89" targetId="b68a-5ded-65ac-98c">
           <modifiers>
             <modifier type="append" value="D3" field="name"/>
