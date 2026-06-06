@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="94bb-3284-ee14-57a1" name="Imperium - Adeptus Astartes - Space Wolves" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="73" battleScribeVersion="2.03" type="catalogue" authorName="Acebaur/Mad Spy (adapted for the Boarding Actions game mode by PurpleSerpent)">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="94bb-3284-ee14-57a1" name="Imperium - Adeptus Astartes - Space Wolves" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="77" battleScribeVersion="2.03" type="catalogue" authorName="Acebaur/Mad Spy (adapted for the Boarding Actions game mode by PurpleSerpent)">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Imperium - Adeptus Astartes - Space Marines" id="cb5b-3605-7522-c561" targetId="e0af-67df-9d63-8fb7" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="2e06-13ae-6789-b591" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true"/>
@@ -2173,22 +2173,6 @@
       </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Storm bolter" id="2fb0-97d5-262d-b992" collective="false">
-      <profiles>
-        <profile name="Storm Bolter" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" id="8b94-15e4-ad55-66c3">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Rapid Fire" hidden="false" type="rule" id="8224-fdd3-94bf-3d6c" targetId="c5c8-8b58-b8b6-7786"/>
-      </infoLinks>
       <comment>BS 3+</comment>
       <categoryLinks>
         <categoryLink name="Ranged Weapon" hidden="false" id="4579-a3b0-60b8-df70" targetId="eeda-8544-a2f3-3fab" primary="false"/>
@@ -2655,14 +2639,13 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" hidden="false" id="6e78-4eb2-345c-12da" sortIndex="2">
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e8a5-4755-3523-4a99"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9aa-35a2-ca03-7856"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="16aa-95d3-4a4b-1c61"/>
           </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Great wolf claw" hidden="false" id="a2da-8ec0-3f71-a5e3">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="36a4-3e0a-1291-701d"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd0-71a8-f2eb-adb8"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e43f-661f-6109-66e6"/>
               </constraints>
               <profiles>
                 <profile name="Great wolf claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="8981-66cb-3ba2-f470">
@@ -2676,19 +2659,29 @@
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
                   </characteristics>
                 </profile>
+                <profile name="Storm Bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8b94-15e4-ad55-66c3">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2</characteristic>
+                  </characteristics>
+                </profile>
               </profiles>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Ranged weapon" hidden="false" id="7ba1-d17b-74d-9f81" defaultSelectionEntryId="c1e4-de34-1a69-bb60">
+              <entryLinks>
+                <entryLink import="true" name="Storm bolter" hidden="false" id="d72b-3a50-886d-7a83" type="selectionEntry" targetId="2fb0-97d5-262d-b992">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a89-50bf-d1d8-edc6"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="200d-6728-8e42-e85e"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fae8-e0ef-d760-aab8"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c65c-a772-a93e-7d0f"/>
                   </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Storm bolter" hidden="false" type="selectionEntry" id="c1e4-de34-1a69-bb60" targetId="2fb0-97d5-262d-b992"/>
-                    <entryLink import="true" name="Heavy flamer" hidden="false" type="selectionEntry" id="7c9b-1839-48d3-e091" targetId="b3e6-f7a7-8357-2055"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+                </entryLink>
+              </entryLinks>
+              <infoLinks>
+                <infoLink name="Rapid Fire" id="8224-fdd3-94bf-3d6c" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -2700,8 +2693,27 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a570-2f2a-e70d-0275"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink import="true" name="Storm bolter" hidden="false" id="02c1-381f-1695-a20c" type="selectionEntry" targetId="2fb0-97d5-262d-b992"/>
-                    <entryLink import="true" name="Heavy flamer" hidden="false" id="09e6-4c0d-b345-51a7" type="selectionEntry" targetId="b3e6-f7a7-8357-2055"/>
+                    <entryLink import="true" name="Storm bolter" hidden="false" id="02c1-381f-1695-a20c" type="selectionEntry" targetId="2fb0-97d5-262d-b992">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="model-or-unit" childId="a2da-8ec0-3f71-a5e3" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Heavy Flamer" hidden="false" id="09e6-4c0d-b345-51a7" type="selectionEntry" targetId="b3e6-f7a7-8357-2055">
+                      <modifiers>
+                        <modifier type="set" value="1" field="7536-b8c2-9201-6b02">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="model-or-unit" childId="a2da-8ec0-3f71-a5e3" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7536-b8c2-9201-6b02"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="4ef9-15ce-e3e6-36de" name="Imperium - Adeptus Astartes - Blood Angels" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="76" battleScribeVersion="2.03" type="catalogue" authorName="Acebaur (adapted for the Boarding Actions game mode by PurpleSerpent)">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="4ef9-15ce-e3e6-36de" name="Imperium - Adeptus Astartes - Blood Angels" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="81" battleScribeVersion="2.03" type="catalogue" authorName="Acebaur (adapted for the Boarding Actions game mode by PurpleSerpent)">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Imperium - Adeptus Astartes - Space Marines" id="abd0-8ebd-6fbd-2d94" targetId="e0af-67df-9d63-8fb7" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="9c08-8ffc-d746-7384" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true"/>
@@ -103,7 +103,7 @@
         </modifier>
       </modifiers>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="95"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="85"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -2383,7 +2383,7 @@
             </profile>
           </profiles>
           <associations>
-            <association min="1" max="1" scope="parent" childId="8e33-50a5-d053-ee15" name="New Association" id="9621-656a-ffa9-4744"/>
+            <association min="1" max="1" scope="parent" childId="8e33-50a5-d053-ee15" name="Sanguinary Banner" id="9621-656a-ffa9-4744"/>
           </associations>
         </selectionEntry>
       </selectionEntries>
@@ -3496,11 +3496,22 @@
                           </characteristics>
                         </profile>
                       </profiles>
+                      <categoryLinks>
+                        <categoryLink targetId="0419-b4c1-bd6a-e0f0" id="1291-f0ff-6a01-7712" primary="false" name="DCo Weapon Swap"/>
+                      </categoryLinks>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
-                    <entryLink import="true" name="Thunder Hammer" hidden="false" id="0750-7bd3-6edf-09d2" type="selectionEntry" targetId="3acf-2a72-a5a2-84a2"/>
-                    <entryLink import="true" name="Power Weapon" hidden="false" id="773e-a671-ad57-aa08" type="selectionEntry" targetId="c4b5-68e-2266-f459"/>
+                    <entryLink import="true" name="Thunder Hammer" hidden="false" id="0750-7bd3-6edf-09d2" type="selectionEntry" targetId="3acf-2a72-a5a2-84a2">
+                      <categoryLinks>
+                        <categoryLink targetId="0419-b4c1-bd6a-e0f0" id="87c7-7da4-1101-ac09" primary="false" name="DCo Weapon Swap"/>
+                      </categoryLinks>
+                    </entryLink>
+                    <entryLink import="true" name="Power Weapon" hidden="false" id="773e-a671-ad57-aa08" type="selectionEntry" targetId="c4b5-68e-2266-f459">
+                      <categoryLinks>
+                        <categoryLink targetId="0419-b4c1-bd6a-e0f0" id="9a4d-6ebe-1af5-f127" primary="false" name="DCo Weapon Swap"/>
+                      </categoryLinks>
+                    </entryLink>
                     <entryLink import="true" name="Astartes Chainsword" hidden="false" id="8b85-90a0-8aca-7fbe" type="selectionEntry" targetId="efcd-180-d07-b4d6"/>
                   </entryLinks>
                   <constraints>
@@ -3520,6 +3531,18 @@
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3536-7f35-9308-1da4"/>
               </constraints>
+              <modifiers>
+                <modifier type="add" value="Max 1 pistol replacement in squad" field="error">
+                  <conditions>
+                    <condition type="atLeast" value="2" field="selections" scope="3825-ac3a-75ec-fa0d" childId="f06c-dfec-c720-57f1" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="add" value="Max 1 melee weapon swap in squad" field="error">
+                  <conditions>
+                    <condition type="greaterThan" value="1" field="selections" scope="3825-ac3a-75ec-fa0d" childId="0419-b4c1-bd6a-e0f0" shared="true" includeChildSelections="true" childName="DCo Weapon Swap"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3583,11 +3606,6 @@
             <condition type="atLeast" value="6" field="selections" scope="3825-ac3a-75ec-fa0d" childId="model" shared="true" id="c524-f843-2ef6-f2ab" includeChildSelections="true"/>
           </conditions>
         </modifier>
-        <modifier type="add" value="Max 1 pistol replacement in squad" field="error">
-          <conditions>
-            <condition type="atLeast" value="2" field="selections" scope="3825-ac3a-75ec-fa0d" childId="f06c-dfec-c720-57f1" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" id="3905-49a8-cdec-685b" includeChildSelections="true" includeChildForces="true"/>
@@ -3623,7 +3641,7 @@
         </profile>
         <profile name="Driven by Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="973b-a866-fedb-54d7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your opponent&apos;s Shooting phase, each time an enemy unit has shot, if this model was hit by one or more of those attacks, it can make a Driven by Fury move. To do so, roll one D6 and add 2 to the roll; this model moves a number of inches up to the result, but must finish as close as possible to the closest enemy unit. A model cannot make a Driven by Fury move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Driven by Fury move per phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your opponent&apos;s Shooting phase, each time an enemy unit has shot, if this model was hit by one or more of those attacks, it can make a Driven by Fury move. To do so, roll one D6 and add 2 to the roll; this model moves a number of inches up to the result, but must finish as close as possible to the closest enemy unit. When doing so, this model can be moved within Engagement Range of that enemy unit. A model cannot make a Driven by Fury move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Driven by Fury move per phase.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -3830,6 +3848,7 @@
     <categoryEntry name="Pistol replacement" id="f06c-dfec-c720-57f1" hidden="true"/>
     <categoryEntry name="Death Company Marines with Boltguns" hidden="false" id="d57c-d980-bdae-2999"/>
     <categoryEntry name="Death Company Marines with Boltguns and Jump Packs" hidden="false" id="f884-eba8-9896-a544"/>
+    <categoryEntry name="DCo Weapon Swap" hidden="false" id="0419-b4c1-bd6a-e0f0"/>
   </categoryEntries>
   <sharedProfiles>
     <profile name="Black Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3e0a-31f-8be-e293">

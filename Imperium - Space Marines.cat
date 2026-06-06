@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="185" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur (adapted for the Boarding Actions game mode by PurpleSerpent)">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="214" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur (adapted for the Boarding Actions game mode by PurpleSerpent)">
   <categoryEntries>
     <categoryEntry id="5179-8ede-45e3-49a2" name="Tacticus" hidden="false"/>
     <categoryEntry id="930d-2875-125b-a65e" name="Bladeguard Veteran Squad" hidden="false"/>
@@ -1730,14 +1730,24 @@
       </costs>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -1989,19 +1999,21 @@
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -2120,14 +2132,24 @@
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -2310,11 +2332,6 @@
                     <entryLink import="true" name="Heavy Bolt Pistol" hidden="false" type="selectionEntry" id="ac28-c9fe-ef96-b5fe" targetId="3b8f-1cb7-3c6e-4455">
                       <entryLinks>
                         <entryLink import="true" name="Weapon Upgrades" hidden="false" id="5327-0b6d-b389-539f" type="selectionEntryGroup" targetId="8cf2-a48c-58d2-cb4e"/>
-                        <entryLink import="true" name="Heavy Bolt Pistol" hidden="false" id="25de-e5c5-99d9-acf2" type="selectionEntry" targetId="3b8f-1cb7-3c6e-4455">
-                          <entryLinks>
-                            <entryLink import="true" name="Weapon Upgrades" hidden="false" id="6f5e-5a5b-b13e-e1ab" type="selectionEntryGroup" targetId="8cf2-a48c-58d2-cb4e"/>
-                          </entryLinks>
-                        </entryLink>
                       </entryLinks>
                     </entryLink>
                     <entryLink import="true" name="Hand Flamer" hidden="false" type="selectionEntry" id="66b0-e7b4-949c-e091" targetId="9dc6-6ad8-818e-db2e">
@@ -2428,14 +2445,24 @@
       </constraints>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -2771,13 +2798,28 @@
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="f434-9873-7398-f6ae">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" childName="Shield of the Void" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3032,6 +3074,13 @@
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
                     <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
                   </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="2" field="bef7-942a-1a23-59f8">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="e1d6-3316-2209-dc77" shared="true" includeChildSelections="true" includeChildForces="true" childName="Vulkan He&apos;stan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </profile>
               </profiles>
             </selectionEntry>
@@ -3070,6 +3119,13 @@
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
                     <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
                   </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="2" field="bef7-942a-1a23-59f8">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="e1d6-3316-2209-dc77" shared="true" includeChildSelections="true" includeChildForces="true" childName="Vulkan He&apos;stan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </profile>
               </profiles>
             </selectionEntry>
@@ -3102,13 +3158,23 @@
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3259,13 +3325,28 @@
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="af45-98a8-8453-539">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" childName="Shield of the Void" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3501,13 +3582,28 @@
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="aad7-cca7-a61d-bb6a">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" childName="Shield of the Void" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3739,13 +3835,28 @@
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="eec4-12a5-359c-fac6">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" childName="Shield of the Void" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3926,13 +4037,28 @@
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="9c99-def9-55e9-c99d">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" childName="Shield of the Void" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4210,13 +4336,28 @@
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="b516-e9f3-bf5c-f8aa">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" childName="Shield of the Void" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4815,13 +4956,23 @@
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4879,13 +5030,23 @@
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="dcdf-4b32-ee45-485e" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5229,13 +5390,23 @@
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5504,6 +5675,16 @@ bearer can be moved during that move</characteristic>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="1" field="9cd6-a207-9bf3-f5e8">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" childName="Shield of the Void" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="a24c-d8de-32c6-37f2" collective="false" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="1">
@@ -5758,13 +5939,23 @@ bearer can be moved during that move</characteristic>
       </selectionEntryGroups>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -6030,13 +6221,28 @@ bearer can be moved during that move</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="b57f-a19e-9709-c1bc">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" childName="Shield of the Void" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -6284,13 +6490,28 @@ bearer can be moved during that move</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="4fc1-ab76-82a7-45db">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" childName="Shield of the Void" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -7139,7 +7360,7 @@ bearer can be moved during that move</characteristic>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Redemptor Dreadnought" hidden="false" id="1d94-b3c8-9205-827e">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="195"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="205"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -8826,13 +9047,23 @@ bearer can be moved during that move</characteristic>
       </selectionEntryGroups>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="9cb7-4a40-5f36-17e9" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -9010,13 +9241,23 @@ bearer can be moved during that move</characteristic>
       </selectionEntryGroups>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="9cb7-4a40-5f36-17e9" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -10932,7 +11173,7 @@ bearer can be moved during that move</characteristic>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Repulsor Executioner" hidden="false" id="9259-f166-15f2-7f79">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="220"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="230"/>
       </costs>
       <constraints>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="a2cd-cebd-f62e-bfdc" includeChildSelections="false"/>
@@ -12287,14 +12528,24 @@ bearer can be moved during that move</characteristic>
       </profiles>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -12428,19 +12679,21 @@ bearer can be moved during that move</characteristic>
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -12585,19 +12838,21 @@ bearer can be moved during that move</characteristic>
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" childName="Boarding Strike"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -12671,14 +12926,24 @@ bearer can be moved during that move</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <selectionEntryGroups>
@@ -12846,19 +13111,21 @@ bearer can be moved during that move</characteristic>
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true" childName="Pilum Strike Team"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <selectionEntryGroups>
@@ -13011,14 +13278,24 @@ bearer can be moved during that move</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -13166,14 +13443,24 @@ bearer can be moved during that move</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -13264,14 +13551,24 @@ bearer can be moved during that move</characteristic>
       </selectionEntryGroups>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -13293,7 +13590,7 @@ bearer can be moved during that move</characteristic>
         <categoryLink name="Melee Weapon" hidden="false" id="63f9-2a9a-fd75-c1ba" targetId="ccdd-3987-11ed-90cd" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Absolver Bolt Pistol" hidden="false" id="a490-361-c9c4-afeb">
+    <selectionEntry type="upgrade" import="true" name="Absolvor Bolt Pistol" hidden="false" id="a490-361-c9c4-afeb">
       <profiles>
         <profile name="Absolvor Bolt Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cb64-ddb1-cbc3-3621">
           <characteristics>
@@ -13420,14 +13717,24 @@ bearer can be moved during that move</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -13557,14 +13864,24 @@ bearer can be moved during that move</characteristic>
       </selectionEntryGroups>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -13689,13 +14006,23 @@ bearer can be moved during that move</characteristic>
       </selectionEntryGroups>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -13742,7 +14069,7 @@ bearer can be moved during that move</characteristic>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Lieutenant with Combi-weapon" hidden="false" id="109f-f71d-56-d9eb">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="70"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="85"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="8583-a1c6-fcc0-8e46" primary="true" name="Character"/>
@@ -13791,9 +14118,14 @@ bearer can be moved during that move</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </profile>
@@ -13862,6 +14194,7 @@ bearer can be moved during that move</characteristic>
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -13874,6 +14207,11 @@ bearer can be moved during that move</characteristic>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="892e-15fd-69ed-e6a7" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -13951,13 +14289,23 @@ bearer can be moved during that move</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -14058,20 +14406,30 @@ bearer can be moved during that move</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="b8bf-49fc-63d7-3421" hidden="false" sortIndex="3">
           <entryLinks>
-            <entryLink import="true" name="Absolver Bolt Pistol" hidden="false" id="7c7b-e0a5-f7ce-a060" type="selectionEntry" targetId="a490-361-c9c4-afeb">
+            <entryLink import="true" name="Absolvor Bolt Pistol" hidden="false" id="7c7b-e0a5-f7ce-a060" type="selectionEntry" targetId="a490-361-c9c4-afeb">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3213-f7c3-bd39-66ad"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5cd-f45e-2efa-b3dd"/>
@@ -14194,14 +14552,24 @@ bearer can be moved during that move</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <selectionEntryGroups>
@@ -14348,14 +14716,24 @@ bearer can be moved during that move</characteristic>
       </selectionEntryGroups>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -14422,14 +14800,24 @@ bearer can be moved during that move</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <selectionEntryGroups>
@@ -14621,14 +15009,24 @@ bearer can be moved during that move</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="220e-e16f-9172-a375" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -14752,14 +15150,24 @@ bearer can be moved during that move</characteristic>
       </selectionEntryGroups>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -15008,14 +15416,24 @@ bearer can be moved during that move</characteristic>
       </selectionEntryGroups>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -16204,6 +16622,11 @@ bearer can be moved during that move</characteristic>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" id="2166-12ee-1db8-1327" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Caestus Assault Ram [Legends]" hidden="false" id="df9b-111-d64a-e298">
@@ -16816,7 +17239,7 @@ bearer can be moved during that move</characteristic>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Land Raider Excelsior [Legends]" hidden="false" id="c8e1-69a5-1121-6f79">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="310"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="1b26-3629-9430-59a2" primary="true" name="Vehicle"/>
@@ -16999,14 +17422,24 @@ bearer can be moved during that move</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <selectionEntryGroups>
@@ -17706,13 +18139,23 @@ bearer can be moved during that move</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="dcdf-4b32-ee45-485e" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -17758,13 +18201,23 @@ bearer can be moved during that move</characteristic>
       </constraints>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Shield of the Void"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3d97-8fa6-700c-270c" shared="true" includeChildSelections="true" childName="Shield of the Void"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -19265,6 +19718,26 @@ bearer can be moved during that move</characteristic>
             </rule>
           </rules>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Shield of the Void" hidden="false" id="3d97-8fa6-700c-270c">
+          <rules>
+            <rule name="Focused Response" id="075d-51be-f8df-6797" hidden="false">
+              <description>■ Each time an **^^ADEPTUS ASTARTES^^** model from your army makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6.
+■ Each time an enemy unit makes an attack that targets an **^^ADEPTUS ASTARTES^^** unit from your army that is Set To Defend, subtract 1 from the Hit roll.</description>
+            </rule>
+          </rules>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="4029-9237-e8db-af55" shared="true" childName="Imperium - Adeptus Astartes - Ultramarines"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="e0af-67df-9d63-8fb7" shared="true" childName="Imperium - Adeptus Astartes - Space Marines"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Enhancements" hidden="false" id="9e5d-de4c-c5d1-1d3e" collapsible="true">
@@ -19608,6 +20081,49 @@ bearer can be moved during that move</characteristic>
                   </conditionGroups>
                 </modifier>
               </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Shield of the Void Enhancements" id="c247-bda1-8734-67ae" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="4d81-5f85-3b7d-9507" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Speartip of the Chapter" hidden="false" id="7f90-3f82-420d-71a3" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8551-ce7c-f83e-23fe" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c9bb-a731-2004-7c72" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Speartip of the Chapter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="db64-0acc-3d86-a537">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, the bearer’s unit and up to one other friendly unit within the same Entry Zone can each make a Normal move of up to 6&quot;.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tolorek Data Djinn" hidden="false" id="7edc-9723-0c17-828c" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5b7-e714-5f84-3a60" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="289d-264a-9ecc-8bed" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Tolorek Data Djinn" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7c72-bad0-4e8a-6b28">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, select one objective marker that you control and is within range of the bearer. Roll one D6: on a 2+, that objective marker is Secured by your army.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
