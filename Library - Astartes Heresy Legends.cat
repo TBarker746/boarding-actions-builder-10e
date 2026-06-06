@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="ac3b-689c-4ad4-70cb" name="Library - Astartes Heresy Legends" revision="28" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Adapted for the Boarding Actions game mode by PurpleSerpent">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="ac3b-689c-4ad4-70cb" name="Library - Astartes Heresy Legends" revision="28" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Adapted for the Boarding Actions game mode by TBarker746t">
   <categoryEntries>
     <categoryEntry id="39b9-56da-6787-1880" name="Kratos" hidden="false"/>
     <categoryEntry id="4091-3761-4405-49bc" name="Deredeo Dreadnought" hidden="false"/>

@@ -1,18 +1,36 @@
-Warhammer 40,000 10th Edition: Boarding Actions
+Warhammer 40,000 10th Edition
 ==================
+
+[![Latest release](https://img.shields.io/github/release/BSData/wh40k-10e.svg?style=flat-square)](https://github.com/BSData/wh40k-10e/releases/latest)
+[![Commits (since latest release)](https://img.shields.io/github/commits-since/BSData/wh40k-10e/latest.svg?style=flat-square)](https://github.com/BSData/wh40k-10e/releases)
+[![Open bugs](https://img.shields.io/github/issues/BSData/wh40k-10e/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/wh40k-10e/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+[![Contributors](https://img.shields.io/github/contributors/BSData/wh40k-10e.svg?style=flat-square)](https://github.com/BSData/wh40k-10e/graphs/contributors)
+[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/wh40k-10e.svg?style=flat-square)](https://github.com/BSData/wh40k-10e/pulse/monthly)
+
+[![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://www.bsdata.net/discord)
 
 ## Overview ##
 
-This repository is an in-progress adaptation of the BSData team's 40K Army Builder specifically to handle the Boarding Actions game mode. Ironically, the main builder started work on implementing Boarding Actions itself just as I started working on this, but I've opted to keep this version running too as in my opinion Boarding Actions works sufficiently differently from standard 40K that it's worth having a version of the builder specifically tailored for it.
+__What's this?__
 
-This dataset has been written for the list-building application New Recruit, and can be implemented into it by clicking the "Add more games" button while on the My Games Page and selecting "Add from Github".
+BSData organisation created this project. It's a GitHub repository of datafiles.
+Maintained by community, in no way endorsed by BattleScribe or any other company/publisher. If you want
+to develop - cool! We need you! Take a look at [our homepage][BSData.net]
 
-As this repository is an adaptation of another ongoing project, if you want to submit a  [bug report][bug report], please check out the [notes page](https://github.com/TBarker746/boarding-actions-BSdata-draft/blob/main/BUGNOTES.md) first, as certain issues should probably be reported on the [original dataset](https://github.com/BSData/wh40k-10e/blob/main/README.md) rather than here.
+__Okay, nice project. Is it actually working?__ _I just want those files..._
 
-[bug report]: https://github.com/TBarker746/boarding-actions-builder-10e/issues/new/choose
+Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot](https://battlescribedata.appspot.com/#/repos)
 
+__I found a bug!__ / *I have another request*
 
+Great, thank you! Please [Report a bug][bug report] - you can also suggest enhancements and raise other issues there.
 
+## Links ##
 
+* [BSData organization homepage][BSData.net]
+* [New Recruit homepage](https://www.newrecruit.eu)
+* [Bluescribe homepage](https://bluewinds.github.io/bluescribe/)
+* [BattleScribe app homepage](https://www.battlescribe.net/)
 
-
+[BSData.net]: https://www.bsdata.net/
+[bug report]: https://github.com/BSData/wh40k-10e/issues/new/choose

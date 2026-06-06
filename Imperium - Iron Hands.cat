@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f27e-18c0-b73e-748e" name="Imperium - Adeptus Astartes - Iron Hands" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="12" battleScribeVersion="2.03" type="catalogue" authorName="Adapted for the Boarding Actions game mode by PurpleSerpent">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f27e-18c0-b73e-748e" name="Imperium - Adeptus Astartes - Iron Hands" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="12" battleScribeVersion="2.03" type="catalogue" authorName="Adapted for the Boarding Actions game mode by TBarker746">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Imperium - Adeptus Astartes - Space Marines" id="58f2-3ff2-63db-c44f" targetId="e0af-67df-9d63-8fb7" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="c928-54a6-64c3-7d5" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true"/>

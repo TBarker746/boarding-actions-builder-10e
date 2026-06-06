@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="5a44-f048-114b-e3ff" name="Imperium - Astra Militarum - Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="202" battleScribeVersion="2.03" type="catalogue" authorName="Adapted for the Boarding Actions game mode by PurpleSerpent">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="5a44-f048-114b-e3ff" name="Imperium - Astra Militarum - Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="202" battleScribeVersion="2.03" type="catalogue" authorName="Adapted for the Boarding Actions game mode by TBarker746">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Baneblade" hidden="false" id="a6a1-1612-f982-31">
       <categoryLinks>

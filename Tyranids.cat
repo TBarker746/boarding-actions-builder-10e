@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b984-7317-81cc-20f" name="Xenos - Tyranids" revision="125" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Dunamis55 (adapted for the Boarding Actions game mode by PurpleSerpent)">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b984-7317-81cc-20f" name="Xenos - Tyranids" revision="125" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Dunamis55 (adapted for the Boarding Actions game mode by TBarker746)">
   <categoryEntries>
     <categoryEntry id="dc7d-ba0f-e6e-8599" name="The Swarmlord" hidden="false"/>
     <categoryEntry id="f75-65-2121-87b5" name="Broodlord" hidden="false"/>

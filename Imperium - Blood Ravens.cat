@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="7622-af96-f945-7cea" name="Imperium - Adeptus Astartes - Blood Ravens" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="86" revision="1" battleScribeVersion="2.03" authorName="TBarker746" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Imperium - Adeptus Astartes - Space Marines" id="96b8-56cc-1efe-e0bd" targetId="e0af-67df-9d63-8fb7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="9020-7b9c-5992-15b5" targetId="b00-cd86-4b4c-97ba" importRootEntries="true"/>
+  </catalogueLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Chaplain Kastiel [Legends]" hidden="false" id="2df5-b3f8-e0b3-bc3f">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="70"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="5f15-e6dd-2c3a-42cc" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="1936-c7c6-2245-3544" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink name="Grenades" hidden="false" id="6c47-9000-4c54-150a" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
+        <categoryLink name="Tacticus" hidden="false" id="f44f-aaf1-9721-86ee" targetId="5179-8ede-45e3-49a2" primary="false"/>
+        <categoryLink name="Imperium" hidden="false" id="0fc8-506d-ba7e-cbe7" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+        <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="5b8f-d3c0-ca14-3d49" targetId="6e7-40c-58d9-e402" primary="false"/>
+        <categoryLink name="Chaplain" hidden="false" id="9797-4e61-74ec-956f" targetId="1fb1-3603-a4bd-485" primary="false"/>
+        <categoryLink name="Leader" hidden="false" id="901b-6156-6e7b-2cf2" targetId="1b79-610a-cd92-641d" primary="false"/>
+        <categoryLink name="Warlord Eligible Character" hidden="false" id="e44a-29ea-26fb-e6be" targetId="abd3-107c-7042-9417" primary="false"/>
+        <categoryLink targetId="646e-41b5-18a1-996d" id="52e8-0999-0f14-201e" primary="false" name="Kastiel"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Invulnerable Save" id="1690-de8a-86a9-47e6" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
+        <infoLink name="Oath of Moment" id="23a8-e3e2-82bf-7fc2" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="8e39-69be-212e-ed55" collective="false" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d36c-21f2-f581-c28a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="967c-18fe-2d7b-2700" includeChildSelections="false"/>
+        <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="f9b7-aa3d-1669-d007" includeChildSelections="true"/>
+        <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="a5a5-6c65-6da3-2ad1" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="56be-c1cf-789e-e08a" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Chaplain Kastiel [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="7aff-5a66-0bc4-ff35">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">5+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="88cb-1f43-34a7-2413">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following units:
+
+■ **^^Assault Intercessor Squad^^**
+■ **^^Bladeguard Veteran Squad^^**
+■ **^^Hellblaster Squad^^**
+■ **^^Infernus Squad^^**
+■ **^^Intercessor Squad^^**
+■ **^^Sternguard Veteran Squad^^**
+■ **^^Tactical Squad^^**</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Zealot&apos;s Fervour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cc02-5170-aa56-ae0f">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model is eligible to charge in a turn in which it Fell Back.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Wargear" id="280b-3331-c31c-d35d" hidden="false" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Absolvor Bolt Pistol" hidden="false" id="9cb7-4ec8-ded9-3884" type="selectionEntry" targetId="a490-361-c9c4-afeb">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1466-6540-8727-3e34"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1cb5-c7d7-b100-d412"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Crozius Arcanum" hidden="false" id="e4f0-cac5-c579-9a2b" type="selectionEntry" targetId="871-d25c-e7b3-5dfc">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5df0-d9ae-395a-560a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d37-e704-870c-18f2"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ed-cbf4-bfe5-90bf" shared="true" includeChildSelections="true" includeChildForces="true" childName="Show Legends"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Judiciar Xacharus [Legends]" hidden="false" id="3019-9645-254a-88df">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="9e78-9d86-bbb6-2d2a" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="aabe-0e7c-1105-7cd9" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink name="Imperium" hidden="false" id="66ce-5eb1-f653-b1a6" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+        <categoryLink name="Tacticus" hidden="false" id="929b-9f58-b8e7-fa4c" targetId="5179-8ede-45e3-49a2" primary="false"/>
+        <categoryLink name="Judiciar" hidden="false" id="8219-c869-4765-06bf" targetId="258c-ef74-d5f1-3a61" primary="false"/>
+        <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="3b9b-dde4-15ff-a849" targetId="6e7-40c-58d9-e402" primary="false"/>
+        <categoryLink name="Leader" hidden="false" id="db10-62d4-5b7d-85d1" targetId="1b79-610a-cd92-641d" primary="false"/>
+        <categoryLink name="Warlord Eligible Character" hidden="false" id="0cfb-e7d5-7f63-e9a4" targetId="abd3-107c-7042-9417" primary="false"/>
+        <categoryLink targetId="fd4b-cb0a-d64a-04e8" id="46c5-a8be-03db-0ca8" primary="false" name="Xacharus"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="b20b-cb3d-1cb6-c02d" includeChildSelections="false"/>
+        <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="ed36-5218-ef40-7129" includeChildSelections="true"/>
+        <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="ab2b-4cfa-911d-2174" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ba40-cacd-129b-3019" includeChildSelections="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="6c76-fb90-f95c-4378" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Invulnerable Save" id="9e64-dcdc-a89d-8d5f" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Judiciar Xacharus [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="6cc0-cebb-8700-854e">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">5+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tempormortis" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f562-f521-4ea6-8f20">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly unit is affected by a Battlefield Command Stratagem used by this model, that unit has the **^^Fights First^^** ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Indomitable Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="27c1-b698-4f14-6c72">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a Consolidation move, it can move up to 6&quot; instead of up to 3&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9578-dd2b-6bd3-cd7c">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following units:
+
+■ **^^Assault Intercessor Squad^^**
+■ **^^Bladeguard Veteran Squad^^**
+■ **^^Infernus Squad^^**
+■ **^^Intercessor Squad^^**
+■ **^^Sternguard Veteran Squad^^**
+■ **^^Tactical Squad^^**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="0144-f952-6493-2413" collective="false" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9381-8021-91ee-37d4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Wargear" id="d84e-14f4-e32c-86f7" hidden="false" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Absolvor Bolt Pistol" hidden="false" id="6e04-928e-e105-ac34" type="selectionEntry" targetId="a490-361-c9c4-afeb">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2db2-67b4-4681-ff98"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9cc5-53b0-b046-e1ff"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Executioner Relic Blade" hidden="false" id="f312-7708-2cb3-b3b5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="77ff-3271-c9e8-6dd5"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccde-02df-14d7-6fd3"/>
+              </constraints>
+              <profiles>
+                <profile name="Executioner Relic Blade" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="67d4-fd0b-a2e2-6e04">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Precision</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Devastating Wounds" id="847c-5297-de56-63dd" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+                <infoLink name="Precision" id="9437-7e1e-8f48-6bbe" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink name="Melee Weapon" hidden="false" id="1198-0829-f08e-3c12" targetId="ccdd-3987-11ed-90cd" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ed-cbf4-bfe5-90bf" shared="true" includeChildSelections="true" includeChildForces="true" childName="Show Legends"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Kastiel" id="646e-41b5-18a1-996d" hidden="false" page=""/>
+    <categoryEntry name="Xacharus" id="fd4b-cb0a-d64a-04e8" hidden="false" page=""/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink import="true" name="Chaplain Kastiel [Legends]" hidden="false" id="dd01-5532-96af-a303" targetId="2df5-b3f8-e0b3-bc3f" type="selectionEntry"/>
+    <entryLink import="true" name="Judiciar Xacharus [Legends]" hidden="false" id="41bb-af29-a145-8d00" targetId="3019-9645-254a-88df" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>
