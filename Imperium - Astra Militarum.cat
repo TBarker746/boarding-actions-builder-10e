@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b0ae-12a5-c84-ea45" name="Imperium - Astra Militarum" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="21" battleScribeVersion="2.03" type="catalogue" authorName="Adapted for the Boarding Actions game mode by PurpleSerpent">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b0ae-12a5-c84-ea45" name="Imperium - Astra Militarum" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="25" battleScribeVersion="2.03" type="catalogue" authorName="Adapted for the Boarding Actions game mode by PurpleSerpent">
   <entryLinks>
     <entryLink import="true" name="‘Iron Hand’ Straken [Legends]" hidden="false" type="selectionEntry" id="f38c-6b5-d8d3-32db" targetId="913f-3cb6-fb80-7f6a"/>
     <entryLink import="true" name="Armoured Sentinel" hidden="false" type="selectionEntry" id="29aa-34ba-8b9f-b6a6" targetId="d60b-e720-566e-49d8"/>
@@ -404,6 +404,9 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Commissar Graves" hidden="false" type="selectionEntry" id="52e0-ed74-f4e8-0aae" targetId="50b8-1f13-9807-0069"/>
+    <entryLink import="true" name="Centaur RSV" hidden="false" type="selectionEntry" id="af85-a884-b6a8-ea5b" targetId="c871-4769-71ed-c4b3"/>
+    <entryLink import="true" name="Hippogriff AFV" hidden="false" type="selectionEntry" id="7841-9004-4662-7c72" targetId="0391-d43c-0b45-ab4b"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="e373-3c0a-1185-467a" name="Imperium - Astra Militarum - Library" targetId="5a44-f048-114b-e3ff" type="catalogue" importRootEntries="false"/>
