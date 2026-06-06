@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="03fe-a162-4c02-f07b" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="31" revision="43" authorContact="Mad_Spy (adapted for the Boarding Actions game mode by PurpleSerpent)" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="03fe-a162-4c02-f07b" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="31" revision="50" authorContact="Mad_Spy (adapted for the Boarding Actions game mode by PurpleSerpent)" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Lucius the Eternal" hidden="false" id="e390-b58b-db9-816" collective="false">
       <profiles>
@@ -855,14 +855,14 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="110"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <modifiers>
-        <modifier type="set" value="220" field="51b2-306e-1021-d207">
+        <modifier type="set" value="200" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="greaterThan" value="3" field="selections" scope="183e-f3bb-3ce6-7b55" childId="model" shared="true"/>
           </conditions>
@@ -1150,7 +1150,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="155"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="145"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -2146,6 +2146,424 @@
         </entryLink>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Defiler" hidden="false" id="be32-d049-09b5-3993" collective="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e88c-6132-c8b8-fcaa" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="d705-65ba-d00c-7354" includeChildSelections="false"/>
+        <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="8bf4-7659-8468-651f" includeChildSelections="true"/>
+        <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="e9fc-fe67-0509-c766" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Defiler" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c26b-8f69-3984-7b33">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">18</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dc82-0a75-c880-67fe">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Revel in Desecration" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bc7f-0ec2-0362-718e">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets an enemy unit that is not below Half-strength, add 1 to the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="ccad-30fc-4b01-e7e0" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D6" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Damaged: 1-6 wounds remaining" id="6675-d9ba-77cd-8be3" hidden="false" targetId="80f7-2a63-72c9-42e7" type="profile"/>
+        <infoLink name="Musk of Torpidity" id="9ba3-2f55-b347-8eac" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="7410-5db3-be9b-86af" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="f7f7-c72d-23ba-7f91" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Walker" hidden="false" id="eae6-aa97-f613-dbdd" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="181e-fe9e-e5c0-e967" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="cb9f-5cf3-54c2-76f1" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+        <categoryLink name="Daemon" hidden="false" id="be01-227a-50d0-6658" targetId="9c0e-7e25-4580-e439" primary="false"/>
+        <categoryLink targetId="1a60-f154-eb98-2da4" id="3e64-5736-b64d-d352" primary="false" name="Defiler"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Wargear" id="0747-c638-610d-da70" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Shearing claws" hidden="false" id="3b85-7c16-ea50-50eb" collective="false" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f73-4286-6e32-223a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ceb-8582-a5a3-abfa" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Shearing claws - strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="3fdc-9f6d-7e99-723a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">16</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">D6+1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Shearing claws - sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="82fc-1bd3-fa12-4781">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="045c-f13d-e2b4-6dab" type="selectionEntryGroup" targetId="52ca-0c07-9521-81d4"/>
+              </entryLinks>
+              <categoryLinks>
+                <categoryLink name="Damage Dx+0 Modifier" hidden="false" id="1407-a449-e76e-281d" targetId="982b-de77-dd2d-d9bd" primary="false"/>
+              </categoryLinks>
+              <infoLinks>
+                <infoLink name="Lethal Hits" id="4940-c039-3ea1-0dbe" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Replace heavy missile launcher" id="d2a9-9aa6-abc0-095a" hidden="false" collective="false" import="true" defaultSelectionEntryId="e614-711a-eac2-6449" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="94d9-6a4e-f2d3-433a" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3336-a5c4-37a2-d838" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy missile launcher" hidden="false" id="aa23-6632-fa9c-ae06" sortIndex="1">
+                  <profiles>
+                    <profile name="➤ Heavy missile launcher - frag" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f287-0218-6668-24e2">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Lethal Hits</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="➤ Heavy missile launcher - krak" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="fe7b-4a92-07c0-8889">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Blast" id="c405-1a54-7d3e-fa53" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+                    <infoLink name="Lethal Hits" id="38a3-9300-d4b3-80cd" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                  </infoLinks>
+                  <categoryLinks>
+                    <categoryLink name="Damage Dx+0 Modifier" hidden="false" id="8e16-e1b9-5897-c04e" targetId="982b-de77-dd2d-d9bd" primary="false"/>
+                    <categoryLink name="Attacks Dx Weapon" hidden="false" id="8203-6219-2e0e-9583" targetId="e993-e086-6de1-12af" primary="false"/>
+                    <categoryLink name="Attacks Dx+0 Modifier" hidden="false" id="e9ae-57c9-5a74-0251" targetId="6337-b83b-0d1e-5770" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="b8ad-eb1d-879e-158d" type="selectionEntryGroup" targetId="52ca-0c07-9521-81d4"/>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink import="true" name="Electroscourge" hidden="false" id="d659-9e52-1dbc-4932" targetId="bed4-0a08-13d5-d9d2" type="selectionEntry" sortIndex="4"/>
+                <entryLink import="true" name="Hades lascannon" hidden="false" id="c731-1249-596e-c794" targetId="d654-5951-2737-6a3d" type="selectionEntry" sortIndex="2"/>
+                <entryLink import="true" name="Heavy reaper autocannon" hidden="false" id="e29c-620a-264f-117c" type="selectionEntry" targetId="45f2-c0d9-99b4-9498" sortIndex="3"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Main cannon" id="0189-9955-2722-a139" hidden="false" sortIndex="1" defaultSelectionEntryId="70b7-45e7-b09e-f02c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="93f6-9e37-1286-46a3" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5145-956c-bc0b-2e73" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Hades battle cannon" hidden="false" id="fd0e-30b3-78b4-b478" collective="false">
+                  <profiles>
+                    <profile name="Hades battle cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4b2a-9cc2-4328-5f5e">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Lethal Hits</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Blast" id="1e72-4c71-a913-667e" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+                    <infoLink name="Lethal Hits" id="afeb-27bd-d0ab-d488" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                  </costs>
+                  <entryLinks>
+                    <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="351b-9115-8260-02b3" type="selectionEntryGroup" targetId="52ca-0c07-9521-81d4"/>
+                  </entryLinks>
+                  <categoryLinks>
+                    <categoryLink name="Attacks Dx+0 Modifier" hidden="false" id="4d8c-e03a-e8b7-cd6d" targetId="6337-b83b-0d1e-5770" primary="false"/>
+                  </categoryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Ectoplasma destructor" hidden="false" id="8f4d-ea1e-9c91-59ab">
+                  <profiles>
+                    <profile name="Ectoplasma destructor" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b3ae-591a-2926-2d35">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Lethal Hits</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Blast" id="4068-188d-2388-3a46" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+                    <infoLink name="Lethal Hits" id="d38c-f8f8-fe74-42f7" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="07ee-4a7d-6147-dcf2" type="selectionEntryGroup" targetId="52ca-0c07-9521-81d4"/>
+                  </entryLinks>
+                  <categoryLinks>
+                    <categoryLink name="Attacks Dx Weapon" hidden="false" id="3ed9-fc96-77f0-92c9" targetId="e993-e086-6de1-12af" primary="false"/>
+                  </categoryLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Replace heavy baleflamer" id="31f4-92e2-c765-a87a" hidden="false" collective="false" import="true" defaultSelectionEntryId="f13e-596b-9971-a34b" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d61c-046c-f5ec-d04c" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="53f7-6d29-bc19-83cf" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy baleflamer" hidden="false" id="2938-d654-c325-057b" sortIndex="1">
+                  <profiles>
+                    <profile name="Heavy baleflamer" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a36a-39ca-2f6a-27c1">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Torrent</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Ignores Cover" id="6e77-20b7-b56f-b80d" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
+                    <infoLink name="Torrent" id="6e33-3cb7-bed0-fa43" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
+                  </infoLinks>
+                  <categoryLinks>
+                    <categoryLink name="Attacks Dx+0 Modifier" hidden="false" id="f486-176f-e123-4a4a" targetId="6337-b83b-0d1e-5770" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="9bf1-033c-6cb4-d3f1" type="selectionEntryGroup" targetId="52ca-0c07-9521-81d4"/>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink import="true" name="Electroscourge" hidden="false" id="190c-c240-d6bb-b7ba" targetId="bed4-0a08-13d5-d9d2" type="selectionEntry" sortIndex="4"/>
+                <entryLink import="true" name="Hades lascannon" hidden="false" id="372c-9a67-4c29-7442" targetId="d654-5951-2737-6a3d" type="selectionEntry" sortIndex="2"/>
+                <entryLink import="true" name="Heavy reaper autocannon" hidden="false" id="6779-7b2e-9377-9290" type="selectionEntry" targetId="45f2-c0d9-99b4-9498" sortIndex="3"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Replace excruciator cannons" id="62fe-60bc-95f2-9100" hidden="false" sortIndex="2" defaultSelectionEntryId="b123-f9b3-62c6-4e8d">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Two excruciator cannons" hidden="false" id="d611-6355-3cd8-cee0">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Excruciator cannon" hidden="false" id="e422-eba9-a02f-c195">
+                      <constraints>
+                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="773b-a8e7-8db4-e69e" includeChildSelections="false"/>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="586d-af20-a461-89cf" includeChildSelections="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="acef-a52d-8f6e-aa6a" type="selectionEntryGroup" targetId="52ca-0c07-9521-81d4"/>
+                      </entryLinks>
+                      <profiles>
+                        <profile name="Excruciator cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c38c-abba-7263-40fd">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Lethal Hits" id="f512-b17e-35bc-d705" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Two magma cutters" hidden="false" id="8de4-d7ca-b4b0-2349">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Magma cutter" hidden="false" id="890f-54d7-2f93-8a77">
+                      <constraints>
+                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="710c-24b7-247f-67f7" includeChildSelections="false"/>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c8f8-c9a1-4b27-0fec" includeChildSelections="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="8bdb-76a2-f97c-55f8" type="selectionEntryGroup" targetId="52ca-0c07-9521-81d4"/>
+                      </entryLinks>
+                      <infoLinks>
+                        <infoLink name="Melta" id="597f-1eef-22dc-f632" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
+                        <infoLink name="Lethal Hits" id="4b08-a280-7da8-9c25" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="Magma cutter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="41cd-82fc-1acc-ee85">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Melta 2</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <categoryLinks>
+                        <categoryLink name="Damage Dx Weapon" hidden="false" id="f795-33b7-f0c1-82d6" targetId="4986-bf86-beb4-13ac" primary="false"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2a90-adf6-0940-9bbc" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49ca-879d-6b92-6ef8" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="7d73-93f1-dcfc-5b9f" type="selectionEntry" targetId="c7a7-3164-12bc-3462" sortIndex="1"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true" childName="Docked Vehicles (Seize the Engine Dock)"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="3ad2-5d42-1979-2c23" shared="true" includeChildSelections="true" includeChildForces="true" childName="Docked Vehicles (Seize the Engine Dock)"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Electroscourge" hidden="false" id="bed4-0a08-13d5-d9d2">
+      <profiles>
+        <profile name="Electroscourge" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d5b6-cac4-b262-ecd4">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks, Sustained Hits 2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Extra Attacks" id="23e0-129d-a989-c858" hidden="false" targetId="115b-79dc-f723-d761" type="rule"/>
+        <infoLink name="Sustained Hits" id="9dc1-283b-0bea-2c2e" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="64f9-cf83-d8a5-98d8" type="selectionEntryGroup" targetId="52ca-0c07-9521-81d4"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Extra Attacks Weapon" hidden="false" id="a245-6ba7-865e-0c93" targetId="84c4-6d1e-e724-bd6e" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="bc88-0833-743e-0146" shared="true" id="a121-43ef-7993-868c" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hades lascannon" hidden="false" id="d654-5951-2737-6a3d">
+      <entryLinks>
+        <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="829d-115b-dcd5-5c70" type="selectionEntryGroup" targetId="52ca-0c07-9521-81d4"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Hades lascannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3669-8139-d73c-a96d">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Lethal Hits" id="67e5-7f53-c322-994e" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Damage Dx+0 Modifier" hidden="false" id="abb1-c5c6-6cd7-2d8a" targetId="982b-de77-dd2d-d9bd" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy reaper autocannon" hidden="false" id="45f2-c0d9-99b4-9498" collective="false">
+      <profiles>
+        <profile name="Heavy reaper autocannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="76f5-5e56-484a-e9eb">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Lethal Hits, Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Sustained Hits" id="4867-8624-e079-312c" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+        <infoLink name="Devastating Wounds" id="dc14-2dd7-904c-5dcf" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+        <infoLink name="Lethal Hits" id="b5d0-81a3-8993-5445" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="e702-5ed5-1792-ec18" type="selectionEntryGroup" targetId="52ca-0c07-9521-81d4"/>
+      </entryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Faction: Emperor&apos;s Children" id="31bb-7d77-943e-94bd" hidden="false"/>
@@ -2161,6 +2579,7 @@
     <categoryEntry name="Land Raider" id="1c72-7f65-e03d-8c7a" hidden="false"/>
     <categoryEntry name="Sublime Strike Group B" id="66e5-4269-608b-fe42" hidden="false"/>
     <categoryEntry name="Warlord Eligible Character" id="7f72-3953-ec2f-20e2" hidden="false"/>
+    <categoryEntry name="Defiler" id="1a60-f154-eb98-2da4" hidden="false"/>
   </categoryEntries>
   <sharedRules>
     <rule name="Musk of Torpidity" id="1674-23e6-eacf-9624" hidden="false">
@@ -2474,6 +2893,7 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Defiler" hidden="false" id="f50d-e3a2-13f8-30ce" targetId="be32-d049-09b5-3993" type="selectionEntry"/>
   </entryLinks>
   <sharedInfoGroups>
     <infoGroup name="Plasma pistol" id="0cbe-31f4-e833-9ef4" hidden="false"/>
@@ -2504,6 +2924,11 @@
     <profile name="Damaged: 1-4 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="88aa-8fc2-2334-6e76">
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Damaged: 1-6 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="80f7-2a63-72c9-42e7">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
