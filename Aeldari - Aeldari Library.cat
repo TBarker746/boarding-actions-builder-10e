@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="dfcf-1214-b57-2205" name="Aeldari - Aeldari Library" revision="136" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Adapted for the Boarding Actions game mode by PurpleSerpent">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="dfcf-1214-b57-2205" name="Aeldari - Aeldari Library" revision="156" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Adapted for the Boarding Actions game mode by PurpleSerpent">
   <publications>
     <publication id="442c-a37c-3908-d701" name="Codex: Aeldari" shortName="C:Aeldari" publisher="Codex: Aeldari" publicationDate="08/02/2025"/>
     <publication id="1427-7c5c-863f-ac94" name="Index: Drukhari" shortName="I:Drukhari" publisher="Index: Drukhari" publicationDate="6/15/2023"/>
@@ -104,6 +104,9 @@
     <categoryEntry name="Hand of the Archon" id="79e4-b486-7f32-a88b" hidden="false"/>
     <categoryEntry name="Blades for Hire" id="de72-7478-144e-d12b" hidden="false"/>
     <categoryEntry name="Warlord Eligible Character" id="df24-a928-269d-dcef" hidden="false"/>
+    <categoryEntry id="fcf6-2552-2e46-da0b" name="Phoenix" hidden="false"/>
+    <categoryEntry id="3c00-40ee-beed-cd96" name="Starfangs" hidden="false"/>
+    <categoryEntry id="8f9f-c890-a6a5-61bd" name="Anhrathe" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry id="828d-840a-9a67-9074" name="Asurmen" publicationId="442c-a37c-3908-d701" page="7" hidden="false" collective="false" import="true" type="model">
@@ -9893,12 +9896,11 @@
           <profiles>
             <profile name="Incubi Shrine Token" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ed73-45d8-ee76-e06a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle for each Incubi Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit to an unmodified 6.
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle for each Incubi Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a Klaivex or Incubi model in this unit to an unmodified 6.
 
 For every 5 models in this unit, it can have 1 Incubi Shrine token.
 
-
-In the Form Boarding Squads step, if this unit initially has two Incubi Shrine tokens and is divided into two Boarding Squads, both resulting Boarding Squads have one Incubi Shrike token.</characteristic>
+In the Form Boarding Squads step, if this unit initially has two Incubi Shrine tokens and is divided into two Boarding Squads, both resulting Boarding Squads have one Incubi Shrine token.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14643,6 +14645,7 @@ makes an attack, subtract 1 from the Hit roll</characteristic>
         <categoryLink targetId="dbd4-63-af05-998" id="255f-13a9-cde8-1fa4" primary="true" name="Vehicle"/>
         <categoryLink targetId="4378-1827-4988-be4e" id="9790-91a1-c190-de7d" primary="false" name="Faction: Asuryani"/>
         <categoryLink targetId="e035-51fc-813a-1313" id="ca43-5e22-5ba0-3c2c" primary="false" name="Aeldari"/>
+        <categoryLink targetId="fcf6-2552-2e46-da0b" id="f0bd-bc1d-96de-b977" primary="false" name="Phoenix"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="175"/>
@@ -14720,7 +14723,7 @@ makes an attack, subtract 1 from the Hit roll</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16465,7 +16468,7 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
         <categoryLink targetId="9bf0-2fe2-5c6f-77c2" id="a3c1-66fa-1ed7-f28c" primary="false" name="Vypers"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="65"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -16499,35 +16502,6 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="f3a0-347b-534b-5088" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Twin Shuriken Catapult" hidden="false" id="530a-eaa7-4952-d3f6" collective="true">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d9a2-a8b0-c945-3d22" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aff1-d108-c769-27d2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <profiles>
-                <profile name="Twin Shuriken Catapult" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="52e3-67f0-0d2b-2f2b">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Twin Linked</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Assault" id="1a42-a5aa-40f7-3f68" hidden="false" targetId="fc8a-8c24-bae9-cc1c" type="rule"/>
-                <infoLink name="Twin-linked" id="bdb6-5c13-5cbe-ed43" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-              <entryLinks>
-                <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="349a-4535-2886-133c" type="selectionEntryGroup" targetId="2d33-eae9-5eca-535c"/>
-              </entryLinks>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Wraithbone hull" hidden="false" id="7435-1556-28db-64fa">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1bb3-7423-ad4f-5bfc"/>
@@ -16551,9 +16525,132 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
               </entryLinks>
             </selectionEntry>
           </selectionEntries>
-          <entryLinks>
-            <entryLink import="true" name="Heavy Weapons" hidden="false" id="1376-4b2e-7460-b021" type="selectionEntryGroup" targetId="c559-2f41-309b-620d"/>
-          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Hull Weapon" id="7ad2-7cdd-65ac-2ff8" hidden="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b3d-a73c-2c7a-54d7"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8923-a093-d1e4-0076"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="a05c-f11d-8806-9571" collective="false">
+                  <profiles>
+                    <profile name="➤ Missile Launcher - Starshot" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ad1d-1687-d4d2-d042">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="➤ Missile Launcher - Sunburst" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a140-ca21-aa7d-fc5a">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Blast" id="3f0f-0156-afe6-548c" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                  </costs>
+                  <entryLinks>
+                    <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="caa5-0b2d-cfb3-c3ea" type="selectionEntryGroup" targetId="2d33-eae9-5eca-535c"/>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink import="true" name="Shuriken Cannon" hidden="false" id="a412-4355-ae57-1ce5" collective="false" targetId="3924-7fd-61b4-f4ec" type="selectionEntry">
+                  <entryLinks>
+                    <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="67e9-a08b-3937-3f77" type="selectionEntryGroup" targetId="2d33-eae9-5eca-535c"/>
+                  </entryLinks>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turret Weapon" id="0091-7ff5-b79f-9eed" hidden="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c6c4-8bfa-492e-1c1a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="53c2-2691-53ee-6dcb"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Bright Lance" hidden="false" id="7381-025d-7ef6-11a0" collective="false">
+                  <profiles>
+                    <profile name="Bright Lance" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ba90-0d77-0013-063d">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+2</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                  </costs>
+                  <entryLinks>
+                    <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="19f0-ad0e-67eb-a623" type="selectionEntryGroup" targetId="2d33-eae9-5eca-535c"/>
+                  </entryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Scatter Laser" hidden="false" id="f145-2cea-0d0a-ecc0" collective="false">
+                  <profiles>
+                    <profile name="Scatter Laser" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="7dcd-b153-4ed0-cc8d">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Sustained Hits" id="a76a-c6e5-20c7-31a6" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="4ee6-b3f5-ca95-8939" type="selectionEntryGroup" targetId="2d33-eae9-5eca-535c"/>
+                  </entryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Starcannon" hidden="false" id="d8f3-3dca-a7c9-aca8" collective="false">
+                  <profiles>
+                    <profile name="Starcannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5740-bac5-1231-f83e">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                  </costs>
+                  <entryLinks>
+                    <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="801c-bbe8-d1d8-a586" type="selectionEntryGroup" targetId="2d33-eae9-5eca-535c"/>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
@@ -17205,6 +17302,156 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="f064-7a5c-b5e9-0776" name="Starfang" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="a366-ea83-1680-a58e" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink id="bbce-29bc-9171-95fd" name="Faction: Asuryani" hidden="false" targetId="4378-1827-4988-be4e" primary="false"/>
+        <categoryLink targetId="e035-51fc-813a-1313" id="429c-7c40-7484-2ac8" primary="false" name="Aeldari"/>
+        <categoryLink targetId="5a61-81ac-eb7c-a87e" id="1895-76ea-2190-d823" primary="false" name="Grenades"/>
+        <categoryLink targetId="6df-937-16bc-8c1a" id="39c7-8425-95b7-6104" primary="false" name="Smoke"/>
+        <categoryLink targetId="e554-d095-bb9d-c930" id="9243-8dd3-d824-de0e" primary="false" name="Corsairs and Travelling Players"/>
+        <categoryLink targetId="3c00-40ee-beed-cd96" id="08d1-4bde-2577-004d" primary="false" name="Starfangs"/>
+        <categoryLink targetId="8f9f-c890-a6a5-61bd" id="40a1-10b3-8a19-f505" primary="false" name="Anhrathe"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Starfang" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0d6a-f2e1-32c5-bef4">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">6</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hallucinogen Grenades" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9efd-b3a4-ddce-a07a">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your opponent’s Shooting phase, this unit can use this ability. If it does, select one **^^AELDARI INFANTRY^^** unit from your army visible to and within 36&quot; of this unit: until the end of the phase, that unit has the **Stealth** ability.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="2a5f-fcf0-9631-126b" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="1" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Seers&apos; Guidance" id="79e7-ecee-4fe1-800c" hidden="false" targetId="c324-e193-e23c-7d2e" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Wargear" id="dd69-d571-fb95-819e" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Wraithbone hull" hidden="false" id="2bb8-69d3-9a6b-2450">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="581e-1d28-0a53-f618"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7494-af15-f3b8-b696"/>
+              </constraints>
+              <profiles>
+                <profile name="Wraithbone Hull" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d032-8e64-9839-d0d5">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="1b40-829b-2c5b-af82" type="selectionEntryGroup" targetId="2d33-eae9-5eca-535c"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Disintegrator Cannon" hidden="false" id="fae4-b116-223f-28e3" collective="false">
+              <profiles>
+                <profile name="Disintegrator Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c5df-d106-8ccf-0468">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Assault" id="3389-94cc-a5cf-9e42" hidden="false" targetId="fc8a-8c24-bae9-cc1c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="ae21-6859-f603-7193" type="selectionEntryGroup" targetId="2d33-eae9-5eca-535c"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe1e-3280-764a-2a31"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2d1-59f2-9860-a1f3"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Starfang Grenade Launcher" hidden="false" id="9b8c-9e7c-471f-ff7b" collective="false">
+              <profiles>
+                <profile name="Starfang Grenade Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="19c9-80d2-b206-bf60">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Blast</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Assault" id="0d4b-bd77-6f3c-cd7a" hidden="false" targetId="fc8a-8c24-bae9-cc1c" type="rule"/>
+                <infoLink name="Blast" id="d2a9-09fb-a056-5b8c" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="94bb-ea8c-0426-5ab8" type="selectionEntryGroup" targetId="2d33-eae9-5eca-535c"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e8f6-5f4a-1a73-0582"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7008-dfc8-4dae-a464"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="f9e1-6733-5806-5e1f" includeChildSelections="true"/>
+        <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="1af8-7aa7-99ba-1816" includeChildSelections="true"/>
+        <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="834c-e24b-14ea-5725" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a0fb-f5db-10a5-9f27" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="eb2f-9dc2-c47c-511c" collective="false" targetId="3f04-19ab-bfb0-6c67" type="selectionEntry" sortIndex="1"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="f98e-d257-daca-8672" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="f98e-d257-daca-8672" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
