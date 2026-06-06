@@ -828,6 +828,7 @@
     <categoryEntry id="d932-445b-caa0-7e47" name="Faction: Chaos Knights" hidden="false"/>
     <categoryEntry id="fac1-9900-48d1-f2b6" name="Faction: Imperial Knights" hidden="false"/>
     <categoryEntry name="Deep Strike Character" id="2aab-2f6e-6875-77b6" hidden="false"/>
+    <categoryEntry name="Reference" id="eef1-be80-500a-edfc" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="bb9d-299a-ed60-2d8a" name="Boarding Patrol" hidden="false">
@@ -862,6 +863,7 @@
           </constraints>
         </categoryLink>
         <categoryLink name="Shadowvaults Upgrades" hidden="false" id="51d0-5b49-04d5-51c7" targetId="b5ba-f38f-7d3d-7ecf"/>
+        <categoryLink name="Reference" hidden="false" id="492e-bb88-18d6-d026" targetId="eef1-be80-500a-edfc"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
