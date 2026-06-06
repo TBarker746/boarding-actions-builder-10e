@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1f19-6509-d906-ca10" name="Imperium - Adeptus Custodes" revision="86" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Adapted for the Boarding Actions game mode by PurpleSerpent">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1f19-6509-d906-ca10" name="Imperium - Adeptus Custodes" revision="93" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Adapted for the Boarding Actions game mode by PurpleSerpent">
   <categoryEntries>
     <categoryEntry id="a43a-4cf6-6443-f48e" name="Aleya" hidden="false"/>
     <categoryEntry id="5386-42fc-f4d0-7d64" name="Allarus Custodians" hidden="false"/>
@@ -978,7 +978,7 @@
     </selectionEntry>
     <selectionEntry id="91b3-2e1c-e642-d213" name="Custodian Guard" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="190">
+        <modifier type="set" field="51b2-306e-1021-d207" value="200">
           <conditions>
             <condition field="selections" scope="91b3-2e1c-e642-d213" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="atLeast"/>
           </conditions>
@@ -1228,7 +1228,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="160"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -4668,7 +4668,7 @@
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">22</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
           </characteristics>
         </profile>

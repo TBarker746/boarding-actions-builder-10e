@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b39e-4401-8f3e-fdf7" name="Imperium - Adepta Sororitas" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="102" battleScribeVersion="2.03" authorName="CrusherJoe (adapted for the Boarding Actions game mode by PurpleSerpent)" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b39e-4401-8f3e-fdf7" name="Imperium - Adepta Sororitas" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="112" battleScribeVersion="2.03" authorName="CrusherJoe (adapted for the Boarding Actions game mode by PurpleSerpent)" type="catalogue">
   <categoryEntries>
     <categoryEntry name="Aestred Thurga" hidden="false" id="c8ba-2b2d-e47f-d7a6"/>
     <categoryEntry name="Battle Sisters Squad" hidden="false" id="2a27-80d9-39c1-4944"/>
@@ -25,6 +25,7 @@
     <categoryEntry name="Repressor" hidden="false" id="7ed3-a1f4-c6f6-22c6"/>
     <categoryEntry name="Penitent" id="e2c8-1479-a7c4-228e" hidden="false"/>
     <categoryEntry name="Warlord Eligible Character" id="300f-4e6b-1e25-0454" hidden="false"/>
+    <categoryEntry name="Intranzia Fraye" hidden="false" id="d629-5abf-0d26-52d6"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Detachment" hidden="false" id="9cc-e2b2-81eb-df6">
@@ -5895,6 +5896,204 @@ If this unit made a Charge move this turn, until the end of the phase, select bo
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="59f2-56b0-34bb-e1be" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Intranzia Fraye" hidden="false" id="e59a-2a90-e102-940f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fd70-48a0-faa0-f980" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Faction: Adepta Sororitas" hidden="false" id="6dbf-5c6a-6113-644e" targetId="fd71-afa6-b13b-7fda" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="925b-6d11-f3cf-ea0d" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Walker" hidden="false" id="6796-5533-475c-b859" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink name="Imperium" hidden="false" id="d522-7260-d416-21d1" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="88f2-ba7c-e941-2ecc" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Penitent" hidden="false" id="4e39-d8f5-46c5-eb23" targetId="e2c8-1479-a7c4-228e" primary="false"/>
+        <categoryLink name="Epic Hero" hidden="false" id="a7ac-b57d-c07c-8523" targetId="4f3a-f0f7-6647-348d" primary="true"/>
+        <categoryLink targetId="5c0e-4c31-d51b-e470" id="a712-3066-83a3-d8a7" primary="false" name="Warlord"/>
+        <categoryLink targetId="d629-5abf-0d26-52d6" id="ce64-fa53-a155-a376" primary="false" name="Intranzia Fraye"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Wargear" id="584b-f925-56af-06af" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy bolter" hidden="false" id="4f4a-9971-0a8c-20a1" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="1fe1-35f6-e6ea-2951-min" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1fe1-35f6-e6ea-2951-max" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Heavy bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="fbe3-cbbc-4eb3-3f62">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Sustained Hits" id="0591-849d-2f5d-cace" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melta missile array" hidden="false" id="e0ea-0850-946c-021e" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b7c1-ba0f-8ef8-4c5e-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7c1-ba0f-8ef8-4c5e-max" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Melta missile array" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d879-8676-0d7a-747c">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Melta" id="bc05-a4b4-2d21-c681" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mace of Saint Praxedes" hidden="false" id="2f81-4104-ebed-8376" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c760-20e1-cd60-e3bc-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c760-20e1-cd60-e3bc-max" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Mace of Saint Praxedes" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="7f78-3756-088b-cf67">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Sustained Hits" id="f8ad-6442-b344-687a" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Throne of Blame" hidden="false" id="7cae-4dc5-9ccd-f7c6" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1482-af25-11f6-1b30-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1482-af25-11f6-1b30-max" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Throne of Blame" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="8469-d8a2-af7b-301f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Extra Attacks" id="9ec5-c876-2c04-7503" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Ministorum heavy flamer" hidden="false" id="6214-7f9d-3888-381e" type="selectionEntry" targetId="609c-5e0-92ba-5250" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="f7c2-693c-234f-501a-min" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f7c2-693c-234f-501a-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Minor Miracles" id="bb70-8590-af57-4586" hidden="false" type="rule" targetId="7ef7-dca6-e2ea-ecc8"/>
+        <infoLink name="Deadly Demise" id="f457-c6b6-1b6a-db22" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="1" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Feel No Pain" id="1af3-80b7-528b-2da6" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
+          <modifiers>
+            <modifier type="append" value="5+" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="8dbc-4f80-41c1-1b3a" type="selectionEntry" targetId="66c6-be4b-a1dc-10d0" sortIndex="1"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Intranzia Fraye" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8993-2864-b5a4-bc8e">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="-" field="e703-ecb6-5ce7-aec1">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="59f2-56b0-34bb-e1be" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Righteous Denunciation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c898-5167-e688-8d81">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Fight phase, each enemy unit within 6&quot; of this model must take a Battle‑shock test, subtracting 1 from that test.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Judged for Execution" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="795c-9a7f-fc73-3380">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Movement phase, you can select one enemy unit within 18&quot; of and visible to this model. Until the start of your next Command phase, each time a friendly ^^**Adepta Sororitas**^^ model makes an attack that targets that enemy unit, that attack has the **[LETHAL HITS]** ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2429-98b9-3543-f74d">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="f905-e26f-76a6-7754" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="cdaa-cf9d-f49c-8ea8" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="59f2-56b0-34bb-e1be" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="cdaa-cf9d-f49c-8ea8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="59f2-56b0-34bb-e1be" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
