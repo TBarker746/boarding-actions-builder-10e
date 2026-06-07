@@ -6215,13 +6215,13 @@ Wound roll.</characteristic>
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink name="Faction: Death Guard" hidden="false" id="c115-f148-d131-ad2a" targetId="9888-ddb2-a141-6037" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="9047-d654-dcb5-5a84" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink name="Walker" hidden="false" id="86b6-29e7-313f-71de" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink name="Chaos" hidden="false" id="52d1-d637-5173-f2ef" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink name="Daemon" hidden="false" id="a820-52d0-fc9a-d9e8" targetId="9c0e-7e25-4580-e439" primary="false"/>
         <categoryLink targetId="b188-114f-6ba5-79a1" id="4bef-705f-dfad-9979" primary="false" name="Tzeentch"/>
         <categoryLink targetId="486a-4fe5-2b63-6d4b" id="f304-b33d-25b1-2329" primary="false" name="Defiler"/>
+        <categoryLink targetId="7002-1fbb-7571-e8e7" id="5aa2-717d-a865-58f8" primary="false" name="Faction: Thousand Sons"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="8992-aabb-52a0-cbe5" hidden="false" sortIndex="2">

@@ -2184,13 +2184,13 @@
         <infoLink name="Musk of Torpidity" id="9ba3-2f55-b347-8eac" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink name="Faction: Death Guard" hidden="false" id="7410-5db3-be9b-86af" targetId="9888-ddb2-a141-6037" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="f7f7-c72d-23ba-7f91" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink name="Walker" hidden="false" id="eae6-aa97-f613-dbdd" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink name="Chaos" hidden="false" id="181e-fe9e-e5c0-e967" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink name="Daemon" hidden="false" id="be01-227a-50d0-6658" targetId="9c0e-7e25-4580-e439" primary="false"/>
         <categoryLink targetId="1a60-f154-eb98-2da4" id="3e64-5736-b64d-d352" primary="false" name="Defiler"/>
         <categoryLink targetId="b2a9-ede5-7a83-4da8" id="e046-3f18-9f8c-bd80" primary="false" name="Slaanesh"/>
+        <categoryLink targetId="31bb-7d77-943e-94bd" id="514e-8eed-037b-fe9e" primary="false" name="Faction: Emperor&apos;s Children"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="0747-c638-610d-da70" hidden="false" sortIndex="2">
