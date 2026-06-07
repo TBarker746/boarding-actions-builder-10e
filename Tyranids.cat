@@ -1109,7 +1109,7 @@
           </selectionEntries>
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="680f-2508-c390-ba47"/>
-            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="18fa-3a07-f023-e066"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="18fa-3a07-f023-e066"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
