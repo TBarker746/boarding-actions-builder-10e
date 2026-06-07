@@ -615,9 +615,9 @@
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
           </characteristics>
         </profile>
-        <profile name="Grinding Line-breaker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="71f5-5ca9-3279-9545">
+        <profile name="Grinding Clearance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="71f5-5ca9-3279-9545">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an enemy unit that is within Engagement Range of this model Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an enemy unit (excluding **^^VEHICLES^^**) that is within Engagement Range of this model Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.</characteristic>
           </characteristics>
         </profile>
         <profile name="Goliath Rockgrinder" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="ae9f-1465-7a41-c32c">
@@ -2925,13 +2925,6 @@
         <profile name="Manufactorum Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3e27-a26c-5625-4074">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this **^^Vehicle^^**, that model has the Benefit of Cover against that attack.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Fortification" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1a45-e2e6-ef40-b0c5">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While an enemy unit is only within Engagement Range of one or more FORTIFICATION from your army:
-■ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.
-■ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.</characteristic>
           </characteristics>
         </profile>
       </profiles>

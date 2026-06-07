@@ -394,7 +394,7 @@
         </profile>
         <profile name="Suppression Protocols" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="1d28-343b-c471-4427">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Armiger autocannon. Until the start of your next turn, that enemy unit is suppressed. While that unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^VEHICLES^^**) hit by one or more of those attacks made with an Armiger autocannon. Until the start of your next turn, that enemy unit is suppressed. While that unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -807,7 +807,7 @@
         </profile>
         <profile name="Thin Their Ranks" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="51ae-c850-5c2a-761f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets an enemy unit, that attack has the **[DEVASTATING WOUNDS]** ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets an enemy unit (excluding **^^VEHICLE^^** units), that attack has the **[DEVASTATING WOUNDS]** ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1175,6 +1175,11 @@
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">28</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Titan Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4078-fc5f-7fd3-b641">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a ranged attack made by this model is allocated to a **^^VEHICLE^^** model, you can re-roll the Damage roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1827,7 +1832,7 @@
         </profile>
         <profile name="Storm of Bolts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1cd4-b9f4-4c51-c589">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one unit hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one unit (excluding **^^VEHICLES^^**) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2164,6 +2169,11 @@
         <profile name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="ebf4-d0b5-fbb-7c37">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Macro-extinction Protocols" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="9ca5-e5bf-3ba7-ed32">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets a **^^VEHICLE^^** unit, add 1 to the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>

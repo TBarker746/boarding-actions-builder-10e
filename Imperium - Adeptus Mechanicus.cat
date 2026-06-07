@@ -1363,6 +1363,18 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this mdel has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Scuttling Walker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a9ad-0eac-33b1-eacb">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can move over terrain features that are 4&quot; or less in height as if they were not there.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="b9e9-a3a3-87d3-2243" shared="true" childName="Docked Vehicles (Seize the Engine Dock)" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="e457-6b2b-7f13-5311" targetId="b68a-5ded-65ac-98c">

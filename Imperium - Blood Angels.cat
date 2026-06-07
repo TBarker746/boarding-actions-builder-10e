@@ -1715,7 +1715,7 @@
       <profiles>
         <profile name="Magna-grapple" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c5b0-88dc-12d1-c106">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer loses the Smoke keyword, but  add 2 to Charge rolls made for the bearer if one or more of the targets of that charge is a Monster or Vehicle unit</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer loses the Smoke keyword, but add 2 to Charge rolls made for the bearer if one or more of the targets of that charge is a **^^Monster^^** or **^^Vehicle^^** unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2468,7 +2468,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="5822-0202-5c34-4f93" hidden="false" sortIndex="3">
           <entryLinks>
-            <entryLink import="true" name="Absolver Bolt Pistol" hidden="false" id="6962-990d-c53c-9af4" type="selectionEntry" targetId="a490-361-c9c4-afeb">
+            <entryLink import="true" name="Absolvor Bolt Pistol" hidden="false" id="6962-990d-c53c-9af4" type="selectionEntry" targetId="a490-361-c9c4-afeb">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="82b7-8759-4a0a-f7fc"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3646-cd5a-6620-5ecd"/>

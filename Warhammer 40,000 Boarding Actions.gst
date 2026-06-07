@@ -395,6 +395,16 @@
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="cf37-60f6-493f-8238" shared="true" childName="Fateseekers"/>
                   </conditions>
                 </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="dcd4-cdee-53f3-e39f" shared="true" childName="Starfire Cadre"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="59d2-9cdd-957a-6c14" shared="true" childName="Kroot Hunting Party"/>
+                  </conditions>
+                </localConditionGroup>
               </localConditionGroups>
             </conditionGroup>
           </conditionGroups>
@@ -755,6 +765,11 @@
                 <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="754a-7fe4-fc7e-be62" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="dcd4-cdee-53f3-e39f" shared="true" childName="Starfire Cadre"/>
                   </conditions>
                 </localConditionGroup>
               </localConditionGroups>

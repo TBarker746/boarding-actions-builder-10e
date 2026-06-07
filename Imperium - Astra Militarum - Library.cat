@@ -2438,6 +2438,11 @@
             <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 26 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Close-range Titan Killer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5b7f-2d3a-47a4-673c">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model’s magma cannon targets a **^^VEHICLE^^** unit, that target is always considered to be within half range of that weapon.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="96c6-89b3-3666-d6fc" hidden="false" sortIndex="2">
@@ -4320,7 +4325,7 @@
           <profiles>
             <profile name="Mow Down the Enemy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d329-6d10-6e7e-e959">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack with its punisher gatling cannon that targets an enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**), that attack has the **[DEVASTATING WOUNDS]** ability.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack with its punisher gatling cannon that targets an enemy unit (excluding **^^Vehicles^^**), that attack has the **[DEVASTATING WOUNDS]** ability.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4397,7 +4402,7 @@
       <profiles>
         <profile name="Tank-killer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cc47-c40a-1c64-73e7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack with its vanquisher battle cannon that targets a **^^Monster^^** or **^^Vehicle^^** unit, you can re-roll the Wound roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack with its vanquisher battle cannon that targets a **^^Vehicle^^** unit, you can re-roll the Wound roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4486,7 +4491,7 @@
         </profile>
         <profile name="Furious Barrage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6eb8-16bc-f210-7182">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks made with this model&apos;s storm eagle rockets. Until the start of your next Shooting phase, that enemy unit is staggered. While a unit is staggered, subtract 1 from the Objective Control characteristic of models in that unit (to a minimum of 1).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^VEHICLES^^**) that was hit by one or more of those attacks made with this model&apos;s storm eagle rockets. Until the start of your next Shooting phase, that enemy unit is staggered. While a unit is staggered, subtract 1 from the Objective Control characteristic of models in that unit (to a minimum of 1).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6145,6 +6150,11 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="07fc-257f-0cd3-9df6" collective="false" targetId="ea3f-b52b-8dc7-d365" type="selectionEntry" sortIndex="1"/>
       </entryLinks>
+      <rules>
+        <rule name="Titan Killer" id="18eb-0bf9-bb00-d3c4" hidden="false">
+          <description>Each time this model makes a ranged attack with its volcano cannon that targets a **^^VEHICLE^^** unit, that attack has the **[DEVASTATING WOUNDS]** ability.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Sly Marbo" hidden="false" id="4d50-e535-616a-259c">
       <categoryLinks>
@@ -7934,7 +7944,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
         </profile>
         <profile name="Suppression Bombardment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6e74-fe3e-7f84-91cd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more attacks made with this model’s Wyvern quad stormshard mortar. Unit the start of your next Shooting phase, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^VEHICLE^^** units) that was hit by one or more attacks made with this model’s Wyvern quad stormshard mortar. Unit the start of your next Shooting phase, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10859,6 +10869,11 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">8</characteristic>
           </characteristics>
         </profile>
+        <profile name="Tank Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d547-f3b3-fd9f-eea3">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack with its Macharius twin vanquisher cannon that targets a **^^VEHICLE^^** unit, you can re-roll the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Damaged: 1-7 Wounds Remaining" hidden="false" type="profile" id="1444-18ef-cc37-415" targetId="4ca9-3652-f045-85ba"/>
@@ -11518,6 +11533,11 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
           </characteristics>
         </profile>
+        <profile name="Tracking Target" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fe70-1ee7-ab23-ca78">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model is selected to shoot, provided it Remained Stationary this turn, its Colossus siege mortar has the **[ANTI-VEHICLE 5+]** ability while resolving those attacks.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Damaged: 1-4 Wounds Remaining" hidden="false" type="profile" id="b799-1817-f582-5033" targetId="a626-b90a-cf43-68b4"/>
@@ -11649,6 +11669,11 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">20</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Power Overload" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f461-bbad-8331-2988">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets a **^^VEHICLE^^** unit, you can re-roll the Damage roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13640,6 +13665,11 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
           </characteristics>
         </profile>
+        <profile name="Tank Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3095-0d18-a417-9eca">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a **^^VEHICLE^^** unit, you can re-roll the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7562-ffe4-1524-97ce" includeChildForces="true" includeChildSelections="true"/>
@@ -14243,6 +14273,11 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
           </characteristics>
         </profile>
+        <profile name="Anti-Armour Gunship" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="22f2-8b9b-8680-edd9">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a ranged attack made by this model is allocated to a **^^VEHICLE^^** model, re-roll a Damage roll of 1.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Damaged: 1-5 Wounds Remaining" hidden="false" type="profile" id="4986-a1da-c8de-c9f8" targetId="ac02-24ee-d928-9f4"/>
@@ -14661,7 +14696,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
         </profile>
         <profile name="Suppression Bombardment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7505-6738-c29a-e173">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with this model’s Griffon heavy mortar. Unit the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^VEHICLE^^** units) hit by one or more of those attacks made with this model’s Griffon heavy mortar. Unit the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16774,10 +16809,10 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
       <profiles>
         <profile name="Mobile Hunter-killers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d5aa-d5a1-1783-dd5c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes an attack that targets a **^^Monster^^** or **^^Vehicle^^** unit, you can re-roll the Wound roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets a **^^Monster^^** or **^^Vehicle^^** unit, you can re-roll the Wound roll.</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="set" value="true" field="hidden">
+            <modifier type="set" value="Each time this model makes an attack that targets a **^^Vehicle^^** unit, you can re-roll the Wound roll." field="9b8f-694b-e5e-b573">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="9703-cd2f-eb38-4b9a" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>

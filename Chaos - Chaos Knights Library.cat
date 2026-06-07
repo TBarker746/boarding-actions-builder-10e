@@ -655,6 +655,11 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save against ranged attacks.</characteristic>
           </characteristics>
         </profile>
+        <profile id="2973-2641-9a4f-c4ec" name="Huntsman" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets a **^^VEHICLE^^** unit, you can re-roll the Wound roll.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="1a98-6dbb-f7bc-ac12" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
@@ -1252,6 +1257,11 @@
         <profile id="1167-4392-80a2-401e" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save against ranged attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6d43-e89f-4532-2f07" name="Obsessive Ruthlessness" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a **^^VEHICLE^^** unit, that attack has the **[DEVASTATING WOUNDS]** ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2278,7 +2288,7 @@
         </profile>
         <profile id="8ee2-d7a7-c821-24fa" name="Storm of Bolts" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one unit hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one unit (excluding **^^VEHICLES^^**) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2592,6 +2602,11 @@
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">28</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d7de-da10-47c4-7954" name="Macro-extinction Protocols" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets a **^^VEHICLE^^** unit, add 1 to the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>

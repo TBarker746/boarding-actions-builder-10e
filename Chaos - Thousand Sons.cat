@@ -1544,7 +1544,7 @@
         </profile>
         <profile id="efa5-c1d9-a512-e566" name="Ensorcelled Annihilation" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a ^^**Monster^^** or ^^**Vehicle^^** unit that was hit by one or more Psychic attacks made by a ^^**Thousand Sons Psyker^^** unit from your army this turn, you can re-roll the Hit roll and you can re-roll the Damage roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a ^^**Vehicle^^** unit that was hit by one or more Psychic attacks made by a ^^**Thousand Sons Psyker^^** unit from your army this turn, you can re-roll the Hit roll and you can re-roll the Damage roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1777,7 +1777,7 @@
         </profile>
         <profile id="7391-4352-7193-9a16" name="Ensorcelled Destruction" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**) that was hit by one or more Psychic attacks made by a ^^**Thousand Sons Psyker^^** unit from your army this turn, improve the Strength and Armour Penetration characteristic of that attack by 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a unit (excluding ^^**Vehicles^^**) that was hit by one or more Psychic attacks made by a ^^**Thousand Sons Psyker^^** unit from your army this turn, improve the Strength and Armour Penetration characteristic of that attack by 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2368,8 +2368,7 @@
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following unit:
 
-■ ^^**Rubric Marines^^**
-</characteristic>
+■ ^^**Rubric Marines^^**</characteristic>
           </characteristics>
         </profile>
       </profiles>

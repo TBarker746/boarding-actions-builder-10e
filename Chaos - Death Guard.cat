@@ -6474,6 +6474,11 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
           </characteristics>
         </profile>
+        <profile name="Metalophagic Infection" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2423-fe93-92e2-5d7e">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy **^^VEHICLE^^** unit hit by one or more of those attacks. Roll one D6, adding 1 to the result if that unit is Afflicted; on a 5+, that unit suffers D3 mortal wounds.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="b3be-22c6-52a0-7c8c" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
@@ -6630,7 +6635,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
         </profile>
         <profile id="d42e-f8ea-a29a-2766" name="Hail of Corrosive Disease" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly ^^**Death Guard^^** unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^VEHICLES^^**) hit by one or more of those attacks. Until the end of the phase, each time a friendly ^^**DEATH GUARD^^** unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8026,7 +8031,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
         <entryLink import="true" name="Warlord" hidden="false" id="8ff1-cf8d-481e-40ad" type="selectionEntry" targetId="b526-972f-7394-632a" sortIndex="1"/>
       </entryLinks>
       <profiles>
-        <profile name="Myphitic Blight-haulers" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0d6c-b75a-d8e5-0c5c">
+        <profile name="Myphitic Blight-hauler" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0d6c-b75a-d8e5-0c5c">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
@@ -8039,6 +8044,11 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="404c-fb8e-668f-4f17">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this unit have a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tank Hunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f4b0-ec7e-c9f2-286a">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, each time this model makes an attack that targets a **^^VEHICLE^^** unit, add 1 to the Hit roll and add 1 to the Wound roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>

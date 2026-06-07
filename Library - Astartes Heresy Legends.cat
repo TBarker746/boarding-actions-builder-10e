@@ -1558,6 +1558,11 @@
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
           </characteristics>
         </profile>
+        <profile name="Ferocious Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8ae9-0d0d-2740-a46e">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack with its twin las-talon that targets the closest eligible **^^VEHICLE^^** unit, add 1 to the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="8ad9-131d-5315-5f4b" name="Damaged: 1-5 wounds remaining" hidden="false" targetId="3106-d752-30b8-b24d" type="profile"/>
@@ -2260,6 +2265,11 @@
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">11</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Annihilator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="32ce-0dee-2e17-5da7">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a **^^VEHICLE^^** unit, re-roll a Damage roll of 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3689,6 +3699,11 @@
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">24</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Titan-Killer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="46fb-798a-8fe3-c8d6">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack with its twin Falchion volcano cannon that targets a **^^VEHICLE^^** unit, that attack has the **[DEVASTATING WOUNDS]** ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>

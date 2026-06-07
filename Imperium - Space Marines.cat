@@ -7124,13 +7124,6 @@ bearer can be moved during that move</characteristic>
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a melee attack that targets a **^^Vehicle^^** unit, add 1 to the Hit roll and add 1 to the Wound roll</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="c0f3-701f-cabc-aa39" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </profile>
       </profiles>
       <constraints>
@@ -8231,7 +8224,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Hailstrike" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="723f-1b4e-455d-839a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a friendly **^^Adeptus Astartes^^** unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model has shot, select one enemy unit (excluding **^^VEHICLES^^**) that was hit by one or more of those attacks. Until the end of the phase, each time a friendly **^^Adeptus Astartes^^** unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8327,6 +8320,11 @@ bearer can be moved during that move</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">11</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Thunderstrike" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d232-b748-b45e-412c">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model has shot, select one enemy **^^VEHICLE^^** unit that was hit by one or more attacks made by this model this phase. Until the end of the phase, each time a friendly **^^ADEPTUS ASTARTES^^** unit makes a ranged attack that targets that enemy unit, add 1 to the Wound roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9500,6 +9498,11 @@ bearer can be moved during that move</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
           </characteristics>
         </profile>
+        <profile name="Hunter Missile Targeting" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="88a0-934a-2f4d-965f">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack with its skyspear missile launcher that targets a **^^VEHICLE^^** unit, that attack scores a hit on an unmodified Hit roll of 2+.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="d98f-47b0-de7f-310e" targetId="b68a-5ded-65ac-98c">
@@ -10084,6 +10087,11 @@ bearer can be moved during that move</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
           </characteristics>
         </profile>
+        <profile name="Annihilator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="28d2-70c5-9b4a-ef01">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a ranged attack made by this model is allocated to a **^^VEHICLE^^** model, you can re-roll the Damage roll.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="fa32-d63d-3b80-96d0" collective="false" targetId="caa-f869-3cbd-b48e" type="selectionEntry" sortIndex="1"/>
@@ -10301,7 +10309,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Rotating Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="59fa-d89c-5b6e-83a7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model’s twin heavy onslaught gatling cannon has the **[SUSTAINED HITS 2]** ability when targeting Infantry units.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model’s twin heavy onslaught gatling cannon has the **[SUSTAINED HITS 2]** ability when targeting **^^INFANTRY^^** units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10425,6 +10433,11 @@ bearer can be moved during that move</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ferocious Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5cc5-2a82-d170-517d">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack with its twin las-talon that targets the closest eligible **^^VEHICLE^^** unit, add 1 to the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>

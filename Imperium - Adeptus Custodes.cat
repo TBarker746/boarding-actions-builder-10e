@@ -3907,7 +3907,10 @@
         </profile>
         <profile id="60a4-507e-da36-683c" name="Advanced Firepower" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack with its Twin iliastus accelerator cannon, that attack has the **[LETHAL HITS]** ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack with its twin iliastus accelerator cannon that targets an enemy unit (excluding **^^VEHICLES^^**, that attack has the **[LETHAL HITS]** ability.
+
+
+Each time this model makes an attack with its twin arachnus heavy blaze cannon that targets an enemy **^^VEHICLE^^** unit, that attack has the **[LETHAL HITS]** ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="6070-91c7-6463-31cd" name="Damaged: 1-5 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
