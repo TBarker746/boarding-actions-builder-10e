@@ -2189,9 +2189,9 @@
         <categoryLink name="Vehicle" hidden="false" id="f7f7-c72d-23ba-7f91" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink name="Walker" hidden="false" id="eae6-aa97-f613-dbdd" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink name="Chaos" hidden="false" id="181e-fe9e-e5c0-e967" targetId="4c00-2578-faf5-6918" primary="false"/>
-        <categoryLink name="Nurgle" hidden="false" id="cb9f-5cf3-54c2-76f1" targetId="ed0d-8e2a-225c-2340" primary="false"/>
         <categoryLink name="Daemon" hidden="false" id="be01-227a-50d0-6658" targetId="9c0e-7e25-4580-e439" primary="false"/>
         <categoryLink targetId="1a60-f154-eb98-2da4" id="3e64-5736-b64d-d352" primary="false" name="Defiler"/>
+        <categoryLink targetId="b2a9-ede5-7a83-4da8" id="e046-3f18-9f8c-bd80" primary="false" name="Slaanesh"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="0747-c638-610d-da70" hidden="false" sortIndex="2">

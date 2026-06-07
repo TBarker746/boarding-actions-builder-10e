@@ -7045,6 +7045,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
                 <entryLink import="true" name="Electroscourge" hidden="false" id="b5dc-76a4-a54c-bd41" targetId="476f-f40d-f78b-4aa1" type="selectionEntry" sortIndex="4"/>
                 <entryLink import="true" name="Hades lascannon" hidden="false" id="4a6a-4681-85b2-7be2" targetId="2029-1d85-9d1b-307e" type="selectionEntry" sortIndex="2"/>
                 <entryLink import="true" name="Heavy reaper autocannon" hidden="false" id="477e-9d15-9c18-8806" type="selectionEntry" targetId="ade6-0a87-9a51-fb2e" sortIndex="3"/>
+                <entryLink import="true" name="Hades lascannon" hidden="false" id="c4e1-b58b-10f2-ba5d" targetId="2029-1d85-9d1b-307e" type="selectionEntry" sortIndex="2"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Replace excruciator cannons" id="b6bd-79f2-a9ee-70fe" hidden="false" sortIndex="2" defaultSelectionEntryId="b123-f9b3-62c6-4e8d">
