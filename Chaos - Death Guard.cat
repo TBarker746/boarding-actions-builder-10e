@@ -3828,8 +3828,8 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="237e-7220-7215-ffe1" primary="true" name="Infantry"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="4785-c2cf-6fe1-6254" primary="false" name="Chaos"/>
         <categoryLink targetId="ed0d-8e2a-225c-2340" id="639f-34d9-59cf-babd" primary="false" name="Nurgle"/>
-        <categoryLink targetId="2373-df61-e37e-7376" id="3821-454a-50a3-144f" primary="false" name="Poxwalkers"/>
         <categoryLink targetId="3ba5-7ab3-26fc-e921" id="3c51-16d3-d020-d1f0" primary="false" name="Cultists and Poxwalkers"/>
+        <categoryLink targetId="2373-df61-e37e-7376" id="e1f9-dbb5-33f2-95ba" primary="false" name="Poxwalkers"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="10 Poxwalkers" hidden="false" id="1e73-a144-a83e-d5af" defaultSelectionEntryId="7ba2-d301-9387-5d09" sortIndex="2">

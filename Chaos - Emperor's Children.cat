@@ -1708,12 +1708,11 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Fly 2+, Devastating Wounds</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Anti-" id="a5f2-4463-2bf4-3f3d" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
                 <infoLink name="Devastating Wounds" id="e6db-39d0-e37d-e248" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
               </infoLinks>
               <costs>

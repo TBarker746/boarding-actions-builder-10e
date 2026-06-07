@@ -934,13 +934,10 @@ No Hiding From the Watchers (Aura): While a friendly ^^**Adeptus Astartes^^** un
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Anti-" id="6735-75ff-a43e-a129" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-              </infoLinks>
               <categoryLinks>
                 <categoryLink name="Damage Dx Weapon" hidden="false" id="64c4-ea12-61d1-0195" targetId="4986-bf86-beb4-13ac" primary="false"/>
               </categoryLinks>

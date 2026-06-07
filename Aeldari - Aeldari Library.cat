@@ -14527,13 +14527,10 @@ makes an attack, subtract 1 from the Hit roll</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Anti-" id="c582-e1fc-5b96-feec" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-              </infoLinks>
               <entryLinks>
                 <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="917f-cc78-1f2a-20d6" type="selectionEntryGroup" targetId="2d33-eae9-5eca-535c"/>
               </entryLinks>

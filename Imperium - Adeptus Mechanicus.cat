@@ -1515,13 +1515,10 @@
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
-                      <infoLinks>
-                        <infoLink name="Anti-" id="e56b-bc9b-50ba-8182" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-                      </infoLinks>
                       <entryLinks>
                         <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="abd0-b00f-5f6d-dba7" type="selectionEntryGroup" targetId="c205-6aab-a70a-9433"/>
                       </entryLinks>
@@ -1540,12 +1537,11 @@
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 4+, Twin-linked</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink name="Anti-" id="6b0-b8ae-7470-dffb" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
                         <infoLink name="Twin-linked" id="88fb-370c-546d-2263" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
                       </infoLinks>
                       <entryLinks>

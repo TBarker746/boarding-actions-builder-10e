@@ -3338,12 +3338,11 @@
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+, Twin-linked</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Anti-" id="51aa-7630-1e3b-137d" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
                 <infoLink name="Twin-linked" id="f338-df52-fb2f-81fd" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
               </infoLinks>
               <entryLinks>
@@ -11990,9 +11989,6 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="86f6-31a9-c209-29de"/>
               </constraints>
-              <infoLinks>
-                <infoLink name="Anti-" id="91dd-ea7b-1a80-7f4a" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-              </infoLinks>
               <profiles>
                 <profile name="Lightning hellstrike rack" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="455d-c45f-6416-9dc4">
                   <characteristics>
@@ -12002,7 +11998,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12172,13 +12168,10 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
-                      <infoLinks>
-                        <infoLink name="Anti-" id="5791-38d-f552-4d81" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-                      </infoLinks>
                       <entryLinks>
                         <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="da64-84ed-f250-c0cb" type="selectionEntryGroup" targetId="2cd7-b1b9-d916-1c96"/>
                       </entryLinks>
@@ -12458,9 +12451,6 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b887-1f9e-9891-2aba"/>
               </constraints>
-              <infoLinks>
-                <infoLink name="Anti-" id="ba6c-f554-eb5d-73ea" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-              </infoLinks>
               <profiles>
                 <profile name="Hellstrike missile rack" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1843-577a-6938-acc3">
                   <characteristics>
@@ -12470,7 +12460,7 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -14290,13 +14280,10 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink name="Anti-" id="1c14-7721-13d6-2098" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-                  </infoLinks>
                   <entryLinks>
                     <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="85e8-b86f-a9fc-ec30" type="selectionEntryGroup" targetId="2cd7-b1b9-d916-1c96"/>
                   </entryLinks>
@@ -15369,13 +15356,10 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
             <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink name="Anti-" hidden="false" type="rule" id="7f30-def2-e469-2f05" targetId="4111-82e3-9444-e942"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink name="Damage Dx Weapon" hidden="false" id="153d-7a32-9a84-3a4f" targetId="4986-bf86-beb4-13ac" primary="false"/>
       </categoryLinks>

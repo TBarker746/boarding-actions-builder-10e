@@ -3584,7 +3584,6 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink name="Beast" hidden="false" id="a3dd-d705-dcc6-20b0" targetId="4c3e-9310-a516-3590" primary="false"/>
-        <categoryLink name="Fly" hidden="false" id="a958-4cef-b538-4984" targetId="c619-2086-bbcf-69c9" primary="false"/>
         <categoryLink name="Great Devourer" hidden="false" id="173c-37bc-abdb-3998" targetId="7850-cc5a-c191-b80d" primary="false"/>
         <categoryLink name="Faction: Tyranids" hidden="false" id="9e1e-b711-f9b6-bbf7" targetId="d1d8-6ae0-1be7-e9e" primary="false"/>
         <categoryLink name="Reference" hidden="false" id="bb6e-8302-5dcf-ecba" targetId="eef1-be80-500a-edfc" primary="true"/>

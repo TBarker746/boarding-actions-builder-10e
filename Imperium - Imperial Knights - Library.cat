@@ -3192,12 +3192,11 @@
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+, Twin-Linked</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-Linked</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Anti-" type="rule" id="c3d6-d17-694a-fe6d" targetId="4111-82e3-9444-e942"/>
             <infoLink name="Twin-linked" type="rule" id="893b-6213-7f23-961b" targetId="cf93-ad4d-2f08-a79d"/>
           </infoLinks>
           <selectionEntryGroups>

@@ -7609,13 +7609,10 @@ bearer can be moved during that move</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink name="Anti-" hidden="false" type="rule" id="35d-d4c-27d7-1297" targetId="4111-82e3-9444-e942"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink name="Attacks Dx Weapon" hidden="false" id="86b9-a958-0a79-dbff" targetId="e993-e086-6de1-12af" primary="false"/>
       </categoryLinks>
@@ -8014,7 +8011,6 @@ bearer can be moved during that move</characteristic>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Twin Icarus Ironhail Heavy Stubber" hidden="false" id="6c9-da5-cea7-f3c9">
       <infoLinks>
-        <infoLink name="Anti-" hidden="false" type="rule" id="9e03-71d1-2bac-cf3" targetId="4111-82e3-9444-e942"/>
         <infoLink name="Rapid Fire" hidden="false" type="rule" id="f72b-5557-fb24-a803" targetId="c5c8-8b58-b8b6-7786"/>
         <infoLink name="Twin-linked" hidden="false" type="rule" id="a094-7177-e146-d5ff" targetId="cf93-ad4d-2f08-a79d"/>
       </infoLinks>
@@ -8027,7 +8023,7 @@ bearer can be moved during that move</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 4+, Rapid Fire 3, Twin-linked</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 3, Twin-linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8429,12 +8425,11 @@ bearer can be moved during that move</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+, Twin-linked</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Anti-" id="ed96-62dc-fe18-b8a" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
                 <infoLink name="Twin-linked" id="367c-7139-90f4-5d61" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
               </infoLinks>
               <categoryLinks>
@@ -9575,14 +9570,13 @@ bearer can be moved during that move</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 3+, Devastating Wounds, Heavy</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Heavy</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink name="Heavy" id="5286-7250-c3ff-fc97" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
                 <infoLink name="Devastating Wounds" id="2f7e-bed6-f33b-5672" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-                <infoLink name="Anti-" id="a2bb-6147-68d7-8530" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -9695,13 +9689,10 @@ bearer can be moved during that move</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Anti-" id="3ed8-6d59-16b4-7595" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-              </infoLinks>
               <constraints>
                 <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="6f0a-8692-47ec-83ef"/>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1e07-ae28-a6f2-c9c6"/>
@@ -11626,13 +11617,12 @@ bearer can be moved during that move</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 4+, Sustained Hits 1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Sustained Hits" id="55c5-9411-e5f3-f3c" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
-                    <infoLink name="Anti-" id="959-b6f3-1ede-9861" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -11956,13 +11946,10 @@ bearer can be moved during that move</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink name="Anti-" id="30d0-40c4-abd8-1551" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-                  </infoLinks>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -12011,13 +11998,10 @@ bearer can be moved during that move</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink name="Anti-" hidden="false" type="rule" id="3231-ab58-6ddb-3548" targetId="4111-82e3-9444-e942"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink name="Damage Dx Weapon" hidden="false" id="d0ac-c8eb-9a8c-01a2" targetId="4986-bf86-beb4-13ac" primary="false"/>
       </categoryLinks>
@@ -12105,12 +12089,11 @@ bearer can be moved during that move</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+, Twin-linked</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Anti-" id="5247-c2b8-ee5d-9cf7" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
                     <infoLink name="Twin-linked" id="82ba-ced0-d5b4-7f5b" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
                   </infoLinks>
                 </selectionEntry>
@@ -13528,7 +13511,7 @@ bearer can be moved during that move</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="a020-14c0-1a7f-d3bc" hidden="false" sortIndex="3">
           <entryLinks>
-            <entryLink import="true" name="Absolver Bolt Pistol" hidden="false" id="b75-79bb-8f05-9ec4" type="selectionEntry" targetId="a490-361-c9c4-afeb">
+            <entryLink import="true" name="Absolvor Bolt Pistol" hidden="false" id="b75-79bb-8f05-9ec4" type="selectionEntry" targetId="a490-361-c9c4-afeb">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="609a-6258-f8dc-2078"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2793-19ad-bcf6-1561"/>
@@ -14575,7 +14558,7 @@ bearer can be moved during that move</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="7247-8953-0942-228f" hidden="false" sortIndex="3">
           <entryLinks>
-            <entryLink import="true" name="Absolver Bolt Pistol" hidden="false" id="55c0-7a85-42af-ef54" type="selectionEntry" targetId="a490-361-c9c4-afeb">
+            <entryLink import="true" name="Absolvor Bolt Pistol" hidden="false" id="55c0-7a85-42af-ef54" type="selectionEntry" targetId="a490-361-c9c4-afeb">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bcb0-9a0b-78c-6fa7"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="972d-ea0a-a71d-314d"/>
@@ -15105,7 +15088,7 @@ bearer can be moved during that move</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="84bc-23f0-2167-2130" hidden="false" sortIndex="3">
           <entryLinks>
-            <entryLink import="true" name="Absolver Bolt Pistol" hidden="false" id="3125-bf-a712-d29f" type="selectionEntry" targetId="a490-361-c9c4-afeb">
+            <entryLink import="true" name="Absolvor Bolt Pistol" hidden="false" id="3125-bf-a712-d29f" type="selectionEntry" targetId="a490-361-c9c4-afeb">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2cb8-b8eb-3d60-4124"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9db-1770-3ecd-8421"/>
@@ -15689,13 +15672,10 @@ bearer can be moved during that move</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 3+</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink name="Anti-" hidden="false" type="rule" id="7c6e-2848-b645-cdd7" targetId="4111-82e3-9444-e942"/>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Mortis Dreadnought [Legends]" hidden="false" id="525c-7e0-b0de-8a6f">
       <categoryLinks>
@@ -17855,13 +17835,10 @@ bearer can be moved during that move</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 4+</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Anti-" id="247d-9cfe-c5cb-3444" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-              </infoLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="37b0-9cc-4df5-f4f2"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a1c-fafa-9d20-ba8"/>
@@ -17971,12 +17948,11 @@ bearer can be moved during that move</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+, Blast</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Anti-" id="c55d-5b09-a2c2-3afe" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
                 <infoLink name="Blast" id="db41-25e0-fd7e-cd90" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
               </infoLinks>
               <categoryLinks>
@@ -19092,7 +19068,7 @@ bearer can be moved during that move</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
           </characteristics>
         </profile>
         <profile name="➤ Bellicatus Missile Array - Krak" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="59bc-a344-af08-2111">
@@ -19108,7 +19084,6 @@ bearer can be moved during that move</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Anti-" id="3192-b0bd-055d-0ed1" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
         <infoLink name="Blast" id="e0df-4d9a-82e3-6874" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
       </infoLinks>
     </selectionEntry>
