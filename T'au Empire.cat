@@ -96,7 +96,6 @@
         <categoryLink targetId="4f3a-f0f7-6647-348d" id="6225-7e48-e627-2a7a" primary="true" name="Epic Hero"/>
         <categoryLink targetId="dbd4-63-af05-998" id="f8d6-1b5b-9f4e-f5a8" primary="false" name="Vehicle"/>
         <categoryLink targetId="6dda-e157-334d-e93a" id="d430-1fc9-e0b0-8657" primary="false" name="Walker"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="35ac-c53d-5089-9124" primary="false" name="Fly"/>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="4f39-3c41-a7bf-b0c1" primary="false" name="Character"/>
         <categoryLink targetId="7288-48b3-c4df-66c6" id="c157-15fb-ef8f-1dcf" primary="false" name="Battlesuit"/>
         <categoryLink targetId="a1ff-64a0-bc3d-177a" id="7823-9071-a441-f8a5" primary="false" name="Commander Farsight"/>
@@ -2714,7 +2713,6 @@ Designer’s Note: Place a Support Turret token next to this unit to remind you.
     <selectionEntry type="unit" import="true" name="Stealth Battlesuits" hidden="false" id="5d3a-803e-7cbc-b2f1">
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="a8b0-b17d-ee1-59b6" primary="true" name="Infantry"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="bedf-7bc1-30ee-e5db" primary="false" name="Fly"/>
         <categoryLink targetId="7288-48b3-c4df-66c6" id="570-f85b-1daf-c925" primary="false" name="Battlesuit"/>
         <categoryLink targetId="76ec-55b5-1805-5855" id="58ff-5c4b-2872-699c" primary="false" name="Stealth"/>
         <categoryLink targetId="3d58-2655-391e-ecc" id="e439-38ac-fd0-1d24" primary="false" name="Faction: T&apos;au Empire"/>
@@ -4184,7 +4182,6 @@ Designer’s Note: Place an Oversight Drone token next to the bearer, removing i
       </constraints>
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="e68f-6982-be52-ceeb" primary="true" name="Vehicle"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="5630-81cf-f850-7b" primary="false" name="Fly"/>
         <categoryLink targetId="7b0b-ad0-8397-2937" id="729e-880c-e7b7-a078" primary="false" name="Hammerhead Gunship"/>
         <categoryLink targetId="3d58-2655-391e-ecc" id="99da-9954-dd59-13cb" primary="false" name="Faction: T&apos;au Empire"/>
       </categoryLinks>
@@ -5141,7 +5138,6 @@ Designer’s Note: Place an Oversight Drone token next to the bearer, removing i
         <categoryLink targetId="19d7-9c74-2140-5851" id="6936-615f-1c45-8cb6" primary="true" name="Fortification"/>
         <categoryLink targetId="dbd4-63-af05-998" id="fe3d-5cca-2118-afe" primary="false" name="Vehicle"/>
         <categoryLink targetId="75e8-57c4-40e3-1817" id="2332-8490-d5ee-7e9f" primary="false" name="Transport"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="cf2-b909-63af-9a30" primary="false" name="Fly"/>
         <categoryLink targetId="5151-516e-3ecc-8b51" id="f49b-7753-ba48-8f8e" primary="false" name="Tidewall Gunrig"/>
         <categoryLink targetId="3d58-2655-391e-ecc" id="2f0-5c6-a45d-2759" primary="false" name="Faction: T&apos;au Empire"/>
       </categoryLinks>
@@ -7757,7 +7753,6 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="3d8a-22ba-83ac-7272" primary="true" name="Vehicle"/>
         <categoryLink targetId="6dda-e157-334d-e93a" id="69b8-f285-d97-96a8" primary="false" name="Walker"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="25ae-e171-41b0-1243" primary="false" name="Fly"/>
         <categoryLink targetId="7288-48b3-c4df-66c6" id="ed02-7f6a-d72a-2af8" primary="false" name="Battlesuit"/>
         <categoryLink targetId="5409-827f-b23f-5ac" id="8fab-c07f-bfc6-2fb4" primary="false" name="Crisis"/>
         <categoryLink targetId="3d58-2655-391e-ecc" id="2d94-6def-9a80-4497" primary="false" name="Faction: T&apos;au Empire"/>
@@ -8078,7 +8073,6 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="420f-ef0d-9da1-3bbc" primary="true" name="Vehicle"/>
         <categoryLink targetId="6dda-e157-334d-e93a" id="2fa-cc72-c2f-d9bb" primary="false" name="Walker"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="4c9d-6ed4-f65c-1084" primary="false" name="Fly"/>
         <categoryLink targetId="7288-48b3-c4df-66c6" id="7e3f-ad86-7b12-1900" primary="false" name="Battlesuit"/>
         <categoryLink targetId="5409-827f-b23f-5ac" id="e408-ef89-b30b-e447" primary="false" name="Crisis"/>
         <categoryLink targetId="3d58-2655-391e-ecc" id="384-b2b8-b4a7-7a1" primary="false" name="Faction: T&apos;au Empire"/>
