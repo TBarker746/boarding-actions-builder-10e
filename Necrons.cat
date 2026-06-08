@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b654-a18a-ea1-3bf2" name="Xenos - Necrons" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="91" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b654-a18a-ea1-3bf2" name="Xenos - Necrons" gameSystemId="sys-352e-adc2-7639-d6a0" gameSystemRevision="1" revision="107" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Enhancements" hidden="false" id="9574-b5d1-8b0a-d95d" collapsible="true">
       <constraints>
@@ -10938,12 +10938,11 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-FLY 4+, Sustained Hits 2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Anti-" id="1fb0-2e88-b911-2458" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
                 <infoLink name="Sustained Hits" id="651c-404f-ffa0-13f" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
               </infoLinks>
               <entryLinks>
@@ -10953,9 +10952,6 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink import="true" name="Crusade" hidden="false" id="436a-0b70-4eb6-b5c1" type="selectionEntryGroup" targetId="34da-c1ba-b0f2-1ba6" sortIndex="1"/>
-      </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="4c0b-35c0-5e76-4840" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="bccc-34b6-7bb0-e4b4" includeChildSelections="true"/>
@@ -12998,13 +12994,12 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">16</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+6</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-FLY 2+, Lethal Hits</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Lethal Hits" hidden="false" type="rule" id="c8ba-47-4183-191b" targetId="d1d1-611e-5191-1095"/>
-            <infoLink name="Anti-" hidden="false" type="rule" id="5683-6704-ed3e-aa43" targetId="4111-82e3-9444-e942"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Tesla arc" hidden="false" id="2056-da89-3752-47b0">
@@ -15006,7 +15001,7 @@ At the start of each phase, for each ^^**Necrons Monster^^** unit from your army
     </profileType>
   </profileTypes>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="2660-21-2feb-f1c5" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Shadowvaults Upgrades" id="2660-21-2feb-f1c5" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
   </catalogueLinks>
   <sharedInfoGroups>
     <infoGroup name="Detachment Rules" hidden="false" id="4ee-d749-4ddc-323d">

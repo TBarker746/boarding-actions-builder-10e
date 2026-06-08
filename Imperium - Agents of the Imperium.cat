@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b00-cd86-4b4c-97ba" name="Imperium - Agents of the Imperium" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="138" battleScribeVersion="2.03" type="catalogue" authorName="Adapted for the Boarding Actions game mode by TBarker746">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b00-cd86-4b4c-97ba" name="Imperium - Agents of the Imperium" gameSystemId="sys-352e-adc2-7639-d6a0" gameSystemRevision="1" revision="138" battleScribeVersion="2.03" type="catalogue" authorName="Adapted for the Boarding Actions game mode by TBarker746">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="bb9a-14e7-b947-793b">
       <constraints>
@@ -5506,7 +5506,7 @@
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="86e9-bde3-3f93-f02a" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Shadowvaults Upgrades" id="86e9-bde3-3f93-f02a" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="a989-d962-d348-900a" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>

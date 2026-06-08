@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-352e-adc2-7639-d6a9" name="Warhammer 40,000 10th Edition Boarding Actions" revision="86" battleScribeVersion="2.03" type="gameSystem" authorName="Adapted for the Boarding Actions game mode by TBarker746">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-352e-adc2-7639-d6a0" name="Warhammer 40,000 10th Edition: Boarding Actions" revision="86" battleScribeVersion="2.03" type="gameSystem" authorName="Adapted for the Boarding Actions game mode by TBarker746">
   <publications>
     <publication id="48fc-15aa-b307-9443" name="10th Edition Core Rules" shortName="10th Ed Core"/>
     <publication name="Github" hidden="false" id="8db3-575d-91b-47f8" shortName="BSData/wh40k-10e" publisherUrl="https://github.com/BSData/wh40k-10e"/>
   </publications>
   <costTypes>
-    <costType id="51b2-306e-1021-d207" name="pts" defaultCostLimit="-1" hidden="false"/>
+    <costType id="51b2-306e-1021-d207" name="pts" defaultCostLimit="500" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="c547-1836-d8a-ff4f" name="Unit">
@@ -405,6 +405,26 @@
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="59d2-9cdd-957a-6c14" shared="true" childName="Kroot Hunting Party"/>
                   </conditions>
                 </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="d856-6921-6145-73e3" shared="true" childName="Boarding Butchers"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="bd4f-92ce-c8ef-1751" shared="true" childName="Skullsworn"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="7f88-9ec9-a499-799a" shared="true" childName="Ramship Raiders"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="c005-4960-6d0d-5906" shared="true" childName="Kaptin Killers"/>
+                  </conditions>
+                </localConditionGroup>
               </localConditionGroups>
             </conditionGroup>
           </conditionGroups>
@@ -632,6 +652,11 @@
                 <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="6062-ea80-b1a0-c126" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="d856-6921-6145-73e3" shared="true" childName="Boarding Butchers"/>
                   </conditions>
                 </localConditionGroup>
               </localConditionGroups>

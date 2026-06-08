@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="1b6d-dc06-5db9-c7d1" name="Imperium - Imperial Knights - Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="86" battleScribeVersion="2.03" authorName="BSData Developers" type="catalogue" authorContact="Dunamis55 &amp; AbonShell (adapted for the Boarding Actions game mode by TBarker746)">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="1b6d-dc06-5db9-c7d1" name="Imperium - Imperial Knights - Library" gameSystemId="sys-352e-adc2-7639-d6a0" gameSystemRevision="1" revision="86" battleScribeVersion="2.03" authorName="BSData Developers" type="catalogue" authorContact="Dunamis55 &amp; AbonShell (adapted for the Boarding Actions game mode by TBarker746)">
   <categoryEntries>
     <categoryEntry name="Canis Rex" id="534d-ffcf-fc01-7eac"/>
     <categoryEntry name="Warglaive" id="72cd-6281-73a-e0fc"/>

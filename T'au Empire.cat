@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="d81a-61dd-6d27-a3ce" name="Xenos - T&apos;au Empire" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="161" battleScribeVersion="2.03" authorContact="Dunamis55 &amp; AbonShell (adapted for the Boarding Actions game mode by TBarker746)" authorName="BSData Developers" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="d81a-61dd-6d27-a3ce" name="Xenos - T&apos;au Empire" gameSystemId="sys-352e-adc2-7639-d6a0" gameSystemRevision="1" revision="161" battleScribeVersion="2.03" authorContact="Dunamis55 &amp; AbonShell (adapted for the Boarding Actions game mode by TBarker746)" authorName="BSData Developers" type="catalogue">
   <rules>
     <rule name="Void Combat Discipline" hidden="false" id="eeb6-c42-48f7-cc21">
       <description>Each time a model in this unit makes a ranged attack, it can ignore other models in this unit for the purpose of determining visibility. In addition, this unit is eligible to perform the Set Overwatch Tactical Manoeuvre in a turn in which it Advanced or Fell Back.</description>
@@ -11401,7 +11401,7 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
     <entryLink import="true" name="Strike Team" hidden="false" type="selectionEntry" id="ef2-a2c9-729b-61b9" targetId="acdd-2901-1a75-99f4"/>
     <entryLink import="true" name="Breacher Team" hidden="false" type="selectionEntry" id="9d91-f172-1888-50fe" targetId="afc0-2b21-8ddc-3b2a"/>
     <entryLink import="true" name="Kroot Carnivores" hidden="false" type="selectionEntry" id="f28d-8724-b42c-cf62" targetId="d631-3ca5-e206-4e6a"/>
-    <entryLink import="true" name="Krootox Riders" hidden="false" type="selectionEntry" id="3b18-6ba8-ae5-513e" targetId="c523-a2e2-a398-ea00"/>
+    <entryLink import="true" name="Krootox Rider" hidden="false" type="selectionEntry" id="3b18-6ba8-ae5-513e" targetId="c523-a2e2-a398-ea00"/>
     <entryLink import="true" name="Stealth Battlesuits" hidden="false" type="selectionEntry" id="6a15-d9f3-9016-4c3b" targetId="5d3a-803e-7cbc-b2f1"/>
     <entryLink import="true" name="Ghostkeel Battlesuit" hidden="false" type="selectionEntry" id="9004-87fb-677b-6859" targetId="5268-6e9-8f5c-c810"/>
     <entryLink import="true" name="Pathfinder Team" hidden="false" type="selectionEntry" id="c62a-bda5-844c-e8c6" targetId="2598-d700-9952-e439"/>
@@ -11484,7 +11484,7 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
     <entryLink import="true" name="Crisis Shas&apos;vre [Legends]" hidden="false" id="a36f-cfbd-ca6d-304e" targetId="9e5a-87a0-3385-dbb2" type="selectionEntry"/>
     <entryLink import="true" name="Broadside Shas&apos;ui" hidden="false" type="selectionEntry" id="202f-512f-0f58-211c" targetId="211e-f285-b992-c1c5"/>
     <entryLink import="true" name="Crisis Fireknife Shas&apos;ui" hidden="false" id="3bbe-59fb-da6a-0b7f" type="selectionEntry" targetId="5d4f-af22-7fa0-22ab"/>
-    <entryLink import="true" name="Crisis Starscythe Shas&apos;vre" hidden="false" id="1f1f-3361-32c8-b8da" type="selectionEntry" targetId="6b3f-4087-3057-6d3f"/>
+    <entryLink import="true" name="Crisis Fireknife Shas&apos;vre" hidden="false" id="1f1f-3361-32c8-b8da" type="selectionEntry" targetId="6b3f-4087-3057-6d3f"/>
     <entryLink import="true" name="Crisis Starscythe Shas&apos;ui" hidden="false" id="36d4-9659-d50a-5b1d" type="selectionEntry" targetId="e1b4-d573-d7a7-208a"/>
     <entryLink import="true" name="Crisis Starscythe Shas&apos;vre" hidden="false" id="c50a-c883-b81f-abc9" type="selectionEntry" targetId="37eb-4a12-f6ec-1312"/>
     <entryLink import="true" name="Breaching Robot" hidden="false" id="7016-4372-c37e-db73" type="selectionEntry" targetId="a150-093b-e167-3968">
@@ -12141,6 +12141,6 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="31ce-9bc2-d362-37c4" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Shadowvaults Upgrades" id="31ce-9bc2-d362-37c4" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
