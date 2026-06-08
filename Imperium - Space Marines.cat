@@ -238,6 +238,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="fb5c-94be-19c1-ce08" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="3d60-3ac7-9989-5d03" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Deredeo Dreadnought [Legends]" hidden="false" type="selectionEntry" id="4edd-c031-f40-60cb" targetId="d38d-c3a2-f753-efea">
       <categoryLinks>
@@ -297,6 +301,10 @@
           </modifiers>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="1919-4953-5c51-c5c4" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="a536-d1ff-4d8b-6ebb" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Relic Contemptor Dreadnought [Legends]" hidden="false" type="selectionEntry" id="6a6e-7e3d-2721-35bc" targetId="783a-1c02-b377-b169">
       <categoryLinks>
@@ -356,6 +364,10 @@
           </modifiers>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="72f9-fdb0-6def-83b0" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="6e17-5e81-9cce-ec23" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Leviathan Dreadnought [Legends]" hidden="false" type="selectionEntry" id="c88c-5a05-c07f-bfc1" targetId="14d4-8062-f090-6719">
       <categoryLinks>
@@ -415,6 +427,10 @@
           </modifiers>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="473d-e9f5-cc49-2a3d" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="04b6-8966-ceef-7350" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Javelin Attack Speeder [Legends]" hidden="false" type="selectionEntry" id="68b7-8b20-f52a-e8a0" targetId="1f26-fce8-bb2d-2c44">
       <constraints>
@@ -441,6 +457,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="f59e-0e51-de97-7487" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="b74a-e8b1-9cd6-97b0" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Deathstorm Drop Pod [Legends]" hidden="false" type="selectionEntry" id="266a-70d9-cc0d-b7c" targetId="68be-7090-1fbc-9021">
       <constraints>
@@ -467,6 +487,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="4c5b-cbdf-934c-9bd2" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="70de-b937-c742-2b59" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Land Raider Proteus [Legends]" hidden="false" type="selectionEntry" id="33d5-e15f-2823-41ae" targetId="34c8-1025-33f7-baaf">
       <categoryLinks>
@@ -493,6 +517,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="7c8e-0582-13c5-d623" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="f9bc-a35e-d523-0783" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Land Raider Achilles [Legends]" hidden="false" type="selectionEntry" id="b695-9234-c39e-83bd" targetId="3006-ffe-2b0c-6b1b">
       <categoryLinks>
@@ -523,6 +551,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="7e3a-3663-a8a6-81ed" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="1100-cd09-2bfb-62bf" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Sicaran Battle Tank [Legends]" hidden="false" type="selectionEntry" id="d2e9-d222-dc23-1b6e" targetId="b2f1-197b-fb3b-687f">
       <categoryLinks>
@@ -553,6 +585,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="85f0-8d69-80f5-8c95" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="ee70-adb1-3b5b-d1da" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Sicaran Punisher [Legends]" hidden="false" type="selectionEntry" id="28e2-fc6e-3f4d-ecd2" targetId="68aa-28bf-bd73-3355">
       <categoryLinks>
@@ -583,6 +619,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="c103-6cd6-d4b4-23dd" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="9827-ec5a-9fdf-582c" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Sicaran Arcus [Legends]" hidden="false" type="selectionEntry" id="f2b0-99f4-4213-fdd" targetId="ca2a-69ca-dd3c-47">
       <categoryLinks>
@@ -613,6 +653,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="dd1b-bcc1-f41e-d7d8" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="dec6-e52f-8d4b-5312" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Sicaran Omega [Legends]" hidden="false" type="selectionEntry" id="8888-1a56-fafc-d4db" targetId="8b64-6aba-150d-27e4">
       <categoryLinks>
@@ -643,6 +687,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="9949-88dd-57d5-7de8" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="3c46-5294-ceb6-a224" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Sicaran Venator [Legends]" hidden="false" type="selectionEntry" id="92a-6ded-87e3-96ca" targetId="e63e-2aa6-f840-b54e">
       <categoryLinks>
@@ -673,6 +721,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="5d37-047d-1e2e-bef7" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="c44e-084e-9f15-87a7" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Rapier Carrier [Legends]" hidden="false" type="selectionEntry" id="235d-274d-1944-b1dd" targetId="2aee-e03c-836e-4c6e">
       <categoryLinks>
@@ -703,6 +755,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="b687-33b3-f338-fc62" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="1b9c-445b-aeb3-6358" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Whirlwind Scorpius [Legends]" hidden="false" type="selectionEntry" id="7795-911d-2974-74e7" targetId="97dc-f0c8-1354-88fb">
       <categoryLinks>
@@ -733,6 +789,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="fa66-5ac2-5946-5263" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="da5e-2568-e4df-f33a" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Vindicator Laser Destroyer [Legends]" hidden="false" type="selectionEntry" id="1ac7-5d1f-dc18-6e7c" targetId="128d-5011-8e6-45a6">
       <categoryLinks>
@@ -763,6 +823,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="4b66-4c4c-ed5c-5170" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="28f1-9e09-ee4e-aaca" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Dreadnought Drop Pod [Legends]" hidden="false" type="selectionEntry" id="dcce-7138-db27-ba2" targetId="7fd0-d95d-d076-3472">
       <categoryLinks>
@@ -793,6 +857,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="d722-0e84-7db2-07c9" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="fa63-2f1f-78b3-eddb" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Terrax-pattern Termite [Legends]" hidden="false" type="selectionEntry" id="f1c3-d5f3-322d-cd45" targetId="3d36-e9d7-54c5-deb7">
       <categoryLinks>
@@ -823,6 +891,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="1459-d122-73da-0421" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="2d61-5c25-844b-0c7e" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Xiphon Interceptor [Legends]" hidden="false" type="selectionEntry" id="b733-bbb9-7d4e-ee8f" targetId="1aa5-d081-2442-4c37">
       <categoryLinks>
@@ -853,6 +925,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="7269-f55a-03c8-1422" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="a3b0-ff61-9a51-9b76" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Storm Eagle Gunship [Legends]" hidden="false" type="selectionEntry" id="1588-c304-7a3e-e4df" targetId="3b7d-b14e-603-e1ad">
       <categoryLinks>
@@ -883,6 +959,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="171d-c682-4d8e-15f4" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="37b9-0a33-b71f-0a78" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Fire Raptor Gunship [Legends]" hidden="false" type="selectionEntry" id="506c-80e8-14a1-616f" targetId="1fc7-7880-e4d4-acbf">
       <categoryLinks>
@@ -913,6 +993,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="19c7-e9e8-4df8-d196" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="eac2-94d0-68cb-f0cd" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Typhon [Legends]" hidden="false" type="selectionEntry" id="8556-de80-33bc-d2a9" targetId="f60c-1b93-9ee8-59d2">
       <categoryLinks>
@@ -943,6 +1027,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="20f5-ed0a-4b90-0b13" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="d000-0cde-b375-b922" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Cerberus [Legends]" hidden="false" type="selectionEntry" id="62cb-bc5a-138f-a480" targetId="4044-b458-fb4d-d05b">
       <categoryLinks>
@@ -973,6 +1061,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="0ccf-e752-e9e2-7b4c" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="7523-3499-5db8-a743" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Spartan [Legends]" hidden="false" type="selectionEntry" id="7e3b-af-1914-e1e5" targetId="7b3a-9a63-6200-ec7">
       <categoryLinks>
@@ -999,6 +1091,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="1953-fafc-2da5-5248" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="a006-34c2-f2a5-f0d4" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Fellblade [Legends]" hidden="false" type="selectionEntry" id="420f-595f-eecb-8ab3" targetId="585d-722b-4304-2f63">
       <categoryLinks>
@@ -1029,6 +1125,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="e52f-6e58-0fee-429f" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="9183-e900-e1c8-1dc6" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Falchion [Legends]" hidden="false" type="selectionEntry" id="9ead-c374-2f0a-ab36" targetId="625b-29e4-7be7-db5a">
       <categoryLinks>
@@ -1059,6 +1159,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="dbee-8658-6007-c820" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="758e-44f2-303b-d2e1" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Tarantula Sentry Battery [Legends]" hidden="false" type="selectionEntry" id="9f1a-3683-293c-18d9" targetId="d298-eb55-5779-f90e">
       <categoryLinks>
@@ -1089,6 +1193,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Oath of Moment" id="7942-4854-9ccd-6d4d" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Templar Vows" id="7324-496e-52c8-3765" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Show/Hide Options" hidden="false" type="selectionEntry" id="882-5a00-1760-a2be" targetId="e8ef-836a-a9d1-901d">
       <entryLinks>
@@ -20196,6 +20304,13 @@ bearer can be moved during that move</characteristic>
       <description>If your Army Faction is **^^Adeptus Astartes^^**, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:
 ■ You can reroll the Hit roll.
 ■ If your army does not include one or more units with the **^^Blood Angels^^**, **^^Dark Angels^^**, **^^Deathwatch^^** or **^^Space Wolves^^** keywords, add 1 to the Wound roll as well.</description>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" childName="Imperium - Adeptus Astartes - Black Templars"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </rule>
     <rule name="Templar Vows" id="f26c-4b28-aaea-40cf" hidden="false">
       <description>If your Army Faction is **^^Adeptus Astartes^^**, at the start of the first battle round, select one of the following Vows to be active for **^^Adeptus Astartes^^** units from your army. While a Vow is active for your army, that unit has the associated ability below. 
