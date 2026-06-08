@@ -646,17 +646,58 @@
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="07e0-26fd-84ae-31c3" includeChildSelections="true"/>
       </constraints>
       <modifiers>
+        <modifier type="set-primary" value="f905-e26f-76a6-7754" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4326-20f7-8e5a-1e5f" shared="true" includeChildSelections="true" includeChildForces="true" childName="Critical Threats (Macro-junction IV-B)"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="4326-20f7-8e5a-1e5f" shared="true" includeChildSelections="true" includeChildForces="true" childName="Critical Threats (Macro-junction IV-B)"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="0b2d-bc4d-500c-494c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Docked Vehicles (Seize the Engine Dock)"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
         <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="0b2d-bc4d-500c-494c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Docked Vehicles (Seize the Engine Dock)"/>
           </conditions>
         </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="0b2d-bc4d-500c-494c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Docked Vehicles (Seize the Engine Dock)"/>
-          </conditions>
-        </modifier>
       </modifiers>
+      <profiles>
+        <profile name="Blood Slaughterer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="7480-6c78-6ed4-79c0">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">10</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="-" field="e703-ecb6-5ce7-aec1">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="0b2d-bc4d-500c-494c" shared="true" childName="Docked Vehicles (Seize the Engine Dock)"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Scuttling Gait" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cf0c-c989-1693-d738">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6&quot; to the Move characteristic of models in this unit.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="0b2d-bc4d-500c-494c" shared="true" childName="Docked Vehicles (Seize the Engine Dock)" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
     </entryLink>
     <entryLink import="true" name="Kytan Ravager [Legends]" hidden="false" type="selectionEntry" id="f630-edc9-339d-a309" targetId="6c76-b4e-4437-27e2">
       <categoryLinks>
@@ -1185,8 +1226,7 @@
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following unit:
 
-■ ^^**Khorne Berzerkers^^**
-</characteristic>
+■ ^^**Khorne Berzerkers^^**</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5346,51 +5386,12 @@
           </characteristics>
           <alias>Rage-fuelled Invigoration</alias>
         </profile>
-        <profile name="3. Death To Cowards (Greater Boon of Khorne)" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne" hidden="false" id="f23a-0b72-1e57-53c4">
-          <characteristics>
-            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 3+</characteristic>
-            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Each time an enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="1069-d630-a378-faf9" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
         <profile id="a2db-113d-0cc8-8d7d" name="3. Total Carnage" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
           <characteristics>
             <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 3+</characteristic>
             <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Each time a model in this unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.</characteristic>
           </characteristics>
           <alias>Total Carnage</alias>
-        </profile>
-        <profile name="4. Blistering Fury (Greater Boon of Khorne)" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne" hidden="false" id="d46f-8e73-ab0e-91b0">
-          <characteristics>
-            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 4+</characteristic>
-            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a083-8cca-0d33-c766" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile name="4. Blood-soaked Nightmares (Greater Boon of Khorne)" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne" hidden="false" id="a8d3-95e9-0b4b-f080">
-          <characteristics>
-            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 4+</characteristic>
-            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">At the start of each player&apos;s Command phase, each enemy unit that is within Engagement Range of one or more units with this ability must take a Battle-shock test.</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="82d8-4eaa-26d1-d9e4" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </profile>
         <profile id="35da-066e-5d34-b312" name="4. Martial Excellence" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
           <characteristics>
@@ -5399,51 +5400,12 @@
           </characteristics>
           <alias>Martial Excellence</alias>
         </profile>
-        <profile name="5. Bloodthirst (Greater Boon of Khorne)" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne" hidden="false" id="ad61-03a2-83ba-de85">
-          <characteristics>
-            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 5+</characteristic>
-            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Add 2&quot; to the Move characteristic of models in this unit.</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="9a41-1c4a-9444-611b" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile name="5. Savage Guidance (Greater Boon of Khorne)" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne" hidden="false" id="846e-6aae-d69e-f7b0">
-          <characteristics>
-            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 5+</characteristic>
-            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="acff-9f1d-212c-18f7" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
         <profile id="fbfe-9079-46e0-0cbf" name="5. Warp Blades" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
           <characteristics>
             <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 5+ or Triple 2+</characteristic>
             <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Melee weapons equipped by models in this unit have the [LETHAL HITS] ability.</characteristic>
           </characteristics>
           <alias>Warp Blades</alias>
-        </profile>
-        <profile name="6. Cleaving Blows" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne" hidden="false" id="b9a1-ded0-e94b-ad11">
-          <characteristics>
-            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 6+</characteristic>
-            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Improve the Armour Penetration characteristic of melee weapons equipped by models in this unit by 1.</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6c20-91ba-11d4-ade0" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </profile>
         <profile id="3444-f024-bee5-e731" name="6. Decapitating Strikes" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
           <characteristics>
@@ -6584,127 +6546,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Greater Rewards of Khorne (displayed in Blessings of Khorne reference)" id="296b-203a-26b7-0c62" hidden="false">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f163-5ebd-ca03-42f5" includeChildSelections="false"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="5. Bloodthirst" hidden="false" id="9a41-1c4a-9444-611b" sortIndex="5">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="175b-59a6-2adf-46cb" includeChildSelections="true"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
-            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
-            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="2" field="b03b-c239-15a5-da55">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="1. Death To Cowards" hidden="false" id="1069-d630-a378-faf9" sortIndex="1">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="046b-beca-e249-bc85" includeChildSelections="true"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
-            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
-            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="2" field="b03b-c239-15a5-da55">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="2. Blistering Fury" hidden="false" id="a083-8cca-0d33-c766" sortIndex="2">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3aa8-d32c-710e-b774" includeChildSelections="true"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
-            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
-            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="2" field="b03b-c239-15a5-da55">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="3. Blood-soaked Nightmares" hidden="false" id="82d8-4eaa-26d1-d9e4" sortIndex="3">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5e38-e4b8-5fef-3eb1" includeChildSelections="true"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
-            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
-            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="2" field="b03b-c239-15a5-da55">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="4. Savage Guidance" hidden="false" id="acff-9f1d-212c-18f7" sortIndex="4">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5849-77ed-0d01-1d73" includeChildSelections="true"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
-            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
-            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="2" field="b03b-c239-15a5-da55">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="6. Cleaving Blows" hidden="false" id="6c20-91ba-11d4-ade0" sortIndex="6">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9b50-4965-b876-7c34" includeChildSelections="true"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
-            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
-            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="set" value="2" field="b03b-c239-15a5-da55">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5929-ad51-d006-e008" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
     <selectionEntryGroup name="Show Mission-Specific Content" id="9c03-b3c0-eec6-b166" hidden="false" collective="false" import="true" defaultSelectionEntryId="none">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5fc1-fc6d-42d3-8432" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -6767,8 +6608,7 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="e68b-b42f-6f7c-4670" name="Slaughterers’ Glory" hidden="false">
-      <description>If your Army Faction is ^^**World Eaters^^**, at the start of the battle round, you can make a Blessings of Khorne roll. To do so, roll four D6. You can then use those dice to activate a Blessing of Khorne. Each Blessing of Khorne specifies the dice results it requires (where a number is specified, a double or triple of that value or higher is required). Any unused dice from the Blessings of Khorne roll are then discarded. Once activated, a Blessing of Khorne applies to all units from your army with this ability until the end of the battle round.
-</description>
+      <description>If your Army Faction is ^^**World Eaters^^**, at the start of the battle round, you can make a Blessings of Khorne roll. To do so, roll four D6. You can then use those dice to activate a Blessing of Khorne. Each Blessing of Khorne specifies the dice results it requires (where a number is specified, a double or triple of that value or higher is required). Any unused dice from the Blessings of Khorne roll are then discarded. Once activated, a Blessing of Khorne applies to all units from your army with this ability until the end of the battle round.</description>
     </rule>
     <rule name="Wrath of Khorne" id="269f-6b39-4a8e-0872" hidden="false">
       <description>At the start of the battle round, after activating Blessings of Khorne, you can select one or more models from your army from those listed below (including models that are embarked within Transports): 
