@@ -745,36 +745,6 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Chaos Thunderhawk [Legends]" hidden="false" type="selectionEntry" id="4034-1ba6-4214-7211" targetId="6844-986c-b0ea-6dd5">
-      <categoryLinks>
-        <categoryLink targetId="9888-ddb2-a141-6037" id="ab56-5410-dbf2-b57" primary="false" name="Faction: Death Guard"/>
-        <categoryLink targetId="4c00-2578-faf5-6918" id="13d2-5fdb-a88c-8487" primary="false" name="Chaos"/>
-        <categoryLink targetId="ed0d-8e2a-225c-2340" id="81a2-14ef-e079-a2c8" primary="false" name="Nurgle"/>
-      </categoryLinks>
-      <infoLinks>
-        <infoLink name="Slow Decay (Aura)" hidden="false" type="rule" id="3f92-78c8-ed08-5c36" targetId="ea42-7d15-fd81-73d6"/>
-      </infoLinks>
-      <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="c2cc-6ee5-c571-5d2b" type="selectionEntry" targetId="b526-972f-7394-632a" sortIndex="1"/>
-      </entryLinks>
-      <constraints>
-        <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="75c7-a1fa-3ca3-020a" includeChildSelections="false"/>
-        <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="bfbb-fc79-ccef-470a" includeChildSelections="true"/>
-        <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="9d3d-b510-0a13-05df" includeChildSelections="true"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="13cf-787b-0a47-39aa" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="13cf-787b-0a47-39aa" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
     <entryLink import="true" name="Hellblade [Legends]" hidden="false" type="selectionEntry" id="584-40de-76ef-b9c7" targetId="3e86-ef61-9b87-3658"/>
     <entryLink import="true" name="Hell Talon [Legends]" hidden="false" type="selectionEntry" id="2a66-a8a1-e783-8e59" targetId="8cba-21cc-a3b3-91ed"/>
     <entryLink import="true" name="Show/Hide Options" hidden="false" type="selectionEntry" id="6086-9ba7-e934-39eb" targetId="e8ef-836a-a9d1-901d">

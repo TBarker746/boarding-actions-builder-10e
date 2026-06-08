@@ -145,37 +145,6 @@
     <entryLink import="true" name="Daemon Prince of Tzeentch" hidden="false" type="selectionEntry" id="8b7c-94a7-c872-438d" targetId="eccd-e442-607b-3fd0"/>
     <entryLink import="true" name="Daemon Prince of Tzeentch with wings" hidden="false" type="selectionEntry" id="2d6b-f5cf-6f01-9475" targetId="66f4-929e-1769-f277"/>
     <entryLink import="true" name="Tzaangors" hidden="false" type="selectionEntry" id="1ba0-1223-9d11-a596" targetId="f5b9-50c8-5c60-d8ea"/>
-    <entryLink import="true" name="Chaos Thunderhawk [Legends]" hidden="false" type="selectionEntry" id="893b-fe01-6569-9fcb" targetId="6844-986c-b0ea-6dd5">
-      <categoryLinks>
-        <categoryLink targetId="7002-1fbb-7571-e8e7" id="6d5d-5064-beba-ce99" primary="false" name="Faction: Thousand Sons"/>
-        <categoryLink targetId="b188-114f-6ba5-79a1" id="b8b1-d666-f21f-59f6" primary="false" name="Tzeentch"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="564b-4c3b-aff7-3c08" includeChildSelections="false"/>
-        <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="6392-7183-f6ce-6c98" includeChildSelections="true"/>
-        <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="d3c2-f590-0e04-f6e0" includeChildSelections="true"/>
-      </constraints>
-      <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="a547-b68c-f940-eace" type="selectionEntry" targetId="a021-c1a0-c35c-f10f" sortIndex="1"/>
-      </entryLinks>
-      <modifiers>
-        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c534-5f15-c670-634f" shared="true" includeChildSelections="true" includeChildForces="true" childName="Docked Vehicles (Seize the Engine Dock)"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="c534-5f15-c670-634f" shared="true" includeChildSelections="true" includeChildForces="true" childName="Docked Vehicles (Seize the Engine Dock)"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <rules>
-        <rule name="Twisting Fate" id="b4fe-2df0-38f8-ac5c" hidden="false">
-          <description>While a **^^THOUSAND SONS PSYKER^^** model from your army is on the battlefield and you control at least as many objective markers as your opponent does, your plan is considered to be in Ascendance. Each time you or your opponent spend one or more Command points to use a Stratagem, roll one D6, adding 1 if your plan is in Ascendance: on a 1-2, your opponent gains 1CP; on a 6+, you gain 1CP.</description>
-        </rule>
-      </rules>
-    </entryLink>
     <entryLink import="true" name="Kratos [Legends]" hidden="false" type="selectionEntry" id="bf31-6313-ef6f-92a2" targetId="78aa-3f99-5fb7-7f83">
       <categoryLinks>
         <categoryLink targetId="7002-1fbb-7571-e8e7" id="91bd-aaac-19f7-854c" primary="false" name="Faction: Thousand Sons"/>

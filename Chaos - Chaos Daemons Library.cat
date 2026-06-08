@@ -15025,66 +15025,6 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b285-2078-6c1a-833"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Show Tzeentch Daemons" hidden="false" id="1248-8642-b42f-1dca">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="24d5-bc09-6133-5db4"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1fde-3d55-6cac-7903"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set" value="0" field="24d5-bc09-6133-5db4"/>
-        <modifier type="set" value="Tzeentch Daemons are visible" field="name"/>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="ff7b-8f73-1756-650a" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Show Khorne Daemons" hidden="false" id="f5f9-1339-84bb-ae85">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8ca2-4b49-19e7-5d6c"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a3a-c81d-6f08-a66c"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set" value="0" field="8ca2-4b49-19e7-5d6c"/>
-        <modifier type="set" value="Khorne Daemons are visible" field="name"/>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="ff7b-8f73-1756-650a" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Show Slaanesh Daemons" hidden="false" id="d3ff-16f0-dad2-c03c">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="22a2-3ac9-a528-d0bc"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71e0-4dbf-bec7-db35"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set" value="0" field="22a2-3ac9-a528-d0bc"/>
-        <modifier type="set" value="Slaanesh Daemons are visible" field="name"/>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="ff7b-8f73-1756-650a" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Show Nurgle Daemons" hidden="false" id="f486-5e38-994c-15ec">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ad8d-27c9-9c47-9972"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ace3-86e0-b739-7ee8"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set" value="0" field="ad8d-27c9-9c47-9972"/>
-        <modifier type="set" value="Nurgle Daemons are visible" field="name"/>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="ff7b-8f73-1756-650a" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="621d-b661-7461-4620" name="Enhancements" hidden="false" collective="false" import="true" collapsible="true">

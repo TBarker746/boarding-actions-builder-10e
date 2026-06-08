@@ -1216,7 +1216,6 @@
       <categoryLinks>
         <categoryLink targetId="3d58-2655-391e-ecc" id="8f6d-d9cc-6f66-94fb" primary="false" name="Faction: T&apos;au Empire"/>
         <categoryLink targetId="4f3a-f0f7-6647-348d" id="36b-c35c-5048-ef00" primary="true" name="Epic Hero"/>
-        <categoryLink targetId="b9d1-a277-6a7c-959e" id="b0ee-cb22-1cd7-2bb4" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <profiles>
         <profile name="Duality Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d75c-8807-c2d9-2fcc">
@@ -1288,6 +1287,7 @@
             <categoryLink targetId="9cd5-33ae-fb0a-2eb1" id="71de-912d-2c5c-9b91" primary="false" name="Aun&apos;va"/>
             <categoryLink targetId="e6e-aad6-ee91-7c3c" id="baa3-878a-2027-5f55" primary="false" name="Ethereal"/>
             <categoryLink targetId="cf47-a0d7-7207-29dc" id="6e08-dd36-c14f-85ea" primary="false" name="Infantry"/>
+            <categoryLink targetId="b9d1-a277-6a7c-959e" id="1634-fe43-0afa-44c9" primary="false" name="Warlord Eligible Character"/>
           </categoryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ethereal Guard" hidden="false" id="30e6-8d5f-504c-c48e" collective="false">
@@ -1514,8 +1514,7 @@
                 <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following units:
 
 
-■ **^^PATHFINDER TEAM^^**
-</characteristic>
+■ **^^PATHFINDER TEAM^^**</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6033,8 +6032,7 @@ Designer’s Note: Place an Oversight Drone token next to the bearer, removing i
                 </rule>
                 <rule name="Rules Adaptations" id="c85e-ccc4-ebc6-28bf" hidden="false">
                   <description>■ **^^KROOT CARNIVORES^^** units can perform the Secure Site Tactical Manoeuvre as if they had the **^^BATTLELINE^^** keyword.
-■ Each time you set up a **^^KROOT CARNIVORES^^** unit in an Entry Zone, you can also set up a **^^KROOT HOUNDS^^** unit and/or a **^^KROOTOX RIDERS^^** unit in that same Entry Zone.
-</description>
+■ Each time you set up a **^^KROOT CARNIVORES^^** unit in an Entry Zone, you can also set up a **^^KROOT HOUNDS^^** unit and/or a **^^KROOTOX RIDERS^^** unit in that same Entry Zone.</description>
                 </rule>
               </rules>
             </selectionEntry>
