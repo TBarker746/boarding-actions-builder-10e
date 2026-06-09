@@ -1067,9 +1067,19 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <condition type="atLeast" value="10" field="selections" scope="206c-6b4d-4aaa-7e79" childId="model" shared="true" id="296d-05da-c4b1-b708" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="475f-763d-28e9-3b5f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
-        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="b381-39f1-153a-b902"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b381-39f1-153a-b902" includeChildSelections="true" includeChildForces="true"/>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="c95b-afe2-eb2f-88e6" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="3c26-6349-0efe-53cc" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="d1d5-2c31-6ccd-df6e" includeChildSelections="true"/>
