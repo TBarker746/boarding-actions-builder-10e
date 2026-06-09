@@ -4,12 +4,6 @@
     <publication id="015a-6212-d737-9044" name="Index - Thousand Sons"/>
   </publications>
   <profileTypes>
-    <profileType id="6be6-a982-36ad-841a" name="Rituals">
-      <characteristicTypes>
-        <characteristicType id="ace0-c8c2-e1fe-18b0" name="Warp Charge"/>
-        <characteristicType id="4e3c-58dd-9e6e-e1f4" name="Effect"/>
-      </characteristicTypes>
-    </profileType>
     <profileType id="b74a-bcb9-3e72-83e4" name="Crimson King">
       <characteristicTypes>
         <characteristicType id="d650-cfd1-3e18-1a8d" name="Effect"/>
@@ -84,45 +78,6 @@
     <categoryEntry name="Rubricae" id="07e6-410b-10e4-a6a2" hidden="false"/>
     <categoryEntry name="Warlord Eligible Character" id="8508-5fc8-07e6-b1ad" hidden="false"/>
   </categoryEntries>
-  <selectionEntries>
-    <selectionEntry id="87f0-0a14-9b6b-f367" name="Rituals reference" hidden="false" collective="false" import="true" type="upgrade" defaultAmount="1">
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="297e-923a-0166-2720" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="281a-fced-cb79-1fb1" name="Destiny&apos;s Ruin (Psychic)" hidden="false" typeId="6be6-a982-36ad-841a" typeName="Rituals">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="ace0-c8c2-e1fe-18b0">5</characteristic>
-            <characteristic name="Effect" typeId="4e3c-58dd-9e6e-e1f4">Select one enemy unit within 24&quot; of and visible to the manifesting model. Until the end of the phase, each time a ^^**Thousand Sons^^** or ^^**Scintillating Legion^^** model from your army makes an attack that targets that unit, re-roll a Hit roll of 1. If the Psychic test result for this Ritual was 10+, you can re-roll the Hit roll instead.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2b05-d481-749c-5dc2" name="Temporal Surge (Psychic)" hidden="false" typeId="6be6-a982-36ad-841a" typeName="Rituals">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="ace0-c8c2-e1fe-18b0">6</characteristic>
-            <characteristic name="Effect" typeId="4e3c-58dd-9e6e-e1f4">Select one friendly ^^**Thousand Sons^^** or ^^**Scintillating Legion^^** unit that is not within Engagement Range of one or more enemy units and is within 24&quot; of and visible to the manifesting model. That unit can make a Normal move of up to D6&quot;. If the Psychic test result for this Ritual was 10+, that model can make a Normal move of up to 6&quot; instead. In either case, until the end of the turn, that unit is not eligible to declare a charge.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="d0ad-643f-41db-76b4" name="Doombolt (Psychic)" hidden="false" typeId="6be6-a982-36ad-841a" typeName="Rituals">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="ace0-c8c2-e1fe-18b0">7</characteristic>
-            <characteristic name="Effect" typeId="4e3c-58dd-9e6e-e1f4">Select one enemy unit within 24&quot; of and visible to the manifesting model (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12&quot; of the manifesting model); that unit suffers D3 mortal wounds. If the Psychic test result for this Ritual was 11+, that unit suffers D3+3 mortal wounds instead.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="e595-1ea6-ed77-6206" name="Twist of Fate (Psychic)" hidden="false" typeId="6be6-a982-36ad-841a" typeName="Rituals">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="ace0-c8c2-e1fe-18b0">9</characteristic>
-            <characteristic name="Effect" typeId="4e3c-58dd-9e6e-e1f4">Select one enemy unit within 24&quot; of and visible to the manifesting model. Until the end of the phase, each time a ^^**Thousand Sons^^** or ^^**Scintillating Legion^^** model from your army makes an attack that targets that unit, improve the Armour Penetration characteristic of that attack by 1. If the Psychic test result for this Ritual was 12+, improve the Armour Penetration characteristic of that attack by 2 instead.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="b907-2b09-5592-c155" name="Configuration" hidden="false" targetId="4ac9-fd30-1e3d-b249" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <entryLinks>
     <entryLink id="5aa6-fabd-9ce9-01f9" name="Detachment" hidden="false" collective="false" import="true" targetId="3b0d-dccf-8661-be1c" type="selectionEntry"/>
     <entryLink id="0e64-a79a-af7c-5b5f" name="Chaos Land Raider" hidden="false" collective="false" import="true" targetId="dfde-eaff-e63e-3aae" type="selectionEntry"/>
