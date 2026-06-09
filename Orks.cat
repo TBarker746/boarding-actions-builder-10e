@@ -690,28 +690,6 @@
         <categoryLink name="Melee Weapon" hidden="false" id="ca7c-3ca0-421d-cca9" targetId="ccdd-3987-11ed-90cd" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Thump gun" hidden="false" id="109a-db29-c4a5-f826" collective="false">
-      <profiles>
-        <profile name="Thump gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2031-57b9-ff7d-5ce2">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Blast" hidden="false" type="rule" id="6e4-b1b-6258-40bf" targetId="6c1f-1cf7-ff25-c99e"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Attacks Dx Weapon" hidden="false" id="6e7e-53d4-74d6-8307" targetId="e993-e086-6de1-12af" primary="false"/>
-        <categoryLink name="Ranged Weapon" hidden="false" id="f00e-db1e-0350-15fe" targetId="eeda-8544-a2f3-3fab" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
     <selectionEntry type="model" import="true" name="Big Mek in Mega Armour" hidden="false" id="95e9-6da3-5e75-2566">
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="b42d-7934-9b0c-56e4"/>
@@ -1529,8 +1507,7 @@ Designer’s Note: Place a Grot Oiler token next to the unit, removing it once t
               <characteristics>
                 <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following unit:
 
-■ ^^**KOMMANDOS^^**
-</characteristic>
+■ ^^**KOMMANDOS^^**</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5392,7 +5369,6 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="4766-2c5c-dccc-46f4" primary="true" name="Infantry"/>
         <categoryLink targetId="dda2-bb0a-215e-ad9c" id="d27-7ffc-90ba-378a" primary="false" name="Jump Pack"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="17f3-c24e-f95a-4496" primary="false" name="Fly"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="f24e-61d3-3bbe-d0e6" primary="false" name="Grenades"/>
         <categoryLink targetId="76e1-1bfc-28c8-5458" id="9322-6075-b6a1-a0c2" primary="false" name="Stormboyz"/>
         <categoryLink targetId="56cc-5f43-2403-8da0" id="5339-f6ce-11cf-6909" primary="false" name="Faction: Orks"/>
@@ -5877,8 +5853,7 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
               <characteristics>
                 <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following unit:
 
-■ ^^**MEGABOYZ^^**
-</characteristic>
+■ ^^**MEGABOYZ^^**</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8873,29 +8848,6 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Twin dakkagun" hidden="false" id="dc72-6a9b-5792-557a" collective="true">
-      <profiles>
-        <profile name="Twin dakkagun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2a24-7d4d-f8d9-148">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Rapid Fire 2, Twin-linked</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Assault" hidden="false" type="rule" id="d49d-bde7-af21-2b79" targetId="fc8a-8c24-bae9-cc1c"/>
-        <infoLink name="Twin-linked" hidden="false" type="rule" id="6900-cb12-abce-acc4" targetId="cf93-ad4d-2f08-a79d"/>
-        <infoLink name="Rapid Fire" hidden="false" type="rule" id="aee2-45db-4e73-acf1" targetId="c5c8-8b58-b8b6-7786"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Ranged Weapon" hidden="false" id="5aae-0d58-8de1-5b5f" targetId="eeda-8544-a2f3-3fab" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
     <selectionEntry type="model" import="true" name="Ufthak Blackhawk [Legends]" hidden="false" id="21c1-62d6-9682-4fb6">
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="efb5-3ce0-3976-8983" primary="false" name="Infantry"/>
@@ -9246,45 +9198,6 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Spanner" hidden="false" id="e4ce-4da4-d613-8447">
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Big Shoota" id="8535-437e-2b2b-c427" hidden="false" defaultSelectionEntryId="281d-c040-53a5-fe38">
-          <entryLinks>
-            <entryLink import="true" name="Big shoota" hidden="false" id="281d-c040-53a5-fe38" type="selectionEntry" targetId="1fa0-d99a-154f-ffd8">
-              <entryLinks>
-                <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="88c8-fddd-3e39-ce79" type="selectionEntryGroup" targetId="842b-9f68-c894-4808"/>
-              </entryLinks>
-            </entryLink>
-            <entryLink import="true" name="Kustom mega-blasta" hidden="false" id="8790-eb43-ef46-15c2" type="selectionEntry" targetId="7242-bca9-a3c7-ba6a">
-              <entryLinks>
-                <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="fc40-ae6f-6141-c9bf" type="selectionEntryGroup" targetId="842b-9f68-c894-4808"/>
-              </entryLinks>
-            </entryLink>
-            <entryLink import="true" name="Rokkit launcha" hidden="false" id="af8b-34d1-237-bebf" type="selectionEntry" targetId="80bc-5c89-4125-2253">
-              <entryLinks>
-                <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="21e6-55c2-4e23-6888" type="selectionEntryGroup" targetId="842b-9f68-c894-4808"/>
-              </entryLinks>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8fc2-8358-1a05-d9a2" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2862-b709-93be-b0de" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink import="true" name="Close combat weapon" hidden="false" id="38d3-7b86-03e8-0ec2" type="selectionEntry" targetId="0534-7359-3392-9d1b">
-          <entryLinks>
-            <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="07e0-2cdd-051b-5762" type="selectionEntryGroup" targetId="842b-9f68-c894-4808"/>
-          </entryLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4d21-f732-3309-51a8"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd39-dbb2-86b4-37e5"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <comment>Lootas variant</comment>
-    </selectionEntry>
     <selectionEntry type="model" import="true" name="Gretchin" hidden="false" id="f019-5df1-88d5-ddc7">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Close combat weapon" hidden="false" id="8df-71e4-ccf5-99e8" collective="true">
@@ -9390,24 +9303,6 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
           </entryLinks>
         </entryLink>
       </entryLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Smash hammer" hidden="false" id="5987-fa47-5ae9-93d2">
-      <profiles>
-        <profile name="Smash hammer" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="eb9e-51da-2dbb-a680">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Monster 4+, Anti-Vehicle 4+</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Anti-" id="b5e7-fc9b-06ac-66b3" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="4e6a-844c-26bf-2b5d" collective="true">
       <comment>A3 S5</comment>
@@ -9954,22 +9849,6 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
         </profile>
       </profiles>
       <comment>S7</comment>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Spiked wheel" hidden="false" id="ec64-9626-e7ca-27d7" collective="true">
-      <profiles>
-        <profile name="Spiked wheel" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="b22d-d9a2-7a24-3a65">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <comment>A2 S6</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Spiked wheel" hidden="false" id="fa04-6371-c977-b6fa" collective="true">
       <profiles>
@@ -11942,27 +11821,21 @@ Additionally, once per battle, at the start of the battle round, you can call a 
     <categoryEntry name="Burna-bommer" hidden="false" id="e6ec-34d5-bc79-faf1"/>
     <categoryEntry name="Dakkajet" hidden="false" id="7f64-b4fb-d85c-7f31"/>
     <categoryEntry name="Deff Dread" hidden="false" id="f74a-ca35-c668-aa3d"/>
-    <categoryEntry name="Deffkilla Wartrike" hidden="false" id="1b8c-203a-e329-2a02"/>
     <categoryEntry name="Deffkoptas" hidden="false" id="6564-d296-e11a-6e19"/>
     <categoryEntry name="Flash Gitz" hidden="false" id="fe29-da32-d3db-1192"/>
-    <categoryEntry name="Ghazghkull Thraka" hidden="false" id="ae9d-f74f-769c-5fc"/>
     <categoryEntry name="Gorkanaut" hidden="false" id="e6c0-9d12-619e-7517"/>
     <categoryEntry name="Gretchin" hidden="false" id="b10e-5fe3-6f65-28ce"/>
     <categoryEntry name="Hunta Rig" hidden="false" id="6c11-1242-7b31-f64f"/>
-    <categoryEntry name="Kaptin Badrukk" hidden="false" id="58a3-ceaa-ac78-f8f4"/>
     <categoryEntry name="Kill Rig" hidden="false" id="8add-6451-d41f-bcf8"/>
     <categoryEntry name="Killa Kans" hidden="false" id="d64b-c6f7-dacf-4035"/>
     <categoryEntry name="Kommandos" hidden="false" id="ea04-65cb-163b-60dc"/>
     <categoryEntry name="Kustom Boosta-blasta" hidden="false" id="c4e1-c0a9-5b41-2331"/>
-    <categoryEntry name="Mad Dok Grotsnik" hidden="false" id="430e-8380-16eb-ec9c"/>
     <categoryEntry name="Painboy" hidden="false" id="d844-fb57-f3b6-1560"/>
     <categoryEntry name="Meganobz" hidden="false" id="d85d-1dad-b832-cf9f"/>
     <categoryEntry name="Megatrakk Scrapjet" hidden="false" id="38c7-a600-3893-848b"/>
     <categoryEntry name="Mek" hidden="false" id="f802-1e3a-d9ce-aa99"/>
     <categoryEntry name="Mek Gunz" hidden="false" id="53b0-fb83-5e75-9a51"/>
     <categoryEntry name="Morkanaut" hidden="false" id="1074-5be7-326a-af90"/>
-    <categoryEntry name="Mozrog Skragbad" hidden="false" id="4bb4-1a6e-13bb-e02f"/>
-    <categoryEntry name="Nob with Waaagh! Banner" hidden="false" id="25e0-82e0-8ebb-b19f"/>
     <categoryEntry name="Nobz" hidden="false" id="8c0d-c331-6446-ae26"/>
     <categoryEntry name="Painboss" hidden="false" id="697d-7e4d-e117-fd5d"/>
     <categoryEntry name="Rukkatrukk Squigbuggy" hidden="false" id="71aa-75c0-329-d1fe"/>
@@ -11989,18 +11862,13 @@ Additionally, once per battle, at the start of the battle round, you can call a 
     <categoryEntry name="Mekboy Workshop" hidden="false" id="cb6c-2061-2d01-5c18"/>
     <categoryEntry name="Grot Tanks" hidden="false" id="d7ad-a4c7-834c-613d"/>
     <categoryEntry name="Grot Mega-Tank" hidden="false" id="6ab4-7114-50f6-e644"/>
-    <categoryEntry name="Gargantuan Squiggoth" hidden="false" id="1e15-858a-8c44-8467"/>
     <categoryEntry name="Kill Tank" hidden="false" id="b80b-edb4-1b4c-82ae"/>
     <categoryEntry name="Mega Dread" hidden="false" id="90c4-e2e5-1688-669"/>
     <categoryEntry name="Meka-Dread" hidden="false" id="1d57-54ca-a137-11bc"/>
     <categoryEntry name="Big Trakk" hidden="false" id="1a31-2d63-1f2b-25f9"/>
     <categoryEntry name="Speed Freeks" hidden="false" id="fe8b-9078-9a3d-fed"/>
-    <categoryEntry name="Nobz on Warbikes" hidden="false" id="a851-5f73-be1a-8791"/>
     <categoryEntry name="Kannonwagon" hidden="false" id="bb8-7a99-762b-d32d"/>
     <categoryEntry name="Da Red Gobbo" hidden="false" id="731a-7e61-9186-2f1"/>
-    <categoryEntry name="Painboy on Warbike" hidden="false" id="d6f5-5eb6-8b62-2743"/>
-    <categoryEntry name="Wartrakks" hidden="false" id="4950-6488-ea91-1dcf"/>
-    <categoryEntry name="Warbuggies" hidden="false" id="fa65-47a3-7218-dc0b"/>
     <categoryEntry name="Big Gunz" hidden="false" id="d9f7-bb41-2ea2-29a4"/>
     <categoryEntry name="Deffkoptas with Big Shootas" hidden="false" id="e37e-6c4b-b3a4-9f42"/>
     <categoryEntry name="Kill Krusha" hidden="false" id="dd4f-5c6b-d535-9e8c"/>
@@ -12009,7 +11877,6 @@ Additionally, once per battle, at the start of the battle round, you can call a 
     <categoryEntry name="Fighta-Bommer" hidden="false" id="a939-1605-4c09-8e30"/>
     <categoryEntry name="Attack Fighta" hidden="false" id="40f4-6316-bcd-ff9a"/>
     <categoryEntry name="Lifta Wagon" hidden="false" id="9691-eee-7a07-3109"/>
-    <categoryEntry name="Grot Bomm Launcha" hidden="false" id="145b-9e42-6c71-e33c"/>
     <categoryEntry name="Mega Armour" hidden="false" id="ebd4-277b-d164-39da"/>
     <categoryEntry name="Grotmas Gitz" hidden="false" id="7538-fc6d-7494-ec0f"/>
     <categoryEntry name="Ufthak Blackhawk" hidden="false" id="1cdb-d3ea-ee55-f240"/>
@@ -12017,7 +11884,6 @@ Additionally, once per battle, at the start of the battle round, you can call a 
     <categoryEntry name="Grots" id="c7c7-ef60-67e3-def2" hidden="false"/>
     <categoryEntry name="Wazdakka Gutsmek" hidden="false" id="43e5-8040-abb3-e87c"/>
     <categoryEntry name="Warlord Eligible Character" hidden="false" id="1d05-5e16-9418-1a60"/>
-    <categoryEntry name="Warbikers" hidden="false" id="91f4-2f19-d7ca-b8fc"/>
     <categoryEntry name="Non-Mega Armour Warboss" hidden="false" id="cd08-b1ae-3946-11ce">
       <constraints>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="8701-5789-dc3e-7b6c"/>
@@ -12169,23 +12035,11 @@ Additionally, once per battle, at the start of the battle round, you can call a 
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-7 wounds remaining, subtract 4 from this model’s Objective Control characteristic, and each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Speed Freeks" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9156-563a-3c57-32ba">
-      <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a model from your army with the Leader ability can be attached to a WARBIKERS unit, it can be attached to this unit instead.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Invulnerable Save (4+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9980-27a7-d53a-5df0">
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
       </characteristics>
       <comment>4+ Single model</comment>
-    </profile>
-    <profile name="Bomb Squigs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1e29-7605-a22c-2eab">
-      <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, for each bomb squig this unit has, after this unit ends a Normal move, you can use one Bomb Squig. If you do, select one enemy unit within 12&quot; and visible to this unit and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds.
-
-**Designer&apos;s Note:** *Place two Bomb Squig tokens next to the unit, removing one each time this unit uses this ability.*</characteristic>
-      </characteristics>
     </profile>
     <profile name="Grot Tanks" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c25b-529f-948e-d571">
       <characteristics>
@@ -12201,11 +12055,4 @@ Additionally, once per battle, at the start of the battle round, you can call a 
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Shadowvaults Upgrades" id="9a77-c467-98e7-6ddf" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
   </catalogueLinks>
-  <profileTypes>
-    <profileType name="Try Dat Button! - D6" id="2ece-65f0-756f-bc77" hidden="false">
-      <characteristicTypes>
-        <characteristicType id="dcd0-b896-8ccf-ea83" name="Button Effect"/>
-      </characteristicTypes>
-    </profileType>
-  </profileTypes>
 </catalogue>

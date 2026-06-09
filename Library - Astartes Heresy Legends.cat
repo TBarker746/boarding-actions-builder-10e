@@ -4877,24 +4877,6 @@
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Volkite culverin" hidden="false" id="22d5-4f9d-ae18-7734">
-      <profiles>
-        <profile name="Volkite culverin" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8bcb-344e-e45d-26ae">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Devastating Wounds" hidden="false" type="rule" id="7ca7-98ee-eaa8-1612" targetId="be1e-ac8e-1e2c-3528"/>
-      </infoLinks>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Havoc launcher" hidden="false" id="8f4c-4b5-5199-7a7c" collective="false">
       <profiles>
         <profile name="Havoc launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8b3-6f-b06e-5ee2">
@@ -5806,11 +5788,6 @@
     <profile id="3106-d752-30b8-b24d" name="Damaged: 1-5 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b1c6-8391-4b18-5d57" name="Assault Ramp" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
       </characteristics>
     </profile>
     <profile name="Damaged: 1-8 wounds remaining" hidden="false" id="4362-2036-1522-de2e" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">

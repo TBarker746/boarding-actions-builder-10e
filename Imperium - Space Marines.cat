@@ -37,7 +37,6 @@
     <categoryEntry id="c7d9-a778-b8db-26d4" name="Redemptor Dreadnought" hidden="false"/>
     <categoryEntry id="c0fd-10e-543a-273d" name="Brutalis Dreadnought" hidden="false"/>
     <categoryEntry id="2ade-80d5-d39b-baeb" name="Ballistus Dreadnought" hidden="false"/>
-    <categoryEntry id="1402-5be-5df3-cd51" name="Outrider Squad" hidden="false"/>
     <categoryEntry id="4039-5a6c-522b-8faf" name="Invader ATV" hidden="false"/>
     <categoryEntry id="ca80-dc11-448e-c805" name="Storm Speeder Hailstrike" hidden="false"/>
     <categoryEntry id="40ca-7aa0-2e94-70a1" name="Storm Speeder Thunderstrike" hidden="false"/>
@@ -70,8 +69,6 @@
     <categoryEntry id="16b8-b1aa-4a6c-6e01" name="Stormraven Gunship" hidden="false"/>
     <categoryEntry name="Chapter Master" hidden="false" id="5bd8-882d-302b-48f3"/>
     <categoryEntry name="Lieutenant" hidden="false" id="9c1a-42ff-a418-11d1"/>
-    <categoryEntry name="Astraeus" hidden="false" id="2f70-e05d-9fa7-9b99"/>
-    <categoryEntry name="Thunderhawk Gunship" hidden="false" id="517c-5225-1cc6-a94a"/>
     <categoryEntry name="Land Raider Helios" hidden="false" id="b9bb-3a23-433d-22a6"/>
     <categoryEntry name="Mortis Dreadnought" hidden="false" id="6ea3-4d1e-7551-c10"/>
     <categoryEntry name="Deimos Predator" hidden="false" id="f834-621c-3327-ca13"/>
@@ -510,7 +507,11 @@
         </entryLink>
       </entryLinks>
       <modifiers>
-        <modifier type="add" value="e499-fc04-fb6b-b4f2" field="category"/>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -1084,10 +1085,14 @@
         </entryLink>
       </entryLinks>
       <modifiers>
-        <modifier type="add" value="e499-fc04-fb6b-b4f2" field="category"/>
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2573,24 +2578,6 @@
           </conditionGroups>
         </modifier>
       </modifiers>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Master-crafted Boltgun" hidden="false" id="442d-a6c1-5b5b-3a57">
-      <profiles>
-        <profile name="Master-crafted Boltgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ceda-d902-8ff-e126">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink name="Ranged Weapon" hidden="false" id="ccbc-cd18-978d-835e" targetId="eeda-8544-a2f3-3fab" primary="false"/>
-      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Hand Flamer" hidden="false" id="9dc6-6ad8-818e-db2e">
       <profiles>
@@ -6669,25 +6656,6 @@ bearer can be moved during that move</characteristic>
       </infoLinks>
       <comment>A5 WS3+ S5</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Centurion Bolters" hidden="false" id="953c-b525-10be-f7cd">
-      <profiles>
-        <profile name="Centurion Bolters" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ff26-fcab-318-9503">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 3, Twin-linked</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Twin-linked" hidden="false" type="rule" id="6154-f39f-42d2-8ba1" targetId="cf93-ad4d-2f08-a79d"/>
-        <infoLink name="Rapid Fire" hidden="false" type="rule" id="9f01-c823-4e52-b3c9" targetId="c5c8-8b58-b8b6-7786"/>
-      </infoLinks>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Twin Lascannon" hidden="false" id="e008-470a-83cb-c5e6">
       <profiles>
         <profile name="Twin Lascannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a57b-cba0-79c1-5d71">
@@ -8282,27 +8250,6 @@ bearer can be moved during that move</characteristic>
       </infoLinks>
       <categoryLinks>
         <categoryLink name="Ranged Weapon" hidden="false" id="1471-b69d-5b1b-4f12" targetId="eeda-8544-a2f3-3fab" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Twin Boltgun" hidden="false" id="a578-8e45-2a54-509d" collective="true">
-      <profiles>
-        <profile name="Twin Boltgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="57f1-496-1641-7d36">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Twin-linked" hidden="false" type="rule" id="5e43-e994-66a0-697" targetId="cf93-ad4d-2f08-a79d"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Ranged Weapon" hidden="false" id="acd7-45d6-3cd4-0872" targetId="eeda-8544-a2f3-3fab" primary="false"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Storm Speeder Hailstrike" hidden="false" id="9cb9-9ab5-727f-80e5">
@@ -17842,6 +17789,11 @@ bearer can be moved during that move</characteristic>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="062e-d109-92e8-909f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9218-abdf-376b-267d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="5647-2368-242a-39a5" includeChildSelections="false"/>
@@ -18676,26 +18628,6 @@ bearer can be moved during that move</characteristic>
         <categoryLink name="Melee Weapon" hidden="false" id="6388-dfc1-0242-5a26" targetId="ccdd-3987-11ed-90cd" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="92a8-df9c-f586-b3ce">
-      <profiles>
-        <profile name="Power Weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="229b-c3ce-11b0-d4e8">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <comment>A3 WS3+ D2</comment>
-      <categoryLinks>
-        <categoryLink name="Power Weapon" hidden="false" id="a7e5-c488-94a8-f587" targetId="72a2-ff76-451c-9d12" primary="false"/>
-        <categoryLink name="Melee Weapon" hidden="false" id="f6e5-3f5e-ebeb-ebef" targetId="ccdd-3987-11ed-90cd" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="e1b5-a74f-b2ec-c7ed">
       <profiles>
         <profile name="Power Weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="358b-8872-11ef-8159">
@@ -18851,24 +18783,6 @@ bearer can be moved during that move</characteristic>
       </categoryLinks>
       <comment>BS2+</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Combi-bolter" hidden="false" id="a6ec-ebc1-6f23-20c4" collective="true">
-      <profiles>
-        <profile name="Combi-bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2955-e772-e9bc-dda3">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Rapid Fire" id="ea64-a4cf-6794-e561" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
-      </infoLinks>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sternguard Bolt Rifle" hidden="false" id="874a-4375-dbc3-b412" collective="true">
       <profiles>
         <profile name="Sternguard Bolt Rifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9147-c4eb-b09d-05b5">
@@ -19015,70 +18929,6 @@ bearer can be moved during that move</characteristic>
         </profile>
       </profiles>
       <comment>A6 WS3+</comment>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Twin Lightning Claws" hidden="false" id="12dc-fcb6-2ac2-7354">
-      <profiles>
-        <profile name="Twin Lightning Claws" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="984e-3569-7d97-5858">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Twin-linked" id="733f-787a-d833-e4cf" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
-      </infoLinks>
-      <comment>A5 WS3+ S4</comment>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Twin Flamer" hidden="false" id="84b8-7da0-ba32-13cf">
-      <profiles>
-        <profile name="Twin Flamer" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="973d-164d-03bd-5b2f">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Torrent, Twin-linked</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Torrent" id="88b1-38f8-aa6f-eb0a" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
-        <infoLink name="Ignores Cover" id="1c58-e1f1-39b8-dd90" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
-        <infoLink name="Twin-linked" id="90c3-906d-9165-d3e3" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Attacks Dx Weapon" hidden="false" id="1cff-640e-86b3-6e21" targetId="e993-e086-6de1-12af" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Twin Meltagun" hidden="false" id="4f80-b9b6-5209-2f99">
-      <profiles>
-        <profile name="Twin Meltagun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c0a9-bcff-02b0-914d">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2, Twin-linked</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Melta" id="6ff6-eaf1-fce0-9d91" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
-        <infoLink name="Twin-linked" id="3e74-fcd5-1f9b-d9d3" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Damage Dx Weapon" hidden="false" id="ac81-7b56-2377-fb75" targetId="4986-bf86-beb4-13ac" primary="false"/>
-      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sternguard Heavy Bolter" hidden="false" id="a418-befd-3e1b-87be">
       <profiles>
@@ -19279,53 +19129,6 @@ bearer can be moved during that move</characteristic>
       </categoryLinks>
       <comment>BS2+</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Combi-weapon" id="5a86-7f58-486e-da93" collective="true">
-      <profiles>
-        <profile name="Combi-weapon" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" id="7cfc-1342-bca2-ad8f">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Anti-" hidden="false" type="rule" id="799a-b99e-8d9c-17c0" targetId="4111-82e3-9444-e942"/>
-        <infoLink name="Devastating Wounds" hidden="false" type="rule" id="a4c6-0327-64e6-2068" targetId="be1e-ac8e-1e2c-3528"/>
-        <infoLink name="Rapid Fire" hidden="false" type="rule" id="fb27-7c74-b191-c1e7" targetId="c5c8-8b58-b8b6-7786"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Ranged Weapon" hidden="false" id="9a18-1528-4524-be86" targetId="eeda-8544-a2f3-3fab" primary="false"/>
-      </categoryLinks>
-      <comment>BS3+</comment>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Storm Bolter" id="9f00-4659-692a-9dc1" collective="true">
-      <profiles>
-        <profile name="Storm Bolter" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" id="d1b5-8c33-e154-5b7d">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Rapid Fire" hidden="false" type="rule" id="ad1a-7ce3-339e-e10e" targetId="c5c8-8b58-b8b6-7786"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Ranged Weapon" hidden="false" id="715e-a4ff-71fa-7087" targetId="eeda-8544-a2f3-3fab" primary="false"/>
-        <categoryLink name="Bolt Weapon" hidden="false" id="32d2-ab27-e6a8-9c1c" targetId="1c08-e7e4-55b9-8e30" primary="false"/>
-      </categoryLinks>
-      <comment>BS2+</comment>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Inferno Pistol" hidden="false" id="7628-8029-9230-b60f">
       <profiles>
         <profile name="Inferno Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ca56-1d95-129c-8b97">
@@ -19350,30 +19153,6 @@ bearer can be moved during that move</characteristic>
         <categoryLink name="Damage Dx Weapon" hidden="false" id="ba07-b21b-092d-c157" targetId="4986-bf86-beb4-13ac" primary="false"/>
       </categoryLinks>
       <comment>BS2+</comment>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Grav-pistol" hidden="false" id="1963-8e82-d06d-3b67">
-      <profiles>
-        <profile name="Grav-pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="66c9-79a1-6f19-5849">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 2+, Pistol</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Pistol" hidden="false" type="rule" id="c90f-e4a7-e28f-0cdc" targetId="8bf7-8812-923d-29e4"/>
-        <infoLink name="Anti-" id="5036-a731-162b-a8c6" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Ranged Weapon" hidden="false" id="6dbc-f5b1-aa6c-f133" targetId="eeda-8544-a2f3-3fab" primary="false"/>
-        <categoryLink name="Pistol Weapon" hidden="false" id="2aac-4b4f-9f10-137d" targetId="1db0-c6b5-19db-8d0c" primary="false"/>
-      </categoryLinks>
-      <comment>BS2+ D2</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Cyclone missile launcher" hidden="false" id="da0b-ae86-a275-13f1">
       <profiles>
@@ -19438,27 +19217,6 @@ bearer can be moved during that move</characteristic>
       </categoryLinks>
       <comment>BS3+</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Castellan Launcher" hidden="false" id="566c-9e8f-3121-93b0" collective="true">
-      <profiles>
-        <profile name="Castellan Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a6dc-1923-9f2a-9aea">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Indirect Fire</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Blast" id="8edd-6d8c-74a4-261b" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Attacks Dx Weapon" hidden="false" id="8e96-e021-2a3b-65b1" targetId="e993-e086-6de1-12af" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Pyreblaster" hidden="false" id="2737-cb80-0c3a-3dfa" collective="true">
       <profiles>
         <profile name="Pyreblaster" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="549b-ba24-d0d2-84e5">
@@ -19500,70 +19258,6 @@ bearer can be moved during that move</characteristic>
         <infoLink name="Heavy" id="1f38-659f-467b-3650" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
         <infoLink name="Melta" id="a1f5-6830-fee0-161a" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
       </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Las fusil" hidden="false" id="631b-bd1f-e76a-e166" collective="true">
-      <profiles>
-        <profile name="Las fusil" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b2aa-30c5-6209-acf6">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Heavy" id="c3cc-43e8-cbc1-55b2" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Damage Dx Weapon" hidden="false" id="f247-7493-359b-f194" targetId="4986-bf86-beb4-13ac" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Vengor Launcher" hidden="false" id="7d58-3576-d40e-b858">
-      <profiles>
-        <profile name="Vengor Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="de73-77d2-0452-040f">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Indirect Fire</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Blast" id="f62d-bbeb-79ee-ceaf" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Attacks Dx Weapon" hidden="false" id="0296-ef13-2d16-5e7b" targetId="e993-e086-6de1-12af" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Centurion missile launcher" hidden="false" id="3a62-4b8b-b60b-2ee6">
-      <profiles>
-        <profile name="Centurion missile launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0dae-897e-2b7a-3fc4">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Blast" id="dcd4-4dc4-8a02-5a78" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Attacks Dx Weapon" hidden="false" id="ee4e-ac26-7da4-8075" targetId="e993-e086-6de1-12af" primary="false"/>
-        <categoryLink name="Damage Dx Weapon" hidden="false" id="6037-d7d2-c667-3825" targetId="4986-bf86-beb4-13ac" primary="false"/>
-      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dreadnought Inferno Cannon" hidden="false" id="57e6-cc22-1cd7-a64c">
       <profiles>
@@ -20337,8 +20031,4 @@ If this unit has the **^^Infantry^^** keyword:
       </modifiers>
     </rule>
   </sharedRules>
-  <infoLinks>
-    <infoLink name="Oath of Moment" id="001d-723a-56e2-f202" hidden="false" type="rule" targetId="3b76-4053-ece9-6e7d"/>
-    <infoLink name="Templar Vows" id="19ab-a61f-9a09-a0f0" hidden="false" type="rule" targetId="f26c-4b28-aaea-40cf"/>
-  </infoLinks>
 </catalogue>

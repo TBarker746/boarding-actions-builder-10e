@@ -15415,26 +15415,6 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
       </profiles>
       <comment>S6</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Close combat weapons" hidden="false" id="c772-1b47-5ec7-4d06">
-      <comment>Legends</comment>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d97d-280b-babc-5198"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c33a-a895-467f-c260"/>
-      </constraints>
-      <profiles>
-        <profile name="Close combat weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a0e-f155-30fa-ca6a">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Laspistol" hidden="false" id="1211-ef94-5ea9-6a50" collective="false">
       <profiles>
         <profile name="Laspistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b249-31b-25e0-f468">
@@ -17871,7 +17851,6 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
     <categoryEntry name="Malcador" hidden="false" id="fe6d-46db-c226-e998"/>
     <categoryEntry name="Malcador Annihilator" hidden="false" id="6501-966b-bf99-20d1"/>
     <categoryEntry name="Malcador Defender" hidden="false" id="d7dc-1aca-3600-b308"/>
-    <categoryEntry name="Medusa Carriage Battery" hidden="false" id="b715-924c-c0ba-a1d8"/>
     <categoryEntry name="Stormblade" hidden="false" id="e5ad-9735-85d1-74b7"/>
     <categoryEntry name="Macharius" hidden="false" id="412a-a6de-6536-850"/>
     <categoryEntry name="Macharius Vanquisher" hidden="false" id="f828-4dc7-58d2-fbc5"/>
@@ -17885,7 +17864,6 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
     <categoryEntry name="Vulture Gunship" hidden="false" id="186-1870-aae2-b084"/>
     <categoryEntry name="Marauder Bomber" hidden="false" id="e17c-b0bd-b152-2554"/>
     <categoryEntry name="Marauder Destroyer" hidden="false" id="519c-4235-2fee-9703"/>
-    <categoryEntry name="Tarantula Battery" hidden="false" id="ca84-313b-dd15-a43e"/>
     <categoryEntry name="Hades Breaching Drill" hidden="false" id="4b9d-60e7-1370-ffed"/>
     <categoryEntry name="Trojan Support Vehicle" hidden="false" id="d3ea-fb59-8529-553d"/>
     <categoryEntry name="Valkyrie Sky Talon" hidden="false" id="4a73-12ce-4fca-5c61"/>
@@ -17905,7 +17883,6 @@ This model cannot be selected as your **^^Warlord^^** and cannot be given Enhanc
     <categoryEntry name="Arvus Lighter" hidden="false" id="52c1-7aeb-a6e6-8383"/>
     <categoryEntry name="Griffon Mortar Carrier" hidden="false" id="3c7b-b47d-1eb2-7f8a"/>
     <categoryEntry name="Sentinel Powerlifter" hidden="false" id="e78-7bc6-3dc5-8e37"/>
-    <categoryEntry name="Manticore Platform" hidden="false" id="297b-4501-6c8e-2c2f"/>
     <categoryEntry name="Vendetta Gunship" hidden="false" id="4f75-8f55-2751-208d"/>
     <categoryEntry name="Minotaur" hidden="false" id="c1fd-16c3-71fa-98e5"/>
     <categoryEntry name="Ratlings" hidden="false" id="2810-9f9e-082d-8df5"/>

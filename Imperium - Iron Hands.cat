@@ -162,7 +162,6 @@
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Iron Father Ferrios" hidden="false" id="ccae-25d8-84c1-913f"/>
-    <categoryEntry name="Caanok Var" id="bc59-90e6-939a-f5d8" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink import="true" name="Iron Father Feirros" hidden="false" type="selectionEntry" id="545-17a0-487d-d535" targetId="6c9d-4ec3-69dd-90b2"/>

@@ -3835,7 +3835,6 @@
     <categoryEntry name="Chief Librarian Mephiston" hidden="false" id="369e-b2c9-4637-8cba"/>
     <categoryEntry name="Commander Dante" hidden="false" id="742d-f2f8-2cec-67b3"/>
     <categoryEntry name="Death Company Dreadnought" hidden="false" id="d7bd-dd9-4492-cf9a"/>
-    <categoryEntry name="Death Company Intercessors" hidden="false" id="18d-e753-9859-b059"/>
     <categoryEntry name="Death Company Marines" hidden="false" id="caed-a62d-2318-dda1"/>
     <categoryEntry name="Death Company Marines with Jump Packs" hidden="false" id="bd17-5cbb-7db8-e23a"/>
     <categoryEntry name="Furioso Dreadnought" hidden="false" id="2ee1-97ca-5a76-906a"/>
@@ -3846,19 +3845,12 @@
     <categoryEntry name="The Sanguinor" hidden="false" id="8f39-9585-fc72-ba71"/>
     <categoryEntry name="Death Company Marines with Bolt Rifles" id="3055-9a0b-b062-5f31" hidden="false"/>
     <categoryEntry name="Pistol replacement" id="f06c-dfec-c720-57f1" hidden="true"/>
-    <categoryEntry name="Death Company Marines with Boltguns" hidden="false" id="d57c-d980-bdae-2999"/>
-    <categoryEntry name="Death Company Marines with Boltguns and Jump Packs" hidden="false" id="f884-eba8-9896-a544"/>
     <categoryEntry name="DCo Weapon Swap" hidden="false" id="0419-b4c1-bd6a-e0f0"/>
   </categoryEntries>
   <sharedProfiles>
     <profile name="Black Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3e0a-31f-8be-e293">
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a melee attack, you can re-roll the Hit roll. While this model&apos;s unit is not within 6&quot; of one or more friendly **^^Blood Angels Character^^** models, or 12&quot; of one or more friendly **^^Chaplain^^** models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Visions of Heresy" hidden="false" id="6b69-8f10-6d74-706c" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
-      <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, you can target this unit with the Fire Overwatch Stratagem or the Heroic Intervention Stratagem for 0CP. While resolving that Strategem, each time a model in this unit makes a ranged attack you can re-roll the Hit roll, or you can re-roll the Charge roll made for this unit [whichever applies]</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

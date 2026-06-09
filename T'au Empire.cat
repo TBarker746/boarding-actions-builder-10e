@@ -28,15 +28,6 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Guardian Drone" hidden="false" id="1549-5b7-b34e-e156">
-      <profiles>
-        <profile name="Guardian Drone" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7c13-8707-b827-3d35">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Marker Drone" hidden="false" id="ebac-f783-8a80-8c4a">
       <profiles>
         <profile name="Marker Drone" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2026-4469-a453-d24e">
@@ -9051,28 +9042,6 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
       </profiles>
       <comment>A2 WS3+ S4</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Pulse pistol" hidden="false" id="ba81-87dc-de58-d901" collective="false">
-      <comment>BS3+</comment>
-      <infoLinks>
-        <infoLink name="Pistol" hidden="false" type="rule" id="34ae-ff43-42bc-5a79" targetId="8bf7-8812-923d-29e4"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Pulse pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1d9d-8bec-3860-3c43">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink name="Ranged Weapon" hidden="false" id="6f65-49e4-22b7-5a57" targetId="eeda-8544-a2f3-3fab" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Pulse blaster" hidden="false" id="13ec-4217-90b8-e270" collective="true">
       <infoLinks>
         <infoLink name="Assault" id="7401-9fe0-5278-cd9e" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
@@ -12020,7 +11989,6 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
     <categoryEntry name="Shaper" hidden="false" id="39f9-dcd3-1e80-fa1f"/>
     <categoryEntry name="Kroot" hidden="false" id="79c5-9fc4-7b97-7c3f"/>
     <categoryEntry name="Battlesuit" hidden="false" id="7288-48b3-c4df-66c6"/>
-    <categoryEntry name="Commander Shadowsun" hidden="false" id="c01-280c-2446-228c"/>
     <categoryEntry name="Commander Farsight" hidden="false" id="a1ff-64a0-bc3d-177a"/>
     <categoryEntry name="Ethereal" hidden="false" id="e6e-aad6-ee91-7c3c"/>
     <categoryEntry name="Commander in Crisis Battlesuit" hidden="false" id="8a84-2e6d-d906-9e66"/>
@@ -12040,7 +12008,6 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
     <categoryEntry name="Crisis" hidden="false" id="5409-827f-b23f-5ac"/>
     <categoryEntry name="Stealth" hidden="false" id="76ec-55b5-1805-5855"/>
     <categoryEntry name="Ghostkeel" hidden="false" id="ca95-5f2a-e510-7dbb"/>
-    <categoryEntry name="Firesight Team" hidden="false" id="ee69-67d3-6851-d7f2"/>
     <categoryEntry name="Pathfinder Team" hidden="false" id="c3af-6e36-252c-1006"/>
     <categoryEntry name="Piranha" hidden="false" id="69ad-9250-6e74-46ff"/>
     <categoryEntry name="Vespid Stingwings" hidden="false" id="b0eb-efa7-735c-4174"/>
@@ -12056,13 +12023,11 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
     <categoryEntry name="Tidewall Droneport" hidden="false" id="b7a-b0ee-a2ae-e54"/>
     <categoryEntry name="Tidewall Gunrig" hidden="false" id="5151-516e-3ecc-8b51"/>
     <categoryEntry name="Stormsurge" hidden="false" id="1ad9-8254-80e7-5425"/>
-    <categoryEntry name="Tactical Drones" hidden="false" id="a36e-3fe6-19a8-80f0"/>
     <categoryEntry name="Farstalkers" hidden="false" id="d4bd-9928-e74e-9605"/>
     <categoryEntry name="R&apos;varna" hidden="false" id="61e8-a40b-df38-3ae6"/>
     <categoryEntry name="Y&apos;vahra" hidden="false" id="fb2c-38ee-6ea4-79d0"/>
     <categoryEntry name="Tetras" hidden="false" id="2560-a167-c5a1-d002"/>
     <categoryEntry name="Remora Stealth Drones" hidden="false" id="bd3c-503b-ea7d-105d"/>
-    <categoryEntry name="Ta&apos;unar Supremacy Armour" hidden="false" id="a464-ec26-8197-aa96"/>
     <categoryEntry name="Barracuda" hidden="false" id="8035-bf10-9973-ebac"/>
     <categoryEntry name="Tiger Shark" hidden="false" id="35c6-6866-e393-a011"/>
     <categoryEntry name="AX-1-0 Tiger Shark" hidden="false" id="b258-865a-15d7-27dd"/>

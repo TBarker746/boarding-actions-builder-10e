@@ -283,242 +283,6 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Veteran Weapons" hidden="false" id="3df8-1033-963a-ea9d" defaultSelectionEntryId="8bf4-9110-d4f8-ae4e">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Boltgun &amp; Long Vigil melee weapon" hidden="false" id="8bf4-9110-d4f8-ae4e">
-          <entryLinks>
-            <entryLink import="true" name="Boltgun" hidden="false" type="selectionEntry" id="fef7-86b8-23c1-e1f3" targetId="4d-5d79-b348-19ee">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b439-5289-6fc2-2473"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="214f-1055-c2ea-be7b"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Long Vigil melee weapon" hidden="false" type="selectionEntry" id="6bdb-76f0-ff39-1994" targetId="e3f6-2750-6e07-a27">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6155-1805-3529-a600"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b85-a6f6-8cd0-31ce"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9a5-f611-41b5-c6b7"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Long Vigil ranged weapon &amp; close combat weapon" hidden="false" id="6b76-a5a2-c4ab-73d6">
-          <entryLinks>
-            <entryLink import="true" name="Long Vigil ranged weapon" hidden="false" type="selectionEntry" id="e80e-700f-2b8b-68e3" targetId="9be1-2f4b-22b5-6780">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a04-4f7a-13f1-8348"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e76-606c-f420-8f0f"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Close combat weapon" hidden="false" type="selectionEntry" id="2c5-e198-b699-13d0" targetId="2078-20a8-181f-a708">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e8d2-6330-5217-f01b"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="758e-b851-8996-32af"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c4b9-c666-757b-74fd"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Astartes shield, Boltgun &amp; close combat weapon" hidden="false" id="d540-e495-1aa8-1a90">
-          <profiles>
-            <profile name="Astartes shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5400-6db5-9c87-ccee">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has a 4+ invulnerable save.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <entryLinks>
-            <entryLink import="true" name="Boltgun" hidden="false" type="selectionEntry" id="9da1-5274-dc24-b5bc" targetId="4d-5d79-b348-19ee">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb94-ce0d-5830-a503"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ffef-2d8c-33b6-b2c"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Close combat weapon" hidden="false" type="selectionEntry" id="5d4b-253d-4870-3330" targetId="2078-20a8-181f-a708">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="77a2-f17a-5637-5fc0"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac37-8df5-3c6d-abc2"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8aea-7ff4-50f9-fd11"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Astartes shield &amp; Long Vigil melee weapon" hidden="false" id="b91c-2e76-6cf-4fe6">
-          <profiles>
-            <profile name="Astartes shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="70c1-8ba7-16e0-6bcf">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has a 4+ invulnerable save.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f5d-6a73-3062-d37e"/>
-          </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Long Vigil melee weapon" hidden="false" type="selectionEntry" id="f1b4-4ede-5bff-6ab9" targetId="e3f6-2750-6e07-a27">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="edef-1fe2-ecbf-e4a9"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="177b-7e77-e09-8580"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="effa-3379-827-b4fc"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f279-83eb-d0a0-aebd"/>
-      </constraints>
-    </selectionEntryGroup>
-    <selectionEntryGroup name="Veteran Heavy Weapons" hidden="false" id="7733-3c89-d4c4-bf17" defaultSelectionEntryId="7f97-e07c-48ee-a914">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Frag cannon &amp; close combat weapon" hidden="false" id="b72e-bbda-d1af-a5ff">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1123-48e2-68d-11b5"/>
-          </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Close combat weapon" hidden="false" type="selectionEntry" id="6cda-bfdb-15dd-9130" targetId="2078-20a8-181f-a708">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e8d2-6330-5217-f01b"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="758e-b851-8996-32af"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Frag Cannon" hidden="false" id="f933-387d-f6b9-3f7a">
-              <profiles>
-                <profile name="Frag Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="842b-a185-5c0-dd4c" publicationId="4115-3627-e608-39f6" page="13">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Heavy, Rapid Fire D3</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd03-5bf2-c07-8510"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="755a-a5b9-f0a6-e29c"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Blast" hidden="false" type="rule" id="bbb4-9a-233a-37d9" targetId="6c1f-1cf7-ff25-c99e"/>
-                <infoLink name="Heavy" hidden="false" type="rule" id="6ec-7e5e-eb5f-aa78" targetId="1202-10a8-78e9-4c67"/>
-                <infoLink name="Rapid Fire" hidden="false" type="rule" id="a80d-7059-ee68-fd8c" targetId="c5c8-8b58-b8b6-7786"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink name="Attacks Dx Weapon" hidden="false" id="574c-fbd1-01bb-aa52" targetId="e993-e086-6de1-12af" primary="false"/>
-              </categoryLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Boltgun &amp; Long Vigil melee weapon" hidden="false" id="7f97-e07c-48ee-a914">
-          <entryLinks>
-            <entryLink import="true" name="Boltgun" hidden="false" type="selectionEntry" id="8ea5-fc37-806c-5837" targetId="4d-5d79-b348-19ee">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b439-5289-6fc2-2473"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="214f-1055-c2ea-be7b"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Long Vigil melee weapon" hidden="false" type="selectionEntry" id="77f9-b5e0-f7c5-be96" targetId="e3f6-2750-6e07-a27">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6155-1805-3529-a600"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b85-a6f6-8cd0-31ce"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9a5-f611-41b5-c6b7"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Infernus heavy bolter &amp; close combat weapon" hidden="false" id="2626-e526-74d6-8ac7" publicationId="4115-3627-e608-39f6" page="13">
-          <entryLinks>
-            <entryLink import="true" name="Close combat weapon" hidden="false" type="selectionEntry" id="dc46-d89-a1df-a9a" targetId="2078-20a8-181f-a708">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e8d2-6330-5217-f01b"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="758e-b851-8996-32af"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Infernus heavy bolter" hidden="false" id="56ac-611b-d57b-9cce" type="selectionEntry" targetId="ef13-323d-7627-dc7">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4c74-07d5-99c8-ded9-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c74-07d5-99c8-ded9-max" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65a9-69b5-bf32-8f0d"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Missile launcher &amp; close combat weapon" hidden="false" id="ef51-9159-c3c3-4cb0">
-          <entryLinks>
-            <entryLink import="true" name="Close combat weapon" hidden="false" type="selectionEntry" id="e95-969d-c28e-e648" targetId="2078-20a8-181f-a708">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e8d2-6330-5217-f01b"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="758e-b851-8996-32af"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a33-2b8a-740a-8d5"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="6e17-a8ca-1df5-4b7b">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5f23-5e96-d20-547"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77ec-a988-8324-84d6"/>
-              </constraints>
-              <profiles>
-                <profile name="➤ Missile Launcher - frag" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a335-719a-a935-dcbe">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Heavy</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="➤ Missile Launcher - krak" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a773-ddc2-3f10-b7b1">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Blast" hidden="false" type="rule" id="ac14-bd92-1234-1742" targetId="6c1f-1cf7-ff25-c99e"/>
-                <infoLink name="Heavy" hidden="false" type="rule" id="e221-24e5-bc3a-bddd" targetId="1202-10a8-78e9-4c67"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="88ab-39b-e7ba-770e" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
-      </selectionEntries>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af35-6eeb-f516-ef83"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52ec-37fc-2419-4438"/>
-      </constraints>
-    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <categoryEntries>
     <categoryEntry name="Watch Master" hidden="false" id="6e-71bd-2538-d468" publicationId="4115-3627-e608-39f6"/>
@@ -860,37 +624,6 @@
         <infoLink name="Sustained Hits" hidden="false" type="rule" id="2943-4127-78e0-cdeb" targetId="1897-c22c-9597-12b1"/>
         <infoLink name="Torrent" hidden="false" type="rule" id="8181-3e87-2cc4-51d9" targetId="5edf-d619-23e0-9b56"/>
         <infoLink name="Ignores Cover" hidden="false" type="rule" id="5c63-5f25-6fbe-122b" targetId="4640-43e7-30b-215a"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Plasma pistol" hidden="false" id="2902-b665-48b6-bb09" collective="true">
-      <comment>Armoury - 3+</comment>
-      <profiles>
-        <profile name="➤ Plasma pistol - Standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c4be-29a8-52c7-949" publicationId="4115-3627-e608-39f6" page="29">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="➤ Plasma pistol - Supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4aed-ac70-60c-ae7b" publicationId="4115-3627-e608-39f6" page="29">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Hazardous" hidden="false" type="rule" id="73b8-d622-86fc-bc75" targetId="8367-374c-f87-c627"/>
-        <infoLink name="Pistol" hidden="false" type="rule" id="6efa-d138-894f-5be0" targetId="8bf7-8812-923d-29e4"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Long Vigil ranged weapon" hidden="false" id="9be1-2f4b-22b5-6780">
@@ -1703,22 +1436,6 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd2e-e205-b45a-303b" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Close combat weapon" hidden="false" id="c23d-db22-8cc8-dda9" collective="true">
-      <profiles>
-        <profile name="Close combat weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1914-74b5-ec91-e6b5">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <comment>3/3/4/0/1</comment>
-    </selectionEntry>
     <selectionEntry type="unit" import="false" name="Deathwatch Veterans" hidden="false" id="66ab-476a-134e-ec7b">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
@@ -2356,29 +2073,6 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d16d-9725-d91a-081f" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Deathwatch bolt rifle" hidden="false" id="ad6a-c679-52ea-6059" collective="true">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ca7-b91a-dd88-884c"/>
-      </constraints>
-      <profiles>
-        <profile name="Deathwatch bolt rifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1e8c-da24-6662-a2e3">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Heavy, Lethal Hits</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Assault" id="c63b-e755-d010-b572" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-        <infoLink name="Lethal Hits" id="a15e-8523-e90f-56ae" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
-        <infoLink name="Heavy" id="05af-4409-603d-cbd6" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
-      </infoLinks>
-    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="false" name="Watch Master" hidden="false" type="selectionEntry" id="d7e1-13bb-2177-b6bc" targetId="f7c3-45d2-a7ac-d8bc"/>
@@ -2420,23 +2114,8 @@
         <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
       </characteristics>
     </profile>
-    <profile name="Kill Team Intercessor" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c06b-bca8-50c3-b63e" publicationId="4115-3627-e608-39f6" page="23">
-      <characteristics>
-        <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
-        <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
-        <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-        <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
-        <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-        <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-      </characteristics>
-    </profile>
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Imperium - Adeptus Astartes - Space Marines" id="0e90-a51e-f59d-892a" targetId="e0af-67df-9d63-8fb7" importRootEntries="true"/>
   </catalogueLinks>
-  <sharedRules>
-    <rule name="Mission Tactics" id="2a5c-3c55-d113-3a53" hidden="false">
-      <description>Refer to the Detachment Rule for more information.</description>
-    </rule>
-  </sharedRules>
 </catalogue>

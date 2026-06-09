@@ -1079,7 +1079,6 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
               <rules>
                 <rule name="Relentless Spread" id="0a11-d33c-0041-e0d2" hidden="false">
                   <description>Each time a **^^Death Guard^^** unit from your army makes a Consolidation move:
-
 ■ It can move up to D3+3&quot; instead of up to 3&quot;.
 ■ If it cannot end that move within Engagement Range of one or more enemy units that are visible to it (and in Unit Coherency), it can still make that Consolidation move, and when doing so can move in any direction.</description>
                 </rule>
@@ -8761,11 +8760,6 @@ Worsen the Move, Leadership and Objective Control characteristics of models in t
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly unit is affected by a Battlefield Command Stratagem used by this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Dessication Conduit (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8e2-8f3e-c390-791a">
-      <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While an enemy unit is within Contagion Range of this model, at the end of the turn, roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds.</characteristic>
-      </characteristics>
-    </profile>
     <profile id="9af1-f954-9e43-747f" name="Damaged: 1-5 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
@@ -8778,17 +8772,6 @@ Worsen the Move, Leadership and Objective Control characteristics of models in t
 ■ **^^Plague Marines^^**</characteristic>
       </characteristics>
       <comment>Plagues only</comment>
-    </profile>
-    <profile name="Helbrute fist" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="ef56-93b2-259a-b831">
-      <characteristics>
-        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-        <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
-        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-        <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
-        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-        <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-      </characteristics>
     </profile>
     <profile id="f90f-c681-c454-a39e" name="Damaged: 1-6 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>

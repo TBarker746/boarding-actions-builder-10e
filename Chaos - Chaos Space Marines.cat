@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c8da-e875-58f7-f6d6" name="Chaos - Chaos Space Marines" revision="188" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a0" gameSystemRevision="1" type="catalogue">
   <profileTypes>
-    <profileType id="3084-68b8-1d20-2f26" name="Marks of Chaos">
-      <characteristicTypes>
-        <characteristicType id="26ae-f701-feee-96e9" name="Ability"/>
-      </characteristicTypes>
-    </profileType>
     <profileType id="796e-cfd7-cc85-240d" name="Warmaster">
       <characteristicTypes>
         <characteristicType id="2008-312b-5ac0-60ee" name="Ability"/>
@@ -40,8 +35,6 @@
     <categoryEntry id="e262-c2c5-e5ec-6542" name="Venomcrawler" hidden="false"/>
     <categoryEntry id="2e8b-c1fc-6226-877c" name="Raptors" hidden="false"/>
     <categoryEntry id="db10-7557-1767-f9d0" name="Warp Talons" hidden="false"/>
-    <categoryEntry id="5e23-29a3-e23-c9e9" name="Havocs" hidden="false"/>
-    <categoryEntry id="d8c1-31d4-c736-f7c3" name="Vashtorr the Arkifane" hidden="false"/>
     <categoryEntry id="d7bd-738e-db0e-18c2" name="Traitor Guardsmen Squad" hidden="false"/>
     <categoryEntry id="f7a5-b664-9a2-1757" name="Fellgor Beastmen" hidden="false"/>
     <categoryEntry id="d49c-2-4424-aa10" name="Traitor Enforcer" hidden="false"/>
@@ -152,7 +145,7 @@
     <entryLink id="6d9c-5405-809c-696a" name="Chaos Spawn" hidden="false" collective="false" import="true" targetId="7263-70e5-b424-61eb" type="selectionEntry"/>
     <entryLink id="df20-b677-3f45-9482" name="Decimator [Legends]" hidden="false" collective="false" import="true" targetId="7e7a-96f6-cad0-50ec" type="selectionEntry">
       <infoLinks>
-        <infoLink id="d2f8-9615-1f08-d90a" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="d2f8-9615-1f08-d90a" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e944-300d-61a-e75a" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -210,7 +203,7 @@
     </entryLink>
     <entryLink id="5626-cdae-c820-6293" name="Greater Blight Drone [Legends]" hidden="false" collective="false" import="true" targetId="412c-3499-8275-2637" type="selectionEntry">
       <infoLinks>
-        <infoLink id="b164-74e4-2926-9e96" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="b164-74e4-2926-9e96" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1ba6-ccde-6afe-2078" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -238,7 +231,7 @@
     </entryLink>
     <entryLink id="9e26-3203-75f8-541" name="Dreadclaw Drop Pod [Legends]" hidden="false" collective="false" import="true" targetId="9401-616b-6e9e-10e5" type="selectionEntry">
       <infoLinks>
-        <infoLink id="2c63-2945-58f2-e09b" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="2c63-2945-58f2-e09b" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4e51-5838-e5b2-8eef" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -267,7 +260,7 @@
     </entryLink>
     <entryLink id="3d78-1ebc-6db0-5092" name="Blood Slaughterer [Legends]" hidden="false" collective="false" import="true" targetId="fdad-1104-a934-3812" type="selectionEntry">
       <infoLinks>
-        <infoLink id="9efb-1b06-97ec-84c2" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="9efb-1b06-97ec-84c2" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2609-e0ba-6bf9-1134" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -336,7 +329,7 @@
     </entryLink>
     <entryLink id="8db7-36e1-49aa-c471" name="Kytan Ravager [Legends]" hidden="false" collective="false" import="true" targetId="6c76-b4e-4437-27e2" type="selectionEntry">
       <infoLinks>
-        <infoLink id="d5d1-2d2b-3b5d-311b" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="d5d1-2d2b-3b5d-311b" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fdaa-1240-1f20-543b" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -364,7 +357,7 @@
     </entryLink>
     <entryLink id="e4aa-9ec5-74f9-b301" name="Greater Brass Scorpion [Legends]" hidden="false" collective="false" import="true" targetId="f564-7bc-21a6-7796" type="selectionEntry">
       <infoLinks>
-        <infoLink id="74c8-766c-a8e-d126" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="74c8-766c-a8e-d126" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="af99-44ee-eb45-11f" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -392,7 +385,7 @@
     </entryLink>
     <entryLink id="e698-f6c0-b884-c180" name="Kharybdis Assault Claw [Legends]" hidden="false" collective="false" import="true" targetId="5bb7-ac8-4448-a4d8" type="selectionEntry">
       <infoLinks>
-        <infoLink id="2030-fb90-3800-3f17" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="2030-fb90-3800-3f17" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dd9f-43d2-1099-9cd5" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -421,7 +414,7 @@
     </entryLink>
     <entryLink id="fa46-ac52-94d4-f73c" name="Sicaran Punisher [Legends]" hidden="false" collective="false" import="true" targetId="68aa-28bf-bd73-3355" type="selectionEntry">
       <infoLinks>
-        <infoLink id="98b5-83d9-a547-39ce" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="98b5-83d9-a547-39ce" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d7a5-1890-fbc5-323c" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -451,7 +444,7 @@
     </entryLink>
     <entryLink id="a322-e294-14f2-227c" name="Kratos [Legends]" hidden="false" collective="false" import="true" targetId="78aa-3f99-5fb7-7f83" type="selectionEntry">
       <infoLinks>
-        <infoLink id="469e-fec0-b93d-c911" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="469e-fec0-b93d-c911" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e9f4-4157-ba7a-af91" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -481,7 +474,7 @@
     </entryLink>
     <entryLink id="c45b-6878-7800-1b84" name="Deredeo Dreadnought [Legends]" hidden="false" collective="false" import="true" targetId="d38d-c3a2-f753-efea" type="selectionEntry">
       <infoLinks>
-        <infoLink id="a0d-26f2-652e-550e" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="a0d-26f2-652e-550e" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7992-53f6-51a0-e739" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -540,7 +533,7 @@
     </entryLink>
     <entryLink id="7f8a-fc51-11c1-b45e" name="Leviathan Dreadnought [Legends]" hidden="false" collective="false" import="true" targetId="14d4-8062-f090-6719" type="selectionEntry">
       <infoLinks>
-        <infoLink id="e12a-be30-8773-412" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="e12a-be30-8773-412" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c25-7dfe-b67e-a1f4" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -599,7 +592,7 @@
     </entryLink>
     <entryLink id="594b-cc26-3a06-41e4" name="Relic Contemptor Dreadnought [Legends]" hidden="false" collective="false" import="true" targetId="783a-1c02-b377-b169" type="selectionEntry">
       <infoLinks>
-        <infoLink id="7c2a-b901-4647-3095" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="7c2a-b901-4647-3095" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3c36-1273-e1ab-7b3f" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -658,7 +651,7 @@
     </entryLink>
     <entryLink id="880d-2585-e32c-69c9" name="Land Raider Proteus [Legends]" hidden="false" collective="false" import="true" targetId="34c8-1025-33f7-baaf" type="selectionEntry">
       <infoLinks>
-        <infoLink id="c9c7-8957-49df-c47d" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="c9c7-8957-49df-c47d" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9e47-2d79-f9c-528c" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -688,7 +681,7 @@
     </entryLink>
     <entryLink id="c04b-351c-91b6-250f" name="Land Raider Achilles [Legends]" hidden="false" collective="false" import="true" targetId="3006-ffe-2b0c-6b1b" type="selectionEntry">
       <infoLinks>
-        <infoLink id="694e-7fe1-cf16-6700" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="694e-7fe1-cf16-6700" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f06d-c6e3-7701-6deb" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -718,7 +711,7 @@
     </entryLink>
     <entryLink id="529d-1b31-3fd7-697a" name="Sicaran Battle Tank [Legends]" hidden="false" collective="false" import="true" targetId="b2f1-197b-fb3b-687f" type="selectionEntry">
       <infoLinks>
-        <infoLink id="50fe-1763-b525-b1b9" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="50fe-1763-b525-b1b9" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="347c-d10c-9319-89ae" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -748,7 +741,7 @@
     </entryLink>
     <entryLink id="982a-35c7-5d8-1a97" name="Sicaran Venator [Legends]" hidden="false" collective="false" import="true" targetId="e63e-2aa6-f840-b54e" type="selectionEntry">
       <infoLinks>
-        <infoLink id="538-43-df16-b88e" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="538-43-df16-b88e" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9a06-2ca9-66c-e38" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -778,7 +771,7 @@
     </entryLink>
     <entryLink id="22f1-dafb-b795-a09c" name="Terrax-pattern Termite [Legends]" hidden="false" collective="false" import="true" targetId="3d36-e9d7-54c5-deb7" type="selectionEntry">
       <infoLinks>
-        <infoLink id="5b52-673f-261f-fe41" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="5b52-673f-261f-fe41" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5e12-d28d-db33-c895" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -808,7 +801,7 @@
     </entryLink>
     <entryLink id="41f7-b695-3a58-7617" name="Rapier Carrier [Legends]" hidden="false" collective="false" import="true" targetId="2aee-e03c-836e-4c6e" type="selectionEntry">
       <infoLinks>
-        <infoLink id="a7e1-68c3-893a-249a" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="a7e1-68c3-893a-249a" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c837-292e-8ea5-4f33" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -838,7 +831,7 @@
     </entryLink>
     <entryLink id="ae3c-cb36-e40b-ae15" name="Whirlwind Scorpius [Legends]" hidden="false" collective="false" import="true" targetId="97dc-f0c8-1354-88fb" type="selectionEntry">
       <infoLinks>
-        <infoLink id="7135-e983-fae8-f1ef" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="7135-e983-fae8-f1ef" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4d34-e27c-4f5f-25b5" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -868,7 +861,7 @@
     </entryLink>
     <entryLink id="2bfd-af9d-237-fccd" name="Xiphon Interceptor [Legends]" hidden="false" collective="false" import="true" targetId="1aa5-d081-2442-4c37" type="selectionEntry">
       <infoLinks>
-        <infoLink id="349e-816b-6ed7-9ba0" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="349e-816b-6ed7-9ba0" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="606d-65e4-6089-f362" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -898,7 +891,7 @@
     </entryLink>
     <entryLink id="5a7d-3c49-87f-7a49" name="Storm Eagle Gunship [Legends]" hidden="false" collective="false" import="true" targetId="3b7d-b14e-603-e1ad" type="selectionEntry">
       <infoLinks>
-        <infoLink id="76e2-568c-cd6-a456" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="76e2-568c-cd6-a456" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bc4d-26ae-5521-e95" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -928,7 +921,7 @@
     </entryLink>
     <entryLink id="f575-6924-86cd-8634" name="Fire Raptor Gunship [Legends]" hidden="false" collective="false" import="true" targetId="1fc7-7880-e4d4-acbf" type="selectionEntry">
       <infoLinks>
-        <infoLink id="da2a-2f35-cb23-f07a" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="da2a-2f35-cb23-f07a" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ba40-684c-f4fe-62e6" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -958,7 +951,7 @@
     </entryLink>
     <entryLink id="b43a-ca3d-61c-b0e5" name="Typhon [Legends]" hidden="false" collective="false" import="true" targetId="f60c-1b93-9ee8-59d2" type="selectionEntry">
       <infoLinks>
-        <infoLink id="9bef-3f97-bb98-4615" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="9bef-3f97-bb98-4615" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8624-5965-9d55-513e" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -988,7 +981,7 @@
     </entryLink>
     <entryLink id="2980-bea4-d87e-cad0" name="Cerberus [Legends]" hidden="false" collective="false" import="true" targetId="4044-b458-fb4d-d05b" type="selectionEntry">
       <infoLinks>
-        <infoLink id="1aa0-78e3-adba-e913" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="1aa0-78e3-adba-e913" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b998-3693-b562-b4e5" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -1018,7 +1011,7 @@
     </entryLink>
     <entryLink id="d3e4-7a08-d18b-1c7e" name="Spartan [Legends]" hidden="false" collective="false" import="true" targetId="7b3a-9a63-6200-ec7" type="selectionEntry">
       <infoLinks>
-        <infoLink id="3edf-a0ef-8bb7-1463" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="3edf-a0ef-8bb7-1463" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f739-cc84-b411-7182" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -1048,7 +1041,7 @@
     </entryLink>
     <entryLink id="8304-2a4b-1d7c-ddd3" name="Fellblade [Legends]" hidden="false" collective="false" import="true" targetId="585d-722b-4304-2f63" type="selectionEntry">
       <infoLinks>
-        <infoLink id="afdb-c088-4f5d-41c2" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="afdb-c088-4f5d-41c2" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c699-754c-f715-6758" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -1078,7 +1071,7 @@
     </entryLink>
     <entryLink id="be67-b7de-dc1-4899" name="Falchion [Legends]" hidden="false" collective="false" import="true" targetId="625b-29e4-7be7-db5a" type="selectionEntry">
       <infoLinks>
-        <infoLink id="9cd7-ada5-f39a-91c0" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="9cd7-ada5-f39a-91c0" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c7e0-599f-df08-cebc" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -1514,7 +1507,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="8a23-811a-b2f8-856d" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
-        <infoLink id="32fb-6678-4556-d79e" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="32fb-6678-4556-d79e" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="68cf-7249-dd30-520f" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -1693,7 +1686,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1eaa-95e5-ea51-da37" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="1eaa-95e5-ea51-da37" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
         <infoLink id="30c2-f19-d2e5-3ad3" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1853,7 +1846,7 @@
             <modifier type="append" field="name" value="D3"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Dark Pacts" id="54e8-31ec-19cb-721d" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink name="The Forsaken" id="54e8-31ec-19cb-721d" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f87b-4368-9578-3cc5" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -2029,7 +2022,7 @@
             <modifier type="append" field="name" value="D3"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Dark Pacts" id="4e78-3632-b3c9-b05d" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink name="The Forsaken" id="4e78-3632-b3c9-b05d" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c662-2884-b452-2f02" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -2181,7 +2174,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="42a1-cb9a-d2e7-7639" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="42a1-cb9a-d2e7-7639" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
         <infoLink name="Feel No Pain" hidden="false" type="rule" id="5dcf-153d-edf-3653" targetId="9bf4-280f-bbe2-6fbb">
           <modifiers>
             <modifier type="append" value="5+" field="name"/>
@@ -2402,7 +2395,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="702c-9673-253e-2100" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="702c-9673-253e-2100" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
         <infoLink id="f72a-1fb3-b0b4-5d3a" name="Lone Operative" hidden="false" targetId="a8a0-8fe7-898-e0f3" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2564,7 +2557,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ffe0-36bb-a09-b85f" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="ffe0-36bb-a09-b85f" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b1f0-60db-61e0-35cd" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -2755,7 +2748,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2482-e78a-30bf-78c8" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="2482-e78a-30bf-78c8" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
         <infoLink name="Lord of Chaos" hidden="false" type="profile" id="6160-6e0a-1a69-754c" targetId="73e9-284e-fd62-4056"/>
       </infoLinks>
       <categoryLinks>
@@ -2998,7 +2991,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8500-31ac-62a2-29a8" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="8500-31ac-62a2-29a8" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
         <infoLink name="Lord of Chaos" hidden="false" type="profile" id="212c-24f1-8f4-68f3" targetId="73e9-284e-fd62-4056"/>
         <infoLink name="Deep Strike" id="9c6e-4893-75b5-b422" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
       </infoLinks>
@@ -3295,7 +3288,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3f36-5e7e-ae76-8059" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="3f36-5e7e-ae76-8059" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e1b3-404-f8ac-a840" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -3390,8 +3383,7 @@
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following unit:
 
-■ **^^CHAOS TERMINATOR SQUAD^^**
-</characteristic>
+■ **^^CHAOS TERMINATOR SQUAD^^**</characteristic>
           </characteristics>
         </profile>
         <profile id="a049-dda2-5463-aa67" name="Warptime (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -3416,7 +3408,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="24c8-5c6c-eabc-773c" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="24c8-5c6c-eabc-773c" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
         <infoLink name="Deep Strike" hidden="false" id="d5f1-6f2d-eb47-35f1" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
       </infoLinks>
       <categoryLinks>
@@ -3624,7 +3616,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a8b6-a88b-363a-cfda" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="a8b6-a88b-363a-cfda" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bffe-ca89-70da-7408" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -3880,7 +3872,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="73b1-7aaa-c4c2-1b9" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="73b1-7aaa-c4c2-1b9" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9bea-96c7-d007-f9fa" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
@@ -4057,8 +4049,7 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following units:
 
 ■ **^^CHOSEN^^**
-■ **^^CULTIST MOB^^**
-</characteristic>
+■ **^^CULTIST MOB^^**</characteristic>
           </characteristics>
         </profile>
         <profile id="c3c5-ef85-8a70-20ed" name="Faithful Flock" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -4073,7 +4064,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="75bc-a8de-aa37-1378" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="75bc-a8de-aa37-1378" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4eeb-165a-ea8-4bcd" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
@@ -4484,7 +4475,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6e4d-819b-50d2-d03c" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="6e4d-819b-50d2-d03c" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b0e6-8fa6-46a9-2715" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -5273,7 +5264,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f780-1694-f8dc-a12" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="f780-1694-f8dc-a12" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="efd2-e69-7b38-b8f" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -5463,7 +5454,7 @@
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="1344-e09f-bed7-8dd9" includeChildSelections="true"/>
       </constraints>
       <infoLinks>
-        <infoLink id="9d88-af95-e541-9bba" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="9d88-af95-e541-9bba" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
         <infoLink name="Feel No Pain" hidden="false" type="rule" id="7c19-82d-efac-d54b" targetId="9bf4-280f-bbe2-6fbb">
           <modifiers>
             <modifier type="append" value="6+" field="name"/>
@@ -5630,7 +5621,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ac4a-cb5e-f5e2-bafc" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="ac4a-cb5e-f5e2-bafc" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
         <infoLink id="143f-b42e-a0f5-c78" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -6271,28 +6262,6 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry id="cb16-d239-4f7a-91be" name="Power fist" hidden="false" collective="false" import="true" type="upgrade">
-      <comment>3 Attacks</comment>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b51d-11cf-234a-514d" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="4199-c4ef-a7c6-aad1" name="Power fist" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="da34-7071-8658-a453" name="Master of Executions" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="e4c4-4418-a864-289b" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -6325,7 +6294,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1bbe-6ec0-8cfb-441b" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="1bbe-6ec0-8cfb-441b" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a2b3-45fe-4f06-584" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -6456,7 +6425,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="70b0-6749-c9b0-5f42" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="70b0-6749-c9b0-5f42" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ed42-d0b9-9b20-d2e5" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -6579,7 +6548,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="62a0-17e4-1aab-571d" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="62a0-17e4-1aab-571d" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3a4-5ad3-5a2c-9868" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -7125,7 +7094,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9809-6549-70bc-cc5a" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="9809-6549-70bc-cc5a" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
         <infoLink id="e926-3138-f5e5-332e" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="D3"/>
@@ -7317,7 +7286,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="99c-8c4b-732e-29e1" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="99c-8c4b-732e-29e1" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8382-90c8-5617-e4d6" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -7382,7 +7351,7 @@
           <profiles>
             <profile name="Raptor Champion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d0cf-efd5-4f35-148d">
               <characteristics>
-                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">9&quot;</characteristic>
                 <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
                 <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
                 <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
@@ -7780,12 +7749,11 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f45d-aeef-2f3a-6715" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="f45d-aeef-2f3a-6715" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a601-58a-1a30-f63c" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
         <categoryLink id="d88e-c5b9-d1cb-3fdb" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="true"/>
-        <categoryLink id="489a-c178-e761-bf10" name="Fly" hidden="false" targetId="c619-2086-bbcf-69c9" primary="false"/>
         <categoryLink id="c22a-a27b-61ae-4894" name="Jump Pack" hidden="false" targetId="dda2-bb0a-215e-ad9c" primary="false"/>
         <categoryLink id="75a0-a4c6-f7b4-9a8b" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="4970-b24a-fccf-3d83" name="Daemon" hidden="false" targetId="9c0e-7e25-4580-e439" primary="false"/>
@@ -7844,7 +7812,7 @@
               <profiles>
                 <profile name="Warp Talon Champion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="f79b-5d01-87f8-6a09">
                   <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">9&quot;</characteristic>
                     <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
@@ -7899,7 +7867,7 @@
               <profiles>
                 <profile name="Warp Talons" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9a12-5b76-ffe2-aaca">
                   <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">9&quot;</characteristic>
                     <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
@@ -7949,7 +7917,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6b0c-e3d6-3504-ae70" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="6b0c-e3d6-3504-ae70" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b178-15bc-2c37-a413" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -8450,7 +8418,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8874-6fa9-779e-318" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="8874-6fa9-779e-318" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ae03-78b-bf65-b6e7" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -8822,7 +8790,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a9b-431a-d544-fb11" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="a9b-431a-d544-fb11" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1eb2-32b9-4eec-7291" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
@@ -9021,7 +8989,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="bf55-5b02-f4b5-a08a" name="Damaged: 1-5 wounds remaining" hidden="false" targetId="a23a-5616-4c0a-35b1" type="profile"/>
-        <infoLink id="6c07-a763-2ab-852c" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="6c07-a763-2ab-852c" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f3-1ab9-7089-470a" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -9227,7 +9195,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="7b42-f243-e2ba-2d55" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="d44e-2f5-cadf-9eb" type="profile"/>
-        <infoLink id="2383-8da0-de7a-44c7" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="2383-8da0-de7a-44c7" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c2c4-f29b-22df-fbfd" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -9456,7 +9424,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="7dd9-b50b-f8d6-4182" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="d44e-2f5-cadf-9eb" type="profile"/>
-        <infoLink id="861d-20d4-78de-73c2" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="861d-20d4-78de-73c2" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c7c3-95a9-36fd-6b0b" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -9619,7 +9587,7 @@
             <modifier type="append" field="name" value="D3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="abdd-3bdb-e177-11a9" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="abdd-3bdb-e177-11a9" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
         <infoLink id="cf21-21ba-8472-964b" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="d44e-2f5-cadf-9eb" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -9781,7 +9749,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="e18f-4ed7-e672-2c79" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="d44e-2f5-cadf-9eb" type="profile"/>
-        <infoLink id="4b8-404d-b806-8220" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="4b8-404d-b806-8220" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2c91-351d-4f6e-cb69" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -10055,7 +10023,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="974e-9212-4313-e444" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="974e-9212-4313-e444" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
         <infoLink id="9b7-bd9c-18e5-ac77" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="1"/>
@@ -10473,7 +10441,7 @@
             <modifier type="append" field="name" value="D3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="be71-59e9-ef6f-9402" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="be71-59e9-ef6f-9402" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
         <infoLink id="17a-7719-cdb5-8884" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="d44e-2f5-cadf-9eb" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -10629,7 +10597,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="f3f-ac53-2021-70c3" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="d44e-2f5-cadf-9eb" type="profile"/>
-        <infoLink id="5e0c-8109-7fe5-4cfd" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="5e0c-8109-7fe5-4cfd" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="984d-9ea7-32d4-3e59" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -10798,7 +10766,7 @@
             <modifier type="append" field="name" value="D3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="76ca-ff4-9b03-a550" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="76ca-ff4-9b03-a550" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
         <infoLink name="Firing Deck" hidden="false" type="rule" id="5821-c1bd-60c3-e352" targetId="13b2-6518-dab3-7ea1">
           <modifiers>
             <modifier type="append" value="2" field="name"/>
@@ -10917,7 +10885,7 @@
             <modifier type="append" field="name" value="D6+2"/>
           </modifiers>
         </infoLink>
-        <infoLink id="8e63-5dec-267a-b76" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="8e63-5dec-267a-b76" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="923f-aba8-6a9e-5b5c" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -11164,7 +11132,7 @@
             <modifier type="append" field="name" value="5+"/>
           </modifiers>
         </infoLink>
-        <infoLink id="c0fe-c2c0-4c65-5ed8" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="c0fe-c2c0-4c65-5ed8" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c626-9a8e-f8e4-6478" name="Faction: Heretic Astartes" hidden="false" targetId="1e42-dfae-cbdd-207d" primary="false"/>
@@ -11246,30 +11214,6 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry id="e295-f027-e99d-42" name="Heavy plague weapon" hidden="false" collective="true" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b60-50a2-286-22b6" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="90ff-c9dc-1c52-a313" name="Heavy plague weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="6a31-3a6a-adb2-3d2" name="Lethal Hits" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry type="model" import="true" name="Hell Talon [Legends]" hidden="false" id="4893-c42f-4ca8-2b3d">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
@@ -11293,7 +11237,7 @@
           </modifiers>
         </infoLink>
         <infoLink name="Damaged: 1-5 wounds remaining" hidden="false" type="profile" id="398-8060-840-3998" targetId="a23a-5616-4c0a-35b1"/>
-        <infoLink name="Dark Pacts" hidden="false" type="rule" id="7437-d480-43b-56c8" targetId="fd69-68cc-5d63-c84d"/>
+        <infoLink name="The Forsaken" hidden="false" type="rule" id="7437-d480-43b-56c8" targetId="fd69-68cc-5d63-c84d"/>
       </infoLinks>
       <profiles>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ae74-dec3-79d3-b3c4">
@@ -11441,7 +11385,7 @@
             <modifier type="append" value="D3" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Dark Pacts" hidden="false" type="rule" id="5a8-4e5c-7acb-4c4b" targetId="fd69-68cc-5d63-c84d"/>
+        <infoLink name="The Forsaken" hidden="false" type="rule" id="5a8-4e5c-7acb-4c4b" targetId="fd69-68cc-5d63-c84d"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="2183-73c4-0212-f114" hidden="false" sortIndex="2">
@@ -11537,7 +11481,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Chaos Deimos Predator [Legends]" hidden="false" id="6add-621e-381e-4acf">
       <infoLinks>
-        <infoLink id="945a-87f3-492f-a9e4" name="Dark Pacts" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink id="945a-87f3-492f-a9e4" name="The Forsaken" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
         <infoLink name="Damaged: 1-4 wounds remaining" hidden="false" type="profile" id="2196-3d01-602d-d1cc" targetId="d44e-2f5-cadf-9eb"/>
         <infoLink id="33f9-2933-fbc7-59ff" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
@@ -11804,7 +11748,6 @@
         <categoryLink targetId="dda2-bb0a-215e-ad9c" id="71ca-3c01-c5ff-aa02" primary="false" name="Jump Pack"/>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="ba55-fc2a-8574-53cc" primary="true" name="Character"/>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="5b2f-6420-9a11-b05c" primary="false" name="Infantry"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="375c-225c-22ba-4c89" primary="false" name="Fly"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="eb67-c6ff-cc90-5238" primary="false" name="Grenades"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="74bf-4915-9dd1-d32a" primary="false" name="Chaos"/>
         <categoryLink targetId="210f-542c-3584-0a5b" id="9c3e-e921-5211-2da7" primary="false" name="Warlord Eligible Character"/>
@@ -11846,7 +11789,7 @@
       </profiles>
       <infoLinks>
         <infoLink name="Lord of Chaos" id="7487-5b8-e9a0-cbad" hidden="false" type="profile" targetId="73e9-284e-fd62-4056"/>
-        <infoLink name="Dark Pacts" id="cfd3-2a58-ef1a-f1ba" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink name="The Forsaken" id="cfd3-2a58-ef1a-f1ba" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="6457-edf2-7993-e901" hidden="false" sortIndex="4">
@@ -12085,7 +12028,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Dark Pacts" id="eccf-dc3-6eca-4a32" hidden="false" type="rule" targetId="fd69-68cc-5d63-c84d"/>
+        <infoLink name="The Forsaken" id="eccf-dc3-6eca-4a32" hidden="false" type="rule" targetId="fd69-68cc-5d63-c84d"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="a0ea-267b-d72b-ecac" primary="true" name="Character"/>
@@ -13475,29 +13418,6 @@ Each time this unit takes a Leadership test for the Dark Pacts ability, if that 
         <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="80cf-c50-c844-38c7" name="Autogun" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-      <characteristics>
-        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-        <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
-        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4a63-3f3c-aa9b-9136" name="Close combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-      <comment>For Cultists</comment>
-      <characteristics>
-        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-        <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
-        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-        <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
-        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-      </characteristics>
-    </profile>
     <profile id="356a-666c-2ce5-9dcb" name="Combi-bolter" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
       <characteristics>
         <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
@@ -13563,15 +13483,6 @@ Each time this unit takes a Leadership test for the Dark Pacts ability, if that 
         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol</characteristic>
       </characteristics>
     </profile>
-    <profile name="Daemon Weapon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="452f-0e7e-9dde-93b3">
-      <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Fight phase, if this model&apos;s unit makes a Dark Pact and fails the resulting Leadership test, until the end of the phase, melee weapons equipped by this model have the **[HAZARDOUS]** ability.
-
-
-**Designer&apos;s Note:** *Each Daemon Weapon confers the relevant Chaos God&apos;s keyword on the bearer. If you are using the Pactbound Zealots Detachment, when resolving the Marks of Chaos rule to select a keyword for a unit that has a Daemon Weapon, you must select the same keyword that is conferred by that Daemon Weapon.*</characteristic>
-      </characteristics>
-      <comment>Crusade content</comment>
-    </profile>
     <profile name="➤ Plasma gun - standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="38ff-30e0-10e1-fb2a">
       <characteristics>
         <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
@@ -13622,7 +13533,4 @@ Each time this unit takes a Leadership test for the Dark Pacts ability, if that 
     <catalogueLink id="eb31-5c8c-eacf-b046" name="Library - Astartes Heresy Legends" targetId="ac3b-689c-4ad4-70cb" type="catalogue" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Shadowvaults Upgrades" id="2798-7fa4-9187-3df0" targetId="581a-46b9-5b86-44b7"/>
   </catalogueLinks>
-  <infoLinks>
-    <infoLink name="Psychic" hidden="false" type="rule" id="f8a6-57a0-d186-247f" targetId="e9c4-2bb8-12ee-cd1b"/>
-  </infoLinks>
 </catalogue>

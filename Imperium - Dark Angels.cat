@@ -11,7 +11,6 @@
   <categoryEntries>
     <categoryEntry name="Azrael" hidden="false" id="b567-3588-1d37-26e9"/>
     <categoryEntry name="Belial" hidden="false" id="bd38-6889-130a-b51e" page="9"/>
-    <categoryEntry name="Sammael" hidden="false" id="abb9-c850-5b55-6809"/>
     <categoryEntry name="Ezekiel" hidden="false" id="2afc-d6d3-e731-8a83" page="13"/>
     <categoryEntry name="Asmodai" hidden="false" id="2690-2ccf-683d-74e3" page="15"/>
     <categoryEntry name="Lion El&apos;Jonson" hidden="false" id="42a0-db93-ff81-d939" page="41"/>
@@ -20,14 +19,10 @@
     <categoryEntry name="Dark Talon" hidden="false" id="7f34-c3ed-cc4b-a273"/>
     <categoryEntry name="Land Speeder Vengeance" hidden="false" id="e74d-4be2-7d3e-d993"/>
     <categoryEntry name="Darkshroud" hidden="false" id="294a-2f23-e0ce-386c"/>
-    <categoryEntry name="Ravenwing Black Knights" hidden="false" id="1d42-6a24-1842-b424"/>
-    <categoryEntry name="Ravenwing Command Squad" hidden="false" id="ee13-ff16-80a1-5e3e"/>
     <categoryEntry name="Deathwing Knights" hidden="false" id="8c-33f-ebc7-f623"/>
     <categoryEntry name="Deathwing Terminator Squad" hidden="false" id="5bd9-7a8f-e83e-2021"/>
     <categoryEntry name="Inner Circle Companions" hidden="false" id="3d65-6753-15a5-47ba"/>
     <categoryEntry name="Ravenwing Talonmaster" hidden="false" id="4b4e-689a-d721-df70"/>
-    <categoryEntry name="Deathwing Strikemaster" hidden="false" id="1869-8b16-3b2a-713e"/>
-    <categoryEntry name="Deathwing Command Squad" hidden="false" id="c45c-a930-eb7c-f67f"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Azrael" hidden="false" id="81bd-ce4e-229f-a88" page="7">
@@ -2370,11 +2365,4 @@ In addition, each time a model in this unit makes an attack that targets your Oa
     <entryLink import="true" name="Inner Circle Companions" hidden="false" id="bb86-bce3-6729-371a" type="selectionEntry" targetId="f34-e2f9-c98e-1916"/>
     <entryLink import="true" name="Ravenwing Talonmaster [Legends]" hidden="false" id="4bae-848c-a666-2b2c" type="selectionEntry" targetId="a2b6-e35-67a8-d76e"/>
   </entryLinks>
-  <profileTypes>
-    <profileType name="Primarch of the First Legion" hidden="false" id="a400-f511-a59-fca7">
-      <characteristicTypes>
-        <characteristicType id="d9a-5fdb-d4de-51a8" name="Effect"/>
-      </characteristicTypes>
-    </profileType>
-  </profileTypes>
 </catalogue>

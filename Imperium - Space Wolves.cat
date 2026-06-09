@@ -929,32 +929,6 @@
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1135-78f8-2cf7-90a0" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Crushing teeth and claws" hidden="false" id="4700-100e-6b9e-336a" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e2ad-2b83-32d3-d499"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7074-44a5-34f-f334"/>
-      </constraints>
-      <profiles>
-        <profile name="Crushing teeth and claws" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="4378-fbfe-b908-e450">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Extra Attacks" hidden="false" type="rule" id="fbc-9a4b-4839-5b1b" targetId="115b-79dc-f723-d761"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Melee Weapon" hidden="false" id="435b-b975-2f0e-b4e5" targetId="ccdd-3987-11ed-90cd" primary="false"/>
-        <categoryLink name="Extra Attacks Weapon" hidden="false" id="0b10-7682-59b1-117a" targetId="84c4-6d1e-e724-bd6e" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
     <selectionEntry type="model" import="true" name="Wolf Guard Battle Leader in Terminator Armour [Legends]" hidden="false" id="bcab-c09a-6584-3b26">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
@@ -1303,59 +1277,6 @@
       <comment>BS 2+</comment>
       <categoryLinks>
         <categoryLink name="Ranged Weapon" hidden="false" id="9993-5107-86c1-be9c" targetId="eeda-8544-a2f3-3fab" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Relic weapon" id="b0a7-e6a6-cb42-ea66">
-      <profiles>
-        <profile name="Relic weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" id="ddd6-c0d2-bdc7-5c8f">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-          <comment>A5</comment>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink name="Melee Weapon" hidden="false" id="f699-d67e-618b-503a" targetId="ccdd-3987-11ed-90cd" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Plasma pistol" hidden="false" id="a756-da05-4afd-b0d0">
-      <profiles>
-        <profile id="f264-ea62-cda0-febf" name="➤ Plasma pistol - supercharge" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="cbd1-4462-91ab-3f64" name="➤ Plasma pistol - standard" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Hazardous" hidden="false" type="rule" id="bd9d-908d-5259-5399" targetId="8367-374c-f87-c627"/>
-        <infoLink name="Pistol" hidden="false" type="rule" id="943-d411-716b-cc98" targetId="8bf7-8812-923d-29e4"/>
-      </infoLinks>
-      <comment>WS 2+</comment>
-      <categoryLinks>
-        <categoryLink name="Ranged Weapon" hidden="false" id="e6aa-050a-7953-6ede" targetId="eeda-8544-a2f3-3fab" primary="false"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Blood Claws" hidden="false" id="fa8f-f5a2-993-bdbb">
@@ -2213,43 +2134,6 @@
       </profiles>
       <comment>A4 WS3+</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Thunder hammer" hidden="false" id="1b5c-1a95-3dc3-6aa">
-      <profiles>
-        <profile name="Thunder hammer" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="c335-11cc-5485-103d">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Devastating Wounds" hidden="false" type="rule" id="ce7-1066-eb9d-be7c" targetId="be1e-ac8e-1e2c-3528"/>
-      </infoLinks>
-      <comment>A3 WS 4+</comment>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Storm shield" hidden="false" id="d576-d444-2286-9eeb">
-      <profiles>
-        <profile name="Storm Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f0d0-168b-fd48-53b6">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has a Wounds characteristic of 4.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <comment>4 Wounds</comment>
-      <modifierGroups>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier type="increment" value="1" field="750a-a2ec-90d3-21fe" affects="self.entries.profiles.Unit" scope="model"/>
-            <modifier type="append" value="Storm Shield" field="annotation" join="," scope="model" affects="self.entries.profiles.Unit"/>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
-    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hounds of Morkai [Legends]" hidden="false" id="f37d-87d6-e14c-e697">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
@@ -2911,44 +2795,6 @@
         </profile>
       </profiles>
       <comment>4+ inv</comment>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Wulfen hammer" hidden="false" id="4f4f-dd60-a750-1757" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6c24-5abf-5cbe-1932"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b490-5ae3-53ca-a36d"/>
-      </constraints>
-      <profiles>
-        <profile name="Wulfen hammer" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="ad9a-9b5c-7938-3995">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Wulfen claws and melee weapons" hidden="false" id="6961-86cd-f8f7-d5ad" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c9a-d14c-c84-b2cc"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83f2-e750-27bb-f24e"/>
-      </constraints>
-      <profiles>
-        <profile name="Wulfen claws and melee weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="91d7-9149-3581-5b9">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Fenrisian Wolves" hidden="false" id="dc75-5a79-4121-1d72">
       <costs>
@@ -5082,21 +4928,6 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Wolf Guard Weapon" hidden="false" id="c103-810e-58ff-f0f8">
-      <profiles>
-        <profile name="Wolf Guard Weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="42d7-97d5-4a7a-0f17">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Wulfen with Storm Shields" hidden="false" id="4c72-3f0c-7f94-af96">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
@@ -5245,21 +5076,6 @@
         <entryLink import="true" name="Warlord" hidden="false" id="a6c4-4521-cf41-9989" type="selectionEntry" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Combat Blade" hidden="false" id="ec23-682e-c760-407e">
-      <profiles>
-        <profile name="Combat Blade" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="c7ee-4c14-5250-24b3">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Logan Grimnar" hidden="false" id="48a0-9386-4930-6a62"/>
@@ -5270,8 +5086,6 @@
     <categoryEntry name="Ragnar Blackmane" hidden="false" id="ff0e-8156-6e6b-8e60"/>
     <categoryEntry name="Krom Dragongaze" hidden="false" id="3658-9233-93cb-c8b"/>
     <categoryEntry name="Wolf Guard Battle Leader in Terminator Armour" hidden="false" id="bb26-d1a5-1336-bde7"/>
-    <categoryEntry name="Wolf Lord on Thunderwolf" hidden="false" id="42f7-7d32-b2eb-7a5"/>
-    <categoryEntry name="Wolf Guard Battle Leader on Thunderwolf" hidden="false" id="5f4c-2ff5-3b9d-f61d"/>
     <categoryEntry name="Blood Claws" hidden="false" id="5624-6cb8-fa73-779e"/>
     <categoryEntry name="Grey Hunters" hidden="false" id="447f-4fc0-7630-a9f7"/>
     <categoryEntry name="Lukas the Trickster" hidden="false" id="3e7d-6254-65cf-fe96"/>
@@ -5279,7 +5093,6 @@
     <categoryEntry name="Murderfang" hidden="false" id="593f-5be5-1f5c-fa2"/>
     <categoryEntry name="Fenrisian Wolves" hidden="false" id="e6ab-86d6-b11f-b2ec"/>
     <categoryEntry name="Skyclaws" hidden="false" id="136d-4905-129b-ff78"/>
-    <categoryEntry name="Long Fangs" hidden="false" id="200a-c333-3440-f3ca"/>
     <categoryEntry name="Stormfang Gunship" hidden="false" id="efac-d25e-517-1ea5"/>
     <categoryEntry name="Stormwolf" hidden="false" id="a74f-5075-eafd-57c7"/>
     <categoryEntry name="Wolf Guard Pack Leader" hidden="false" id="38c1-7781-211c-599b"/>
@@ -5287,7 +5100,6 @@
     <categoryEntry name="Wolf Guard Pack Leader with Jump Pack" hidden="false" id="4017-5de3-cb4f-1b8b"/>
     <categoryEntry name="Wolf Guard Pack Leader in Terminator Armour" hidden="false" id="80f7-b02e-c2-1c49"/>
     <categoryEntry name="Iron Priest" hidden="false" id="a604-b7ef-c095-b672"/>
-    <categoryEntry name="Wolf Scouts" hidden="false" id="be72-390b-33b7-d52d"/>
     <categoryEntry name="Venerable Dreadnought" hidden="false" id="ffa4-20d5-9d66-2c38"/>
     <categoryEntry name="Wulfen with Storm Shields" id="5e41-161b-7d74-8c8e" hidden="false"/>
     <categoryEntry name="Wulfen" id="b8e3-7a90-d63a-e263" hidden="false"/>
@@ -5323,20 +5135,6 @@
     <entryLink import="true" name="Wulfen with Storm Shields" hidden="false" id="a947-7113-3284-4248" type="selectionEntry" targetId="4c72-3f0c-7f94-af96"/>
   </entryLinks>
   <sharedInfoGroups>
-    <infoGroup name="Logan" hidden="false" id="976-2d16-9324-f92">
-      <profiles>
-        <profile name="High King of Fenris" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="43b7-b56b-83d3-3fca">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, in your Charge phase, this model can use this ability. If it does, until the end of the turn, you can re-roll Charge rolls made for ADEPTUS ASTARTES units from your army and, until the end of the turn, each time an ADEPTUS ASTARTES model from your army makes a melee attack, you can re-roll the Hit roll.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="The Great Wolf" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9bfe-13e2-d924-cb57">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model destroys an enemy unit, you gain 1CP.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </infoGroup>
     <infoGroup name="Pack Leader" hidden="false" id="8b86-90f0-b9f3-a8c3">
       <profiles>
         <profile name="Inspiring Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="569f-40e5-8052-fa2f">

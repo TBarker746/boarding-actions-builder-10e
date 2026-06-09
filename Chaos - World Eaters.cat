@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="df9a-59b2-f464-59ad" name="Chaos - World Eaters" revision="106" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a0" gameSystemRevision="1" type="catalogue" authorName="Adapted for the Boarding Actions game mode by TBarker746">
   <profileTypes>
-    <profileType id="02a0-fa96-6f9b-354f" name="Wrathful Presence">
-      <characteristicTypes>
-        <characteristicType id="64d6-2545-b925-8bb5" name="Effect"/>
-      </characteristicTypes>
-    </profileType>
     <profileType id="d07f-b12b-1c73-fa2c" name="Blessings of Khorne">
       <characteristicTypes>
         <characteristicType id="f99e-3b0d-b8fa-71b6" name="Roll"/>
@@ -35,8 +30,6 @@
     <categoryEntry id="8596-9508-212e-9628" name="Spawn" hidden="false"/>
     <categoryEntry name="Hell Talon" hidden="false" id="4f9b-f5a5-ad88-6e14"/>
     <categoryEntry name="Hellblade" hidden="false" id="17dd-7d43-376b-664e"/>
-    <categoryEntry name="Goremongers" id="ae66-6f22-4ba5-8ef4" hidden="false"/>
-    <categoryEntry name="Slaughterbound" id="ce19-794a-29b1-ee64" hidden="false"/>
     <categoryEntry name="Possessed" id="aed8-70aa-1422-fc99" hidden="false"/>
     <categoryEntry name="Jakhal" id="bb39-1180-801e-0655" hidden="true"/>
     <categoryEntry name="Helbrute melee weapon" id="0232-f225-ca6f-7f2a" hidden="false"/>
@@ -5800,11 +5793,6 @@
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Bloodsoaked Ascension" hidden="false" id="6cab-9a1e-23ed-5934">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb26-ea62-69b4-71ba" includeChildSelections="false"/>
-      </constraints>
-    </selectionEntry>
     <selectionEntry type="model" import="true" name="Defiler" hidden="false" id="0fea-c887-85fc-cbcf" collective="false">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f2a8-52e0-d1d5-02b9" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
@@ -6610,25 +6598,6 @@
     <rule id="e68b-b42f-6f7c-4670" name="Slaughterers’ Glory" hidden="false">
       <description>If your Army Faction is ^^**World Eaters^^**, at the start of the battle round, you can make a Blessings of Khorne roll. To do so, roll four D6. You can then use those dice to activate a Blessing of Khorne. Each Blessing of Khorne specifies the dice results it requires (where a number is specified, a double or triple of that value or higher is required). Any unused dice from the Blessings of Khorne roll are then discarded. Once activated, a Blessing of Khorne applies to all units from your army with this ability until the end of the battle round.</description>
     </rule>
-    <rule name="Wrath of Khorne" id="269f-6b39-4a8e-0872" hidden="false">
-      <description>At the start of the battle round, after activating Blessings of Khorne, you can select one or more models from your army from those listed below (including models that are embarked within Transports): 
-- WORLD EATERS CHARACTER (excluding EPIC HEROES) 
-- Eightbound Champion 
-- Exalted Eightbound Champion 
-- Khorne Berzerker Champion 
-- World Eaters Terminator Champion 
-
-
-You can select the same type of model multiple times. The maximum number of models you can select depends on the battle size, as follows: 
-
-
-INCURSION: 2 MODELS
-STRIKE FORCE: 3 MODELS
-ONSLAUGHT: 4 MODELS 
-
-
-Until the end of the battle round, each of those models has the VESSEL OF WRATH keyword (we recommend marking such models with a suitable token). Then, select one Blessing of Khorne that is not currently active for your army. Until the end of the battle round, that Blessing of Khorne is active for VESSEL OF WRATH units from your army in addition to any others that are active for your army.</description>
-    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="d339-6968-9063-f383" name="Chainblades" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -6655,28 +6624,6 @@ Until the end of the battle round, each of those models has the VESSEL OF WRATH 
         <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
         <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="➤ Axe of Khorne - strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="6260-10af-22ef-f664">
-      <characteristics>
-        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-        <characteristic name="A" typeId="2337-daa1-6682-b110">8</characteristic>
-        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-        <characteristic name="S" typeId="ab33-d393-96ce-ccba">14</characteristic>
-        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-4</characteristic>
-        <characteristic name="D" typeId="3254-9fe6-d824-513e">D3+1</characteristic>
-        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="➤ Axe of Khorne - sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a72c-25d4-1924-fe3c">
-      <characteristics>
-        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-        <characteristic name="A" typeId="2337-daa1-6682-b110">16</characteristic>
-        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-        <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
         <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
       </characteristics>
     </profile>

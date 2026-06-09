@@ -13,7 +13,6 @@
     <categoryEntry id="7e37-1f00-4c53-1379" name="Knight Desecrator" hidden="false"/>
     <categoryEntry id="d97b-d8fc-e1ac-0d8c" name="Knight Rampager" hidden="false"/>
     <categoryEntry id="9d18-ceff-963a-cc29" name="Knight Abominant" hidden="false"/>
-    <categoryEntry id="4ba6-5e16-28e6-835a" name="Acastus" hidden="false"/>
     <categoryEntry id="b6d3-1a49-8a2a-b157" name="Cerastus" hidden="false"/>
     <categoryEntry id="4aae-167f-1680-f405" name="Knight Lancer" hidden="false"/>
     <categoryEntry id="2a12-3d53-7288-3c2b" name="Knight Castigator" hidden="false"/>
@@ -2120,28 +2119,6 @@
         <categoryLink name="Attacks Dx Weapon" hidden="false" id="b096-02c3-53ca-81a3" targetId="e993-e086-6de1-12af" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry id="28a-8545-4104-4ffa" name="Titanic feet" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e4f-46f4-c6a1-315c" type="min"/>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1f0-7088-174d-85cf" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="9ce8-7e93-8963-59e3" name="Titanic feet" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="4175-82c6-8e96-bef8" name="Chaos Cerastus Knight Lancer" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="8b25-41e0-0956-e10f" includeChildSelections="false"/>
@@ -3639,11 +3616,6 @@
     <profile id="7400-7387-dae-781f" name="Damaged: 1-10 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="73ac-6b3a-8480-d08a" name="Huntmaster (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly ^^**War Dog^^** model is within 6&quot; of this model, ranged weapons equipped by that **^^War Dog^^** model have the [ASSAULT] ability.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

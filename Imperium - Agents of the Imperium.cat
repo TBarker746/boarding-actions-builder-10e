@@ -4904,7 +4904,6 @@
     <categoryEntry name="Ordo Malleus" id="5ef0-886d-e892-b934" hidden="false"/>
     <categoryEntry name="Ordo Xenos" id="ab1c-1334-d1cc-08df" hidden="false"/>
     <categoryEntry name="Ordo Hereticus" id="cc90-ec2e-cca3-e44d" hidden="false"/>
-    <categoryEntry name="Navigator" id="9922-bda1-77ca-84e9" hidden="false"/>
     <categoryEntry name="Inquisitorial Agents" id="d328-29e2-67d0-2185" hidden="false"/>
     <categoryEntry name="Adeptus Arbites" id="1fe2-9841-c085-291c" hidden="false"/>
     <categoryEntry name="Deathwatch" id="357e-615e-5313-2ac2" hidden="false"/>
@@ -4912,12 +4911,8 @@
     <categoryEntry name="Imperial Rhino" id="c779-37d6-af9a-db1a" hidden="false"/>
     <categoryEntry name="Sisters of Battle Squad" id="f710-a22a-34f3-26c0" hidden="false"/>
     <categoryEntry name="Sisters of Battle Immolator" id="a860-cde8-a263-dfa0" hidden="false"/>
-    <categoryEntry name="Daemonhost" id="ec84-2fe2-fbf8-5993" hidden="false"/>
-    <categoryEntry name="Jokaero Weaponsmith" id="2ba8-cb91-7a80-93fc" hidden="false"/>
     <categoryEntry name="Voidfarer Character" id="dc9f-a416-58db-fe5a" hidden="true"/>
     <categoryEntry name="Corvus Blackstar" id="509b-cfe0-9bcd-f84c" hidden="false"/>
-    <categoryEntry name="Proteus Kill Team" id="1b81-a12a-8e8e-5dd4" hidden="false"/>
-    <categoryEntry name="Watch Master" id="428f-8c3b-d212-3eab" hidden="false"/>
     <categoryEntry name="Ostromandeus" id="e2d0-e01e-c95a-bd0e" hidden="false">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8679-ab11-1d64-c420" includeChildSelections="true"/>

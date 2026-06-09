@@ -17,7 +17,6 @@
     <categoryEntry id="8b27-6a89-af6e-4a54" name="Autarch Wayleaper" hidden="false"/>
     <categoryEntry id="851f-4e16-2f8d-17ae" name="Farseer" hidden="false"/>
     <categoryEntry id="dc32-dee6-d66-b42f" name="Baharroth" hidden="false"/>
-    <categoryEntry id="98f7-4a8a-dbd3-4a81" name="Corsair Voidreavers" hidden="false"/>
     <categoryEntry id="e4af-94a7-ff42-9ec6" name="Asurmen" hidden="false"/>
     <categoryEntry id="3cdb-f4de-9972-f992" name="Fire Prism" hidden="false"/>
     <categoryEntry id="18a3-365c-b4f0-54ae" name="Haemonculus" hidden="false"/>
@@ -36,7 +35,6 @@
     <categoryEntry id="49cc-f650-e5e0-ce30" name="Cronos" hidden="false"/>
     <categoryEntry id="73f5-a344-26ab-5f6" name="Crimson Hunter" hidden="false"/>
     <categoryEntry id="f45d-f14a-3419-e469" name="Court of the Archon" hidden="false"/>
-    <categoryEntry id="ce44-615a-a40e-d092" name="Corsair Voidscarred" hidden="false"/>
     <categoryEntry id="dcaa-d376-d2ea-67fd" name="Karandras" hidden="false"/>
     <categoryEntry id="2c73-fe8b-3b0b-9903" name="Kabalite Warriors" hidden="false"/>
     <categoryEntry id="f0c1-43c5-1ae0-37ec" name="Jain Zar" hidden="false"/>
@@ -50,7 +48,6 @@
     <categoryEntry id="fb51-4e1b-bdcc-4617" name="Lelith Hesperax" hidden="false"/>
     <categoryEntry id="d2c0-da0-5989-959c" name="Shadowseer" hidden="false"/>
     <categoryEntry id="15c1-57ac-89c7-7a47" name="Solitaire" hidden="false"/>
-    <categoryEntry id="31dd-3b0b-d4d8-de49" name="Shining Spears" hidden="false"/>
     <categoryEntry id="7ffc-5ee2-121a-2659" name="Spiritseer" hidden="false"/>
     <categoryEntry id="86fc-8819-c051-1b29" name="Star Weaver" hidden="false"/>
     <categoryEntry id="af39-ea5c-4f23-311d" name="Storm Guardians" hidden="false"/>
@@ -65,7 +62,6 @@
     <categoryEntry id="fcb-7cf9-db1d-8ccd" name="Troupe" hidden="false"/>
     <categoryEntry id="b06c-e02c-b75-8dcc" name="Voidweaver" hidden="false"/>
     <categoryEntry id="7d34-c046-e08f-13e1" name="Warlock Conclave" hidden="false"/>
-    <categoryEntry id="5f58-cbe9-8f98-1dca" name="Warlock Skyrunners" hidden="false"/>
     <categoryEntry id="9bf0-2fe2-5c6f-77c2" name="Vypers" hidden="false"/>
     <categoryEntry id="a67a-77cf-f6e3-390a" name="Warlock" hidden="false"/>
     <categoryEntry id="8093-f896-73a6-8bef" name="War Walkers" hidden="false"/>
@@ -101,7 +97,6 @@
     <categoryEntry name="Ynnari" id="9032-f917-9bc5-fd47" hidden="true"/>
     <categoryEntry name="Corsairs and Travelling Players" id="e554-d095-bb9d-c930" hidden="true"/>
     <categoryEntry name="Lady Malys" id="1d46-93b2-dee8-c969" hidden="false"/>
-    <categoryEntry name="Hand of the Archon" id="79e4-b486-7f32-a88b" hidden="false"/>
     <categoryEntry name="Blades for Hire" id="de72-7478-144e-d12b" hidden="false"/>
     <categoryEntry name="Warlord Eligible Character" id="df24-a928-269d-dcef" hidden="false"/>
     <categoryEntry id="fcf6-2552-2e46-da0b" name="Phoenix" hidden="false"/>
@@ -11668,7 +11663,7 @@ While one or more ^^**Wracks**^^ units are embarked within this model, for each 
         </profile>
         <profile name="Aerialists" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="43b6-5010-cc0e-70f9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the Fight phase, if there are no models currently embarked within this ^^**Transport**^^, you can select one friendly ^^**Drukhari Infantry**^^ unit that has 6 or fewer models that is wholly within 6&quot; of this ^^**Transport**^^ (you cannot select a unit that can ^^**Fly**^^). Unless that unit is within Engagement Range of one or more enemy units, it can embark within this ^^**Transport**^^.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the Fight phase, if there are no models currently embarked within this ^^**Transport**^^, you can select one friendly ^^**Drukhari Infantry**^^ unit that has 6 or fewer models that is wholly within 6&quot; of this ^^**Transport**^^. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this ^^**Transport**^^.</characteristic>
           </characteristics>
         </profile>
         <profile name="Venom" hidden="false" id="c518-341b-c681-20b0" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
@@ -17697,40 +17692,6 @@ In the Form Boarding Squads step, if this unit initially has two Aspect Shrine t
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c366-bb1d-538c-be69"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97a3-9003-72c8-d5e2"/>
-      </constraints>
-    </selectionEntryGroup>
-    <selectionEntryGroup name="Reaver Wargear" id="aa50-13de-17f0-0c47" hidden="false">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Cluster Caltrops" hidden="false" id="0777-ae0e-9a5b-3b29">
-          <profiles>
-            <profile name="Cluster Caltrops" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a69e-af5d-d417-e605">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you roll to inflict wounds using this unit’s Eviscerating Fly-by ability, you can re-roll one D6 for each model in this unit equipped with cluster caltrops.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="39b3-01b0-cb6d-c219"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Grav Talon" hidden="false" id="9d00-23e2-ea7b-76cc">
-          <profiles>
-            <profile name="Grav Talon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="632f-3ad6-8238-792d">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer’s melee weapons have an Armour Penetration characteristic of -2 and the ^^**[Lethal Hits]**^^ ability.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49f5-3064-63dc-0750"/>
-          </constraints>
-          <infoLinks>
-            <infoLink name="Lethal Hits" id="3884-d66f-6749-bfb6" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
-          </infoLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ffe2-70f9-a7de-30d8"/>
       </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup name="Heavy Weapons [Legends]" id="b2d3-242d-968b-12c9" hidden="false" collective="false" import="true" defaultSelectionEntryId="8385-f1ab-090c-2ea6">

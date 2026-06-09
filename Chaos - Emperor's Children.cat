@@ -148,94 +148,6 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Plasma pistol" hidden="false" id="e13a-503d-72dc-f4ed" collective="true">
-      <comment>Collective</comment>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="722d-ca12-6d6f-6341" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-      </constraints>
-      <infoLinks>
-        <infoLink name="Hazardous" id="7c4a-1224-29a9-dd20" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
-        <infoLink name="Pistol" id="3b26-8ceb-37be-87d2" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-      </costs>
-      <modifiers>
-        <modifier type="set" value="2+" field="94d-8a98-cf90-183e" affects="entries.profiles.Ranged Weapons" scope="parent">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6264-8211-3a47-31d6" shared="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="➤ Plasma pistol - standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="65d3-9d25-d59b-cfa9">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="➤ Plasma pistol - supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f4b9-1aa7-21d4-4736">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Power fist" hidden="false" id="aab5-3545-6d30-9e87" collective="true">
-      <comment>4 Attacks</comment>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97f3-85b8-1946-c850" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Power fist" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="e7a4-da5e-3ad4-ccf3">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-          <modifierGroups>
-            <modifierGroup type="and">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6264-8211-3a47-31d6" shared="true"/>
-              </conditions>
-              <modifiers>
-                <modifier type="set" value="2+" field="95d1-95f-45b4-11d6"/>
-                <modifier type="set" value="5" field="2337-daa1-6682-b110"/>
-              </modifiers>
-              <modifierGroups>
-                <modifierGroup type="and">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6264-8211-3a47-31d6" shared="true"/>
-                  </conditions>
-                  <modifiers>
-                    <modifier type="set" value="2+" field="95d1-95f-45b4-11d6"/>
-                    <modifier type="set" value="5" field="2337-daa1-6682-b110"/>
-                  </modifiers>
-                </modifierGroup>
-              </modifierGroups>
-            </modifierGroup>
-          </modifierGroups>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="3469-166f-44f3-51b8" collective="true">
       <comment>Collective</comment>
       <infoLinks>
@@ -267,39 +179,6 @@
       <categoryLinks>
         <categoryLink name="Ranged Weapon" hidden="false" id="8b6c-a517-eb2a-c949" targetId="eeda-8544-a2f3-3fab" primary="false"/>
       </categoryLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Rapture lash" hidden="false" id="7d60-17ec-c8ad-1ba4">
-      <profiles>
-        <profile name="Rapture lash" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="e9cc-ca60-8917-fd5a">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="Precision" field="893f-9000-ccf7-648e">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ff6d-0152-7e0e-7e88" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Precision" id="f3fa-461a-b53d-284f" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007">
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="ff6d-0152-7e0e-7e88" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Screamer pistol" hidden="false" id="c0fe-28ad-5f83-e1d1">
       <profiles>
@@ -737,48 +616,6 @@
           </conditions>
         </modifier>
       </modifiers>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Power sword" hidden="false" id="ea86-f483-33bb-182b">
-      <profiles>
-        <profile name="Power sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="379c-cb9a-af6d-23be">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="Precision" field="893f-9000-ccf7-648e">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ff6d-0152-7e0e-7e88" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Close combat weapon" hidden="false" id="ab80-e71b-5a84-2852" collective="true">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aa05-7e3b-8c35-b9bd-min" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa05-7e3b-8c35-b9bd-max" includeChildSelections="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Close combat weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="bef4-4bde-0144-26d2">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <comment>A3 3+ S4</comment>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Flawless Blades" hidden="false" id="183e-f3bb-3ce6-7b55">
       <constraints>
@@ -1626,31 +1463,6 @@
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Sonic blaster" hidden="false" id="5086-e851-0cbc-3762" collective="true">
-      <comment>Collective</comment>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb1d-fac6-7bbe-75a4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-      </constraints>
-      <profiles>
-        <profile name="Sonic blaster" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1b15-be7e-56dd-8e3f">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Ignores Cover" id="5489-07de-6a47-556c" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry type="model" import="true" name="Heldrake" hidden="false" id="3750-df25-165d-d003" collective="false">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5854-9f5f-6b9f-607f" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
@@ -2103,30 +1915,6 @@
       <entryLinks>
         <entryLink import="true" name="Detachment" hidden="false" id="5660-2dd5-e6a3-c293" type="selectionEntryGroup" targetId="bf35-06f1-f03a-4490"/>
       </entryLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Perfect Ascension" hidden="false" id="32bc-07c5-6da4-c94e">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52ed-6493-d6ea-fe17" includeChildSelections="false"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bb9d-299a-ed60-2d8a" shared="true" includeChildSelections="true"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="4f09-0141-6c70-6c5a" shared="true"/>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="227d-98ab-930c-3e7f" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Show Mission-Specific Content" hidden="false" id="9e88-acbc-ddf4-569d">
       <constraints>
@@ -2894,9 +2682,6 @@
     </entryLink>
     <entryLink import="true" name="Defiler" hidden="false" id="f50d-e3a2-13f8-30ce" targetId="be32-d049-09b5-3993" type="selectionEntry"/>
   </entryLinks>
-  <sharedInfoGroups>
-    <infoGroup name="Plasma pistol" id="0cbe-31f4-e833-9ef4" hidden="false"/>
-  </sharedInfoGroups>
   <sharedProfiles>
     <profile name="Accursed weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="bec5-9e9c-b187-c1c0">
       <characteristics>

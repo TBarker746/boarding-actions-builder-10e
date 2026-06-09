@@ -6147,16 +6147,6 @@ If this unit made a Charge move this turn, until the end of the phase, select bo
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice.</characteristic>
       </characteristics>
     </profile>
-    <profile id="135c-b9f6-befe-a2cc" name="Celestian Sacresant" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
-        <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
-        <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-        <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
-        <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-        <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
-      </characteristics>
-    </profile>
     <profile id="59d5-3901-5bd9-2f61" name="Sister Repentia" publicationId="d124-b283-pubN72234" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
       <characteristics>
         <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
@@ -6170,26 +6160,6 @@ If this unit made a Charge move this turn, until the end of the phase, select bo
     <profile id="f0a4-39eb-71e1-8183" name="Repentia Superior" publicationId="d124-b283-pubN72234" page="109" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
       <characteristics>
         <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
-        <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
-        <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-        <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
-        <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-        <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Zephyrim Superior" hidden="false" id="c54f-2a89-1adc-82d" typeName="Unit" typeId="c547-1836-d8a-ff4f">
-      <characteristics>
-        <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-        <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
-        <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-        <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
-        <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-        <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Zephyrim" hidden="false" id="2f6f-1eed-345f-2eb2" typeName="Unit" typeId="c547-1836-d8a-ff4f">
-      <characteristics>
-        <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
         <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
         <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
         <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
@@ -6246,16 +6216,6 @@ If this unit made a Charge move this turn, until the end of the phase, select bo
         <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Death Cult Assassin" hidden="false" id="2592-3a2-ec45-7000" typeName="Unit" typeId="c547-1836-d8a-ff4f">
-      <characteristics>
-        <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
-        <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
-        <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
-        <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
-        <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-        <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
       </characteristics>
     </profile>
     <profile name="Sacred Command" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e8c6-0df9-48c0-7c29">
@@ -7238,6 +7198,7 @@ be substituted). The dice that is being substituted is not rolled; instead the 
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Intranzia Fraye" hidden="false" id="f817-2f2c-a3ef-6491" targetId="e59a-2a90-e102-940f" type="selectionEntry"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="f82d-fbeb-8ed2-4284" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true"/>

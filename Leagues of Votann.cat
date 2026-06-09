@@ -10,24 +10,16 @@
     <categoryEntry id="6da3-60ef-f488-dca3" name="Brôkhyr" hidden="false"/>
     <categoryEntry id="5070-c08d-0fa7-0f9d" name="Einhyr Hearthguard" hidden="false"/>
     <categoryEntry id="e28c-95f8-3f06-0afa" name="Beserks" hidden="false"/>
-    <categoryEntry id="8b60-36d5-35a8-8a69" name="Hernkyn Pioneers" hidden="false"/>
     <categoryEntry id="f588-a5fe-c979-292a" name="Sagitaur" hidden="false"/>
     <categoryEntry id="0b9d-34c5-f0bf-ee60" name="Thunderkyn" hidden="false"/>
     <categoryEntry id="03e8-e347-349b-ee99" name="Exoframe" hidden="false"/>
     <categoryEntry id="0e53-5249-cf3f-c10f" name="Hekaton Land Fortress" hidden="false"/>
     <categoryEntry name="Hernkyn Yaegirs" id="5b17-69c0-77f9-d2f4" hidden="false"/>
-    <categoryEntry name="Buri Aegnirssen" id="57c8-109d-c7e1-f7a1" hidden="false"/>
-    <categoryEntry name="Memnyr Strategist" id="851c-510c-5ca3-a40a" hidden="false"/>
-    <categoryEntry name="Arcanyst Evaluator" id="7fd8-0a60-f46f-e16e" hidden="false"/>
     <categoryEntry name="Hernkyn" id="3b76-147c-3f98-f6c0" hidden="false"/>
     <categoryEntry name="Kapricus" id="1bca-285e-16da-d8e9" hidden="false"/>
     <categoryEntry name="Defenders" id="7e09-357e-fb52-849d" hidden="false"/>
     <categoryEntry name="Carrier" id="e1de-cded-a65a-92c4" hidden="false"/>
-    <categoryEntry name="Ironkin Steeljacks" id="e338-1886-59c6-414c" hidden="false"/>
-    <categoryEntry name="Ironkin Steeljacks with Heavy Volkanite Disintegrators" id="668e-254e-aa6d-03f7" hidden="false"/>
-    <categoryEntry name="Ironkin Steeljacks with Melee Weapons" id="180b-3f9d-b536-33e4" hidden="false"/>
     <categoryEntry name="Cthonian" id="ea2a-5b81-df30-c733" hidden="false"/>
-    <categoryEntry name="Earthshakers" id="dcbd-3a76-63b9-28e1" hidden="false"/>
     <categoryEntry name="Iron-master" id="94a4-b417-beae-fac5" hidden="false"/>
     <categoryEntry name="Warlord Eligible Character" id="3acb-c39d-a0ad-c54c" hidden="false"/>
   </categoryEntries>
@@ -1357,18 +1349,6 @@
           </conditionGroups>
         </modifier>
       </modifiers>
-    </selectionEntry>
-    <selectionEntry id="0a19-2550-9aad-a268" name="Teleport crest" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="e7c8-1681-268e-e824" name="Teleport crest" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While the bearer is leading a unit, models in that unit have the Deep Strike ability.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="2cc6-e2bf-635f-1260" name="Einhyr Champion" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -4992,34 +4972,4 @@ has a number of Judgement tokens equal to this.*</description>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Shadowvaults Upgrades" id="664b-7cd3-86c2-8e1c" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
   </catalogueLinks>
-  <sharedInfoGroups>
-    <infoGroup name="Grudges" id="b346-4032-3d54-4e62" hidden="false">
-      <profiles>
-        <profile name="The Grudge Demands" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="45b9-2ed0-2f81-0a9d">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the battle, after both sides have deployed, but before the first turn begins, you must roll a number of 6 equal to the number of units in your Crusade army that harbouring a grudge against your opponent&apos;s Crusade army (each Attached unit harbouring a grudge counts as a single unit).
-
-For each roll of 6, you can select one enemy unit that is on the battlefield to gain one Grudge token (you can select the same unit more than once).
-
-For each roll of 1, you must instead select one unit from your Crusade army that is harbouring a grudge against your opponent&apos;s Crusade army and does not have a Grudge token to gain one Grudge token. While that unit has a Grudge token, you cannot select it as the target of a Stratagem, After that unit has shot or fought, remove that unit&apos;s Grudge token.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="A Grudge Settled" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4d67-1442-2921-fdb5">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">For each unit in your Crusade army that is harbour a grudge against your opponent&apos;s Crusade army, keep a tally of the number of enemy units destroyed by that unit. At the end of the battle, if that unit has a tally of 3 or more, unless that unit was that unit was destroyed during the battle it&apos;s grudge has been settled - the Grudge note for your opponent&apos;s Crusade army&apos;s Faction is remove from its Crusade card.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Precise Prejudice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d9a6-ab83-01fc-7d59">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model (excluding a **^^Cog^^** model) in a unit from your Crusade army makes an attack, if that unit is harbouring a grudge against your opponent&apos;s Crusade army, re-roll a Hit roll of 1 if the target has 1-2 Grudge tokens, or you can re-roll the Hit roll instead if the target has 3 Grudge tokens.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="To The Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7a69-0a67-366e-2883">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">A unit from your Crusade army that is harbouring a grudge against opponent&apos;s Crusade army cannot Fall Back while it is within Engagement Range of one or more enemy units.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </infoGroup>
-  </sharedInfoGroups>
 </catalogue>
