@@ -2573,6 +2573,8 @@
         <categoryLink id="7473-55a0-450c-7923" name="Psyker" hidden="false" targetId="13bf-2bee-3ae0-b414" primary="false"/>
         <categoryLink id="8084-6a68-dadc-163d" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="5a9d-216-f891-190c" name="Master of Possession" hidden="false" targetId="afa8-767e-2c48-81ca" primary="false"/>
+        <categoryLink targetId="210f-542c-3584-0a5b" id="c847-6300-a5d7-af7c" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="1b79-610a-cd92-641d" id="a154-686d-78d1-8332" primary="false" name="Leader"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7e17-4b3a-8213-f6e2" name="Warlord" hidden="false" collective="false" import="true" targetId="1a34-f1cc-ec01-ca32" type="selectionEntry" sortIndex="2"/>
@@ -6332,6 +6334,8 @@
         <categoryLink id="c837-28fb-6b18-b578" name="Grenades" hidden="false" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink id="ff9d-26ad-d5ee-8da3" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="f2f4-d9de-e1ae-e4a7" name="Master of Executions" hidden="false" targetId="1ff5-86c2-4cd8-283f" primary="false"/>
+        <categoryLink targetId="210f-542c-3584-0a5b" id="2ff8-e14c-dadf-8464" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="1b79-610a-cd92-641d" id="4f63-5062-b510-53a9" primary="false" name="Leader"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="bab-960a-8dda-bace" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="5581-5d38-90b8-f8cd" type="selectionEntryGroup" sortIndex="5"/>
