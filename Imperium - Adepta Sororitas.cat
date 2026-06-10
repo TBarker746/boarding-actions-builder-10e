@@ -26,6 +26,7 @@
     <categoryEntry name="Penitent" id="e2c8-1479-a7c4-228e" hidden="false"/>
     <categoryEntry name="Warlord Eligible Character" id="300f-4e6b-1e25-0454" hidden="false"/>
     <categoryEntry name="Intranzia Fraye" hidden="false" id="d629-5abf-0d26-52d6"/>
+    <categoryEntry name="Ministorum Priest" hidden="false" id="a805-f387-f2cf-8167"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Detachment" hidden="false" id="9cc-e2b2-81eb-df6">
@@ -2545,8 +2546,8 @@
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="8db5-2ec6-c24f-e2e4" primary="true" name="Character"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="dd87-5ddb-9729-2378" primary="false" name="Imperium"/>
         <categoryLink targetId="fd71-afa6-b13b-7fda" id="8254-24eb-ea16-e286" primary="false" name="Faction: Adepta Sororitas"/>
-        <categoryLink targetId="cc88-9467-86ac-4ca2" id="8f39-0aac-173d-737f" primary="false" name="Ministorum Priest"/>
         <categoryLink targetId="e2c8-1479-a7c4-228e" id="c162-963c-881c-bf4e" primary="false" name="Penitent"/>
+        <categoryLink targetId="a805-f387-f2cf-8167" id="56f0-9fc2-7414-eec2" primary="false" name="Ministorum Priest"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Minor Miracles" hidden="false" type="rule" id="c458-eab7-3156-9889" targetId="7ef7-dca6-e2ea-ecc8"/>

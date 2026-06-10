@@ -155,7 +155,6 @@
         <infoLink id="03e9-1e26-bc4b-42a5" name="Invulnerable Save" hidden="false" targetId="a2fa-ebfd-7b32-9a75" type="profile"/>
         <infoLink name="Shadow in the Warp" hidden="false" type="rule" id="da26-aec0-ce49-9117" targetId="395b-a159-b293-27aa"/>
         <infoLink name="Synapse" hidden="false" type="rule" id="d127-3b0d-807d-155" targetId="86aa-437f-260b-5cad"/>
-        <infoLink name="Lord of Deceit (Aura)" id="66fb-740a-84ad-e491" hidden="true" type="profile" targetId="8332-466b-a51f-63ab"/>
         <infoLink name="Synaptic Web" hidden="false" type="rule" id="375f-a718-7197-e3fb" targetId="52c9-367b-c07b-682d"/>
       </infoLinks>
       <categoryLinks>

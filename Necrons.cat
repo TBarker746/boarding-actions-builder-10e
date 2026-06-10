@@ -506,8 +506,7 @@
                   <description>In your Command phase, for each **^^CRYPTEK**^^ unit in your army, select one of the following abilities. Until the start of your next Command phase, your unit has that ability.
 ■ Hyperlocation Stutter (Aura): While a friendly **^^NECRONS**^^ unit is within 6&quot; of this model, add 2 to Advance rolls made for that unit.
 ■ Transharmonic Disruption (Aura): While a friendly **^^NECRONS**^^ unit is within 6&quot; of this model, add 1 to the Strength characteristic of weapons equipped by models in that unit.
-■ Quantum Interface (Aura): While a friendly **^^NECRONS**^^ unit is within 6&quot; of this model, models in that unit have a 5+ invulnerable save.
-</description>
+■ Quantum Interface (Aura): While a friendly **^^NECRONS**^^ unit is within 6&quot; of this model, models in that unit have a 5+ invulnerable save.</description>
                 </rule>
                 <rule name="Rules Adaptations" id="ae57-0fff-80c2-a325" hidden="false">
                   <description>■ When setting up **^^ILLUMINOR SZERAS^^** on the battlefield, no other units can be set up within the same Entry Zone they are set up in.</description>
@@ -612,7 +611,7 @@
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="a2eb-ec88-c167-dfea" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="a2eb-ec88-c167-dfea" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="58c3-e7aa-889e-4187" targetId="2c98-86cf-889-2293" sortIndex="1"/>
@@ -663,7 +662,7 @@
         <categoryLink targetId="c0cf-8d18-38d5-5034" id="ecbe-e3df-7cc6-f022" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="7f82-50f6-ef12-62a7" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="7f82-50f6-ef12-62a7" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1a66-1b2-dfd6-b5b4">
@@ -780,7 +779,7 @@
         <categoryLink targetId="c0cf-8d18-38d5-5034" id="a4b7-9c93-382d-ad78" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="1270-d01b-f657-db0" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="1270-d01b-f657-db0" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="Feel No Pain" hidden="false" type="rule" id="9129-fb81-c4f-d42c" targetId="9bf4-280f-bbe2-6fbb">
           <modifiers>
             <modifier type="append" value="4+" field="name"/>
@@ -925,7 +924,7 @@
         <categoryLink targetId="c0cf-8d18-38d5-5034" id="d135-9529-2682-bb49" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="65d0-6517-761-8d48" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="65d0-6517-761-8d48" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a75-b831-8fca-7904">
@@ -1013,7 +1012,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <entryLink import="true" name="Enhancements" hidden="false" type="selectionEntryGroup" id="1d39-6d2-932e-7eee" targetId="9574-b5d1-8b0a-d95d" sortIndex="3"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="ea6e-dfb3-c0ec-6dc" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="ea6e-dfb3-c0ec-6dc" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Royal Warden" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="47c8-8c7-55bc-4279">
@@ -1162,7 +1161,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="9773-2011-fe82-ceea" id="9671-513e-e155-8b7d" primary="false" name="Skorpekh Lord"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="5384-758d-6d12-2582" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="5384-758d-6d12-2582" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Enhancements" hidden="false" type="selectionEntryGroup" id="edd5-4190-1d1c-f15" targetId="9574-b5d1-8b0a-d95d" sortIndex="3"/>
@@ -1338,7 +1337,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="c0cf-8d18-38d5-5034" id="4bc7-e3e3-133b-8eee" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="9a63-27a1-303e-813c" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="9a63-27a1-303e-813c" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="f60d-86b7-33d6-c3d2" targetId="b68a-5ded-65ac-98c">
           <modifiers>
             <modifier type="append" value="1" field="name"/>
@@ -1537,7 +1536,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="c0cf-8d18-38d5-5034" id="f5bf-5819-3d25-80b6" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="e5c5-9468-2f96-e54b" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="e5c5-9468-2f96-e54b" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="My Will Be Done" id="2c2f-0ed2-3e0e-1b0d" hidden="false" type="profile" targetId="95f2-8c65-7342-354d"/>
       </infoLinks>
       <entryLinks>
@@ -1759,7 +1758,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="1b79-610a-cd92-641d" id="631c-5436-e4b8-590c" primary="false" name="Leader"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="aba3-8486-d4aa-c91" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="aba3-8486-d4aa-c91" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Enhancements" hidden="false" type="selectionEntryGroup" id="1ee2-5d7a-5dbb-18c3" targetId="9574-b5d1-8b0a-d95d" sortIndex="3"/>
@@ -1886,7 +1885,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="c0cf-8d18-38d5-5034" id="3fed-2b18-5480-1879" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="38db-77df-142-ec56" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="38db-77df-142-ec56" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Enhancements" hidden="false" type="selectionEntryGroup" id="58e0-fea8-4ce3-87ad" targetId="9574-b5d1-8b0a-d95d" sortIndex="3"/>
@@ -2005,7 +2004,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="1b79-610a-cd92-641d" id="5d93-091f-87e7-0c07" primary="false" name="Leader"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="1d0-1d78-b6b5-54ed" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="1d0-1d78-b6b5-54ed" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Enhancements" hidden="false" type="selectionEntryGroup" id="49a9-a68e-9f5d-e134" targetId="9574-b5d1-8b0a-d95d" sortIndex="3"/>
@@ -2017,8 +2016,7 @@ in its place, with all of its wounds remaining.</characteristic>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following units:
 
 ■ ^^**IMMORTALS^^**
-■ ^^**NECRON WARRIORS^^**
-</characteristic>
+■ ^^**NECRON WARRIORS^^**</characteristic>
           </characteristics>
         </profile>
         <profile name="Chronomancer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e241-7e15-5a1d-54fb">
@@ -2138,7 +2136,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="1b79-610a-cd92-641d" id="9936-4002-c9f7-04d8" primary="false" name="Leader"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="a767-c33e-d026-ae41" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="a767-c33e-d026-ae41" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Enhancements" hidden="false" type="selectionEntryGroup" id="9356-6675-1f11-7742" targetId="9574-b5d1-8b0a-d95d" sortIndex="3"/>
@@ -2273,7 +2271,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="2fd7-338d-d680-5237" id="22b3-2e98-939-b0bb" primary="false" name="Necron Warriors"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="42aa-f2b7-dca2-cb15" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="42aa-f2b7-dca2-cb15" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Necron Warriors" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b82c-b711-6d65-30b5">
@@ -2454,7 +2452,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="ed42-b203-25cf-a0dd" id="e00c-8f49-2378-cfb3" primary="false" name="Immortals"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="2642-3dbc-27a8-2b99" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="2642-3dbc-27a8-2b99" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="150" field="51b2-306e-1021-d207">
@@ -2481,6 +2479,16 @@ in its place, with all of its wounds remaining.</characteristic>
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="9d21-e807-1b94-e499" shared="true" includeChildSelections="true" includeChildForces="true" childName="Harbinger Cabal"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="All models must be equipped identically" field="error">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="f81-b23c-e183-39d7" childId="cc7c-74ca-3bb6-926f" shared="true" childName="Gauss blaster" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="f81-b23c-e183-39d7" childId="7a74-dc6f-1118-92c3" shared="true" childName="Tesla carbine" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <selectionEntryGroups>
@@ -2613,7 +2621,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
       </costs>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="f619-9664-31f1-194e" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="f619-9664-31f1-194e" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="Feel No Pain" hidden="false" type="rule" id="1b8b-ecf-f1a7-673" targetId="9bf4-280f-bbe2-6fbb">
           <modifiers>
             <modifier type="append" value="4+" field="name"/>
@@ -2741,7 +2749,7 @@ in its place, with all of its wounds remaining.</characteristic>
       <infoLinks>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="b39-a83-6df0-39d9" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Lone Operative" hidden="false" type="rule" id="c7da-67ef-a985-8499" targetId="a8a0-8fe7-898-e0f3"/>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="9654-e27d-7fc7-a7c4" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="9654-e27d-7fc7-a7c4" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Hexmark Destroyer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1953-376f-1d09-dde4">
@@ -2878,7 +2886,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="270-5fd8-6b5c-9165" id="6648-d2fb-7d50-d3ef" primary="false" name="Lychguard"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="3965-8c31-1f73-6cc7" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="3965-8c31-1f73-6cc7" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="170" field="51b2-306e-1021-d207">
@@ -2899,6 +2907,16 @@ in its place, with all of its wounds remaining.</characteristic>
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="6aa4-b9c2-a5e6-385e" shared="true" includeChildSelections="true" includeChildForces="true" childName="Tomb Ship Complement"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="All models must be equipped identically" field="error">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="c4e3-f6b0-f3aa-9d90" childId="423a-4db1-981-163" shared="true" childName="Warscythe" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="c4e3-f6b0-f3aa-9d90" childId="d28a-823-5ce2-8af4" shared="true" childName="Hyperphase sword and dispersion shield" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <selectionEntryGroups>
@@ -3000,7 +3018,7 @@ in its place, with all of its wounds remaining.</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Deathmarks" hidden="false" id="b7d7-14c9-63c1-ded5">
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="5742-db8f-1bdc-d3d1" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="5742-db8f-1bdc-d3d1" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="3c64-302e-2acf-b51f" targetId="7cb5-dd6b-dd87-ad3b"/>
       </infoLinks>
       <modifiers>
@@ -3063,6 +3081,7 @@ in its place, with all of its wounds remaining.</characteristic>
             <selectionEntry type="model" import="true" name="Deathmark" hidden="false" id="d029-2d51-e69c-1a87">
               <constraints>
                 <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="3da-ed2c-655-1f7e"/>
+                <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="b8f3-f9dc-aeea-dea3"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Synaptic disintegrator" hidden="false" id="1a6f-1d7d-2442-38c6" collective="true">
@@ -3138,7 +3157,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="388d-6508-7135-c6a9" id="8323-8882-58c2-7b93" primary="false" name="Flayed Ones"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="ca6f-64ae-3214-418c" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="ca6f-64ae-3214-418c" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="Stealth" hidden="false" type="rule" id="40da-e811-b869-511" targetId="bec5-4288-34a6-ccfa"/>
         <infoLink name="Infiltrators" hidden="false" type="rule" id="4dd5-3f-d334-c5d8" targetId="c05d-f4c3-f091-4938"/>
       </infoLinks>
@@ -3255,7 +3274,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="97f2-7658-2cd-8f4b" id="ee35-a8ef-81bd-8264" primary="false" name="Skorpekh Destroyers"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="217-34d4-3fe8-c121" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="217-34d4-3fe8-c121" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Skorpekh Destroyers" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="14d-53e1-498-7525">
@@ -3285,7 +3304,7 @@ in its place, with all of its wounds remaining.</characteristic>
               <selectionEntries>
                 <selectionEntry type="model" import="true" name="Skorpekh Destroyer" hidden="false" id="ef69-b593-4685-18ce">
                   <constraints>
-                    <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="6729-5a2d-b2de-6f83"/>
+                    <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6729-5a2d-b2de-6f83"/>
                     <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="40ac-ce47-35a7-10aa"/>
                   </constraints>
                   <selectionEntries>
@@ -3355,7 +3374,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="1124-c60-ce6-631" id="60a6-fad1-1eaa-af6e" primary="false" name="Triarch Stalker"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="36a9-9d0a-e0d6-997d" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="36a9-9d0a-e0d6-997d" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="9660-c092-1868-fa2" targetId="b68a-5ded-65ac-98c">
           <modifiers>
             <modifier type="append" value="D3" field="name"/>
@@ -3591,7 +3610,7 @@ in its place, with all of its wounds remaining.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="1255-c410-3c25-5e7c" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="1255-c410-3c25-5e7c" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Canoptek Scarab Swarms" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="971b-8c49-4470-694a">
@@ -3662,7 +3681,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="b504-b280-b7f2-37e" id="b882-8469-d742-b904" primary="false" name="Ophydian Destroyers"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="979e-e886-a5dc-da71" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="979e-e886-a5dc-da71" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="79b6-4004-1655-d9a3" targetId="7cb5-dd6b-dd87-ad3b"/>
       </infoLinks>
       <modifiers>
@@ -3769,7 +3788,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="efd1-9381-2a42-9d2c" id="f8f3-29fc-dad8-9602" primary="false" name="Triarch Praetorians"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="8601-755c-4bda-fe21" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="8601-755c-4bda-fe21" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="180" field="51b2-306e-1021-d207">
@@ -3920,7 +3939,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="a584-e2d5-6c07-afe" id="489a-62f0-4d98-ab63" primary="false" name="Wraiths"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="e1f5-7704-408c-b9f4" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="e1f5-7704-408c-b9f4" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Canoptek Wraiths" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="619a-b8da-477b-3995">
@@ -4134,7 +4153,7 @@ in its place, with all of its wounds remaining.</characteristic>
             <modifier type="append" value="1" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="58aa-6464-cbb0-7ba4" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="58aa-6464-cbb0-7ba4" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Annihilation Barge" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9b54-de16-5f4a-154c">
@@ -4290,7 +4309,7 @@ in its place, with all of its wounds remaining.</characteristic>
             <modifier type="append" value="D3" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="1d21-a1b7-c74c-807a" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="1d21-a1b7-c74c-807a" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3426-2c7f-e59e-354f">
@@ -4466,7 +4485,7 @@ in its place, with all of its wounds remaining.</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="539a-5854-20d6-b96a" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="539a-5854-20d6-b96a" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="c0aa-c0ed-5b3a-f1fa" targetId="b68a-5ded-65ac-98c">
           <modifiers>
             <modifier type="append" value="D3" field="name"/>
@@ -4596,7 +4615,7 @@ in its place, with all of its wounds remaining.</characteristic>
             <modifier type="append" value="D3" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="6b4e-d07e-a11-31b0" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="6b4e-d07e-a11-31b0" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="baa5-30ae-549d-3e5">
@@ -4703,7 +4722,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="5bc7-9e20-85de-af17" id="4ad3-b7ca-71e0-e1c" primary="false" name="Night Scythe"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="896-17c3-c37e-e9bf" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="896-17c3-c37e-e9bf" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="5a41-27bd-9a6e-6b68" targetId="b68a-5ded-65ac-98c">
           <modifiers>
             <modifier type="append" value="D3" field="name"/>
@@ -4808,7 +4827,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="85d5-b025-1dec-adf4" id="6fe7-4f-6601-e37" primary="false" name="Doom Scythe"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="d908-db75-ddc7-70b1" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="d908-db75-ddc7-70b1" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="7308-401c-6b52-3aff" targetId="b68a-5ded-65ac-98c">
           <modifiers>
             <modifier type="append" value="D3" field="name"/>
@@ -4941,7 +4960,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="430f-7c5f-7c00-7e97" id="cf1d-63cf-b154-a32b" primary="false" name="Obelisk"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="5eb5-7507-13e5-ccde" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="5eb5-7507-13e5-ccde" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="7560-5507-2e3a-3c45" targetId="b68a-5ded-65ac-98c">
           <modifiers>
             <modifier type="append" value="D6" field="name"/>
@@ -5061,7 +5080,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="f6cb-6287-1d9d-ed48" id="b7e1-a41a-895e-6666" primary="false" name="Tesseract Vault"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="91e9-97eb-1a97-35e4" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="91e9-97eb-1a97-35e4" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="cb90-f623-a954-16d2" targetId="b68a-5ded-65ac-98c">
           <modifiers>
             <modifier type="append" value="D6+3" field="name"/>
@@ -5238,7 +5257,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="e379-de-d272-104a" id="e691-75a9-fe39-8f1f" primary="false" name="Monolith"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="56f1-5159-3581-eb40" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="56f1-5159-3581-eb40" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="2bf6-5c7c-c981-b9a5" targetId="b68a-5ded-65ac-98c">
           <modifiers>
             <modifier type="append" value="D6" field="name"/>
@@ -5431,7 +5450,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink name="Triarch" hidden="false" id="9bb3-19b3-1402-d55a" targetId="8ddf-88ca-8b98-89b7" primary="false"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="fbd0-1de0-3066-5d83" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="fbd0-1de0-3066-5d83" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6bc2-17c8-cdd7-1505">
@@ -5451,22 +5470,22 @@ in its place, with all of its wounds remaining.</characteristic>
         </profile>
         <profile name="The Silent King (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a7b-b3f0-3fa3-85a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly **^^NECRONS^^** unit is within 6&quot; of this unit&apos;s Szarekh model, improve that unit&apos;s Leadership characteristic by 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly **^^NECRONS^^** unit (excluding ^^**Monster^^** units) is within 6&quot; of this unit&apos;s Szarekh model, improve that unit&apos;s Leadership characteristic by 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Phaeron of the Stars (Aura)" typeId="b289-e7b4-432c-e2dd" typeName="Triarch Abilities" hidden="false" id="2feb-ae85-c8e0-9f61">
           <characteristics>
-            <characteristic name="Effect" typeId="a55f-e008-7f78-1890">While a friendly **^^NECRONS^^** unit is within 6&quot; of this unit’s Szarekh model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.</characteristic>
+            <characteristic name="Effect" typeId="a55f-e008-7f78-1890">While a friendly **^^NECRONS^^** unit (excluding ^^**Monster^^** units) is within 6&quot; of this unit’s Szarekh model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Phaeron of the Blades (Aura)" typeId="b289-e7b4-432c-e2dd" typeName="Triarch Abilities" hidden="false" id="58bf-f46b-be44-3e67">
           <characteristics>
-            <characteristic name="Effect" typeId="a55f-e008-7f78-1890">While a friendly **^^NECRONS^^** unit is within 6&quot; of this unit’s Szarekh model, you can re-roll Charge rolls made for that unit and each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.</characteristic>
+            <characteristic name="Effect" typeId="a55f-e008-7f78-1890">While a friendly **^^NECRONS^^** unit (excluding ^^**Monster^^** units) is within 6&quot; of this unit’s Szarekh model, you can re-roll Charge rolls made for that unit and each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.</characteristic>
           </characteristics>
         </profile>
         <profile name="Relentless March (Aura)" typeId="b289-e7b4-432c-e2dd" typeName="Triarch Abilities" hidden="false" id="a8bf-159-583c-5973">
           <characteristics>
-            <characteristic name="Effect" typeId="a55f-e008-7f78-1890">While a friendly ^^**Necrons^^** unit is within 6&quot; of this unit’s ^^**Szarekh^^** model, add 2&quot; to the Move characteristic of models in that unit.</characteristic>
+            <characteristic name="Effect" typeId="a55f-e008-7f78-1890">While a friendly ^^**Necrons^^** unit (excluding ^^**Monster^^** units) is within 6&quot; of this unit’s ^^**Szarekh^^** model, add 2&quot; to the Move characteristic of models in that unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5664,7 +5683,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="2bab-a022-dfef-2d61" id="ee63-30bc-ad5f-c07a" primary="false" name="Tomb Stalker"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="62fe-6592-b87a-f895" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="62fe-6592-b87a-f895" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Canoptek Tomb Stalker" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="6d84-febb-18d8-c730">
@@ -5778,7 +5797,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="115"/>
       </costs>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="fc2a-e97c-b556-bc62" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="fc2a-e97c-b556-bc62" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="832c-6bc6-82cb-22c3">
@@ -5922,7 +5941,7 @@ in its place, with all of its wounds remaining.</characteristic>
             <modifier type="append" value="1" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="3ec1-db1d-ea68-5faf" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="3ec1-db1d-ea68-5faf" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Tesseract Ark" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9063-f961-100c-be6c">
@@ -6195,7 +6214,7 @@ in its place, with all of its wounds remaining.</characteristic>
             <modifier type="append" value="D6+2" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="c37b-954d-eee-9c12" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="c37b-954d-eee-9c12" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Gauss annihilator" hidden="false" id="3c2c-5e00-cb7a-f9c7">
@@ -6283,7 +6302,7 @@ in its place, with all of its wounds remaining.</characteristic>
             <modifier type="append" value="D3" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="eb0b-f4c4-7209-3f5d" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="eb0b-f4c4-7209-3f5d" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapon" hidden="false" id="7492-15bb-4bd2-2b0d" defaultSelectionEntryId="2e15-d0bf-e0c9-1145">
@@ -6405,7 +6424,7 @@ in its place, with all of its wounds remaining.</characteristic>
             <modifier type="append" value="D3" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="8196-477d-8b58-6bc3" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="8196-477d-8b58-6bc3" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="a7e7-ae57-38ec-52ba" type="selectionEntry" targetId="2c98-86cf-889-2293" sortIndex="1"/>
@@ -6487,7 +6506,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <categoryLink targetId="c0cf-8d18-38d5-5034" id="1657-7115-3682-1738" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" hidden="false" type="rule" id="f542-a8af-c9f7-5eda" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" hidden="false" type="rule" id="f542-a8af-c9f7-5eda" targetId="a511-d9ca-17d0-42c5"/>
         <infoLink name="My Will Be Done" id="5b03-dbbd-8e81-2ce4" hidden="false" type="profile" targetId="95f2-8c65-7342-354d"/>
       </infoLinks>
       <entryLinks>
@@ -6595,7 +6614,7 @@ in its place, with all of its wounds remaining.</characteristic>
         <entryLink import="true" name="Enhancements" hidden="false" id="f3d7-ad0d-df29-7168" type="selectionEntryGroup" targetId="9574-b5d1-8b0a-d95d" sortIndex="3"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Reanimation Protocols" id="8279-a036-80c8-16dd" hidden="false" type="rule" targetId="a511-d9ca-17d0-42c5"/>
+        <infoLink name="Transdimensional Reinforcements" id="8279-a036-80c8-16dd" hidden="false" type="rule" targetId="a511-d9ca-17d0-42c5"/>
       </infoLinks>
       <profiles>
         <profile name="Geomancer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3e8f-4444-2913-dbee">
@@ -6991,7 +7010,7 @@ If this unit is destroyed without having requested reinforcement, after removing
     <categoryEntry name="Overlord with Translocation Shroud" hidden="false" id="6ab6-f4b-9f11-394f"/>
     <categoryEntry name="Triarch" id="8ddf-88ca-8b98-89b7" hidden="false"/>
     <categoryEntry name="Geomancer" id="95df-800c-ee22-4cac" hidden="false"/>
-    <categoryEntry name="Warlord Eligible Character" hidden="false" id="c0cf-8d18-38d5-5034" page=""/>
+    <categoryEntry name="Warlord Eligible Character" hidden="false" id="c0cf-8d18-38d5-5034"/>
   </categoryEntries>
   <entryLinks>
     <entryLink import="true" name="Imotekh the Stormlord" hidden="false" type="selectionEntry" id="572d-e094-2f28-92df" targetId="49fd-a80d-8cc0-c76b"/>

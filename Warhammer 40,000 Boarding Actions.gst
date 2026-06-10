@@ -64,7 +64,6 @@
     <categoryEntry id="aff3-d6a3-2a95-9dc" name="Imperium" hidden="false"/>
     <categoryEntry id="4ac9-fd30-1e3d-b249" name="Configuration" hidden="false"/>
     <categoryEntry id="1160-70ae-a862-b1a8" name="Unit" hidden="false"/>
-    <categoryEntry id="c619-2086-bbcf-69c9" name="Fly" hidden="false"/>
     <categoryEntry id="6df-937-16bc-8c1a" name="Smoke" hidden="false"/>
     <categoryEntry id="13bf-2bee-3ae0-b414" name="Psyker" hidden="false"/>
     <categoryEntry id="dbd4-63-af05-998" name="Vehicle" hidden="false"/>
@@ -152,11 +151,6 @@
       <comment>Flags a weapon that has had a +0 added to a D3/D6 Damage characteristic - used for logic calculations</comment>
     </categoryEntry>
     <categoryEntry id="59a9-b5cc-7c11-aaad" name="Tech-Priest" hidden="false"/>
-    <categoryEntry name="Ministorum Priest" hidden="false" id="cc88-9467-86ac-4ca2">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="9ad1-8aef-0d46-3b1b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
     <categoryEntry name="Assault Weapon" id="e106-0758-7137-2432" hidden="true"/>
     <categoryEntry name="Leader" id="1b79-610a-cd92-641d" hidden="false"/>
     <categoryEntry name="Group A" id="1b86-1c85-1ee6-5f91" hidden="false">
@@ -392,6 +386,31 @@
                 <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="aed2-4fcc-4009-d212" shared="true" childName="Champions of Chaos"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="2828-d5c0-16bd-5e6f" shared="true" childName="Daemonic Incursion"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="1027-123e-4fc7-d2ec" shared="true" childName="Infernal Onslaught"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="c16a-26c5-ad65-d0a6" shared="true" childName="Rotten and Rusted"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="66af-a068-ff4f-4ebe" shared="true" childName="Dread Carnival"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="parent" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="d838-8b36-e075-0a3f" shared="true" childName="Pandaemonic Inferno"/>
                   </conditions>
                 </localConditionGroup>
               </localConditionGroups>
@@ -1077,18 +1096,4 @@ If a unit with the Deep Strike ability arrives from Strategic Reserves, the cont
       <description>The bearer can only shoot with this weapon once per battle.</description>
     </rule>
   </sharedRules>
-  <sharedProfiles>
-    <profile id="fa4e-5ac8-11a6-78d2" name="Fortification" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While an enemy unit is only within Engagement Range of one or more ^^**Fortifications**^^ from your army:
-- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.
-- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Lord of Deceit (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8332-466b-a51f-63ab">
-      <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12&quot; of this model, increase the cost of that use of that Stratagem by 1CP.</characteristic>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
 </gameSystem>
