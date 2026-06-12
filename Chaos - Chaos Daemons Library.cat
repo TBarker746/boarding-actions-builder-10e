@@ -3136,7 +3136,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d838-8b36-e075-0a3f" shared="true" includeChildSelections="true" childName="Pandaemonic Inferno"/>
@@ -4988,7 +4988,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="66af-a068-ff4f-4ebe" shared="true" includeChildSelections="true" childName="Dread Carnival"/>
