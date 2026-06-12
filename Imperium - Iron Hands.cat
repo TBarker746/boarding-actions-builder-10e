@@ -3,7 +3,6 @@
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Imperium - Adeptus Astartes - Space Marines" id="58f2-3ff2-63db-c44f" targetId="e0af-67df-9d63-8fb7" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="c928-54a6-64c3-7d5" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="fcde-dbec-a498-fb3d" targetId="b00-cd86-4b4c-97ba" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Iron Father Feirros" hidden="false" id="6c9d-4ec3-69dd-90b2">

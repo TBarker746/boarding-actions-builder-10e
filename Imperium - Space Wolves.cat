@@ -3,7 +3,6 @@
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Imperium - Adeptus Astartes - Space Marines" id="cb5b-3605-7522-c561" targetId="e0af-67df-9d63-8fb7" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="2e06-13ae-6789-b591" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="339c-6e85-c0f3-ccd6" targetId="b00-cd86-4b4c-97ba" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Logan Grimnar" hidden="false" id="c65-46c6-3a62-80c">
@@ -500,7 +499,6 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="e321-3bca-ce87-b45b" primary="false" name="Imperium"/>
         <categoryLink targetId="740a-892c-8958-defa" id="821c-30e2-1fc4-c01e" primary="false" name="Terminator"/>
         <categoryLink targetId="88ee-e662-b0c6-43cd" id="d85a-feba-1249-defb" primary="false" name="Arjac Rockfist"/>
-        <categoryLink targetId="1b79-610a-cd92-641d" id="3aa3-f570-1df4-86f8" primary="false" name="Leader"/>
         <categoryLink targetId="abd3-107c-7042-9417" id="173e-514d-9bc6-5464" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <infoLinks>
@@ -509,13 +507,6 @@
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="7ba8-31b8-6ca6-b113" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <profiles>
-        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8970-5680-4afc-a67d">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following units:
-
-■ **^^Wolf Guard Terminators^^**</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Arjac Rockfist" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e310-d3d-aaca-eaac">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
@@ -839,6 +830,8 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="108b-d7c6-c67e-d6e2" primary="false" name="Imperium"/>
         <categoryLink targetId="2d7f-1892-2fd0-e29c" id="dfe7-3977-bad0-d69" primary="false" name="Captain"/>
         <categoryLink targetId="3658-9233-93cb-c8b" id="e7b-2865-a29d-60c6" primary="false" name="Krom Dragongaze"/>
+        <categoryLink targetId="abd3-107c-7042-9417" id="98c5-00a0-c8ba-f34a" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="1b79-610a-cd92-641d" id="e513-80a5-330e-6a69" primary="false" name="Leader"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Invulnerable Save" hidden="false" type="profile" id="3a8b-d97f-ec0f-7b1b" targetId="db19-dee7-9530-ef0e"/>
@@ -2006,7 +1999,6 @@
         <categoryLink targetId="1b79-610a-cd92-641d" id="e185-93b6-8921-2625" primary="false" name="Leader"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Leader" hidden="false" type="rule" id="a4a-6e9d-6667-9b26" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Oath of Moment" hidden="false" type="rule" id="dda1-1908-fa74-d768" targetId="3b76-4053-ece9-6e7d"/>
       </infoLinks>
       <profiles>

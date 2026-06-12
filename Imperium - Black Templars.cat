@@ -105,6 +105,8 @@ Water from the Stoup of Elucidation: Improve the Armour Penetration characterist
             <categoryLink targetId="9cfd-1c32-585f-7d5c" id="fe9d-5e16-4c89-4ca9" primary="false" name="Character"/>
             <categoryLink targetId="5a61-81ac-eb7c-a87e" id="e67-ffe9-39fe-a7d6" primary="false" name="Grenades"/>
             <categoryLink targetId="a4ce-23d9-7110-8609" id="1d80-e720-d8a2-2c41" primary="false" name="Chaplain Grimaldus"/>
+            <categoryLink targetId="abd3-107c-7042-9417" id="988b-988a-4036-6d46" primary="false" name="Warlord Eligible Character"/>
+            <categoryLink targetId="1b79-610a-cd92-641d" id="2eb0-1317-5fac-9f01" primary="false" name="Leader"/>
           </categoryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Artificer Crozius" hidden="false" id="2887-94e6-41fa-2a01">

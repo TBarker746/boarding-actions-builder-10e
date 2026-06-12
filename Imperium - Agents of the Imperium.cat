@@ -64,6 +64,7 @@
           </profiles>
           <categoryLinks>
             <categoryLink targetId="9cfd-1c32-585f-7d5c" id="28e7-1273-55f0-4340" primary="false" name="Character"/>
+            <categoryLink targetId="21e9-ffb6-159d-2689" id="faea-e85f-5409-9203" primary="false" name="Warlord Eligible Character"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Warlord" hidden="false" id="9f83-e49a-8994-bec4" type="selectionEntry" targetId="bb9a-14e7-b947-793b" sortIndex="1"/>
@@ -1271,7 +1272,7 @@
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Cyber-mastiff" hidden="false" type="selectionEntry" id="ed9d-47b8-fe55-7d0e" targetId="14b8-cce5-ed01-5699" sortIndex="4"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="ba5e-3082-4de0-619d" type="selectionEntry" targetId="bb9a-14e7-b947-793b" sortIndex="1"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="3daf-69e5-14f4-61de" type="selectionEntry" targetId="bb9a-14e7-b947-793b" sortIndex="1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Imperial Insights" id="ee07-046f-96b0-b4f9" hidden="false" type="rule" targetId="c00e-39d8-8a71-0861"/>
@@ -1302,11 +1303,17 @@
               <entryLinks>
                 <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="006f-8b37-a348-51e8" type="selectionEntryGroup" targetId="7a70-721c-c39e-645c"/>
               </entryLinks>
+              <categoryLinks>
+                <categoryLink targetId="eeda-8544-a2f3-3fab" id="ef6e-6589-9e5b-49fa" primary="false" name="Ranged Weapon"/>
+              </categoryLinks>
             </entryLink>
             <entryLink import="true" name="Arbites shotpistol" hidden="false" id="df10-ce60-936b-cb2e" type="selectionEntry" targetId="29d8-67fc-dd00-563">
               <entryLinks>
                 <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="1eab-3ca2-348f-d508" type="selectionEntryGroup" targetId="7a70-721c-c39e-645c"/>
               </entryLinks>
+              <categoryLinks>
+                <categoryLink targetId="eeda-8544-a2f3-3fab" id="1718-d448-84cf-d727" primary="false" name="Ranged Weapon"/>
+              </categoryLinks>
             </entryLink>
             <entryLink import="true" name="Enhancements" hidden="false" id="6f63-ab85-b097-10a9" type="selectionEntryGroup" targetId="c3c8-4ca0-ec6e-6686" sortIndex="1">
               <modifiers>
@@ -1956,6 +1963,8 @@
         <categoryLink targetId="92d3-447e-a71e-6739" id="b91b-6bd3-a131-51e9" primary="false" name="Inquisitor"/>
         <categoryLink targetId="a782-bf42-a7d8-e578" id="5a5d-ca7a-9e2b-6b81" primary="false" name="Draxus"/>
         <categoryLink name="Ordo Xenos" hidden="false" id="cd26-96ff-e00b-b27c" targetId="ab1c-1334-d1cc-08df" primary="false"/>
+        <categoryLink targetId="21e9-ffb6-159d-2689" id="3741-ecd5-f357-0279" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="1b79-610a-cd92-641d" id="500a-5b8d-a664-15ec" primary="false" name="Leader"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Imperial Insights" id="8c53-96b9-e43a-6e9e" hidden="false" type="rule" targetId="c00e-39d8-8a71-0861"/>
@@ -2274,6 +2283,8 @@
         <categoryLink targetId="92d3-447e-a71e-6739" id="46c0-d59b-715f-9821" primary="false" name="Inquisitor"/>
         <categoryLink targetId="e756-cc02-408d-8907" id="6f89-aa2d-962e-b49d" primary="false" name="Greyfax"/>
         <categoryLink name="Ordo Hereticus" hidden="false" id="de01-609b-32fe-bf90" targetId="cc90-ec2e-cca3-e44d" primary="false"/>
+        <categoryLink targetId="1b79-610a-cd92-641d" id="8be6-62dc-0439-4145" primary="false" name="Leader"/>
+        <categoryLink targetId="21e9-ffb6-159d-2689" id="9284-1746-1e91-d185" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Imperial Insights" id="7ed0-d9de-c45c-70c9" hidden="false" type="rule" targetId="c00e-39d8-8a71-0861"/>
@@ -4592,25 +4603,6 @@
         <entryLink import="true" name="Warlord" hidden="false" id="630c-fe43-f617-0137" type="selectionEntry" targetId="bb9a-14e7-b947-793b" sortIndex="1"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Assault cannon" hidden="false" id="be34-7406-10cd-c6e2" publicationId="4115-3627-e608-39f6" page="29">
-      <profiles>
-        <profile name="Assault cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8a6d-f385-f25e-fbcd" publicationId="4115-3627-e608-39f6" page="29">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Devastating Wounds" id="fd53-44b6-daa6-5a52" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-      </infoLinks>
-      <comment>Armoury - 3+</comment>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="f1ff-e2f6-852a-ec0b">
       <infoLinks>
         <infoLink name="Melta" id="8c58-d857-1040-51c5" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
@@ -4665,6 +4657,8 @@
         <categoryLink name="Inquisitor" hidden="false" id="e5ef-23a3-59fa-3a9f" targetId="92d3-447e-a71e-6739" primary="false"/>
         <categoryLink name="Ostromandeus" hidden="false" id="5bd7-c5f1-a47b-4e8e" targetId="e2d0-e01e-c95a-bd0e" primary="false"/>
         <categoryLink name="Faction: Agents of the Imperium" hidden="false" id="9ea7-1644-06c8-968d" targetId="5128-90b-e4a5-dcbd" primary="false"/>
+        <categoryLink targetId="1b79-610a-cd92-641d" id="2102-697c-8156-1a60" primary="false" name="Leader"/>
+        <categoryLink targetId="21e9-ffb6-159d-2689" id="a164-6908-1058-87f4" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Inquisitor Ostromandeus" hidden="false" id="4902-9ea0-c1fc-164c" sortIndex="2">

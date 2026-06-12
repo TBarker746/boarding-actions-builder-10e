@@ -141,7 +141,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="7f72-3953-ec2f-20e2" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="0ace-9531-42d8-cce4" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="7f72-3953-ec2f-20e2" shared="true" childName="Warlord Eligible Character"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>

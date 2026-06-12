@@ -4038,6 +4038,16 @@
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="437f-0cb8-194f-a716" shared="true" includeChildSelections="true" childName="Void Salvagers"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="437f-0cb8-194f-a716" shared="true" childName="Void Salvagers" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="2d0a-a561-1ef8-75cd" shared="true" childName="Hearthfire Strike" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6656-0837-cd2d-7456" percentValue="false" includeChildSelections="true" includeChildForces="true"/>

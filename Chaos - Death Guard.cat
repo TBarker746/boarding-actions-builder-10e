@@ -2089,6 +2089,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
         <categoryLink name="Terminator" hidden="false" id="0cea-47ed-a9f1-089f" targetId="740a-892c-8958-defa" primary="false"/>
         <categoryLink targetId="5c1d-4e53-a5e9-6baa" id="5094-7f7b-153e-c87f" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="e15f-ad15-2692-9354" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="0481-9eed-f56e-b7ce" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="85"/>
@@ -2145,6 +2146,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
         <categoryLink name="Terminator" hidden="false" id="148f-39b6-bbfc-1aaf" targetId="740a-892c-8958-defa" primary="false"/>
         <categoryLink targetId="5c1d-4e53-a5e9-6baa" id="28d2-6818-5d9c-8af5" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="1420-c886-fe8e-c949" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="9325-5f37-12e9-cf44" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="204f-24aa-abef-4041" targetId="b526-972f-7394-632a" sortIndex="1"/>
@@ -2307,6 +2309,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
         <categoryLink name="Terminator" hidden="false" id="d20d-05ec-9ebd-c5f7" targetId="740a-892c-8958-defa" primary="false"/>
         <categoryLink targetId="5c1d-4e53-a5e9-6baa" id="8876-2593-ee62-c101" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="8491-f3f1-d812-8a94" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="edb4-1a9d-fad6-5f55" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="222-fc2-845f-6aa2" targetId="b526-972f-7394-632a" sortIndex="1"/>
@@ -2664,6 +2667,7 @@ In addition, in your Command phase, roll one D6 for each objective marker that i
         <categoryLink targetId="e37b-6db-a5-23ed" id="2a2a-ce4e-659-a90d" primary="false" name="Sorcerer"/>
         <categoryLink name="Terminator" hidden="false" id="8af4-e716-b738-01a1" targetId="740a-892c-8958-defa" primary="false"/>
         <categoryLink targetId="5c1d-4e53-a5e9-6baa" id="32e3-91da-457d-4126" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="ea4e-7eaf-ef35-809b" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e07c-d154-7b9d-ddfa" includeChildSelections="true" includeChildForces="true"/>

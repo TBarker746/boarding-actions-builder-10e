@@ -692,7 +692,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Big Mek in Mega Armour" hidden="false" id="95e9-6da3-5e75-2566">
       <constraints>
-        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="b42d-7934-9b0c-56e4"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b42d-7934-9b0c-56e4" includeChildSelections="true" includeChildForces="true"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="17f4-a13e-1d7b-9fff" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="f80e-138e-ba81-cf64" includeChildSelections="true"/>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="a0b0-7a7f-bf12-a5e9" includeChildSelections="false"/>
@@ -4818,7 +4818,7 @@ Designer’s Note: Place the relevant number of Ammo Runt tokens next to the uni
         </modifier>
         <modifier type="set" value="2" field="3968-386b-498c-d909">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="parent" childId="c005-4960-6d0d-5906" shared="true" childName="Kaptin Killers"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c005-4960-6d0d-5906" shared="true" childName="Kaptin Killers" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
@@ -4866,7 +4866,6 @@ Designer’s Note: Place the relevant number of Ammo Runt tokens next to the uni
         <categoryLink targetId="4e42-80a0-5c3b-2c7f" id="6c69-8aa7-c9f9-cf2c" primary="false" name="Beast Snagga"/>
         <categoryLink targetId="56cc-5f43-2403-8da0" id="63c9-122e-4efb-a0d4" primary="false" name="Faction: Orks"/>
         <categoryLink targetId="697d-7e4d-e117-fd5d" id="bf53-820e-4359-1f95" primary="false" name="Painboss"/>
-        <categoryLink targetId="5c0e-4c31-d51b-e470" id="04dd-a55c-331d-05d5" primary="false" name="Warlord"/>
         <categoryLink targetId="1d05-5e16-9418-1a60" id="cd69-4cc1-1d4c-b464" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="fecf-244a-381a-9303" primary="false" name="Leader"/>
       </categoryLinks>
@@ -5077,6 +5076,8 @@ Designer’s Note: Place the relevant number of Ammo Runt tokens next to the uni
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="d0ef-2587-5eb7-9fef" primary="true" name="Character"/>
         <categoryLink targetId="d844-fb57-f3b6-1560" id="d3d5-cf1d-e69d-246b" primary="false" name="Painboy"/>
         <categoryLink targetId="56cc-5f43-2403-8da0" id="dd5e-d84d-3bb0-3b29" primary="false" name="Faction: Orks"/>
+        <categoryLink targetId="1d05-5e16-9418-1a60" id="b730-690e-a64d-702c" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="1b79-610a-cd92-641d" id="9b63-b825-529a-f826" primary="false" name="Leader"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>

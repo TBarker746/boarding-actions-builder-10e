@@ -2203,9 +2203,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="c267-4e4f-2e57-ad39" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
-          </infoLinks>
           <categoryLinks>
             <categoryLink id="6726-8dbf-1c0c-f185" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="false"/>
             <categoryLink id="d7c9-6324-ce40-43e9" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
@@ -4025,14 +4022,24 @@
       </costs>
       <modifiers>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="fbf5-37ae-1dbb-a264" shared="true" includeChildSelections="true" includeChildForces="true" childName="Underdeck Uprising"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="fbf5-37ae-1dbb-a264" shared="true" includeChildSelections="true" includeChildForces="true" childName="Underdeck Uprising"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -4416,14 +4423,29 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <modifiers>
-        <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
-          </conditions>
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="fbf5-37ae-1dbb-a264" shared="true" includeChildSelections="true" includeChildForces="true" childName="Underdeck Uprising"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="fbf5-37ae-1dbb-a264" shared="true" includeChildSelections="true" includeChildForces="true" childName="Underdeck Uprising"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="2" field="274a-8439-7dcc-4121">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="fbf5-37ae-1dbb-a264" shared="true" childName="Underdeck Uprising" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -7256,6 +7278,11 @@
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a96f-7d09-98d-ad72" type="max"/>
@@ -7732,6 +7759,11 @@
         <modifier type="set-primary" value="dcdf-4b32-ee45-485e" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -8372,6 +8404,11 @@
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry id="ed2-6aaa-375-788b" name="Close combat weapon" hidden="false" collective="true" import="true" type="upgrade">
@@ -8954,6 +8991,11 @@
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -11104,7 +11146,7 @@
     </selectionEntry>
     <selectionEntry id="7263-70e5-b424-61eb" name="Chaos Spawn" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7fb-1fe5-6958-8464" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c7fb-1fe5-6958-8464" type="max"/>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="dc9f-289e-ebe5-dd33" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="4460-9d68-0590-96a4" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="9c46-8fea-b511-e24d" includeChildSelections="true"/>
@@ -11210,6 +11252,11 @@
         <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="aed2-4fcc-4009-d212" shared="true" includeChildSelections="true" includeChildForces="true" childName="Champions of Chaos"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="2" field="c7fb-1fe5-6958-8464">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="fbf5-37ae-1dbb-a264" shared="true" includeChildSelections="true" includeChildForces="true" childName="Underdeck Uprising"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -12125,13 +12172,28 @@
       </selectionEntryGroups>
       <modifiers>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="fbf5-37ae-1dbb-a264" shared="true" includeChildSelections="true" includeChildForces="true" childName="Underdeck Uprising"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="fbf5-37ae-1dbb-a264" shared="true" includeChildSelections="true" includeChildForces="true" childName="Underdeck Uprising"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="2" field="ad9f-850b-b879-c1dd">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2a82-f56d-099c-a981" shared="true" includeChildSelections="true" includeChildForces="true" childName="Infernal Reavers"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="fbf5-37ae-1dbb-a264" shared="true" childName="Underdeck Uprising" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>

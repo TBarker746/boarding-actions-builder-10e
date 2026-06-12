@@ -2,7 +2,6 @@
 <catalogue library="false" id="7622-af96-f945-7cea" name="Imperium - Adeptus Astartes - Blood Ravens" gameSystemId="sys-352e-adc2-7639-d6a0" gameSystemRevision="86" revision="1" battleScribeVersion="2.03" authorName="TBarker746" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Imperium - Adeptus Astartes - Space Marines" id="96b8-56cc-1efe-e0bd" targetId="e0af-67df-9d63-8fb7" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="9020-7b9c-5992-15b5" targetId="b00-cd86-4b4c-97ba" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Chaplain Kastiel [Legends]" hidden="false" id="2df5-b3f8-e0b3-bc3f">
@@ -10,7 +9,7 @@
         <cost name="pts" typeId="51b2-306e-1021-d207" value="70"/>
       </costs>
       <categoryLinks>
-        <categoryLink name="Character" hidden="false" id="5f15-e6dd-2c3a-42cc" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
+        <categoryLink name="Character" hidden="false" id="5f15-e6dd-2c3a-42cc" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="1936-c7c6-2245-3544" targetId="cf47-a0d7-7207-29dc" primary="false"/>
         <categoryLink name="Grenades" hidden="false" id="6c47-9000-4c54-150a" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Tacticus" hidden="false" id="f44f-aaf1-9721-86ee" targetId="5179-8ede-45e3-49a2" primary="false"/>
@@ -20,6 +19,7 @@
         <categoryLink name="Leader" hidden="false" id="901b-6156-6e7b-2cf2" targetId="1b79-610a-cd92-641d" primary="false"/>
         <categoryLink name="Warlord Eligible Character" hidden="false" id="e44a-29ea-26fb-e6be" targetId="abd3-107c-7042-9417" primary="false"/>
         <categoryLink targetId="646e-41b5-18a1-996d" id="52e8-0999-0f14-201e" primary="false" name="Kastiel"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="50c5-c830-8435-d900" primary="true" name="Epic Hero"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Invulnerable Save" id="1690-de8a-86a9-47e6" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
@@ -109,7 +109,7 @@
         <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
       </costs>
       <categoryLinks>
-        <categoryLink name="Character" hidden="false" id="9e78-9d86-bbb6-2d2a" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
+        <categoryLink name="Character" hidden="false" id="9e78-9d86-bbb6-2d2a" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="aabe-0e7c-1105-7cd9" targetId="cf47-a0d7-7207-29dc" primary="false"/>
         <categoryLink name="Imperium" hidden="false" id="66ce-5eb1-f653-b1a6" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
         <categoryLink name="Tacticus" hidden="false" id="929b-9f58-b8e7-fa4c" targetId="5179-8ede-45e3-49a2" primary="false"/>
@@ -118,6 +118,7 @@
         <categoryLink name="Leader" hidden="false" id="db10-62d4-5b7d-85d1" targetId="1b79-610a-cd92-641d" primary="false"/>
         <categoryLink name="Warlord Eligible Character" hidden="false" id="0cfb-e7d5-7f63-e9a4" targetId="abd3-107c-7042-9417" primary="false"/>
         <categoryLink targetId="fd4b-cb0a-d64a-04e8" id="46c5-a8be-03db-0ca8" primary="false" name="Xacharus"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="b4ca-b2c9-35b9-9b0c" primary="true" name="Epic Hero"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="6" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="b20b-cb3d-1cb6-c02d" includeChildSelections="false"/>
@@ -230,8 +231,8 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
-    <categoryEntry name="Kastiel" id="646e-41b5-18a1-996d" hidden="false" page=""/>
-    <categoryEntry name="Xacharus" id="fd4b-cb0a-d64a-04e8" hidden="false" page=""/>
+    <categoryEntry name="Kastiel" id="646e-41b5-18a1-996d" hidden="false"/>
+    <categoryEntry name="Xacharus" id="fd4b-cb0a-d64a-04e8" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink import="true" name="Chaplain Kastiel [Legends]" hidden="false" id="dd01-5532-96af-a303" targetId="2df5-b3f8-e0b3-bc3f" type="selectionEntry"/>

@@ -1317,24 +1317,14 @@
       </constraints>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="754a-7fe4-fc7e-be62" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="b88c-730f-9b1b-bf2c" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="754a-7fe4-fc7e-be62" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="754a-7fe4-fc7e-be62" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="b88c-730f-9b1b-bf2c" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="754a-7fe4-fc7e-be62" shared="true" includeChildSelections="true" includeChildForces="true" childName="Void Purge Force"/>
+          </conditions>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -4230,7 +4220,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
-        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="320c-0b49-37f6-a9b2" includeChildSelections="true"/>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="320c-0b49-37f6-a9b2" includeChildSelections="true"/>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="6ea2-19b3-9e6b-d1b9" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="05a3-ffda-65ed-4a87" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="f551-ac3f-05ab-81e1" includeChildSelections="true"/>

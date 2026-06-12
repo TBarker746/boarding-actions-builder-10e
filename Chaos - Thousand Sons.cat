@@ -2009,11 +2009,13 @@
       </costs>
       <modifiers>
         <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="fccc-c48d-0be3-d587" shared="true" includeChildSelections="true" includeChildForces="true" childName="Chosen Cabal"/>
-          </conditions>
           <conditionGroups>
-            <conditionGroup type="or"/>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="fccc-c48d-0be3-d587" shared="true" includeChildSelections="true" includeChildForces="true" childName="Chosen Cabal"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="0dcd-1748-b35e-55cb" shared="true" includeChildSelections="true" includeChildForces="true" childName="Devoted Thralls"/>
+              </conditions>
+            </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
@@ -4618,6 +4620,8 @@ Wound roll.</characteristic>
         <categoryLink targetId="4c00-2578-faf5-6918" id="2ad4-bc4-c062-8bbb" primary="false" name="Chaos"/>
         <categoryLink targetId="b188-114f-6ba5-79a1" id="3434-dc98-eb9-61db" primary="false" name="Tzeentch"/>
         <categoryLink targetId="3789-4546-1d0a-f02b" id="72b8-dd80-5d02-fd1" primary="false" name="Sorcerer"/>
+        <categoryLink targetId="8508-5fc8-07e6-b1ad" id="2ab8-9c37-db9b-1d45" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="1b79-610a-cd92-641d" id="f497-e121-e254-34cc" primary="false" name="Leader"/>
       </categoryLinks>
       <profiles>
         <profile id="2918-39b5-989-940e" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -4803,9 +4807,10 @@ Wound roll.</characteristic>
         <categoryLink targetId="3789-4546-1d0a-f02b" id="97a5-79d3-5bc2-f2cf" primary="false" name="Sorcerer"/>
         <categoryLink name="Terminator" hidden="false" id="811d-d49d-9f9b-2871" targetId="740a-892c-8958-defa" primary="false"/>
         <categoryLink targetId="2aab-2f6e-6875-77b6" id="1a6d-1101-318f-cb99" primary="false" name="Deep Strike Character"/>
+        <categoryLink targetId="1b79-610a-cd92-641d" id="97af-5812-0aaf-f5d3" primary="false" name="Leader"/>
+        <categoryLink targetId="8508-5fc8-07e6-b1ad" id="328a-7ed1-d2cc-9e45" primary="false" name="Warlord Eligible Character"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Leader" hidden="false" type="rule" id="30ba-d2d7-3e01-d034" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="5809-dff1-77dc-886e" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Empyric Guidance (Psychic)" hidden="false" type="profile" id="c6dd-b0d5-68c2-7cab" targetId="660e-ccb9-65e7-19f"/>
         <infoLink name="Twisting Fate" id="f689-e22f-b28d-cb89" hidden="false" type="rule" targetId="bf14-0ceb-09de-e8a4"/>

@@ -1176,9 +1176,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Aun&apos;va [Legends]" hidden="false" id="2582-676d-fc9f-c146">
-      <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="519f-8c77-9188-2214" targetId="179c-d88a-d49b-48b9" sortIndex="1"/>
-      </entryLinks>
       <modifiers>
         <modifier type="add" value="Cannot take COMMANDER FARSIGHT and an ETHEREAL in the same army." field="error">
           <conditions>
@@ -1280,6 +1277,9 @@
             <categoryLink targetId="cf47-a0d7-7207-29dc" id="6e08-dd36-c14f-85ea" primary="false" name="Infantry"/>
             <categoryLink targetId="b9d1-a277-6a7c-959e" id="1634-fe43-0afa-44c9" primary="false" name="Warlord Eligible Character"/>
           </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Warlord" hidden="false" id="519f-8c77-9188-2214" type="selectionEntry" targetId="179c-d88a-d49b-48b9" sortIndex="1"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Ethereal Guard" hidden="false" id="30e6-8d5f-504c-c48e" collective="false">
           <selectionEntries>

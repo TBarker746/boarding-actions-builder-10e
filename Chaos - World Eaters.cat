@@ -2235,7 +2235,7 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="bd4f-92ce-c8ef-1751" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skullsworn"/>
           </conditions>
@@ -2250,14 +2250,14 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+        <modifier type="set-primary" value="9cb7-4a40-5f36-17e9" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="d856-6921-6145-73e3" shared="true" includeChildSelections="true" includeChildForces="true" childName="Boarding Butchers"/>
           </conditions>
         </modifier>
         <modifier type="set" value="2" field="bafc-43a3-0d00-77c9">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="parent" childId="bd4f-92ce-c8ef-1751" shared="true" childName="Skullsworn"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="bd4f-92ce-c8ef-1751" shared="true" childName="Skullsworn" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3096,7 +3096,7 @@
     </selectionEntry>
     <selectionEntry id="9435-1f44-7e5b-d510" name="Eightbound" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+        <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="d856-6921-6145-73e3" shared="true" includeChildSelections="true" includeChildForces="true" childName="Boarding Butchers"/>
           </conditions>
@@ -3116,7 +3116,7 @@
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="bd4f-92ce-c8ef-1751" shared="true" childName="Skullsworn" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
-        <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="bd4f-92ce-c8ef-1751" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skullsworn"/>
           </conditions>
@@ -3247,7 +3247,7 @@
     </selectionEntry>
     <selectionEntry id="9932-3d2b-1e47-d53b" name="Exalted Eightbound" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
+        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="bd4f-92ce-c8ef-1751" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skullsworn"/>
           </conditions>
@@ -3262,14 +3262,14 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
+        <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="d856-6921-6145-73e3" shared="true" includeChildSelections="true" includeChildForces="true" childName="Boarding Butchers"/>
           </conditions>
         </modifier>
         <modifier type="set" value="2" field="c03a-27d6-373b-d628">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="parent" childId="bd4f-92ce-c8ef-1751" shared="true" childName="Skullsworn"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="bd4f-92ce-c8ef-1751" shared="true" childName="Skullsworn" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>

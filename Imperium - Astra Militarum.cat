@@ -407,6 +407,9 @@
     <entryLink import="true" name="Commissar Graves" hidden="false" type="selectionEntry" id="52e0-ed74-f4e8-0aae" targetId="50b8-1f13-9807-0069"/>
     <entryLink import="true" name="Centaur RSV" hidden="false" type="selectionEntry" id="af85-a884-b6a8-ea5b" targetId="c871-4769-71ed-c4b3"/>
     <entryLink import="true" name="Hippogriff AFV" hidden="false" type="selectionEntry" id="7841-9004-4662-7c72" targetId="0391-d43c-0b45-ab4b"/>
+    <entryLink import="true" name="Hell&apos;s Last [Legends]" hidden="false" type="selectionEntry" id="e5da-f624-574e-dd59" targetId="2408-cf76-fe11-c6da"/>
+    <entryLink import="true" name="Catachan Command Squad" hidden="false" type="selectionEntry" id="c804-66cc-bfe7-26fb" targetId="7d22-9fb6-a7e0-c21b"/>
+    <entryLink import="true" name="Krieg Command Squad" hidden="false" type="selectionEntry" id="4afc-c240-4be2-0311" targetId="fbcd-274b-0196-b4f6"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="e373-3c0a-1185-467a" name="Imperium - Astra Militarum - Library" targetId="5a44-f048-114b-e3ff" type="catalogue" importRootEntries="false"/>

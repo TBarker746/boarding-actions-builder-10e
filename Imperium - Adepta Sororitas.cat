@@ -27,6 +27,7 @@
     <categoryEntry name="Warlord Eligible Character" id="300f-4e6b-1e25-0454" hidden="false"/>
     <categoryEntry name="Intranzia Fraye" hidden="false" id="d629-5abf-0d26-52d6"/>
     <categoryEntry name="Ministorum Priest" hidden="false" id="a805-f387-f2cf-8167"/>
+    <categoryEntry name="Celestian Sacresants" hidden="false" id="5d0a-02cc-451a-b380"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Detachment" hidden="false" id="9cc-e2b2-81eb-df6">
@@ -2367,6 +2368,8 @@
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="3d4c-2a31-da72-1f2f" primary="false" name="Imperium"/>
         <categoryLink targetId="c027-f44-1c7f-62f5" id="a6cf-c88d-597-82cf" primary="false" name="Palatine"/>
         <categoryLink targetId="fd71-afa6-b13b-7fda" id="b78b-aca4-5212-843f" primary="false" name="Faction: Adepta Sororitas"/>
+        <categoryLink targetId="300f-4e6b-1e25-0454" id="92d1-8d87-06a3-380a" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="1b79-610a-cd92-641d" id="ff0b-4fba-46e9-cf06" primary="false" name="Leader"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Minor Miracles" hidden="false" type="rule" id="c11-e0a2-56a0-f97d" targetId="7ef7-dca6-e2ea-ecc8"/>
@@ -2548,15 +2551,14 @@
         <categoryLink targetId="fd71-afa6-b13b-7fda" id="8254-24eb-ea16-e286" primary="false" name="Faction: Adepta Sororitas"/>
         <categoryLink targetId="e2c8-1479-a7c4-228e" id="c162-963c-881c-bf4e" primary="false" name="Penitent"/>
         <categoryLink targetId="a805-f387-f2cf-8167" id="56f0-9fc2-7414-eec2" primary="false" name="Ministorum Priest"/>
+        <categoryLink targetId="300f-4e6b-1e25-0454" id="80d0-f7d5-eb50-e89d" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="1b79-610a-cd92-641d" id="6a6d-a757-7c38-c3c4" primary="false" name="Leader"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Minor Miracles" hidden="false" type="rule" id="c458-eab7-3156-9889" targetId="7ef7-dca6-e2ea-ecc8"/>
       </infoLinks>
       <infoGroups>
         <infoGroup name="Leader" hidden="false" id="c7c8-191c-3477-776b">
-          <infoLinks>
-            <infoLink name="Leader" hidden="false" type="rule" id="d396-bda1-5af9-12ca" targetId="b4dd-3e1f-41cb-218f"/>
-          </infoLinks>
           <profiles>
             <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e631-ecf1-5c39-50da">
               <characteristics>
@@ -4210,6 +4212,8 @@ If this unit made a Charge move this turn, until the end of the phase, select bo
         <categoryLink name="Faction: Adepta Sororitas" hidden="false" id="f2ec-8e06-1638-5e86" targetId="fd71-afa6-b13b-7fda" primary="false"/>
         <categoryLink name="Jump Pack" hidden="false" id="0eb5-ce0c-2e87-bb65" targetId="dda2-bb0a-215e-ad9c" primary="false"/>
         <categoryLink name="Imperium" hidden="false" id="ae42-22bc-25e5-9ea4" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+        <categoryLink targetId="300f-4e6b-1e25-0454" id="faea-ef3d-0882-0647" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="1b79-610a-cd92-641d" id="5b14-0c08-1a4c-3895" primary="false" name="Leader"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="2833-389c-0abe-6312" hidden="false" collective="false" import="true" defaultSelectionEntryId="fb6e-064f-ad86-d2d7" sortIndex="3">
@@ -4355,9 +4359,6 @@ If this unit made a Charge move this turn, until the end of the phase, select bo
       </profiles>
       <infoGroups>
         <infoGroup name="Leader" id="8fb2-83d2-fc3d-7f51" hidden="false">
-          <infoLinks>
-            <infoLink name="Leader" id="9d0c-235c-dc41-c696" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
-          </infoLinks>
           <profiles>
             <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fbef-a9a2-d744-6ce0">
               <characteristics>
@@ -6098,6 +6099,198 @@ If this unit made a Charge move this turn, until the end of the phase, select bo
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Celestian Sacresants" hidden="false" id="f1af-4984-1a52-c5" collective="false" publicationId="7d85-6d0f-57e0-5dea">
+      <modifiers>
+        <modifier type="set" value="140" field="51b2-306e-1021-d207">
+          <conditions>
+            <condition type="atLeast" value="6" field="selections" scope="f1af-4984-1a52-c5" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="9cb7-4a40-5f36-17e9" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5e7f-34e0-67f5-e2bc" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="5e7f-34e0-67f5-e2bc" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="289a-1246-3dd7-677c">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this unit have a 4+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Minor Miracles" id="e172-38d0-ddc3-640f" hidden="false" type="rule" targetId="7ef7-dca6-e2ea-ecc8"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="4d7d-cfc0-5f44-b9b9" targetId="cf47-a0d7-7207-29dc" primary="true"/>
+        <categoryLink name="Grenades" hidden="false" id="f453-590a-3fe9-40f9" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
+        <categoryLink name="Imperium" hidden="false" id="9a85-4d81-8b18-c7cd" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+        <categoryLink name="Faction: Adepta Sororitas" hidden="false" id="e3b1-ee8b-3f07-b146" targetId="fd71-afa6-b13b-7fda" primary="false"/>
+        <categoryLink targetId="5d0a-02cc-451a-b380" id="f12d-a245-fa7a-a257" primary="false" name="Celestian Sacresants"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Sacresant Superior" hidden="false" id="f733-a80f-1cbb-2b66" collective="false" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e787-3997-8a65-42d5"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f9ed-b953-57f0-e1d4"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Celestian Sacresant" id="12a4-f57d-d609-6cec" hidden="false" targetId="135c-b9f6-befe-a2cc" type="profile"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Melee Weapon" id="e043-5d00-6e1f-c8c7" hidden="false" collective="false" import="true" defaultSelectionEntryId="9734-263e-4926-eab7">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd01-9f4f-da24-30a1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e040-c726-502c-1eb7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Anointed Halberd" hidden="false" id="e2a8-805a-feb0-b7c" collective="false" targetId="25da-fe35-7573-e0b1" type="selectionEntry">
+                  <entryLinks>
+                    <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="6bcd-e847-fbd1-69ee" type="selectionEntryGroup" targetId="2c98-6c1b-4036-9eb5"/>
+                  </entryLinks>
+                </entryLink>
+                <entryLink import="true" name="Hallowed Mace" hidden="false" id="9734-263e-4926-eab7" collective="false" targetId="747c-75a-8c68-40d2" type="selectionEntry">
+                  <entryLinks>
+                    <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="bbb4-1c0f-1857-a89a" type="selectionEntryGroup" targetId="2c98-6c1b-4036-9eb5"/>
+                  </entryLinks>
+                </entryLink>
+              </entryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Spear of the Faithful" hidden="false" id="b288-162b-8764-d477" collective="false">
+                  <profiles>
+                    <profile name="Spear of the Faithful" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="c385-8236-9751-678d">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <entryLinks>
+                    <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="9dc2-9d31-5c13-00ce" type="selectionEntryGroup" targetId="2c98-6c1b-4036-9eb5"/>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink import="true" name="Pistols" hidden="false" id="9329-eaa4-9955-e6c8" type="selectionEntryGroup" targetId="175c-2541-890d-7a76"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Sacresants" id="c0ef-947b-e336-1fec" hidden="false" defaultSelectionEntryId="3b8b-a327-c8e-c919" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="8c7c-100a-b7f5-cc78"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="fda8-6048-4-3b85"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Celestian Sacresant (Anointed Halberd)" hidden="false" id="358f-ad51-d761-9ca7" collective="false" targetId="d378-4bb7-d204-f8eb" type="selectionEntry"/>
+            <entryLink import="true" name="Celestian Sacresant (Hallowed Mace)" hidden="false" id="3b8b-a327-c8e-c919" collective="false" targetId="d420-94b9-b82b-73e5" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="70"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b9af-92b4-a125-1446" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="8b61-b537-74ff-023b" includeChildSelections="false"/>
+        <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="1037-ec99-f2c0-08bc" includeChildSelections="true"/>
+        <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="a369-5378-f7aa-6bae" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="183c-5a87-3a0b-c0ab" type="selectionEntry" targetId="66c6-be4b-a1dc-10d0" sortIndex="1"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Anointed Halberd" hidden="false" id="25da-fe35-7573-e0b1" collective="true">
+      <profiles>
+        <profile name="Anointed Halberd" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="3f18-fd2f-af12-7f5f" page="106">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Sustained Hits" id="4534-c520-30b6-eb77" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Celestian Sacresant (Hallowed Mace)" hidden="false" id="d420-94b9-b82b-73e5" collective="false">
+      <infoLinks>
+        <infoLink name="Celestian Sacresant" id="dd8b-9ec3-220f-3050" hidden="false" targetId="135c-b9f6-befe-a2cc" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Hallowed Mace" hidden="false" id="7e76-c004-5a4e-dc11" collective="false" targetId="747c-75a-8c68-40d2" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="51fa-30cc-c8bc-4d93" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9556-f683-4731-1f42" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Bolt pistol" hidden="false" id="41aa-1f3d-ecd0-45fa" collective="false" targetId="a330-88d-5e33-d8ca" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2a15-0245-0183-f2b6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b8f-3a9c-2ba1-62ae" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Celestian Sacresant (Anointed Halberd)" hidden="false" id="d378-4bb7-d204-f8eb" collective="false">
+      <infoLinks>
+        <infoLink name="Celestian Sacresant" id="b15a-a167-9fa4-2755" hidden="false" targetId="135c-b9f6-befe-a2cc" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Anointed Halberd" hidden="false" id="46db-20aa-7d0-c057" collective="false" targetId="25da-fe35-7573-e0b1" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7ff-5ed9-d77e-0f90" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0321-d6f7-cf41-6aba" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Bolt pistol" hidden="false" id="9058-2bc-6087-163e" collective="false" targetId="a330-88d-5e33-d8ca" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="33b1-a395-9687-cb70" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c977-5e6b-d54d-6436" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hallowed Mace" hidden="false" id="747c-75a-8c68-40d2" collective="true">
+      <profiles>
+        <profile name="Hallowed Mace" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d01-43c6-1de1-c3ec" page="106">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Lethal Hits" id="baa8-cf22-ec81-f8e8" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Bolt pistol" hidden="false" id="c934-fc40-d6a2-8919" typeName="Ranged Weapons" typeId="f77d-b953-8fa4-b762">
@@ -6222,6 +6415,16 @@ If this unit made a Charge move this turn, until the end of the phase, select bo
     <profile name="Sacred Command" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e8c6-0df9-48c0-7c29">
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Celestian Sacresant" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="135c-b9f6-befe-a2cc">
+      <characteristics>
+        <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+        <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+        <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+        <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+        <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+        <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -6495,13 +6698,6 @@ be substituted). The dice that is being substituted is not rolled; instead the 
                 <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
                 <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
               </costs>
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="model" childId="9177-5477-63dd-38d" shared="true" includeChildSelections="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Fervent Ferocity" hidden="false" id="120e-230b-59ad-d907">
               <constraints>
@@ -6861,6 +7057,43 @@ be substituted). The dice that is being substituted is not rolled; instead the 
         <selectionEntry type="upgrade" import="true" name="Critical Threats (Macro-junction IV-B)" hidden="false" id="cdaa-cf9d-f49c-8ea8"/>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Pistols" id="175c-2541-890d-7a76" hidden="false" collective="false" import="true" defaultSelectionEntryId="437-d39c-fff0-5a6a">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c8e-e47c-1278-4319" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3baa-e9d8-a42a-cef8"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Bolt pistol" hidden="false" id="437-d39c-fff0-5a6a" collective="false" targetId="a330-88d-5e33-d8ca" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f30a-d197-2383-cb7b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="cd00-6bef-415a-ccf4" type="selectionEntryGroup" targetId="2c98-6c1b-4036-9eb5"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Plasma pistol" hidden="false" id="5173-7a0f-231d-2ca7" collective="false" targetId="9dd0-f453-50c6-a28e" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e39b-7e15-93e9-f004" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="99dd-62c1-50e8-a9f9" type="selectionEntryGroup" targetId="2c98-6c1b-4036-9eb5"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Inferno pistol" hidden="false" id="f8fd-28c3-5cd9-d3da" collective="false" targetId="3cef-a2a4-8354-6103" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc0d-3822-7eb2-bd3d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="4c1a-d376-63c1-e199" type="selectionEntryGroup" targetId="2c98-6c1b-4036-9eb5"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Ministorum hand flamer" hidden="false" id="85f-865f-1fdb-2aa1" type="selectionEntry" targetId="c462-3995-88b0-200c">
+          <entryLinks>
+            <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="93f7-69a0-c932-b9fc" type="selectionEntryGroup" targetId="2c98-6c1b-4036-9eb5"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <entryLinks>
     <entryLink import="true" name="Arco-Flagellants" hidden="false" type="selectionEntry" id="f3c2-5612-d827-c8ba" targetId="ca59-3760-5efc-9846"/>
@@ -7200,6 +7433,7 @@ be substituted). The dice that is being substituted is not rolled; instead the 
       </modifiers>
     </entryLink>
     <entryLink import="true" name="Intranzia Fraye" hidden="false" id="f817-2f2c-a3ef-6491" targetId="e59a-2a90-e102-940f" type="selectionEntry"/>
+    <entryLink import="true" name="Celestian Sacresants" hidden="false" id="fba7-b5c8-7836-f070" targetId="f1af-4984-1a52-c5" type="selectionEntry"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="f82d-fbeb-8ed2-4284" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true"/>

@@ -2367,11 +2367,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="8316-8950-2f53-fe92" type="selectionEntry" targetId="2665-129e-3c44-1270" sortIndex="1">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4d07-7193-900a-698e" includeChildForces="true" includeChildSelections="true"/>
-          </constraints>
-        </entryLink>
+        <entryLink import="true" name="Warlord" hidden="false" id="8316-8950-2f53-fe92" type="selectionEntry" targetId="2665-129e-3c44-1270" sortIndex="1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Sanctus" hidden="false" id="3d6c-357e-3c09-813c">

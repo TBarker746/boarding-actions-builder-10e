@@ -121,7 +121,7 @@
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="85f6-5be8-d8e9-f7c6"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="a24d-8bc5-1668-721e" targetId="caa-f869-3cbd-b48e"/>
+        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="a24d-8bc5-1668-721e" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -206,7 +206,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50b-f958-61b5-ea24"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="eec5-5f37-c9bd-889" targetId="caa-f869-3cbd-b48e"/>
+        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="eec5-5f37-c9bd-889" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
       </entryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Storm of the Emperor’s Wrath" hidden="false" id="4aab-43dc-b23-cff">
@@ -415,7 +415,7 @@ Supreme Strategist: Once per battle round, you can target one friendly **^^Adept
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="fec9-14d-9e5f-2a20" targetId="caa-f869-3cbd-b48e">
+        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="fec9-14d-9e5f-2a20" targetId="caa-f869-3cbd-b48e" sortIndex="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3888-567-a5e5-9457"/>
           </constraints>
@@ -506,7 +506,7 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2954-4f4e-8ac4-d474"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="2dde-9c9e-3c7e-f569" targetId="caa-f869-3cbd-b48e"/>
+        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="2dde-9c9e-3c7e-f569" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
       </entryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Chronus&apos; Servo-Arm" hidden="false" id="f94a-1524-9f9b-2229">
@@ -591,7 +591,7 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b09c-86ef-c041-4b26"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="7069-879c-e9c8-7154" targetId="caa-f869-3cbd-b48e"/>
+        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="7069-879c-e9c8-7154" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
       </entryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Combat Knife" hidden="false" id="9b80-b34f-cdbd-2a95">
@@ -687,7 +687,6 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8014-8e19-b03f-7e57"/>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4f31-195-9a26-533b"/>
       </constraints>
       <categoryLinks>
@@ -726,7 +725,7 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b71d-537b-50ec-2ea8"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="4fcd-c61-82a1-d88b" targetId="caa-f869-3cbd-b48e"/>
+        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="4fcd-c61-82a1-d88b" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
       </entryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Invictus" hidden="false" id="c23e-8f46-8323-119a">
@@ -898,7 +897,7 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c980-8381-95bd-6723" includeChildSelections="true"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="13fd-bc06-7bdf-c342" type="selectionEntry" targetId="caa-f869-3cbd-b48e"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="13fd-bc06-7bdf-c342" type="selectionEntry" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="95"/>
@@ -954,7 +953,7 @@ If your army includes one or more of the **^^Vehicle^^** models listed below, Se
         </infoLink>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="6db3-cc3f-51ea-d259" type="selectionEntry" targetId="caa-f869-3cbd-b48e"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="6db3-cc3f-51ea-d259" type="selectionEntry" targetId="caa-f869-3cbd-b48e" sortIndex="1"/>
         <entryLink import="true" name="Bolt pistol" hidden="false" id="f6c5-84ca-22b0-2e79" type="selectionEntry" targetId="b273-b85e-4018-a0cd">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3056-4b97-bd80-aef9-min" includeChildSelections="false"/>

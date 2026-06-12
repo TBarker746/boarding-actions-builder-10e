@@ -3,7 +3,6 @@
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Imperium - Adeptus Astartes - Space Marines" id="8bc3-7260-40f5-5674" targetId="e0af-67df-9d63-8fb7" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="3100-654a-4c35-f95c" targetId="1b6d-dc06-5db9-c7d1"/>
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="661e-916a-c8ec-22a3" targetId="b00-cd86-4b4c-97ba" importRootEntries="true"/>
   </catalogueLinks>
   <categoryEntries>
     <categoryEntry name="Adrax Agatone" hidden="false" id="fca1-9ff0-bf21-b99f"/>

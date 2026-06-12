@@ -316,7 +316,7 @@
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="1027-123e-4fc7-d2ec" shared="true" includeChildSelections="true" childName="Infernal Onslaught"/>
@@ -3567,7 +3567,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="c16a-26c5-ad65-d0a6" shared="true" includeChildSelections="true" childName="Rotten and Rusted"/>
@@ -3811,7 +3811,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="c16a-26c5-ad65-d0a6" shared="true" includeChildSelections="true" childName="Rotten and Rusted"/>
@@ -4742,7 +4742,6 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
       <infoLinks>
         <infoLink id="b226-a43f-c5ff-168c" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
         <infoLink id="6be-9c02-8d0b-820c" name="Soul Hunters" hidden="false" targetId="a312-a2f1-e1c0-30ed" type="rule"/>
-        <infoLink id="2d52-14ac-9114-43ae" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
         <infoLink name="Fights First" id="f39e-1ffe-766e-22b3" hidden="false" targetId="24-c886-e8ba-5a89" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -6127,7 +6126,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
               <profiles>
                 <profile name="Endless Gift" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fbc6-cabf-8a81-ae21">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 2 to the bearers Wounds characteristic.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 2 to the bearer&apos;s Wounds characteristic.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
