@@ -262,6 +262,7 @@
         <categoryLink id="1c03-7703-8810-d4ed" name="Skulltaker" hidden="false" targetId="9e35-af4e-dc56-b475" primary="false"/>
         <categoryLink targetId="02d3-fafc-7e29-db1c" id="16f6-a6aa-e77e-ee81" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="1ff3-ff67-a30c-8dce" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="2574-c171-16f0-fc0e" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fcdc-51d3-89ab-f5b6" name="The Slayer Sword" hidden="false" collective="false" import="true" type="upgrade">
@@ -380,6 +381,7 @@
         <categoryLink id="3c09-7d15-ce92-2d0a" name="Bloodmaster" hidden="false" targetId="d71b-8e77-32d0-8389" primary="false"/>
         <categoryLink targetId="02d3-fafc-7e29-db1c" id="3b36-1d22-b0a5-e787" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="acbb-5b78-1013-925c" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="0a15-048d-6ef5-3a00" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="be6e-3051-6ea1-298b" name="Enhancements" hidden="false" collective="false" import="true" targetId="621d-b661-7461-4620" type="selectionEntryGroup" sortIndex="3"/>
@@ -411,7 +413,7 @@
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="1027-123e-4fc7-d2ec" shared="true" includeChildSelections="true" childName="Infernal Onslaught"/>
@@ -605,7 +607,7 @@
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="1027-123e-4fc7-d2ec" shared="true" includeChildSelections="true" childName="Infernal Onslaught"/>
@@ -712,7 +714,7 @@
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="1027-123e-4fc7-d2ec" shared="true" includeChildSelections="true" childName="Infernal Onslaught"/>
@@ -811,7 +813,7 @@
         </modifier>
         <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="1027-123e-4fc7-d2ec" shared="true" includeChildSelections="true" childName="Infernal Onslaught"/>
@@ -2157,7 +2159,7 @@
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d838-8b36-e075-0a3f" shared="true" includeChildSelections="true" childName="Pandaemonic Inferno"/>
@@ -2253,6 +2255,7 @@
         <categoryLink id="f80e-17d5-8459-7219" name="Changecaster" hidden="false" targetId="2375-a41b-a24f-74c5" primary="false"/>
         <categoryLink targetId="02d3-fafc-7e29-db1c" id="136f-f6fd-5d10-41c9" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="fc61-94b6-d448-7a31" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="0c1b-55e6-5093-54d0" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="447a-e29a-6e5e-6e86" name="Enhancements" hidden="false" collective="false" import="true" targetId="621d-b661-7461-4620" type="selectionEntryGroup" sortIndex="3"/>
@@ -2293,7 +2296,7 @@
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d838-8b36-e075-0a3f" shared="true" includeChildSelections="true" childName="Pandaemonic Inferno"/>
@@ -2516,7 +2519,7 @@
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d838-8b36-e075-0a3f" shared="true" includeChildSelections="true" childName="Pandaemonic Inferno"/>
@@ -2742,7 +2745,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d838-8b36-e075-0a3f" shared="true" includeChildSelections="true" childName="Pandaemonic Inferno"/>
@@ -2771,7 +2774,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d838-8b36-e075-0a3f" shared="true" includeChildSelections="true" childName="Pandaemonic Inferno"/>
@@ -3026,6 +3029,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         <categoryLink id="60fd-830e-4cd2-dac0" name="Tzeentch" hidden="false" targetId="b188-114f-6ba5-79a1" primary="false"/>
         <categoryLink id="2da4-a2b3-8550-d952" name="Exalted Flamer" hidden="false" targetId="4219-9006-5024-34e7" primary="false"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="c6e1-6f27-e341-f6cf" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="e1e1-fd51-1380-376e" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="65"/>
@@ -3103,7 +3107,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d838-8b36-e075-0a3f" shared="true" includeChildSelections="true" childName="Pandaemonic Inferno"/>
@@ -3334,6 +3338,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         <categoryLink id="2479-7c67-b91c-a629" name="Poxbringer" hidden="false" targetId="5ebd-7c70-84be-a56b" primary="false"/>
         <categoryLink targetId="02d3-fafc-7e29-db1c" id="61de-d49a-812b-94ab" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="6843-925a-a8cc-134f" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="72e7-f951-4f58-78c4" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a422-af7f-a9ce-ac55" name="Enhancements" hidden="false" collective="false" import="true" targetId="621d-b661-7461-4620" type="selectionEntryGroup" sortIndex="3"/>
@@ -3391,7 +3396,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="c16a-26c5-ad65-d0a6" shared="true" includeChildSelections="true" childName="Rotten and Rusted"/>
@@ -3464,6 +3469,9 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         <categoryLink id="7b25-6fc9-26be-b906" name="Daemon" hidden="false" targetId="9c0e-7e25-4580-e439" primary="false"/>
         <categoryLink id="61b9-68bd-4383-5729" name="Nurgle" hidden="false" targetId="ed0d-8e2a-225c-2340" primary="false"/>
         <categoryLink id="b84-e86b-889c-4425" name="Spoilpox Scrivener" hidden="false" targetId="c986-d8ad-587a-bfe8" primary="false"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="0cdb-a3b9-f9b2-36c0" primary="false" name="Deep Strike Character"/>
+        <categoryLink targetId="02d3-fafc-7e29-db1c" id="7b60-555b-1323-34f2" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="1b79-610a-cd92-641d" id="0b78-8a8f-db76-5cbc" primary="false" name="Leader"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="513f-e449-a677-2658" name="Enhancements" hidden="false" collective="false" import="true" targetId="621d-b661-7461-4620" type="selectionEntryGroup" sortIndex="3"/>
@@ -3627,6 +3635,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         <categoryLink id="8f97-456d-7e3a-b962" name="Epidemius" hidden="false" targetId="f043-abd2-a30c-d77b" primary="false"/>
         <categoryLink targetId="02d3-fafc-7e29-db1c" id="9a74-1bdc-4d0a-1140" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="cb2f-6b44-b9be-a473" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="1538-1e8e-ec79-9733" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="92f6-d41b-6c2a-d511" name="Balesword and nurgling attendants" hidden="false" collective="false" import="true" type="upgrade">
@@ -3679,7 +3688,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="c16a-26c5-ad65-d0a6" shared="true" includeChildSelections="true" childName="Rotten and Rusted"/>
@@ -3706,8 +3715,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can use the Battlefield Command Stratagem on the following unit:
 
-■ ^^**PLAGUEBEARERS^^**
-</characteristic>
+■ ^^**PLAGUEBEARERS^^**</characteristic>
           </characteristics>
         </profile>
         <profile id="92b4-aef0-bf0-935b" name="Sloppity Bilepiper" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -3745,6 +3753,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         <categoryLink id="2a81-74b7-ba0f-18cf" name="Sloppity Bilepiper" hidden="false" targetId="f6c8-f0c-9297-f07" primary="false"/>
         <categoryLink targetId="02d3-fafc-7e29-db1c" id="50e3-db73-ddb4-ca8b" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="60e9-e1f9-626e-4ce6" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="0121-fd11-4057-574e" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="caf1-70b3-41d-4e3f" name="Enhancements" hidden="false" collective="false" import="true" targetId="621d-b661-7461-4620" type="selectionEntryGroup" sortIndex="3"/>
@@ -3960,7 +3969,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="c16a-26c5-ad65-d0a6" shared="true" includeChildSelections="true" childName="Rotten and Rusted"/>
@@ -3989,7 +3998,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="c16a-26c5-ad65-d0a6" shared="true" includeChildSelections="true" childName="Rotten and Rusted"/>
@@ -4204,7 +4213,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="c16a-26c5-ad65-d0a6" shared="true" includeChildSelections="true" childName="Rotten and Rusted"/>
@@ -4260,6 +4269,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         <categoryLink id="4017-461a-64e9-999e" name="Slaanesh" hidden="false" targetId="b2a9-ede5-7a83-4da8" primary="false"/>
         <categoryLink id="5774-70d0-a49b-7985" name="Infernal Enrapturess" hidden="false" targetId="c8dc-c657-ee4c-880e" primary="false"/>
         <categoryLink targetId="02d3-fafc-7e29-db1c" id="acae-75d3-85e8-ff1c" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="35f8-241a-1052-71bd" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6d4f-e198-ee9c-1636" name="Enhancements" hidden="false" collective="false" import="true" targetId="621d-b661-7461-4620" type="selectionEntryGroup" sortIndex="3"/>
@@ -4363,7 +4373,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="66af-a068-ff4f-4ebe" shared="true" includeChildSelections="true" childName="Dread Carnival"/>
@@ -4478,7 +4488,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="66af-a068-ff4f-4ebe" shared="true" includeChildSelections="true" childName="Dread Carnival"/>
@@ -4745,6 +4755,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         <categoryLink id="2381-a09d-52ab-34fe" name="Contorted Epitome" hidden="false" targetId="72ec-31eb-611-6056" primary="false"/>
         <categoryLink targetId="02d3-fafc-7e29-db1c" id="837f-297b-510f-713c" primary="false" name="Warlord Eligible Character"/>
         <categoryLink targetId="1b79-610a-cd92-641d" id="78e6-51cf-b004-2636" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="1871-071f-0783-df8b" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="24f8-e40d-639b-6c39" name="Enhancements" hidden="false" collective="false" import="true" targetId="621d-b661-7461-4620" type="selectionEntryGroup" sortIndex="3"/>
@@ -4843,7 +4854,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="1b86-1c85-1ee6-5f91" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="66af-a068-ff4f-4ebe" shared="true" includeChildSelections="true" childName="Dread Carnival"/>
@@ -4917,6 +4928,9 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         <categoryLink id="759c-fb47-dad-2d66" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="5cc0-7fbc-d38e-459" name="Daemon" hidden="false" targetId="9c0e-7e25-4580-e439" primary="false"/>
         <categoryLink id="fc2d-e778-9e8-abf8" name="Slaanesh" hidden="false" targetId="b2a9-ede5-7a83-4da8" primary="false"/>
+        <categoryLink targetId="02d3-fafc-7e29-db1c" id="4ad8-c6bd-755c-f3e8" primary="false" name="Warlord Eligible Character"/>
+        <categoryLink targetId="1b79-610a-cd92-641d" id="8651-f77b-2c06-7b3c" primary="false" name="Leader"/>
+        <categoryLink targetId="2aab-2f6e-6875-77b6" id="a839-d4ee-d6b1-731c" primary="false" name="Deep Strike Character"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ce4f-6a8e-5131-5d21" name="Enhancements" hidden="false" collective="false" import="true" targetId="621d-b661-7461-4620" type="selectionEntryGroup" sortIndex="3"/>
@@ -5145,7 +5159,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="2f83-6f12-c6a5-69b1" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="66af-a068-ff4f-4ebe" shared="true" includeChildSelections="true" childName="Dread Carnival"/>
@@ -5184,7 +5198,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         </modifier>
         <modifier type="set-primary" value="480b-c278-cfb2-3048" field="category">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="2828-d5c0-16bd-5e6f" shared="true" includeChildSelections="true" childName="Daemonic Incursion"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="66af-a068-ff4f-4ebe" shared="true" includeChildSelections="true" childName="Dread Carnival"/>
