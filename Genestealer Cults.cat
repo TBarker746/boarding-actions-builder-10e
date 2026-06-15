@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="3bdf-a114-5035-c6ac" name="Xenos - Genestealer Cults" gameSystemId="sys-352e-adc2-7639-d6a0" gameSystemRevision="1" revision="122" battleScribeVersion="2.03" type="catalogue" authorName="Adapted for the Boarding Actions game mode by TBarker746">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="3bdf-a114-5035-c6ac" name="Xenos - Genestealer Cults" gameSystemId="sys-352e-adc2-7639-d6a0" gameSystemRevision="1" revision="123" battleScribeVersion="2.03" type="catalogue" authorName="Adapted for the Boarding Actions game mode by TBarker746">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="false" name="Detachment" hidden="false" id="b96c-3fb6-1ee9-15ae">
       <constraints>
@@ -1846,7 +1846,7 @@
                             <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="2125-e0a9-5023-ce14" type="selectionEntryGroup" targetId="cc32-ed60-bb25-e8d9"/>
                           </entryLinks>
                         </entryLink>
-                        <entryLink import="true" name="Autopistol" hidden="false" id="5305-946c-df01-b210" type="selectionEntry" targetId="ffd4-af63-eb03-4bb5">
+                        <entryLink import="true" name="Autopistol" hidden="false" id="5305-946c-df01-b210" type="selectionEntry" targetId="4233-e9e0-0f7a-392d">
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f166-62a8-edff-db11"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c97-1754-7d80-e0ba"/>
@@ -1868,7 +1868,7 @@
                             <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="d30e-b9fc-5ce7-d3be" type="selectionEntryGroup" targetId="cc32-ed60-bb25-e8d9"/>
                           </entryLinks>
                         </entryLink>
-                        <entryLink import="true" name="Autopistol" hidden="false" id="79a7-b668-8582-a230" type="selectionEntry" targetId="ffd4-af63-eb03-4bb5">
+                        <entryLink import="true" name="Autopistol" hidden="false" id="79a7-b668-8582-a230" type="selectionEntry" targetId="4233-e9e0-0f7a-392d">
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="083e-2407-6f68-a752"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="871b-8c2a-acfd-348d"/>
@@ -1914,7 +1914,7 @@
                             <entryLink import="true" name="Enhancement Weapon Upgrades" hidden="false" id="c3b3-647d-40fd-71c9" type="selectionEntryGroup" targetId="cc32-ed60-bb25-e8d9"/>
                           </entryLinks>
                         </entryLink>
-                        <entryLink import="true" name="Autopistol" hidden="false" id="ab92-5151-962d-a998" type="selectionEntry" targetId="ffd4-af63-eb03-4bb5">
+                        <entryLink import="true" name="Autopistol" hidden="false" id="ab92-5151-962d-a998" type="selectionEntry" targetId="4233-e9e0-0f7a-392d">
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9bec-bbf2-ca3c-19e8"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1650-6952-d18f-73c4"/>
@@ -3794,6 +3794,28 @@
           </conditions>
         </modifier>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Autopistol" hidden="false" id="4233-e9e0-0f7a-392d">
+      <profiles>
+        <profile name="Autopistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4e6c-6fd6-66d9-11dd">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Pistol" hidden="false" type="rule" id="168a-0d10-9d84-dd2c" targetId="8bf7-8812-923d-29e4"/>
+      </infoLinks>
+      <comment>BS4+ non-collective</comment>
+      <categoryLinks>
+        <categoryLink name="Ranged Weapon" hidden="false" id="6b05-a571-ed43-601a" targetId="eeda-8544-a2f3-3fab" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
